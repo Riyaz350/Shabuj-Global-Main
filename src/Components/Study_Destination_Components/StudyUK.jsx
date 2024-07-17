@@ -1,4 +1,6 @@
-import image from "../../assets/Layer_1.png";
+import image from "../../assets/UK/Tower/UK Tower Vector.svg";
+import image1 from "../../assets/UK/Tower/UK-Tower-Vector-1.png";
+import image2 from "../../assets/UK/Tower/UK-Tower-Vector-2.png";
 const StudyUK = () => {
   return (
     <div className="bg-[#EFF6FF] rounded-[32px] py-16">
@@ -17,7 +19,7 @@ const StudyUK = () => {
           professional environment. Graduate with skills and expertise that are
           in high demand around the world and get hired by your dream employers.
         </p>
-        <img src={image} alt="" className="absolute right-0 bottom-0" />
+        <img src={image2} alt="" className="absolute right-0 bottom-0" />
       </div>
     </div>
   );
