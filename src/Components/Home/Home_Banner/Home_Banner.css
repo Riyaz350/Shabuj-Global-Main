@@ -1,0 +1,196 @@
+.section {
+    position: relative;
+    border-radius: 32px;
+    overflow: hidden;
+    background-image: url('./assets/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.section-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(199.84deg, rgba(133, 159, 201, 0.2) 64.52%, rgba(108, 143, 188, 0.2) 90.16%);
+}
+
+.section-content {
+    position: relative;
+    z-index: 3;
+    
+}
+
+.buttons-group-container {
+    border: 1px solid #ffffff;
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+.buttons-group {
+    display: flex;
+}
+
+.buttons-group button {
+    background: transparent;
+    border-radius: 50px;
+
+    outline: none;
+    color: #fff;
+    border: none;
+    padding: 10px 37px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 62px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.buttons-group button:after {
+    content: "";
+    background-image: url('./assets/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 0;
+    height: 0;
+    transition: all .25s ease;
+}
+
+
+.buttons-group:not(:hover) button:first-child,
+.buttons-group button:hover {
+    background: #004AC8;
+    color: #ffffff;
+}
+
+.buttons-group:not(:hover) button:first-child:after,
+.buttons-group button:hover:after {
+    width: 42px;
+    height: 42px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .buttons-group button {
+        padding: 6px 14px;
+        height: 32px;
+        font-size: 10px;
+
+    }
+
+    .buttons-group:not(:hover) button:first-child:after,
+    .buttons-group button:hover:after {
+        width: 22px;
+        height: 22px;
+
+    }
+    .section{
+        border-radius: 0%;
+    }
+    
+}
+
+
+
+
+
+
+:root {
+    --radius: 80px;
+    --frame-size: calc(var(--radius) / 3);
+    --d-outer: calc(var(--radius) * 2);
+    --d-inner: calc(var(--d-outer) - var(--frame-size));
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inconsolata, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.text-two p {
+    font-size: 14px;
+}
+
+.circle {
+    position: absolute;
+    bottom: -75px;
+    width: var(--d-outer);
+    height: var(--d-outer);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.icon {
+    position: absolute;
+    border-radius: 50%;
+    filter: contrast(1.5);
+    font-size: 50px;
+    color: #35383F;
+    
+}
+.animate-bounce{
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0% , 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, .2, 1);
+    }
+}
+
+
+.text-two {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 10s linear infinite;
+
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.text-two p span {
+    position: absolute;
+    left: 50%;
+    font-size: 12px;
+    padding: 10px;
+    transform-origin: 0 var(--radius);
+    top: 0;
+}
+
+
+
+

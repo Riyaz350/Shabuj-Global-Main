@@ -1,0 +1,7 @@
+.serviceTestimonial-bg{
+    background: linear-gradient(108.69deg, rgba(52, 142, 253, 0.2) 4.81%, rgba(6, 37, 224, 0.2) 93.84%), linear-gradient(125.32deg, #3793FF 0.46%, #0523E7 82.92%, #0017E4 95.17%);
+}
+
+.serviceTestimonial-bg .swiper{
+    max-width: 100%;
+}

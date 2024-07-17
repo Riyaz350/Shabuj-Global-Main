@@ -1,0 +1,31 @@
+.swiper-slide-active .bg-gradient{
+    background: linear-gradient(205.4deg, #15E6EC 5.88%, #89EEC5 89.47%);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06), 0px 24px 60px rgba(0, 0, 0, 0.12);
+    
+}
+.bg-rounded{
+    border-radius: 16px;
+    padding: 35px;
+}
+.swiper {
+    max-width: 55%;
+}
+.bg-color{
+    background: linear-gradient(255deg, #3389FD -6.41%, #031EE5 100%)
+}
+.text-gradient{
+    background: linear-gradient(205.4deg, #15E6EC 5.88%, #89EEC5 89.47%);  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+@media screen and (max-width : 640px) {
+    .swiper{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width : 1080px) and (max-width : 1580px) {
+    .padding-left {
+        padding-left: 150px;
+    }
+}

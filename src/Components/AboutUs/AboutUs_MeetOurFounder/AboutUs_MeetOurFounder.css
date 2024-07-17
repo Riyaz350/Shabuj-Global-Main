@@ -1,0 +1,8 @@
+.shadow-about{
+    box-shadow: 172px 214px 110px rgba(0, 0, 0, 0.01), 97px 120px 93px rgba(0, 0, 0, 0.05), 43px 53px 69px rgba(0, 0, 0, 0.09), 11px 13px 38px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width : 820px) {
+    .shadow-about{
+        box-shadow: none;
+    }   
+}

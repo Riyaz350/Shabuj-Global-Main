@@ -1,0 +1,52 @@
+.ticker-three span {
+    white-space: nowrap;
+  }
+  .ticker-three > div {
+    flex: 1 0 auto;
+  }
+  
+  .ticker-three > div > * {
+    padding: 0 4px;
+  }
+  .ticker-three > div {
+      animation: animate5 40s -40s linear infinite;
+      will-change: transform;
+  }
+  .ticker-three > div:last-child{
+    animation: animate6 40s -20s linear infinite;
+  }
+  @keyframes animate5 {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+  }
+  @keyframes animate6 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }  
+  .rounded-one{
+      border-top-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+  }
+  @media screen and (max-width : 2537px) {
+      .ticker-three{
+        rotate: -2.5deg;
+      }  
+  }
+  @media screen and (max-width : 2854px) {
+    .ticker-three{
+      rotate: -1.5deg;
+    }  
+  }
+  @media screen and (min-width : 2855px) {
+      .ticker-three{
+        rotate: -1deg;
+      }
+  }

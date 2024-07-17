@@ -1,0 +1,9 @@
+
+.scale-right-bottom {
+    transform-origin: top left;
+    transition: transform 0.3s;
+  }
+  
+  .group:hover .scale-right-bottom {
+    transform: scale(1.05);
+  }

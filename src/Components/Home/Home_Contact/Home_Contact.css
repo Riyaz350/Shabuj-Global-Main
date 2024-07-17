@@ -1,0 +1,36 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 450px;
+    bottom: 90px;
+    position: relative;
+    background-color: white;
+  }
+  
+  section {
+    position: absolute;
+    animation: animated 17.5s linear infinite;
+  }
+  
+  @keyframes animated {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .letters {
+    position: absolute;
+    font-family: Poppins;
+    top: -115px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    transform-origin: 0 115px;
+  }
+  

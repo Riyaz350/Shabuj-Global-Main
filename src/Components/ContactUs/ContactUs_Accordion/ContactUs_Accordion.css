@@ -1,0 +1,90 @@
+.collapse-title{
+    padding-top: 10px;
+    padding-bottom: 0;
+    min-height: 0;
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.collapse-arrow > .collapse-title:after {
+    position: initial;
+    flex: 0 0 0.5rem;
+    margin-top: 7px;
+}
+:where(.collapse > input[type="checkbox"]){
+    min-height: 0rem !important;
+}
+.collapse-content{
+    padding-bottom: 0;
+}
+.collapse:not(.collapse-close) > :where(input[type="checkbox"]:checked ~ .collapse-content) {
+    padding-bottom: 0;
+}
+.collapse-arrow{
+    gap: 0;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-semibold {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .inter-bold {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .inter-regular {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inter-medium {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .mulish-regular {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .text-gradient{
+    background: linear-gradient(205.4deg, #15E6EC 5.88%, #89EEC5 89.47%);  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}

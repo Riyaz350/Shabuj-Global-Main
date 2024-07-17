@@ -1,0 +1,12 @@
+.pastevents-shadow{
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.04), 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+.card:hover h2{
+    color: white; 
+}
+.card:hover p {
+    color: #88F3D0;
+}
+.card:hover svg path{
+    stroke: #88F3D0;
+}
