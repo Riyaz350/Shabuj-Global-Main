@@ -15,7 +15,7 @@ const Doc1 = () => {
         animate: { scale:1.03, y: -10 },
     }
 
-    const transition = { duration: 1.2, repeat: Infinity, repeatType: "reverse", repeatDelay: 0.4, delay: 0, type: "spring" }
+    const transition = { duration: 1.2, repeat: Infinity, repeatType: "reverse", repeatDelay: 0.4, delay: 0   }
 
     return (
         <div >
