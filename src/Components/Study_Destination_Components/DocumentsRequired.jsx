@@ -6,10 +6,10 @@ const DocumentsRequired = () => {
   return (
     <>
       <div className="min-h-screen bg-[#EFF6FF] py-28">
-        <h1 className="text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
+        <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
           Documents Required to Study in the UK for International Students
         </h1>
-        <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="text-gray-700 mb-8">
               When seeking admission as an international student in the UK,
@@ -37,10 +37,10 @@ const DocumentsRequired = () => {
         </div>
       </div>
       <div className="min-h-screen bg-white py-28">
-        <h1 className="text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
+        <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
           Statement of Purpose for UK
         </h1>
-        <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
           <img src={imageTwo} alt="Documents" className="flex-1" />
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3">
@@ -69,10 +69,10 @@ const DocumentsRequired = () => {
         </div>
       </div>
       <div className="min-h-screen bg-[#EFF6FF] py-28">
-        <h1 className="text-[56px] w-1/2 mx-auto font-bold text-center mb-16">
+        <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16">
           Documents Required to apply for the UK Study Visa
         </h1>
-        <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
           <div className="flex-1 text-[18px] font-normal">
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Valid passport</li>

@@ -28,11 +28,11 @@ const Tabs = () => {
 
   return (
     <div className="w-full">
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         {tabData.map((tab, index) => (
           <button
             key={index}
-            className={`flex-1 py-4 px-4 text-center text-3xl font-medium rounded-t-2xl rounded-bl-2xl transition-colors duration-300 ${
+            className={`flex-1 py-4 px-4 text-center  text-xl lg:text-3xl font-medium rounded-t-2xl rounded-bl-2xl transition-colors duration-300 ${
               activeTab === index
                 ? "bg-[#EFF6FF] text-blue-600 rounded-bl-none"
                 : `${tab.color} text-white`
