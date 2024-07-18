@@ -14,7 +14,7 @@ const AnimatedText = () => {
   }, []);
 
   return (
-    <div className="text-[56px] font-bold py-28 w-[750px] mx-auto ">
+    <div className="text-lg md:text-2xl lg:text-[56px] font-bold py-28 lg:w-[750px] mx-auto ">
       <span className="text-black">Popular programs to study in the UK </span>
       <span
         className="inline-block animate-scroll animate-bounce  delay-500 ease-in-out"
