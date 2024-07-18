@@ -26,7 +26,7 @@ const Cost = () => {
     return (
         <div className="flex w-full text-[#181A1B]">
       <div className="w-[65%] mt-20">
-        <h1 className="text-5xl font-bold text-center">
+        <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-center">
           Cost of Studying
         </h1>
         

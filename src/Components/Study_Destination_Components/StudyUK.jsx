@@ -1,12 +1,15 @@
-import image from "../../assets/Layer_1.png";
+import image from "../../assets/UK/Tower/UK Tower Vector.svg";
+import image1 from "../../assets/UK/Tower/UK-Tower-Vector-1.png";
+import image2 from "../../assets/UK/Tower/UK-Tower-Vector-2.png";
+import TowerSVG from "./SVG/TowerSVG";
 const StudyUK = () => {
   return (
-    <div className="bg-[#EFF6FF] rounded-[32px] py-16">
-      <div className="max-w-screen-xl mx-auto bg-[#004AC8] rounded-[32px] px-24 pt-12 pb-24 text-white relative">
-        <h4 className="text-[40px] font-semibold text-center pb-6">
+    <div className=" max-w-screen-xl mx-auto rounded-[32px] bg-[#004AC8] relative my-16">
+      <div className="  py-16  rounded-[32px] px-24 pt-12 pb-24 text-white relative">
+        <h4 className="text-lg md:text-xl lg:text-[40px] font-semibold text-center pb-6">
           Why Study in The UK?
         </h4>
-        <p className="text-lg">
+        <p className="text-xs md:text-lg lg:px-20">
           Learn from some of the world's best academics and experts in some of
           world’s most prestigious universities and benefit from their
           exceptional academic support. Study alongside some of the finest and
@@ -17,7 +20,9 @@ const StudyUK = () => {
           professional environment. Graduate with skills and expertise that are
           in high demand around the world and get hired by your dream employers.
         </p>
-        <img src={image} alt="" className="absolute right-0 bottom-0" />
+      </div>
+      <div className="-mt-32 md:-mt-44 ">
+        <TowerSVG />
       </div>
     </div>
   );
