@@ -10,7 +10,7 @@ import Single_Blog from "../Components/Blog/Single_Blog/Single_Blog";
 import Single_Event from "../Pages/Single_Event/Single_Event";
 import Study_Destination from "../Pages/Study_Destination/Study_Destination";
 import Registration from "../Pages/Registration/Registration";
-import Study_Destination_Aus from "../Members/Sujit/Study_Destination_Aus";
+import Single_University from "../Pages/Single_University/Single_University";
 
 export const router = createBrowserRouter([
   {
