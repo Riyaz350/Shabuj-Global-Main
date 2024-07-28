@@ -32,6 +32,7 @@ const TowerSVG = () => {
     }
 
     const transition = { duration: 1.2, repeat: Infinity, repeatType: "reverse", repeatDelay: 0.6, delay: 0.6, type: "spring" }
+    
     return (
         <div>
             <svg viewBox="20 260 1151 309" fill="none" xmlns="http://www.w3.org/2000/svg">
