@@ -1,19 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "../Layout/Layout"
+import Layout from "../Layout/Layout";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import Events from "../Pages/Events/Events";
 import Blogs from "../Pages/Blogs/Blogs";
 import Services_Page from "../Pages/Services_page/Services_Page";
-import Single_Blog from "../Components/Blog/Single_Blog/Single_Blog"
+import Single_Blog from "../Components/Blog/Single_Blog/Single_Blog";
 import Single_Event from "../Pages/Single_Event/Single_Event";
 import Study_Destination from "../Pages/Study_Destination/Study_Destination";
 import Registration from "../Pages/Registration/Registration";
 import Single_University from "../Pages/Single_University/Single_University";
-
-
-
+import Study_Destination_Aus from "./../Members/Sujit/Study_Destination_Aus";
 
 export const router = createBrowserRouter([
   {
@@ -42,29 +40,28 @@ export const router = createBrowserRouter([
       },
       {
         path: "/blogs",
-        element: <Blogs />
+        element: <Blogs />,
       },
       {
         path: "/SingleBlogs",
-        element: <Single_Blog />
+        element: <Single_Blog />,
       },
       {
         path: "/SingleEvent",
-        element: <Single_Event />
+        element: <Single_Event />,
       },
       {
         path: "/StudyDestination",
-        element: <Study_Destination />
+        element: <Study_Destination />,
+      },
+      {
+        path: "/StudyDestinationAus",
+        element: <Study_Destination_Aus />,
       },
       {
         path: "/register",
-        element: <Registration/>
+        element: <Registration />,
       },
-      {
-        path: "/university",
-        element: <Single_University/>
-      },
-      
     ],
   },
 ]);
