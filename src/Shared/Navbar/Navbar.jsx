@@ -91,10 +91,10 @@ const Navbar = () => {
             </summary>
             <ul className="   gap-2  menu dropdown-content bg-white rounded-box z-50 w-fit  px-5 shadow">
               <div className="flex justify-center items-center gap-1">
-                <Link to={'/StudyDestination'}>
+                
                   <button className="flex items-center  gap-1">
                     <p className="text-sm font-semibold">Study Destination</p>
-                  </button></Link>
+                  </button>
                 <SmallNavButton ind={1} />
               </div>
 
@@ -134,9 +134,7 @@ const Navbar = () => {
 
         <div className="hidden items-center justify-between my-5 lg:flex gap-6  ">
           <div className="flex items-center gap-1">
-            <Link to={'/StudyDestination'}>
               <NavButton text='Study Destination' ind={1} />
-            </Link>
           </div>
 
           <div className="flex items-center gap-1">
@@ -167,11 +165,11 @@ const Navbar = () => {
         {navIndex == 1 && (
           <div>
             <ul className="flex justify-between max-w-7xl mx-auto">
-              <li>Study in UK</li>
+              <Link to={"/UK"}><li>Study in UK</li></Link>
               <li>Study in USA</li>
               <li>Study in Australia</li>
               <li>Study in Canada</li>
-              <li>Study in Germany</li>
+              <Link to={"/Germany"}><li>Study in Germany</li></Link>
               <li>Study in New Zealand</li>
             </ul>
           </div>

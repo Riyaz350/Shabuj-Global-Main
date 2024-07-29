@@ -1,6 +1,6 @@
-import imageOne from "../../assets/Documents-01.png";
-import imageTwo from "../../assets/Documents-02.png";
-import imageThree from "../../assets/Documents-03.png";
+import imageOne from "../../../assets/Documents-01.png";
+import imageTwo from "../../../assets/Documents-02.png";
+import imageThree from "../../../assets/Documents-03.png";
 import Doc1 from "./SVG/Doc1";
 
 const DocumentsRequired = () => {
@@ -10,13 +10,13 @@ const DocumentsRequired = () => {
         <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
           Documents Required to Study in the UK for International Students
         </h1>
-        <div className="relative md:max-w-screen-xl px-10 mx-auto grid grid-cols-2 items-center justify-between">
+        <div className="relative flex flex-col md:max-w-screen-xl px-10 mx-auto lg:grid grid-cols-2 items-center justify-between">
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]  ">
             <p className="text-gray-700 mb-8 ">
               When seeking admission as an international student in the UK,
-              you'll generally need to furnish various documents as part of your
+              {`you'll`} generally need to furnish various documents as part of your
               application process. Although the exact prerequisites might differ
-              based on the university and the program you're applying to, the
+              based on the university and the program {`you're`} applying to, the
               following are typically the documents requested:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">

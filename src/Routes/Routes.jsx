@@ -8,10 +8,12 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Services_Page from "../Pages/Services_page/Services_Page";
 import Single_Blog from "../Components/Blog/Single_Blog/Single_Blog";
 import Single_Event from "../Pages/Single_Event/Single_Event";
-import Study_Destination from "../Pages/Study_Destination/Study_Destination";
 import Registration from "../Pages/Registration/Registration";
 import Single_University from "../Pages/Single_University/Single_University";
-import Study_Destination_Aus from "./../Members/Sujit/Study_Destination_Aus";
+import UK from "../Pages/Study_Destination/UK";
+import Germany from "../Pages/Study_Destination/Germany";
+import Study_Destination_Aus from "../Members/Sujit/Study_Destination_Aus";
+import Australia from "../Pages/Study_Destination/Australia";
 
 export const router = createBrowserRouter([
   {
@@ -50,13 +52,18 @@ export const router = createBrowserRouter([
         path: "/SingleEvent",
         element: <Single_Event />,
       },
+
       {
-        path: "/StudyDestination",
-        element: <Study_Destination />,
+        path: "/UK",
+        element: <UK />,
       },
       {
-        path: "/StudyDestinationAus",
-        element: <Study_Destination_Aus />,
+        path: "/Australia",
+        element: <Australia />,
+      },
+      {
+        path: "/Germany",
+        element: <Germany />,
       },
       {
         path: "/register",

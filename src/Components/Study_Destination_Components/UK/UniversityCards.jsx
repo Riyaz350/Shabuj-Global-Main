@@ -299,24 +299,21 @@ const UniversityCards = () => {
   };
 
   return (
-    <div className="mx-auto p-4 bg-[#EFF6FF]">
+    <div className="mx-auto p-4 bg-[#EFF6FF]" onMouseLeave={() => setSelectedUniversity(null)}>
       <h1 className="text-[56px] font-bold py-28 text-center">
         Top Universities in The UK
       </h1>
       <div
-        className={`grid grid-cols-6 gap-4 max-w-screen-xl mx-auto ${
-          selectedUniversity ? "grid-cols-4" : "grid-cols-6"
-        }`}
+        className='flex max-w-screen-xl mx-auto'
       >
-        {universities.map((university, index) => (
+       <div className={`flex flex-wrap gap-20 ${
+          selectedUniversity ? "w-[66%]" : "w-full"
+        }`}>
+       {universities.map((university, index) => (
           <div
             key={index}
-            className={`col-span-1 p-4 bg-white rounded-lg cursor-pointer ${
-              selectedUniversity && selectedUniversity.name === university.name
-                ? "col-span-1"
-                : ""
-            }`}
-            onClick={() => handleCardClick(university)}
+            className='p-4 bg-white rounded-lg cursor-pointer'
+            onMouseEnter={() => handleCardClick(university)}
           >
             <img
               src={university.logo}
@@ -325,17 +322,23 @@ const UniversityCards = () => {
             />
           </div>
         ))}
-        {selectedUniversity && (
-          <div className="col-span-2 p-4 bg-white shadow rounded-lg">
+       </div>
+       <div className={` ${
+          selectedUniversity ? "w-[34%]" : "hidden"
+        }`}>
+       {selectedUniversity && (
+          <div className="p-4 bg-white shadow rounded-lg">
+            <img src={selectedUniversity.logo} className="mx-auto" alt="" />
             <h2 className="text-2xl font-bold mb-2">
               {selectedUniversity.name}
             </h2>
             <p>{selectedUniversity.info}</p>
-            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+            <button className="btn btn-wide mt-4 px-4 py-2 bg-blue-500 text-white rounded-3xl">
               <a href={selectedUniversity.link}>Apply Now</a>
             </button>
           </div>
         )}
+       </div>
       </div>
     </div>
   );
