@@ -9,10 +9,8 @@ import Services_Page from "../Pages/Services_page/Services_Page";
 import Single_Blog from "../Components/Blog/Single_Blog/Single_Blog";
 import Single_Event from "../Pages/Single_Event/Single_Event";
 import Registration from "../Pages/Registration/Registration";
-import Single_University from "../Pages/Single_University/Single_University";
 import UK from "../Pages/Study_Destination/UK";
 import Germany from "../Pages/Study_Destination/Germany";
-import Study_Destination_Aus from "../Members/Sujit/Study_Destination_Aus";
 import Australia from "../Pages/Study_Destination/Australia";
 
 export const router = createBrowserRouter([
