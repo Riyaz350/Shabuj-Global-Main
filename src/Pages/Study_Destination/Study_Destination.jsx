@@ -1,5 +1,6 @@
 import AnimatedText from "../../Components/Study_Destination_Components/AnimatedText";
 import DocumentsRequired from "../../Components/Study_Destination_Components/DocumentsRequired";
+import Exams from "../../Components/Study_Destination_Components/Exams";
 import Faq from "../../Components/Study_Destination_Components/Faq";
 import GuidanceBanner from "../../Components/Study_Destination_Components/GuidenceBanner";
 
@@ -20,6 +21,7 @@ const Study_Destination = () => {
       <AnimatedText />
       <UniversityCards />
       <RequirementCard />
+      <Exams/>
       <GuidanceBanner />
       <DocumentsRequired />
       <Faq />

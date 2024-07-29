@@ -50,7 +50,7 @@ const RequirementCard = () => {
                 education, such as SSC or O-levels, with satisfactory grades.
                 The specific grade requirements may vary depending on the
                 university and program.
-              </p>
+              </p><br />
               <p className={`${cardNo === 1 ? "flex" : "hidden"}`}>
                 A minimum overall band score of 5.5 to 6.0 in IELTS, with no
                 individual component (Reading, Writing, Listening, Speaking)
@@ -128,7 +128,7 @@ const RequirementCard = () => {
                 education, such as SSC or O-levels, with satisfactory grades.
                 The specific grade requirements may vary depending on the
                 university and program.
-              </p>
+              </p><br />
               <p className={`${cardNo === 2 ? "flex" : "hidden"}`}>
                 A minimum overall band score of 5.5 to 6.0 in IELTS, with no
                 individual component (Reading, Writing, Listening, Speaking)
@@ -209,7 +209,7 @@ const RequirementCard = () => {
                 education, such as SSC or O-levels, with satisfactory grades.
                 The specific grade requirements may vary depending on the
                 university and program.
-              </p>
+              </p><br />
               <p className={`${cardNo === 3 ? "flex" : "hidden"}`}>
                 A minimum overall band score of 5.5 to 6.0 in IELTS, with no
                 individual component (Reading, Writing, Listening, Speaking)
@@ -288,7 +288,7 @@ const RequirementCard = () => {
                 education, such as SSC or O-levels, with satisfactory grades.
                 The specific grade requirements may vary depending on the
                 university and program.
-              </p>
+              </p><br />
               <p className={`${cardNo === 4 ? "flex" : "hidden"}`}>
                 A minimum overall band score of 5.5 to 6.0 in IELTS, with no
                 individual component (Reading, Writing, Listening, Speaking)
