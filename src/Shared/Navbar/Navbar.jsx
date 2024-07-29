@@ -12,7 +12,6 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import UK_Page from "../../Pages/Study_Destination/UK";
 const Navbar = () => {
   const [navButton, setNavButton] = useState(0);
   const [navIndex, setNavIndex] = useState(0);
