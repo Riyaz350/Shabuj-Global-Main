@@ -1,4 +1,4 @@
-import DocumentSVG from "./SVG/DocumentSVG";
+import DocumentSVG from "../../../Components/Study_Destination_Components/Australia/SVG/DocumentSVG";
 
 const DocumentsRequired = () => {
   return (

@@ -1,4 +1,4 @@
-import FlagSVG from "./SVG/FlagSVG";
+import FlagSVG from "../../../Components/Study_Destination_Components/Australia/SVG/FlagSVG";
 
 const AustraliaBanner = () => {
   return (
