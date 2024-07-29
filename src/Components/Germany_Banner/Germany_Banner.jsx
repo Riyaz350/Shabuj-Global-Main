@@ -3,9 +3,9 @@ import './Germany_Banner.css'
 const Germany_Banner = (props) => {
     return (
         <div className='relative'>
-            <div className='absolute top-[56px] left-[50%] -translate-x-1/2'>
-                <h2 className='poppins-bold text-[64px] leading-[83.2px] text-[#081831] -tracking-[0.02em]'>Study in Germany</h2>
-                <p className='poppins-medium text-[18px] text-[#D80621] text-center pt-4'>Here’s a comprehensive guide for all<br></br> students who want to study in Germany</p>
+            <div className='absolute lg:top-[56px] top-3 left-[50%] -translate-x-1/2'>
+                <h2 className='poppins-bold lg:text-[64px] text-sm lg:leading-[83.2px] text-[#081831] lg:-tracking-[0.02em] text-center'>Study in Germany</h2>
+                <p className='poppins-medium lg:text-[18px] text-[8px] text-[#D80621] text-center pt-4'>Here’s a comprehensive guide for all<br></br> students who want to study in Germany</p>
             </div>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
