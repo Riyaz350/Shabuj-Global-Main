@@ -1,6 +1,4 @@
-import image from "../../assets/UK/Tower/UK Tower Vector.svg";
-import image1 from "../../assets/UK/Tower/UK-Tower-Vector-1.png";
-import image2 from "../../assets/UK/Tower/UK-Tower-Vector-2.png";
+
 import TowerSVG from "./SVG/TowerSVG";
 const StudyUK = () => {
   return (
@@ -10,7 +8,7 @@ const StudyUK = () => {
           Why Study in The UK?
         </h4>
         <p className="text-xs md:text-lg lg:px-20">
-          Learn from some of the world's best academics and experts in some of
+          Learn from some of the {`world's`} best academics and experts in some of
           world’s most prestigious universities and benefit from their
           exceptional academic support. Study alongside some of the finest and
           brilliant minds and hone your skills using state-of-the-art

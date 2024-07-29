@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import png from '../../assets/UK/UK-Hero-Hover-1.png'
-import bgWhite from '../../assets/UK/UK-Hero-Hover-BG-1.png'
-import bgBlue from '../../assets/UK/UK-Hero-Hover-BG-2.png'
+import png from '../../../assets/UK/UK-Hero-Hover-1.png'
+import bgWhite from '../../../assets/UK/UK-Hero-Hover-BG-1.png'
+import bgBlue from '../../../assets/UK/UK-Hero-Hover-BG-2.png'
 const UKBanner = () => {
     const [bgHover, setBgHover] = useState(0)
     return (

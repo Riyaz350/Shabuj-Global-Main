@@ -1,8 +1,8 @@
 import { useState } from "react";
-import imageOne from "../../../public/cartoon/49a.png";
-import imageTwo from "../../../public/cartoon/49b.png";
-import imageThree from "../../../public/cartoon/49c.png";
-import imageFour from "../../../public/cartoon/49d.png";
+import imageOne from "../../../../public/cartoon/49a.png";
+import imageTwo from "../../../../public/cartoon/49b.png";
+import imageThree from "../../../../public/cartoon/49c.png";
+import imageFour from "../../../../public/cartoon/49d.png";
 import { motion } from "framer-motion"
 
 const RequirementCard = () => {
@@ -68,9 +68,9 @@ const RequirementCard = () => {
         <div className="relative bg-[#E2635E] rounded-[32px]  hover:h-[750px]">
           <div className="h-[450px]">
             <div className="text-white px-8 py-14">
-              <h2 className="text-4xl font-semibold mb-2">Master's</h2>
+              <h2 className="text-4xl font-semibold mb-2">{`Master's`}</h2>
               <p className=" mb-4 group-hover:hidden">
-                Hold a relevant Bachelor's degree or an equivalent qualification
+                Hold a relevant {`Bachelor's`} degree or an equivalent qualification
                 from a recognized institution.
               </p>
               <p className="hidden mb-2 group-hover:block">
@@ -118,7 +118,7 @@ const RequirementCard = () => {
         <motion.div animate={cardNo == 1 ? { height:'50%', y:'100%'}: {height:'100%', y:0}} transition={{duration:.1}} className="relative bg-[#A881F3] rounded-[32px] overflow-hidden">
           <div className="h-[450px]">
             <div className="text-white px-8 py-14">
-              <h2 className="text-4xl font-semibold mb-2">Bachelor's</h2>
+              <h2 className="text-4xl font-semibold mb-2">{`Bachelor's`}</h2>
               <p className=" mb-4 group-hover:hidden">
                 Students need to have completed their higher secondary
                 education, such as HSC or A-levels, with satisfactory grades.
@@ -170,7 +170,7 @@ const RequirementCard = () => {
             <div className="text-white px-8 py-14">
               <h2 className="text-4xl font-semibold mb-2">Doctorate</h2>
               <p className=" mb-4 group-hover:hidden">
-                Hold a relevant Master's degree or an equivalent qualification
+                Hold a relevant {`Master's`} degree or an equivalent qualification
                 from a recognised institution.
               </p>
               <p className="hidden mb-2 group-hover:block">
