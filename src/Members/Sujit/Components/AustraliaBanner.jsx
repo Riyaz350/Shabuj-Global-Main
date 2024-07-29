@@ -7,7 +7,6 @@ const AustraliaBanner = () => {
         <div>
           <FlagSVG />
         </div>
-        <div className="  absolute bottom-0   max-w-7xl mx-auto"></div>
       </div>
     </div>
   );
