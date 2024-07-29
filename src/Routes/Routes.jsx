@@ -8,9 +8,10 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Services_Page from "../Pages/Services_page/Services_Page";
 import Single_Blog from "../Components/Blog/Single_Blog/Single_Blog"
 import Single_Event from "../Pages/Single_Event/Single_Event";
-import Study_Destination from "../Pages/Study_Destination/Study_Destination";
 import Registration from "../Pages/Registration/Registration";
 import Single_University from "../Pages/Single_University/Single_University";
+import UK from "../Pages/Study_Destination/UK";
+import Germany from "../Pages/Study_Destination/Germany";
 
 
 
@@ -53,8 +54,12 @@ export const router = createBrowserRouter([
         element: <Single_Event />
       },
       {
-        path: "/StudyDestination",
-        element: <Study_Destination />
+        path: "/UK",
+        element: <UK/>
+      },
+      {
+        path: "/Germany",
+        element: <Germany/>
       },
       {
         path: "/register",
