@@ -132,7 +132,7 @@ const Germany_Purpose = () => {
 
                 </div>
                 <div className='px-5 lg:px-0'>
-                    <p className='poppins-medium text-[18px] text-[#1F1F1F] pb-[19px]'>The Statement of Purpose (SOP) is a crucial document for students who want to study abroad. It is typically 1000–1200 words long and serves as an essay that showcases your identity and outlines the value you will bring to the university. It is important to follow a specific format and stick to the word limit to create an impressive SOP. If you need detailed guidance on how to structure a compelling Statement of Purpose, you can seek assistance from Shabuj Global Educations's counselors.</p>
+                    <p className='poppins-medium text-[18px] text-[#1F1F1F] pb-[19px]'>The Statement of Purpose (SOP) is a crucial document for students who want to study abroad. It is typically 1000–1200 words long and serves as an essay that showcases your identity and outlines the value you will bring to the university. It is important to follow a specific format and stick to the word limit to create an impressive SOP. If you need detailed guidance on how to structure a compelling Statement of Purpose, you can seek assistance from Shabuj Global {`Educations's`} counselors.</p>
                     <p className='poppins-medium text-[18px] text-[#1F1F1F] pb-8'>A typical SOP generally follows the following structure:</p>
                     <ul className='list-disc poppins-medium text-[18px] text-[#1F1F1F] pl-6'>
                         <li>Introduction</li>
