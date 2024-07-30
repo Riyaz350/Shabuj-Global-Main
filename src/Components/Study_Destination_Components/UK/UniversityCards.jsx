@@ -307,15 +307,15 @@ const UniversityCards = () => {
   };
 
   return (
-    <div className="mx-auto p-4 bg-[#EFF6FF] abc" onMouseLeave={() => setSelectedUniversity(null)}>
-      <h1 className="text-[56px] font-bold py-28 text-center">
+    <div className="mx-auto p-4 bg-[#EFF6FF]" onMouseLeave={() => setSelectedUniversity(null)}>
+      <h1 className="lg:text-[56px] text-[28px] font-bold py-28 text-center">
         Top Universities in The UK
       </h1>
       <div
         className='flex max-w-screen-xl mx-auto'
       >
-       <div className={`flex flex-wrap gap-10 ${
-          selectedUniversity ? "w-[66%] overflow-x-hidden overflow-y-auto h-[1200px] uk-scrollbar" : "w-full"
+       <div className={`flex flex-wrap justify-around gap-10 ${
+          selectedUniversity ? "lg:w-[66%] md:w-[33%] w-[33%] overflow-x-hidden overflow-y-auto h-[700px] uk-scrollbar" : "w-full"
         }`}>
        {universities.map((university, index) => (
           <div
@@ -326,24 +326,24 @@ const UniversityCards = () => {
             <img
               src={university.logo}
               alt={university.name}
-              className="w-full h-24 object-contain mb-4 px-4"
+              className="w-full h-24 object-contain mb-4 lg:px-4 md:px-4 px-0"
             />
           </div>
         ))}
        </div>
        <div className={` ${
-          selectedUniversity ? "w-[34%]" : "hidden"
+          selectedUniversity ? "lg:w-[34%] md:w-[66%] w-[66%]" : "hidden"
         }`}>
        {selectedUniversity && (
           <div className="p-4 bg-[EFF6FF] rounded-lg">
-            <img src={selectedUniversity.logo} className="mx-auto" alt="" />
+            <img src={selectedUniversity.logo} className="mx-auto md:w-[50%] w-[30%]" alt="" />
             <h2 className="text-2xl font-bold mb-2">
               {selectedUniversity.name}
             </h2>
             <p>{selectedUniversity.info}</p>
             <p className="poppins-bold text-sm pt-5">One of the UK's leading universities</p>
-            <p className="flex items-center pt-5 pb-6"><TiLocation className="text-blue-500"/> Located in scenic Aberdeen , Scotland </p>
-            <button className="btn mt-4 px-28 py-2 bg-blue-500 text-white rounded-3xl">
+            <p className="flex items-center pt-5 pb-6 lg:text-sm text-[10px]"><TiLocation className="text-blue-500"/> Located in scenic Aberdeen , Scotland </p>
+            <button className="btn mt-4 lg:px-28 px-16 py-2 bg-blue-500 text-white rounded-3xl">
               <a href={selectedUniversity.link}>Apply Now</a>
             </button>
           </div>
