@@ -327,7 +327,7 @@ const UniversityCards = () => {
           selectedUniversity ? "w-[34%]" : "hidden"
         }`}>
        {selectedUniversity && (
-          <div className="p-4 bg-white shadow rounded-lg">
+          <div className="p-4 bg-[EFF6FF] shadow rounded-lg">
             <img src={selectedUniversity.logo} className="mx-auto" alt="" />
             <h2 className="text-2xl font-bold mb-2">
               {selectedUniversity.name}
