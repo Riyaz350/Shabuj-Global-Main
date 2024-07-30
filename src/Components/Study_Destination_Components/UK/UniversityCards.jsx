@@ -314,7 +314,7 @@ const UniversityCards = () => {
       <div
         className='flex max-w-screen-xl mx-auto'
       >
-       <div className={`flex flex-wrap justify-around gap-10 ${
+       <div className={`flex flex-wrap lg:justify-normal md:justify-around gap-10 ${
           selectedUniversity ? "lg:w-[66%] md:w-[33%] w-[33%] overflow-x-hidden overflow-y-auto h-[700px] uk-scrollbar" : "w-full"
         }`}>
        {universities.map((university, index) => (

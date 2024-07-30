@@ -13,16 +13,16 @@ import UniversityCards from "../../Components/Study_Destination_Components/UK/Un
 const UK = () => {
   return (
     <div>
-      {/* <UKBanner/>
+      <UKBanner/>
       <StudyUK />
       <QuickFacts />
       <Tabs />
-      <AnimatedText /> */}
+      <AnimatedText />
       <UniversityCards />
-      {/* <RequirementCard />
+      <RequirementCard />
       <GuidanceBanner />
       <DocumentsRequired />
-      <Faq /> */}
+      <Faq />
     </div>
   );
 };
