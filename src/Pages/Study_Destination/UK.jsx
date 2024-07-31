@@ -1,8 +1,11 @@
-import AnimatedText from "../../Components/Study_Destination_Components/AnimatedText";
-import DocumentsRequired from "../../Components/Study_Destination_Components/DocumentsRequired";
+
+
 import Exams from "../../Components/Study_Destination_Components/Exams";
-import Faq from "../../Components/Study_Destination_Components/Faq";
-import GuidanceBanner from "../../Components/Study_Destination_Components/GuidenceBanner";
+
+import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
+import AnimatedText from "../../Components/Study_Destination_Components/UK/AnimatedText";
+import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
+import Faq from "../../Components/Study_Destination_Components/UK/Faq";
 
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 import RequirementCard from "../../Components/Study_Destination_Components/UK/RequirementCard";
