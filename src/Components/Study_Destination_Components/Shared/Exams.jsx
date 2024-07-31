@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import arrow from "../../../assets/down-iKFcuXTMIQ.png";
-const Exams = () => {
+const Exams = ({country}) => {
   const [cardNo, setCardNo] = useState(0);
   const isSmallScreen = () => window.innerWidth <= 768;
   return (
     <div className="m-5 md:m-0 lg:m-0 text-[#3B82F6] bg-[#F1F8FF]">
       <h1 className="pt-24 text-center font-semibold text-6xl text-black">
-        Exams Required to Study in Germany
+        Exams Required to Study in {country}
       </h1>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8 pt-24 pb-36">
         {/* first card */}

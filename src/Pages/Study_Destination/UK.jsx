@@ -1,7 +1,7 @@
+import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import AnimatedText from "../../Components/Study_Destination_Components/UK/AnimatedText";
 import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
-import Exams from "../../Components/Study_Destination_Components/UK/Exams";
 import Faq from "../../Components/Study_Destination_Components/UK/Faq";
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 
@@ -21,7 +21,7 @@ const UK = () => {
       <AnimatedText />
       <UniversityCards />
       <RequirementCard country={'UK'} />
-      <Exams />
+      <Exams country={'UK'}/>
       <GuidanceBanner />
       <DocumentsRequired />
       <Faq />
