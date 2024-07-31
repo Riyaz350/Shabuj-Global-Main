@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import arrow from "../../assets/down-iKFcuXTMIQ.png";
+import arrow from "../../../assets/down-iKFcuXTMIQ.png";
 const Exams = () => {
   const [cardNo, setCardNo] = useState(0);
   const isSmallScreen = () => window.innerWidth <= 768;

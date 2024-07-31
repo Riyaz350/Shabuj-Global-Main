@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
 import logo from "../../assets/Logo.png";
+import UK from '../../assets/Flags/UK Flag.svg'
+import USA from '../../assets/Flags/USA Flag.svg'
+import Australia from '../../assets/Flags/Australia Flag.svg'
+import Germany from '../../assets/Flags/Germany Flag.svg'
+import Canada from '../../assets/Flags/Canada Flag.svg'
+import NZ from '../../assets/Flags/Newzealand Flag.svg'
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
 import {
   IoShieldCheckmarkSharp,
@@ -16,6 +22,8 @@ const Navbar = () => {
   const [navButton, setNavButton] = useState(0);
   const [navIndex, setNavIndex] = useState(0);
   const iconStyle = "flex items-center gap-2";
+  const flagClass = "flex flex-col justify-center item-center text-center my-2 lg:my-20"
+  const flag = "w-3/4 mx-auto rounded-lg "
 
   const enterNavButton = (index) => {
     setNavButton(index)
@@ -165,12 +173,12 @@ const Navbar = () => {
         {navIndex == 1 && (
           <div>
             <ul className="flex justify-between max-w-7xl mx-auto">
-              <Link to={"/UK"}><li>Study in UK</li></Link>
-              <li>Study in USA</li>
-              <li>Study in Australia</li>
-              <li>Study in Canada</li>
-              <Link to={"/Germany"}><li>Study in Germany</li></Link>
-              <li>Study in New Zealand</li>
+              <Link className={flagClass} to={"/UK"}><img className={flag} src={UK}/><li>Study in UK</li></Link>
+              <Link className={flagClass}><img className={flag} src={USA}/><li></li><li>Study in USA</li></Link>
+              <Link className={flagClass} to={"/Australia"}><img className={flag} src={Australia} /><li>Study in Australia</li></Link>
+              <Link className={flagClass}><img className={flag} src={Canada} /><li>Study in Canada</li></Link>
+              <Link className={flagClass} to={"/Germany"}><img className={flag} src={Germany}/><li>Study in Germany</li></Link>
+              <Link className={flagClass}><img className={flag} src={NZ}/><li>Study in New Zealand</li></Link>
             </ul>
           </div>
         )}
