@@ -1,14 +1,11 @@
-
-
-import Exams from "../../Components/Study_Destination_Components/Exams";
-
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
+import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
+import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import AnimatedText from "../../Components/Study_Destination_Components/UK/AnimatedText";
 import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
 import Faq from "../../Components/Study_Destination_Components/UK/Faq";
+import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
-import RequirementCard from "../../Components/Study_Destination_Components/UK/RequirementCard";
 import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
 import Tabs from "../../Components/Study_Destination_Components/UK/Tabs";
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
@@ -23,8 +20,8 @@ const UK = () => {
       <Tabs />
       <AnimatedText />
       <UniversityCards />
-      <RequirementCard />
-      <Exams />
+      <RequirementCard country={'UK'} />
+      <Exams country={'UK'}/>
       <GuidanceBanner />
       <DocumentsRequired />
       <Faq />
