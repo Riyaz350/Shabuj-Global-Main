@@ -7,7 +7,8 @@ import GuidanceBanner from "../../Components/Study_Destination_Components/UK/Gui
 
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
-import Tabs from "../../Components/Study_Destination_Components/UK/Tabs";
+import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 
