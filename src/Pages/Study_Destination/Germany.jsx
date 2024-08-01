@@ -3,6 +3,7 @@ import Germany_Purpose from "../../Components/Study_Destination_Components/Germa
 import Germany_StudyInGermany from "../../Components/Study_Destination_Components/Germany/Germany_StudyInGermany/Germany_StudyInGermany";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
+import DocumentsRequired from "../../Components/Study_Destination_Components/Germany/DocumentsRequired/DocumentsRequired";
 
 const Germany = () => {
     return (
@@ -11,7 +12,7 @@ const Germany = () => {
             <Germany_StudyInGermany/>
             <RequirementCard country={'Germany'}/>
             <Exams country={'Germany'}/>
-
+            <DocumentsRequired/>
             <Germany_Purpose/>
         </div>
     );
