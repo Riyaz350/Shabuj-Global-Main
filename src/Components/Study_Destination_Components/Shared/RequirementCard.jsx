@@ -5,7 +5,7 @@ import imageThree from "../../../../public/cartoon/49c.png";
 import imageFour from "../../../../public/cartoon/49d.png";
 import { motion } from "framer-motion"
 
-const RequirementCard = () => {
+const RequirementCard = ({country}) => {
   const [cardNo, setCardNo] = useState(0);
 
   // Helper function to detect small screens
@@ -14,7 +14,7 @@ const RequirementCard = () => {
   return (
     <div className="m-5 md:m-0 lg:m-0">
       <h1 className="pt-24 text-center font-semibold text-6xl">
-        Requirements for Studying in the UK
+        Requirements for Studying in the {country}
       </h1>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8 pt-24 pb-36">
         {/* first card */}
@@ -40,9 +40,9 @@ const RequirementCard = () => {
         >
           <div className="h-[450px]">
             <div className="text-white px-8 py-14">
-              <h2 className="text-4xl font-semibold mb-2">Master's</h2>
+              <h2 className="text-4xl font-semibold mb-2">{`Master's`}</h2>
               <p className="mb-2">
-                Hold a relevant Bachelor's degree or an equivalent qualification
+                Hold a relevant {`Bachelor's`} degree or an equivalent qualification
                 from a recognized institution.
               </p>
               <p className={`${cardNo === 1 ? "flex" : "hidden"}`}>
