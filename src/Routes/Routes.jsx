@@ -13,6 +13,7 @@ import UK from "../Pages/Study_Destination/UK";
 import Germany from "../Pages/Study_Destination/Germany";
 import Australia from "../Pages/Study_Destination/Australia";
 import Single_University from "../Pages/Single_University/Single_University";
+import Coming_Soon from "../Pages/Coming_Soon/Coming_Soon";
 
 export const router = createBrowserRouter([
   {
@@ -71,6 +72,10 @@ export const router = createBrowserRouter([
       {
         path: "/singleUniversity",
         element: <Single_University />,
+      }, 
+      {
+        path: "/comingSoon",
+        element: <Coming_Soon/>,
       }, 
     ],
   },
