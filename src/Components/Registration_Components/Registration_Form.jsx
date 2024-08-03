@@ -20,9 +20,9 @@ const Registration_Form = () => {
   };
   return (
     <div>
-      <div className="w-[450px] mt-10">
+      <div className="lg:w-[450px] md:w-[450px] w-full mt-10">
         <div className="">
-          <form className="mr-20 space-y-5">
+          <form className="lg:mr-20 md:mr-20 mr-0 space-y-5">
             <div>
               <Label text="Name" />
               <Input text="Your Name" type="text" />

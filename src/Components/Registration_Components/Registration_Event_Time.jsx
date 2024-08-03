@@ -66,7 +66,7 @@ const Registration_Event_Time = () => {
         </ul>
       </div>
       <div>
-        <p className="text-4xl font-bold">Please help me with <br /> some details about you</p>
+        <p className="text-4xl font-bold lg:text-left md:text-left text-center lg:mx-0 md:mx-0 mx-5">Please help me with <br /> some details about you</p>
       </div>
       <Registration_Form/>
     </div>
