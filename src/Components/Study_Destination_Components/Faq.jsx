@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FaqSVG from "./SVG/FaqSVG";
+import imageFaq from "../../assets/Questions-1.png";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -10,19 +10,19 @@ const Faq = () => {
 
   return (
     <div className="bg-white pt-28">
-      <h1 className="text-[56px] w-1/2 mx-auto font-bold text-center mb-16">
+      <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16">
         Frequently Asked Questions
       </h1>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col justify-center items-center gap-x-10 gap-y-5 xl:gap-x-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full">
+        <div className="flex flex-col justify-center items-center gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full">
           <div className="w-full lg:w-1/2">
-            <FaqSVG />
+            <img src={imageFaq} alt="FAQ tailwind section" className="w-full" />
           </div>
-          <div className="w-full lg:w-1/2 bg-[#191F2C] h-[620px] rounded-[36px] ">
+          <div className="w-full lg:w-1/2 bg-[#004AC8] min-h-[600px] rounded-[36px]">
             <div className="lg:max-w-xl">
               <div
-                className="accordion-group px-10 py-16 text-white overflow-y-hidden "
+                className="accordion-group px-10 py-16 text-white"
                 data-accordion="default-accordion"
               >
                 <div
@@ -37,7 +37,7 @@ const Faq = () => {
                     onClick={() => toggleAccordion(0)}
                   >
                     <h5 className="text-lg">
-                      Which course is best for PR in Australia?
+                      How much can it cost to study in the UK?
                     </h5>
                     <svg
                       className={`transition duration-500  ${
@@ -67,12 +67,9 @@ const Faq = () => {
                     aria-labelledby="basic-heading-one-with-arrow-always-open"
                   >
                     <p className="text-base font-normal ">
-                      The cost of studying in Australia varies depending on
-                      factors such as the chosen university, course, and
-                      location. On average, international students can expect to
-                      pay between AUD 20,000 to AUD 45,000 per year for
-                      undergraduate programs and AUD 22,000 to AUD 50,000 per
-                      year for postgraduate programs.
+                      The cost of studying in the UK can vary, but on average,
+                      it can range from £10,000 to £38,000 per year for
+                      international students.
                     </p>
                   </div>
                 </div>
@@ -87,7 +84,9 @@ const Faq = () => {
                     aria-controls="basic-collapse-two-with-arrow-always-open"
                     onClick={() => toggleAccordion(1)}
                   >
-                    <h5 className="text-lg">How do I get PR in Australia?</h5>
+                    <h5 className="text-lg">
+                      How can I go to the UK from Bangladesh to study?
+                    </h5>
                     <svg
                       className={`transition duration-500 ${
                         activeIndex === 1 ? "rotate-180" : ""
@@ -116,15 +115,9 @@ const Faq = () => {
                     aria-labelledby="basic-heading-two-with-arrow-always-open"
                   >
                     <p className="text-base font-normal">
-                      There are different pathways to obtaining Permanent
-                      Residency in Australia. Some common routes include
-                      employer-sponsored visas, state/territory nomination
-                      programs, the Skilled Independent visa (subclass 189), the
-                      Skilled Nominated visa (subclass 190), and the Regional
-                      Skilled visa (subclass 491). Each pathway has its own
-                      specific criteria and requirements, which may include work
-                      experience, English language proficiency, skill
-                      assessments, and meeting the occupation list requirements.
+                      To go to the UK from Bangladesh to study, you need to
+                      apply for a student visa and meet the eligibility criteria
+                      set by the UK government.
                     </p>
                   </div>
                 </div>
@@ -140,7 +133,7 @@ const Faq = () => {
                     onClick={() => toggleAccordion(2)}
                   >
                     <h5 className="text-lg">
-                      Are there any options to reduce the cost of studying ?
+                      Do I need IELTS to study in the UK?
                     </h5>
                     <svg
                       className={` transition duration-500  ${
@@ -170,9 +163,9 @@ const Faq = () => {
                     aria-labelledby="basic-heading-three-with-arrow-always-open"
                   >
                     <p className="text-base font-normal">
-                      Yes, options to reduce costs include scholarships,
-                      part-time work, choosing regional areas, budgeting, and
-                      work-integrated learning opportunities.
+                      Yes, generally, a valid IELTS score is required for
+                      studying in the UK, although some universities may accept
+                      alternative English language proficiency tests.
                     </p>
                   </div>
                 </div>
@@ -188,7 +181,7 @@ const Faq = () => {
                     onClick={() => toggleAccordion(3)}
                   >
                     <h5 className="text-lg">
-                      How much does an Australian study visa cost?
+                      What is the minimum qualification to study in the UK?
                     </h5>
                     <svg
                       className={`transition duration-500  ${
@@ -218,12 +211,10 @@ const Faq = () => {
                     aria-labelledby="basic-heading-four-with-arrow-always-open"
                   >
                     <p className="text-base  font-normal">
-                       A student visa in Australia costs AUD 650 for
-                      international students. However, there are additional
-                      costs that one may have to pay. This includes costs for
-                      health checks, biometrics, police certificates, etc. If
-                      you are under the age of 18, your total Australia student
-                      visa fees will be AUD 650 + AUD 160.
+                      The minimum qualification to study in the UK is a
+                      completed secondary education or equivalent, such as
+                      A-levels, International Baccalaureate (IB), or equivalent
+                      qualifications.
                     </p>
                   </div>
                 </div>
@@ -239,7 +230,7 @@ const Faq = () => {
                     onClick={() => toggleAccordion(4)}
                   >
                     <h5 className="text-lg">
-                      How much does it cost to study in Australia?
+                      What is the minimum GPA required to study in the UK?
                     </h5>
                     <svg
                       className={`transition duration-500  ${
@@ -269,12 +260,9 @@ const Faq = () => {
                     aria-labelledby="basic-heading-four-with-arrow-always-open"
                   >
                     <p className="text-base  font-normal">
-                      The cost of studying in Australia varies depending on
-                      factors such as the chosen university, course, and
-                      location. On average, international students can expect to
-                      pay between AUD 20,000 to AUD 45,000 per year for
-                      undergraduate programs and AUD 22,000 to AUD 50,000 per
-                      year for postgraduate programs.
+                      The minimum GPA required to study in the UK can vary
+                      depending on the university and program, but a good
+                      academic record is generally expected.
                     </p>
                   </div>
                 </div>
