@@ -1,5 +1,6 @@
 import imageTwo from "../../../assets/Documents-02.png";
 import Doc1 from "./SVG/Doc1";
+import Doc2 from "./SVG/Doc2";
 import Document_Last_SVG_UK from "./SVG/Document_Last_SVG_UK";
 
 const DocumentsRequired = () => {
@@ -38,12 +39,14 @@ const DocumentsRequired = () => {
           </div>
         </div>
       </div>
+
+      {/* Second section  */}
       <div className="min-h-screen bg-white py-28">
         <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
           Statement of Purpose for UK
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
-          <img src={imageTwo} alt="Documents" className="flex-1" />
+          <Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3">
               The Statement of Purpose (SOP) plays a crucial role in the
