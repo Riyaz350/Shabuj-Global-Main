@@ -1,0 +1,14 @@
+
+.svg-container {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    display: flex; 
+    justify-content: center;
+  }
+  
+  .responsive-svg {
+    width: 100%; 
+    height: auto; 
+  }
+  

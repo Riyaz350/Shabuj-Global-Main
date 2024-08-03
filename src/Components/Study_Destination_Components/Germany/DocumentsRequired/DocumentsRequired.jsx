@@ -35,7 +35,7 @@ const DocumentsRequired = () => {
             <DocumentSVG />
           </div>
         </div>
-      </div>
+      </div>     
         </div>
     );
 };

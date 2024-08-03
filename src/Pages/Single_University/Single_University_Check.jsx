@@ -1,6 +1,6 @@
 const Single_University_Check = () => {
     return (
-      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-tr from-[#ED1C24] to-[#FCEC21] rounded-[30px] md:w-full w-[95%] mx-auto ">
+      <div className="mt-10 flex flex-col md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-tr from-[#ED1C24] to-[#FCEC21] rounded-[30px] md:w-full w-[95%] mx-auto ">
         <p className="text-white text-lg md:text-2xl lg:text-3xl text-center md:text-left mb-4 md:mb-0">
           Check all opportunities to study <br className="hidden md:block" /> at the University of Aberdeen
         </p>

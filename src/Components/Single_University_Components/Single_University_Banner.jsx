@@ -1,6 +1,8 @@
 import university from '../../assets/University of Aberdeen.svg';
 
-const Single_University_Banner = () => {
+const Single_University_Banner = ({university}) => {
+
+
   return (
     <div className="relative w-auto h-[300px] md:h-[550px]">
       <div
@@ -10,8 +12,8 @@ const Single_University_Banner = () => {
         <div className="absolute inset-0 bg-white bg-opacity-50 flex items-end justify-center">
           <img
             className="bg-white p-5 w-[200px] md:w-[370px] rounded-2xl shadow-2xl mb-[-30px] md:mb-[-60px]"
-            src={university}
-            alt="University of Aberdeen"
+            src={university.logo}
+            alt={university.name}
           />
         </div>
       </div>

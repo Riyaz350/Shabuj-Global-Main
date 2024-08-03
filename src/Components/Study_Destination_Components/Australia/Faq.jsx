@@ -19,8 +19,8 @@ const Faq = () => {
           <div className="w-full lg:w-1/2">
             <FaqSVG />
           </div>
-          <div className="w-full lg:w-1/2 bg-[#191F2C] min-h-[620px] rounded-[36px] ">
-            <div className="lg:max-w-xl border-2">
+          <div className="w-full lg:w-1/2 bg-[#191F2C] h-[620px] rounded-[36px] ">
+            <div className="lg:max-w-xl">
               <div
                 className="accordion-group px-10 py-16 text-white overflow-y-hidden "
                 data-accordion="default-accordion"

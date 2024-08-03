@@ -1,7 +1,10 @@
+import Document_Last_SVG_Ger from '../SVG/Document_Last_SVG_Ger';
 import './Germany_Purpose.css'
 
 const Germany_Purpose = () => {
     return (
+      <>
+      
         <div className='bg-[#FAFAFA] max-w-[1154px] mx-auto lg:pt-[137px] pt-[50px] lg:pb-[120px] pb-[50px]'>
             <div className='text-center'>
                 <h2 className='poppins-semibold lg:text-[56px] text-[28px] text-[#081831] lg:leading-[72.8px] lg:-tracking-[0.01em]'>Statement of Purpose for Germany</h2>
@@ -127,9 +130,6 @@ const Germany_Purpose = () => {
                         <path opacity="0.6" d="M370.731 340.861C367.57 336.881 361.143 324.585 358.399 319.228C358.291 319.016 358.122 318.841 357.914 318.726C357.706 318.612 357.468 318.562 357.232 318.584C356.995 318.605 356.77 318.698 356.587 318.848C356.403 318.999 356.269 319.202 356.201 319.429C353.232 329.578 351.509 340.05 351.069 350.614C347.113 347.473 343.711 343.691 341.007 339.424C340.892 339.258 340.731 339.129 340.545 339.052C340.359 338.975 340.155 338.952 339.956 338.987C339.758 339.022 339.573 339.113 339.425 339.249C339.276 339.386 339.17 339.561 339.118 339.756C333.938 359.703 336.54 379.328 336.54 379.328L374.758 357.255C373.166 351.743 371.847 346.255 370.731 340.861Z" fill="white" />
                         </g>
                     </svg>
-
-
-
                 </div>
                 <div className='px-5 lg:px-0'>
                     <p className='poppins-medium text-[18px] text-[#1F1F1F] pb-[19px]'>The Statement of Purpose (SOP) is a crucial document for students who want to study abroad. It is typically 1000–1200 words long and serves as an essay that showcases your identity and outlines the value you will bring to the university. It is important to follow a specific format and stick to the word limit to create an impressive SOP. If you need detailed guidance on how to structure a compelling Statement of Purpose, you can seek assistance from Shabuj Global {`Educations's`} counselors.</p>
@@ -145,6 +145,50 @@ const Germany_Purpose = () => {
                 </div>
             </div>
         </div>
+        <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
+        <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
+        Documents Required to apply for Germany Study Visa
+        </h1>
+        <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
+          <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
+            <p className=" pb-8">
+              To apply for a Germanian study visa, you'll need to provide the
+              following documents:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>
+                Passport: A valid passport that covers the length of your
+                intended stay in Garman
+              </li>
+              <li>
+                Statement of Purpose (SOP): A written statement that explains
+                your academic background, career goals, and reasons for choosing
+                Canada
+              </li>
+              <li>
+                Passport-sized photographs: Two photographs that meet the
+                required criteria if you're applying by mail, or a digital copy
+                if you're applying online
+              </li>
+              <li>
+                Letter of acceptance: From a Designated Learning Institution
+                (DLI)
+              </li>
+              <li>
+                Proof of financial support: Also known as proof of funds, this
+                document shows that you have enough money to cover your first
+                year of tuition and live in Canada
+              </li>
+            </ul>
+          </div>
+          <div className="flex-1">
+            <Document_Last_SVG_Ger/>
+          </div>
+        </div>
+      </div>
+      
+</>
+
     );
 };
 

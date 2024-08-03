@@ -76,8 +76,4 @@
   right: 0 !important;
 }
 
-@media screen and (max-width: 640px) {
-  .tab-content-display:not(.active) {
-    display: block !important;
-  }
-}
+

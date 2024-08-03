@@ -70,7 +70,7 @@ export const router = createBrowserRouter([
         element: <Registration />,
       },
       {
-        path: "/singleUniversity",
+        path: "/singleUniversity/:id",
         element: <Single_University />,
       }, 
       {
