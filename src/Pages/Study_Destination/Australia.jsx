@@ -12,8 +12,8 @@ const Australia = () => {
   return (
     <div>
       <AustraliaBanner />
-      {/* <Study_Australia /> */}
-      {/* <QuickFacts />
+      {/* <Study_Australia />
+      <QuickFacts />
       <Australia_Tab /> */}
       <RequirementCard country={'Australia'}/>
       <Exams country={'Australia'}/>
