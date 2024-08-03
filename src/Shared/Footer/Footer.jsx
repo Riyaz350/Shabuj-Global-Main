@@ -186,17 +186,17 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                    <div className='footer-4 max-w-[1154px] mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center border-t border-white'>
+                    <div className='footer-4 max-w-[1154px] relative z-10 mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center border-t border-white'>
                         <div className='flex gap-[26px] mt-[21px] lg:border-none border-b border-white lg:w-1/3 w-full pb-[11px]'>
-                            <img src="./assets/facebook.png" alt="facebook" />
-                            <img src="./assets/instagram.png" alt="instagram" />
-                            <img src="./assets/linkedin.png" alt="linkedin" />
-                            <img src="./assets/youtube.png" alt="youtube" />
+                            <a href='https://www.facebook.com/ShabujGlobaleducationuk/' target='_blank'><img src="./assets/facebook.png" className='hover:bg-blue-500 p-1' alt="facebook" /></a>
+                            <a href='https://www.instagram.com/shabujglobaleducation/' target='_blank'><img src="./assets/instagram.png" className='hover:bg-blue-500 p-1' alt="instagram" /></a>
+                            <a href='https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEkbZ14xeAt8wAAAZEXbnaoJWt-ogVrPCWsB3Ufw3gb3wrzBSE3XcNHequ5lpil4I54Crsk0qaoWcyHvqLrTdX2geridADLkgc3_cGAuBn7zb4v-iR2dBdszRH3_wEnsRkelIE=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fshabuj-global-education%2F' target='_blank'><img src="./assets/linkedin.png" className='hover:bg-blue-500 p-1' alt="linkedin" /></a>
+                            <a href='https://www.youtube.com/@shabujglobaleducation1568' target='_blank'><img src="./assets/youtube.png" className='hover:bg-blue-500 p-1' alt="youtube" /></a>
                         </div>
                         <div className='flex lg:gap-[18px] flex-col items-center lg:flex-row text-center'>
-                            <p className='mulish-regular text-[14px] text-[#CACACA] mt-6 lg:mt-0 px-20 lg:px-0'>Copyright © 2024, All Right Reserved <span className='underline'>Shabuj Global Education</span></p>
-                            <p className='mulish-regular text-[14px] text-[#CACACA]'>Terms & Conditions</p>
-                            <p className='mulish-regular text-[14px] text-[#CACACA]'>Privacy Policy</p>
+                            <p className='mulish-regular text-[14px] text-[#CACACA] mt-6 lg:mt-0 px-20 lg:px-0'>Copyright © 2024, All Right Reserved <a href='/'><span className='underline'>Shabuj Global Education</span></a></p>
+                            <a href='/comingSoon' target='_blank'><p className='mulish-regular text-[14px] text-[#CACACA]'>Terms & Conditions</p></a>
+                            <a href='/comingSoon' target='_blank'><p className='mulish-regular text-[14px] text-[#CACACA]'>Privacy Policy</p></a>
                         </div>
                     </div>
                     <div className='absolute bottom-0 left-48 lg:block hidden'>
