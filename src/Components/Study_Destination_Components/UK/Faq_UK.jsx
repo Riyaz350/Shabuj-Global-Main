@@ -1,28 +1,28 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Faq_SVG_Ger from '../SVG/Faq_SVG_Ger';
+import Faq_SVG_UK from './SVG/Faq_SVG_UK';
 
 
-const Faq_Ger = () => {
+const Faq_UK = () => {
   const faq=[
     {
-      question: "Which course is best for PR in Germany?",
-      answer: "The cost of studying in Germany varies depending on factors such as the chosen university, course, and location. On average, international students can expect to pay between AUD 20,000 to AUD 45,000 per year for undergraduate programs and AUD 22,000 to AUD 50,000 per year for postgraduate programs."
+      question: "How much can it cost to study in the UK?",
+      answer: "The cost of studying in the UK can vary, but on average,it can range from £10,000 to £38,000 per year for international students."
     },
     {
-      question: "How do I get PR in Germany?",
-      answer: "There are different pathways to obtaining Permanent Residency in Australia. Some common routes include employer-sponsored visas, state/territory nomination programs, the Skilled Independent visa (subclass 189), the Skilled Nominated visa (subclass 190), and the Regional Skilled visa (subclass 491). Each pathway has its own specific criteria and requirements, which may include work experience, English language proficiency, skill assessments, and meeting the occupation list requirements."
+      question: "How can I go to the UK from Bangladesh to study?",
+      answer: "To go to the UK from Bangladesh to study, you need to apply for a student visa and meet the eligibility criteria set by the UK government."
     },
     {
-      question: "Are there any options to reduce the cost of studying?",
-      answer: "Yes, options to reduce costs include scholarships, part-time work, choosing regional areas, budgeting, and work-integrated learning opportunities."
+      question: "Do I need IELTS to study in the UK?",
+      answer: "Yes, generally, a valid IELTS score is required for studying in the UK, although some universities may accept alternative English language proficiency tests."
     },
     {
-      question: "How much does an Germanian study visa cost?",
-      answer: "A student visa in Germany costs AUD 650 for international students. However, there are additional costs that one may have to pay. This includes costs for health checks, biometrics, police certificates, etc. If you are under the age of 18, your total Australia student visa fees will be AUD 650 + AUD 160."
+      question: "What is the minimum qualification to study in the UK?",
+      answer: "The minimum qualification to study in the UK is a completed secondary education or equivalent, such as A-levels, International Baccalaureate (IB), or equivalent qualifications."
     },
     {
-      question: "How much does it cost to study in Germany?",
-      answer: "The cost of studying in Germany varies depending on factors such as the chosen university, course, and location. On average, international students can expect to pay between AUD 20,000 to AUD 45,000 per year for undergraduate programs and AUD 22,000 to AUD 50,000 per year for postgraduate programs."
+      question: "What is the minimum GPA required to study in the UK?",
+      answer: "The minimum GPA required to study in the UK can vary depending on the university and program, but a good academic record is generally expected."
     }
   ];
   const [activeIndex, setActiveIndex] = useState(null);
@@ -47,9 +47,9 @@ const Faq_Ger = () => {
       <div className="mx-auto md:max-w-screen-xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-y-5 lg:flex-row lg:justify-between mx-auto">
           <div className="w-full px-5 lg:w-1/2">
-            <Faq_SVG_Ger />
+            <Faq_SVG_UK />
           </div>
-          <div className="w-full lg:w-1/2 bg-[#1A1A1A] h-[525px] rounded-[36px] ">
+          <div className="w-full lg:w-1/2 bg-[#004AC8] h-[525px] rounded-[36px] ">
             <div className="lg:max-w-xl">
               <div className="accordion-group px-5 py-8 text-white overflow-y-hidden" data-accordion="default-accordion">
                 {faq.map((item, index) => (
@@ -102,4 +102,4 @@ const Faq_Ger = () => {
   );
 };
 
-export default Faq_Ger;
+export default Faq_UK;

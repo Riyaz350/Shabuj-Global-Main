@@ -2,7 +2,7 @@ import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import AnimatedText from "../../Components/Study_Destination_Components/UK/AnimatedText";
 import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
-import Faq from "../../Components/Study_Destination_Components/UK/Faq";
+import Faq_UK from "../../Components/Study_Destination_Components/UK/Faq_UK";
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
@@ -23,7 +23,7 @@ const UK = () => {
       <Exams country={'UK'}/>
       <GuidanceBanner />
       <DocumentsRequired />
-      <Faq />
+      <Faq_UK />
     </div>
   );
 };
