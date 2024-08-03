@@ -1,3 +1,4 @@
+import Australia_Purpose from "../../Components/Study_Destination_Components/Australia/Australia_Purpose/Australia_Purpose";
 import Australia_Tab from "../../Components/Study_Destination_Components/Australia/Australia_Tab";
 import Faq from "../../Components/Study_Destination_Components/Australia/Faq";
 import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
@@ -16,6 +17,7 @@ const Australia = () => {
       <Australia_Tab />
       <RequirementCard country={'Australia'}/>
       <Exams country={'Australia'}/>
+      <Australia_Purpose></Australia_Purpose>
       <DocumentsRequired />
       <Faq />
     </div>
