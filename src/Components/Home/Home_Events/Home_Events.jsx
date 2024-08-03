@@ -57,19 +57,34 @@ const Home_Events = () => {
             <div className='events-bg max-w-[1254px] mx-auto relative pl-[50px] pr-[50px]'>
                 
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-center carousel-1 w-full'>
-                        <img src="./assets/event1.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        <picture>
+                            <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents1.png'></source>
+                            <img src="./assets/event1.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-right1 carousel-1 w-full'>
-                        <img src="./assets/event2.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        <picture>
+                            <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents2.png'></source>
+                            <img src="./assets/event2.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-right2 carousel-1 w-full'>
-                        <img src="./assets/event3.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        <picture>
+                            <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents3.png'></source>
+                            <img src="./assets/event3.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left1 carousel-1 w-full'>
-                        <img src="./assets/event4.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        <picture>
+                            <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents4.png'></source>
+                            <img src="./assets/event4.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left2 carousel-1 w-full'>
-                        <img src="./assets/event5.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        <picture>
+                            <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents5.png'></source>
+                            <img src="./assets/event5.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                        </picture>
                     </div>
                 
                 

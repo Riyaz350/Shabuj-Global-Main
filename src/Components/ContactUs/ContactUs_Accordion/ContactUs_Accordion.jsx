@@ -96,24 +96,24 @@ const ContactUs_Accordion = () => {
                 <div className='lg:w-[18%] w-full pb-8'>
                     <div className="poppins-semibold text-[28px] pl-4">Middle East</div>
                     <div className="collapse collapse-arrow">
-                        <input type="checkbox" name="my-accordion-2" disabled />
+                        <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                         <div className="collapse-title text-lg poppins-medium">Saudi Arabia</div>
-                        <div className="collapse-content">
-                            <p></p>
+                        <div className="collapse-content text-sm">
+                            <p>247/3 King Fahad Road, Saudi Arabia</p>
                         </div>
                     </div>
                     <div className="collapse collapse-arrow">
-                        <input type="checkbox" name="my-accordion-2" disabled/>
+                        <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }}/>
                         <div className="collapse-title text-lg poppins-medium">UAE</div>
-                        <div className="collapse-content">
-                            <p></p>
+                        <div className="collapse-content text-sm">
+                            <p>546 Sheikh Zayed Road,Dubai 8679,United Arab Emirates</p>
                         </div>
                     </div>
                     <div className="collapse collapse-arrow">
-                        <input type="checkbox" name="my-accordion-2" disabled />
+                        <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                         <div className="collapse-title text-lg poppins-medium">Qatar</div>
-                        <div className="collapse-content">
-                            <p></p>
+                        <div className="collapse-content text-sm">
+                            <p>745 Al Corniche Street, Doha 796, Qatar</p>
                         </div>
                     </div>
                 </div>

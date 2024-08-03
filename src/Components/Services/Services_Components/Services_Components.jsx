@@ -15,8 +15,8 @@ const Services_Components = () => {
                 {circle &&
                     <div>
                         {position == 'top-center' ?
-                            <img className=' absolute -top-3 left-[135px]' src={circle} alt="" /> :
-                            <img className=' absolute  -right-6 top-9' src={circle} alt="" />
+                            <img className='hidden lg:flex absolute -top-3 left-[135px]' src={circle} alt="" /> :
+                            <img className='hidden lg:flex absolute  -right-6 top-9' src={circle} alt="" />
                         }
                     </div>
                 }

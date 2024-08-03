@@ -1,0 +1,163 @@
+.birds--germany{
+    animation: birdsMove 10s infinite;
+}
+
+@keyframes birdsMove {
+    0%{
+        transform: scale(0.5);
+    }
+    
+    50%{
+        transform: scale(1.0);
+    }
+     
+    100%{
+        transform: scale(0.5);
+    }
+}
+
+.clouds--germany{
+    animation: cloudsMove 10s infinite;
+}
+
+@keyframes cloudsMove {
+    0%{
+        transform: translateX(50%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(50%);
+    }
+}
+
+.bg-black--germany{
+    transform: scaleY(0.65);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+.banner-animation--germany:hover .bg-black--germany{
+    transform: scaleY(1);
+}
+.pillar-one--germany{
+    transform: scaleY(0.65);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+.banner-animation--germany:hover .pillar-one--germany{
+    transform: scaleY(1)
+}
+.pillar-two--germany{
+    transform: scaleY(0.65);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+.banner-animation--germany:hover .pillar-two--germany{
+    transform: scaleY(1)
+}
+
+.pillar-three--germany{
+    transform: scaleY(0.65);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+.banner-animation--germany:hover .pillar-three--germany{
+    transform: scaleY(1)
+}
+
+.buildings--germany{
+    transform: scaleY(0.65) scaleX(0.95);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+.banner-animation--germany:hover .buildings--germany{
+    transform: scaleY(1) scaleX(1)
+}
+.house-one--germany{
+    transform: scaleY(0.65);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+.banner-animation--germany:hover .house-one--germany{
+    transform: scaleY(1)
+}
+
+.common-tree--germany{
+    transform: translateY(130px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .common-tree--germany{
+    transform: translateY(0px);
+}
+
+.unique-black-tree--germany{
+    transform: translateY(130px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .unique-black-tree--germany{
+    transform: translateY(0px);
+}
+
+.base--germany{
+    transform: translateY(30px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .base--germany{
+    transform: translateY(0px);
+}
+
+.tree-one--germany{
+    transform: translateY(60px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .tree-one--germany{
+    transform: translateY(0px);
+}
+.tree-two--germany{
+    transform: translateY(60px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .tree-two--germany{
+    transform: translateY(0px);
+}
+
+.tree-three--germany{
+    transform: translateY(60px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .tree-three--germany{
+    transform: translateY(0px);
+}
+
+.tree-four--germany{
+    transform: translateY(60px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .tree-four--germany{
+    transform: translateY(0px);
+}
+
+.stripe--germany{
+    transform: translateY(30px);
+    transform-origin: center bottom;
+    transition: all 0.5s ease;
+}
+
+.banner-animation--germany:hover .stripe--germany{
+    transform: translateY(0px);
+}
