@@ -3,11 +3,11 @@ import TowerSVG from "./SVG/TowerSVG";
 const StudyUK = () => {
   return (
     <div className=" max-w-screen-xl mx-auto rounded-[32px] bg-[#004AC8] relative my-16">
-      <div className="  py-16  rounded-[32px] px-24 pt-12 pb-24 text-white relative">
+      <div className=" py-16 rounded-[32px] px-5 md:px-14 pt-5 md:pt-8 lg:px-24 lg:pt-12 pb-5 md:pb-12 lg:pb-24 text-white relative">
         <h4 className="text-lg md:text-xl lg:text-[40px] font-semibold text-center pb-6">
           Why Study in The UK?
         </h4>
-        <p className="text-xs md:text-lg lg:px-20">
+        <p className="text-xs md:text-lg lg:px-20 text-justify">
           Learn from some of the {`world's`} best academics and experts in some of
           world’s most prestigious universities and benefit from their
           exceptional academic support. Study alongside some of the finest and
@@ -19,7 +19,7 @@ const StudyUK = () => {
           in high demand around the world and get hired by your dream employers.
         </p>
       </div>
-      <div className="-mt-32 md:-mt-44 ">
+      <div className="-mt-32 md:-mt-44 hidden md:block">
         <TowerSVG />
       </div>
     </div>
