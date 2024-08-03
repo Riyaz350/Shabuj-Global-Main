@@ -17,7 +17,7 @@ const DocumentSVG1 = () => {
     const transition = { duration: 1.2, repeat: Infinity, repeatType: "reverse", repeatDelay: 0.4, delay: 0 }
     return (
         <div>
-            <svg className="w-[400px] mx-auto md:w-[600px]  " viewBox="-80 0 820 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-[400px] mx-auto md:w-[600px]" viewBox="-80 0 820 620" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <motion.g variants={partA3} initial="initial" animate="animate" transition={transition}>
                     <path d="M620 468.176H0V468.486H620V468.176Z" fill="#E6E6E6" />
                     <path d="M580.816 479.112H557.541V479.422H580.816V479.112Z" fill="#E6E6E6" />

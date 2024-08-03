@@ -68,30 +68,50 @@ const DocumentsRequired = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen bg-[#EFF6FF] py-28">
-        <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16">
-          Documents Required to apply for the UK Study Visa
+     
+
+
+
+     {/* Documents Required Last Section */}
+     <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
+        <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
+          Documents Required to apply for Australia Study Visa
         </h1>
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
-          <div className="flex-1 text-[18px] font-normal">
-            <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>Valid passport</li>
-              <li>Confirmation of Acceptance for Studies (CAS)</li>
-              <li>Visa Application Form</li>
-              <li>Passport-sized photographs</li>
-              <li>Proof of English language proficiency</li>
-              <li>Academic documents</li>
-              <li>Financial Proof</li>
-              <li>Tuberculosis (TB) test results</li>
-              <li>Biometric information</li>
-              <li className="w-2/3">
-                Consent from parents or legal guardian if a student is under 18
-                years old.
+        <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
+          <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
+            <p className=" pb-8">
+              To apply for a Canadian study visa, you'll need to provide the
+              following documents:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>
+                Passport: A valid passport that covers the length of your
+                intended stay in Australia
               </li>
-              <li>Additional documents, if asked.</li>
+              <li>
+                Statement of Purpose (SOP): A written statement that explains
+                your academic background, career goals, and reasons for choosing
+                Canada
+              </li>
+              <li>
+                Passport-sized photographs: Two photographs that meet the
+                required criteria if you're applying by mail, or a digital copy
+                if you're applying online
+              </li>
+              <li>
+                Letter of acceptance: From a Designated Learning Institution
+                (DLI)
+              </li>
+              <li>
+                Proof of financial support: Also known as proof of funds, this
+                document shows that you have enough money to cover your first
+                year of tuition and live in Canada
+              </li>
             </ul>
           </div>
-          <img src={imageThree} alt="Documents" className="flex-1" />
+          <div className="flex-1">
+            <Document_Last_SVG_Aus/>
+          </div>
         </div>
       </div>
     </>
