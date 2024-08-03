@@ -4,12 +4,9 @@ import AnimatedText from "../../Components/Study_Destination_Components/UK/Anima
 import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
 import Faq from "../../Components/Study_Destination_Components/UK/Faq";
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
-
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
 import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
-import Uk_Purpose from "../../Components/Study_Destination_Components/UK/Uk_Purpose/Uk_Purpose";
-
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 
@@ -25,7 +22,6 @@ const UK = () => {
       <RequirementCard country={'UK'} />
       <Exams country={'UK'}/>
       <GuidanceBanner />
-      <Uk_Purpose></Uk_Purpose>
       <DocumentsRequired />
       <Faq />
     </div>

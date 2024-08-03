@@ -12,12 +12,11 @@ const Australia = () => {
   return (
     <div>
       <AustraliaBanner />
-      <Study_Australia />
-      <QuickFacts />
-      <Australia_Tab />
+      {/* <Study_Australia /> */}
+      {/* <QuickFacts />
+      <Australia_Tab /> */}
       <RequirementCard country={'Australia'}/>
       <Exams country={'Australia'}/>
-      <Australia_Purpose></Australia_Purpose>
       <DocumentsRequired />
       <Faq />
     </div>

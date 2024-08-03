@@ -1,7 +1,6 @@
-import imageOne from "../../../assets/Documents-01.png";
 import imageTwo from "../../../assets/Documents-02.png";
-import imageThree from "../../../assets/Documents-03.png";
 import Doc1 from "./SVG/Doc1";
+import Document_Last_SVG_UK from "./SVG/Document_Last_SVG_UK";
 
 const DocumentsRequired = () => {
   return (
@@ -71,14 +70,22 @@ const DocumentsRequired = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen bg-[#EFF6FF] py-28">
-        <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16">
-          Documents Required to apply for the UK Study Visa
+ 
+
+
+       {/* Documents Required Last Section */}
+       <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
+        <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
+        Documents Required to apply for the UK Study Visa
         </h1>
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
-          <div className="flex-1 text-[18px] font-normal">
-            <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>Valid passport</li>
+        <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
+          <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
+            <p className=" pb-8">
+              To apply for an UK study visa, you'll need to provide the
+              following documents:
+            </p>
+            <ul className="list-disc pl-6">
+            <li>Valid passport</li>
               <li>Confirmation of Acceptance for Studies (CAS)</li>
               <li>Visa Application Form</li>
               <li>Passport-sized photographs</li>
@@ -94,7 +101,9 @@ const DocumentsRequired = () => {
               <li>Additional documents, if asked.</li>
             </ul>
           </div>
-          <img src={imageThree} alt="Documents" className="flex-1" />
+          <div className="flex-1">
+            <Document_Last_SVG_UK/>
+          </div>
         </div>
       </div>
     </>

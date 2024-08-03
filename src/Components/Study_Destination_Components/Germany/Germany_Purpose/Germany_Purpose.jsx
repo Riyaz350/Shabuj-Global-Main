@@ -1,7 +1,10 @@
+import Document_Last_SVG_Ger from '../SVG/Document_Last_SVG_Ger';
 import './Germany_Purpose.css'
 
 const Germany_Purpose = () => {
     return (
+      <>
+      
         <div className='bg-[#FAFAFA] max-w-[1154px] mx-auto lg:pt-[137px] pt-[50px] lg:pb-[120px] pb-[50px]'>
             <div className='text-center'>
                 <h2 className='poppins-semibold lg:text-[56px] text-[28px] text-[#081831] lg:leading-[72.8px] lg:-tracking-[0.01em]'>Statement of Purpose for Germany</h2>
@@ -142,6 +145,50 @@ const Germany_Purpose = () => {
                 </div>
             </div>
         </div>
+        <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
+        <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
+        Documents Required to apply for Germany Study Visa
+        </h1>
+        <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
+          <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
+            <p className=" pb-8">
+              To apply for a Germanian study visa, you'll need to provide the
+              following documents:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>
+                Passport: A valid passport that covers the length of your
+                intended stay in Garman
+              </li>
+              <li>
+                Statement of Purpose (SOP): A written statement that explains
+                your academic background, career goals, and reasons for choosing
+                Canada
+              </li>
+              <li>
+                Passport-sized photographs: Two photographs that meet the
+                required criteria if you're applying by mail, or a digital copy
+                if you're applying online
+              </li>
+              <li>
+                Letter of acceptance: From a Designated Learning Institution
+                (DLI)
+              </li>
+              <li>
+                Proof of financial support: Also known as proof of funds, this
+                document shows that you have enough money to cover your first
+                year of tuition and live in Canada
+              </li>
+            </ul>
+          </div>
+          <div className="flex-1">
+            <Document_Last_SVG_Ger/>
+          </div>
+        </div>
+      </div>
+      
+</>
+
     );
 };
 

@@ -1,4 +1,4 @@
-import './Australia_Purpose.css'
+
 
 const Australia_Purpose = () => {
     return (
