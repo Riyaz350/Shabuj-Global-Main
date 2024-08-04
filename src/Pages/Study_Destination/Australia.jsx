@@ -1,3 +1,4 @@
+import Australia_Counselor from "../../Components/Study_Destination_Components/Australia/Australia_Counselor/Australia_Counselor";
 import Australia_Purpose from "../../Components/Study_Destination_Components/Australia/Australia_Purpose/Australia_Purpose";
 import Australia_Tab from "../../Components/Study_Destination_Components/Australia/Australia_Tab";
 import Faq from "../../Components/Study_Destination_Components/Australia/Faq";
@@ -11,7 +12,7 @@ import DocumentsRequired from "./../../Components/Study_Destination_Components/A
 const Australia = () => {
   return (
     <div>
-      <AustraliaBanner />
+      {/* {/* <AustraliaBanner />
       {/* <Study_Australia />
       <QuickFacts />
       <Australia_Tab /> */}
@@ -19,6 +20,7 @@ const Australia = () => {
       <Exams country={'Australia'}/>
       <DocumentsRequired />
       <Faq />
+      <Australia_Counselor></Australia_Counselor>
     </div>
   );
 };

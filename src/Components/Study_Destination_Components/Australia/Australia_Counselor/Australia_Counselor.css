@@ -1,0 +1,18 @@
+
+
+.australiaCounselor_svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.australiaCounselor:hover .australiaCounselor_svg{
+    opacity: 1;
+    visibility: visible; 
+    transition: all 0.24s ease;
+}
+
+@media screen and (max-width : 640px) {
+    .australiaCounselor svg {
+        width: 353px;
+        height: 353px;
+    }
+}
