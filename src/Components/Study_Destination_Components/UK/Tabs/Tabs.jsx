@@ -1,61 +1,63 @@
-import { useRef } from "react";
+import { useState } from "react";
 import Programs from "../TabComponents/Programs";
 import Cost from "../TabComponents/Cost";
 import Intakes from "../TabComponents/Intakes";
 import Deadline from "../TabComponents/Deadline";
-import "./Tabs.css"
+
 
 const Tabs = () => {
-  const tabArea = useRef(null)
-  const handleClick = (event) => {
+  const [activeTab, setActiveTab] = useState("tab-program");
 
-      event.target.offsetParent.classList.add("active")
-      console.log(event)
-      tabArea.current.querySelectorAll('li.tab-link-item').forEach(li => {
-          if (li !== event.target.offsetParent) {
-              li.classList.remove('active')
-          }
-      });
-      
-      
-
-      const currentTabContent = tabArea.current.querySelector('#' + event.target.offsetParent.dataset.tab);
-
-      tabArea.current.querySelectorAll('.tab-content-display').forEach( tabContent => {
-          if ( currentTabContent !== tabContent ) {
-              tabContent.classList.remove('active');
-          } else {
-              tabContent.classList.add('active');
-          }
-      })
-
-      
-      
-  }
+  const handleClick = (tabId) => {
+    setActiveTab(tabId);
+  };
 
   return (
-    <div ref={tabArea}>
-    <ul className='flex tab-item-links '>
-        <li className='h-[90px] pt-[22px] w-[25%] text-center text-white bg-[#EF9C66] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item active relative' data-tab='tab-program'><button className='bg-transparent hover:bg-white p-1' onClick={(e) => { handleClick(e) }}>Programs & Duration</button></li>
-        <li className='h-[90px] pt-[22px] w-[25%] text-center text-white bg-[#9667EF] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative' data-tab='tab-cost'><button className='bg-transparent hover:bg-white p-1' onClick={(e) => { handleClick(e) }}>Cost of Studying</button></li>
-        <li className='h-[90px] pt-[22px] w-[25%] text-center text-white bg-[#E2635E] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative' data-tab='tab-intakes' ><button className='bg-transparent hover:bg-white p-1' onClick={(e) => { handleClick(e) }}>Academic Intakes</button></li>
-        <li className='h-[90px] pt-[22px] w-[25%] text-center text-white bg-[#58B1EA] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative' data-tab='tab-deadline'><button className='bg-transparent hover:bg-white p-1'  onClick={(e) => { handleClick(e) }}>Deadline</button></li>
-    </ul>
-    <div className='tab-content--container'>
-        <div className='tab-content-display active' id='tab-program'>
-            <Programs></Programs>
+    <div>
+      <ul className="lg:flex md:flex hidden tab-item-links">
+        <li onClick={() => handleClick("tab-program")} className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#EF9C66] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item ${activeTab === "tab-program" ? "active" : ""} relative`} data-tab="tab-program">
+          <button className="bg-transparent p-1">Programs & Duration</button>
+        </li>
+        <li onClick={() => handleClick("tab-cost")} className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#9667EF] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item ${activeTab === "tab-cost" ? "active" : ""} relative`} data-tab="tab-cost">
+          <button className="bg-transparent p-1">Cost of Studying</button>
+        </li>
+        <li onClick={() => handleClick("tab-intakes")} className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#E2635E] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item ${activeTab === "tab-intakes" ? "active" : ""} relative`} data-tab="tab-intakes">
+          <button className="bg-transparent p-1">Academic Intakes</button>
+        </li>
+        <li onClick={() => handleClick("tab-deadline")} className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#58B1EA] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item ${activeTab === "tab-deadline" ? "active" : ""} relative`} data-tab="tab-deadline">
+          <button className="bg-transparent p-1">Deadline</button>
+        </li>
+      </ul>
+      {/* for mobile */}
+      <ul className="lg:hidden md:hidden block tab-item-links space-y-1">
+        <li onClick={() => handleClick("tab-program")} className={`h-[90px] pt-[22px] w-full text-center ${activeTab === "tab-program" ? "bg-white text-[#EF9C66] border-[#EF9C66] border-[2px]" : "bg-[#EF9C66] text-white"} poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] relative`} data-tab="tab-program">
+          <button className="bg-transparent pb-5 w-full h-full">Programs & Duration</button>
+        </li>
+        <li onClick={() => handleClick("tab-cost")} className={`h-[90px] pt-[22px] w-full text-center ${activeTab === "tab-cost" ? "bg-white text-[#9667EF] border-[#9667EF] border-[2px]" : "bg-[#9667EF] text-white"} poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] relative`} data-tab="tab-cost">
+          <button className="bg-transparent pb-5 w-full h-full">Cost of Studying</button>
+        </li>
+        <li onClick={() => handleClick("tab-intakes")} className={`h-[90px] pt-[22px] w-full text-center ${activeTab === "tab-intakes" ? "bg-white text-[#E2635E] border-[#E2635E] border-[2px]" : "bg-[#E2635E] text-white"} poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] relative`} data-tab="tab-intakes">
+          <button className="bg-transparent pb-5 w-full h-full">Academic Intakes</button>
+        </li>
+        <li onClick={() => handleClick("tab-deadline")} className={`h-[90px] pt-[22px] w-full text-center ${activeTab === "tab-deadline" ? "bg-white text-[#58B1EA] border-[#58B1EA] border-[2px]" : "bg-[#58B1EA] text-white"} poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] relative`} data-tab="tab-deadline">
+          <button className="bg-transparent pb-5 w-full h-full">Deadline</button>
+        </li>
+      </ul>
+      <div className="tab-content--container lg:p-[100px] md:p-[100px] p-5  bg-[#EFF6FF]">
+        <div className={`tab-content-display ${activeTab === "tab-program" ? "active" : ""}`} id="tab-program">
+          <Programs />
         </div>
-        <div className='tab-content-display' id='tab-cost'>
-            <Cost></Cost>
+        <div className={`tab-content-display ${activeTab === "tab-cost" ? "active" : ""}`} id="tab-cost">
+          <Cost />
         </div>
-        <div className='tab-content-display' id='tab-intakes'>
-            <Intakes></Intakes>
+        <div className={`tab-content-display ${activeTab === "tab-intakes" ? "active" : ""}`} id="tab-intakes">
+          <Intakes />
         </div>
-        <div className='tab-content-display' id='tab-deadline'>
-            <Deadline></Deadline>
+        <div className={`tab-content-display ${activeTab === "tab-deadline" ? "active" : ""}`} id="tab-deadline">
+          <Deadline />
         </div>
+      </div>
     </div>
-</div>
   );
 };
 
