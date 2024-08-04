@@ -2,12 +2,11 @@
     display: none;
 }
 .active.tab-link-item{
-    background-color: white;
+    background-color: #EFF6FF;
     color: black;
 }
 
 .tab-link-item::before{
-    content: "";
     position: absolute;
     background-color: inherit;
     width: 64px;
@@ -33,11 +32,10 @@
 }
 
 .tab-content--container {
-    position: relative;
-    z-index: 10;
-    background: #fff;
+   
+   
+    background: #EFF6FF;
     border-radius: 32px;
-    padding: 100px;
 }
 
 .tab-link-item.active + .tab-link-item,
@@ -58,7 +56,7 @@
 .tab-link-item:first-child:before,
 .tab-link-item:last-child:before{
     width: 32px;
-    height: 64px;
+    height: 0px;
     bottom: -32px;
     left: 0;
 }
