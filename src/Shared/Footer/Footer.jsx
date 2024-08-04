@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
                 <div className='bg-[#081831] px-6 relative'>
                     <div className='footer-1 text-center max-w-[1154px] mx-auto'>
-                        <h2 className='poppins-semibold text-[21px] text-white mb-4'>Our Students are Our Reference</h2>
+                        <h2 className='lg:poppins-semibold mulish-regular lg:text-[21px] text-[16px] text-white mb-4'>Our Students are Our Reference</h2>
                         <img className='mx-auto mb-[22px]' src="./assets/logo2.png" alt="logo" />
 
                     </div>
@@ -26,11 +26,11 @@ const Footer = () => {
                     <div className='footer-2 leading-[150%] text-[#CACACA] border-t border-white pt-[35px] max-w-[1154px] mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
                         <div className='w-[231px]'>
                             <h2 className='mulish-regular text-base mb-4'>About Shabuj Global Education</h2>
-                            <p className='mulish-regular text-base'>Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula neque id varius sit lacus et. Pellentesque porta interdum morbi enim ultrices egestas aliquet amet. Aliquet elit amet porttitor posuere.</p>
+                            <p className='mulish-regular lg:text-base text-sm'>Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula neque id varius sit lacus et. Pellentesque porta interdum morbi enim ultrices egestas aliquet amet. Aliquet elit amet porttitor posuere.</p>
                         </div>
                         <div className='w-[177px]'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Study Destinations</h2>
-                            <ul className='mulish-regular text-base'>
+                            <ul className='mulish-regular lg:text-base text-sm'>
                                 <li>UK</li>
                                 <li>USA</li>
                                 <li>Canada</li>
@@ -70,7 +70,7 @@ const Footer = () => {
                     <div className='footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white'>
                         <div className='mx-auto'>
                             <div className='lg:w-[577px] lg:h-[164px] w-[309px] bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]'>
-                                <h2 className='poppins-semibold text-[28px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]'>UKVI Approved Test Centre for</h2>
+                                <h2 className='lg:poppins-semibold poppins-bold lg:text-[28px] text-[18px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]'>UKVI Approved Test Centre for</h2>
                                 <div className='flex lg:flex-row flex-col justify-center items-center gap-[41px]'>
                                     <img src="./assets/footer1.png" className='w-[125px] pb-8' alt="" />
                                     <img src="./assets/footer2.png" className='w-[166px] pb-8' alt="" />
@@ -80,11 +80,11 @@ const Footer = () => {
                         
                     </div>
                     <div className='border-t border-white max-w-[1154px] mx-auto'>
-                            <h2 className='lg:mulish-bold mulish-regular uppercase text-base text-center text-[#CACACA] mb-6 mt-4'>Our offices</h2>
+                            <h2 className='lg:mulish-bold mulish-regular uppercase lg:text-lg text-base text-center text-[#CACACA] mb-6 mt-4'>Our offices</h2>
                             <div className='max-w-[1152px] mx-auto pt-[23px] pb-[23px]' ref={accordion}>
                                 <div className='flex lg:flex-row flex-col lg:mx-4 md:mx-12 mx-8'>
                                     <div className='lg:w-[25%] w-full pb-8'>
-                                        <div className="poppins-semibold text-[18px] text-blue-600 pl-4">United Kingdom</div>
+                                        <div className="poppins-semibold lg:text-[18px] text-base text-blue-600 pl-4">United Kingdom</div>
                                         <div className="collapse collapse-arrow">
                                             <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                                             <div className="collapse-title text-base poppins-medium text-[#CACACA]">London (Head Office)</div>
@@ -94,7 +94,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div className='lg:w-[25%] w-full pb-8'>
-                                        <div className="poppins-semibold text-[18px] text-blue-600 pl-4">Bangladesh</div>
+                                        <div className="poppins-semibold lg:text-[18px] text-base text-blue-600 pl-4">Bangladesh</div>
                                         <div className="collapse collapse-arrow">
                                             <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                                             <div className="collapse-title text-base poppins-medium text-[#CACACA]">Dhaka (South Aisan Regional Head Office)</div>
@@ -118,7 +118,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div className='lg:w-[16%] w-full pb-8'>
-                                        <div className="poppins-semibold text-[18px] text-blue-600 pl-4">India</div>
+                                        <div className="poppins-semibold lg:text-[18px] text-base text-blue-600 pl-4">India</div>
                                         <div className="collapse collapse-arrow">
                                             <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                                             <div className="collapse-title text-base poppins-medium text-[#CACACA]">Kochin</div>
@@ -140,7 +140,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div className='lg:w-[16%] w-full pb-8'>
-                                        <div className="poppins-semibold text-[18px] text-blue-600 pl-4">Nigeria</div>
+                                        <div className="poppins-semibold lg:text-[18px] text-base text-blue-600 pl-4">Nigeria</div>
                                         <div className="collapse collapse-arrow">
                                             <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                                             <div className="collapse-title text-base poppins-medium text-[#CACACA]">Abuja</div>
@@ -160,7 +160,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div className='lg:w-[18%] w-full pb-8'>
-                                        <div className="poppins-semibold text-[18px] text-blue-600 pl-4">Middle East</div>
+                                        <div className="poppins-semibold lg:text-[18px] text-base text-blue-600 pl-4">Middle East</div>
                                         <div className="collapse collapse-arrow">
                                             <input type="checkbox" name="my-accordion-2" onClick={(e) => { handleClick(e) }} />
                                             <div className="collapse-title text-base poppins-medium text-[#CACACA]">Saudi Arabia</div>
