@@ -7,6 +7,7 @@ import GuidanceBanner from "../../Components/Study_Destination_Components/UK/Gui
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
 import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Counselor/Uk_Counselor";
 
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
@@ -25,6 +26,7 @@ const UK = () => {
       <GuidanceBanner />
       <DocumentsRequired />
       <Faq_UK />
+      <Uk_Counselor/>
     </div>
   );
 };

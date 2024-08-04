@@ -5,6 +5,7 @@ import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import DocumentsRequired from "../../Components/Study_Destination_Components/Germany/DocumentsRequired/DocumentsRequired";
 import Faq_Ger from "../../Components/Study_Destination_Components/Germany/Germany_Faq/Faq_Ger";
+import Germany_Counselor from "../../Components/Study_Destination_Components/Germany/Germany_Counselor/Germany_Counselor";
 
 
 const Germany = () => {
@@ -17,6 +18,7 @@ const Germany = () => {
             <DocumentsRequired/>
             <Germany_Purpose/>
             <Faq_Ger/>
+            <Germany_Counselor/>
         </div>
     );
 };
