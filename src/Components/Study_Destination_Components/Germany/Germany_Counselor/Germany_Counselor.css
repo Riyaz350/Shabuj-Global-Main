@@ -1,0 +1,17 @@
+
+.germanyCounselor_svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.germanyCounselor:hover .germanyCounselor_svg{
+    opacity: 1;
+    visibility: visible; 
+    transition: all 0.24s ease;
+}
+
+@media screen and (max-width : 640px) {
+    .germanyCounselor svg {
+        width: 353px;
+        height: 353px;
+    }
+}

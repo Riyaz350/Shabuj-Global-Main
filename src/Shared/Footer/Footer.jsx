@@ -13,8 +13,8 @@ const Footer = () => {
     return (
         <div>
             <div>
-                <div className='w-full bg-transparent mb-[-1px]'>
-                    <img src="./assets/footerShape.png" className='w-full bg-white' alt="" />
+                <div className='w-full bg-transparent -mt-[60px] mb-[-1px]'>
+                    <img src="./assets/footerShape.png" className='w-full' alt="" />
                 </div>
                 <div className='bg-[#081831] px-6 relative'>
                     <div className='footer-1 text-center max-w-[1154px] mx-auto'>
@@ -187,7 +187,7 @@ const Footer = () => {
                             </div>
                         </div>
                     <div className='footer-4 max-w-[1154px] relative z-10 mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center border-t border-white'>
-                        <div className='flex gap-[26px] mt-[21px] lg:border-none border-b border-white lg:w-1/3 w-full pb-[11px]'>
+                        <div className='flex gap-[26px] mt-[21px] lg:justify-start justify-center lg:border-none border-b border-white lg:w-1/3 w-full pb-[11px]'>
                             <a href='https://www.facebook.com/ShabujGlobaleducationuk/' target='_blank'><img src="./assets/facebook.png" className='hover:bg-blue-500 p-1' alt="facebook" /></a>
                             <a href='https://www.instagram.com/shabujglobaleducation/' target='_blank'><img src="./assets/instagram.png" className='hover:bg-blue-500 p-1' alt="instagram" /></a>
                             <a href='https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEkbZ14xeAt8wAAAZEXbnaoJWt-ogVrPCWsB3Ufw3gb3wrzBSE3XcNHequ5lpil4I54Crsk0qaoWcyHvqLrTdX2geridADLkgc3_cGAuBn7zb4v-iR2dBdszRH3_wEnsRkelIE=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fshabuj-global-education%2F' target='_blank'><img src="./assets/linkedin.png" className='hover:bg-blue-500 p-1' alt="linkedin" /></a>

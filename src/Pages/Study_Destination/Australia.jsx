@@ -1,3 +1,4 @@
+
 import Australia_Purpose from "../../Components/Study_Destination_Components/Australia/Australia_Purpose/Australia_Purpose";
 import Australia_Tab from "../../Components/Study_Destination_Components/Australia/Australia_Tab";
 import Faq_Aus from "../../Components/Study_Destination_Components/Australia/Faq_Aus";
@@ -11,7 +12,7 @@ import DocumentsRequired from "./../../Components/Study_Destination_Components/A
 const Australia = () => {
   return (
     <div>
-      <AustraliaBanner />
+      {/* {/* <AustraliaBanner />
       {/* <Study_Australia />
       <QuickFacts />
       <Australia_Tab /> */}

@@ -6,6 +6,7 @@ import RequirementCard from "../../Components/Study_Destination_Components/Share
 import DocumentsRequired from "../../Components/Study_Destination_Components/Germany/DocumentsRequired/DocumentsRequired";
 import Faq_Ger from "../../Components/Study_Destination_Components/Germany/Germany_Faq/Faq_Ger";
 
+
 const Germany = () => {
     return (
         <div>
