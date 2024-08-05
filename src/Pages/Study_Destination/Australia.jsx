@@ -8,6 +8,7 @@ import RequirementCard from "../../Components/Study_Destination_Components/Share
 import AustraliaBanner from "./../../Components/Study_Destination_Components/Australia/AustraliaBanner";
 import DocumentsRequired from "./../../Components/Study_Destination_Components/Australia/DocumentsRequired";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
+import UniversityCards_Australia from "../../Components/Study_Destination_Components/Australia/UniversityCards_Australia";
 
 const Australia = () => {
   return (
@@ -17,6 +18,7 @@ const Australia = () => {
       <QuickFacts />
       <Tabs />
       <AnimatedText/>
+      <UniversityCards_Australia/>
       <RequirementCard country={'Australia'} />
       <Exams country={'Australia'} />
       <DocumentsRequired />
