@@ -10,17 +10,14 @@ import NZ from '../../assets/Flags/Newzealand Flag.svg'
 import testPrep1 from '../../assets/Navbar/Test Prep/IELTS Logo.svg'
 import testPrep2 from '../../assets/Navbar/Test Prep/SELT Logo.png'
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
-import {
-    IoShieldCheckmarkSharp,
-    IoCheckmarkDoneCircleSharp,
-} from "react-icons/io5";
+import { IoShieldCheckmarkSharp,  IoCheckmarkDoneCircleSharp,} from "react-icons/io5";
 import { FaClock, FaUserFriends, FaHeart, FaChevronDown } from "react-icons/fa";
 import { SiGooglesheets } from "react-icons/si";
 import { RiNewsFill } from "react-icons/ri";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar2 = () => {
     const [navButton, setNavButton] = useState(0);
@@ -29,6 +26,7 @@ const Navbar2 = () => {
     const flagClass = "flex w-10/12 mx-auto lg:w-full flex-col justify-center item-center text-center my-2 lg:my-20"
     const flag = "w-3/4 mx-auto rounded-lg "
 
+    
     const enterNavButton = (index) => {
         setNavButton(index)
     };
@@ -121,7 +119,7 @@ const Navbar2 = () => {
                                     <div className="collapse-title text-xl font-medium">Study Destination</div>
                                     <div className="collapse-content">
                                         <ul className="grid grid-cols-2 lg:flex justify-between max-w-7xl mx-auto">
-                                            <Link className={flagClass} to={"/UK"}><img className={flag} src={UK} /><li>Study in UK</li></Link>
+                                            <Link className={flagClass} to={"/UK"}><img htmlFor="my-drawer-4"  className={`${flag}`} src={UK} /><li>Study in UK</li></Link>
                                             <Link className={flagClass}><img className={flag} src={USA} /><li></li><li>Study in USA</li></Link>
                                             <Link className={flagClass} to={"/Australia"}><img className={flag} src={Australia} /><li>Study in Australia</li></Link>
                                             <Link className={flagClass}><img className={flag} src={Canada} /><li>Study in Canada</li></Link>
@@ -186,7 +184,7 @@ const Navbar2 = () => {
                                     <div className="collapse-content">
                                         <div className="     ">
                                             <ul className=" text-lg ">
-                                                <Link className="text-lg underline text-blue-600 pl-2" to="/services">About Us</Link>
+                                                <Link className="text-lg underline text-blue-600 pl-2" to="/about">About Us</Link>
 
                                                 <li className={iconStyle}>
                                                     <BsGridFill />
