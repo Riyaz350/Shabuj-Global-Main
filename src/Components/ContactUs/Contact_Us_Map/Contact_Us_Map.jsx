@@ -12,7 +12,7 @@ const Contact_Us_Map = () => {
   const [showModal, setShowModal] = useState(false);
   const [showDiv, setShowDiv] = useState("block");
   const officeAddress = {
-   " United Kingdom": {
+   "United Kingdom": {
       title: "United Kingdom",
       offices: [
         {

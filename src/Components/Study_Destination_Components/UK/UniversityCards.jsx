@@ -63,13 +63,13 @@ const UniversityCards = () => {
               <h2 className="text-2xl font-bold mb-2">
                 {selectedUniversity.name}
               </h2>
-              <p>{selectedUniversity.info}</p>
+              <p className="text-justify">{selectedUniversity.info}</p>
               <p className="poppins-bold text-sm pt-5">
                 One of the UK's leading universities
               </p>
               <p className="flex items-center pt-5 pb-6 lg:text-sm text-[10px]">
                 <TiLocation className="text-blue-500" /> Located in scenic
-                Aberdeen , Scotland{" "}
+                Aberdeen , Scotland
               </p>
               <Link to={`/singleUniversity/${selectedUniversity.id}`}>
                 <button className="btn mt-4 lg:px-28 px-16 py-2 bg-blue-500 text-white rounded-3xl">
