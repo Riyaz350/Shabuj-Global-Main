@@ -32,7 +32,7 @@ const Programs = () => {
             <p className="text-xl font-medium text-center">
               Here are the programs that the UK universities offer:
             </p>
-            <div className="w-full lg:w-[80%] mx-auto text-xl mt-10">
+            <div className="w-full lg:w-[80%] mx-auto lg:text-xl md:text-xl text-xs mt-10">
               <table className="bg-white border border-gray-300 w-full">
                 <thead>
                   <tr className="bg-[#3B82F6] text-white">

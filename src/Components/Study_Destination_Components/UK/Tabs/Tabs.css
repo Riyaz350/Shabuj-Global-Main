@@ -32,8 +32,8 @@
 }
 
 .tab-content--container {
-   
-   
+    position: relative;
+    z-index: 10;
     background: #EFF6FF;
     border-radius: 32px;
 }
