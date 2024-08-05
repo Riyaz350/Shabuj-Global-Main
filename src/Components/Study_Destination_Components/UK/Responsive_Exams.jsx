@@ -130,8 +130,8 @@ const Responsive_Exams = () => {
         <motion.div
           className="relative bg-[#F1F8FF] rounded-[32px] overflow-hidden shadow-lg cursor-pointer"
           onClick={() => toggleCard(4)}
-          initial={{ height: '250px' }}
-          animate={{ height: expandedCard === 4 ? 'auto' : '250px' }}
+          initial={{ height: '100%' }}
+          animate={{ height: expandedCard === 4 ? 'auto' : '100%' }}
           transition={{ type: 'spring', stiffness: 100 }}
         >
           <div className="px-8 py-14">
