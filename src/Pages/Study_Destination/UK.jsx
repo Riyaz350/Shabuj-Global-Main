@@ -1,6 +1,6 @@
+import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
-import AnimatedText from "../../Components/Study_Destination_Components/UK/AnimatedText";
 import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
 import Faq_UK from "../../Components/Study_Destination_Components/UK/Faq_UK";
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";

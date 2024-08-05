@@ -41,14 +41,14 @@ const DocumentsRequired = () => {
       </div>
 
       {/* Second section  */}
-      <div className="min-h-screen bg-white py-28">
-        <h1 className="text-2xl md:text-4xl lg:text-[56px] w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
+      <div className="min-h-screen bg-white py-28 ">
+        <h1 className="text-2xl md:text-4xl  lg:text-[56px] lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
           Statement of Purpose for UK
         </h1>
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
+        <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
           <Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
-            <p className="mb-3">
+            <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
               application procedure for international students aiming to pursue
               studies in the UK. It functions as a written piece intended to
@@ -59,10 +59,10 @@ const DocumentsRequired = () => {
               enabling the admissions committee to gauge your capabilities and
               compatibility with the program.
             </p>
-            <p className="mb-5">
+            <p className="mb-5 px-10">
               A typical SOP generally follows the following structure:
             </p>
-            <ul className="list-disc list-inside  space-y-2">
+            <ul className="list-disc list-inside  space-y-2 px-10">
               <li>Introduction</li>
               <li>Academic Background</li>
               <li>Research or Professional Experience</li>

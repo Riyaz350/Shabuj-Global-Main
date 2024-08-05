@@ -2,8 +2,8 @@ import australia_gif from "../../../assets/Australia/australia_car.gif";
 const Study_Australia = () => {
   return (
     <div className="bg-[#EFF6FF] rounded-[32px] py-16">
-      <div className="max-w-screen-xl mx-auto bg-[#00008B] rounded-[32px] px-24 pt-12 pb-44 text-white relative">
-        <h4 className="text-[40px] font-semibold text-center pb-6">
+      <div className="max-w-screen-xl mx-auto bg-[#00008B] rounded-[32px] px-10 lg:px-24 pt-12 pb-44 text-white relative">
+        <h4 className="text-2xl  lg:text-[40px] font-semibold text-center pb-6">
           Why Study in Australia?
         </h4>
         <p className="text-lg text-justify">
