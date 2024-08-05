@@ -1,14 +1,8 @@
-
-
-const Australia_Purpose = () => {
+import './SVG.css'
+const DocumentSVG2 = () => {
     return (
-        <div className='bg-[#FAFAFA] max-w-[1154px] mx-auto lg:pt-[137px] pt-[50px] lg:pb-[120px] pb-[50px]'>
-            <div className='text-center'>
-                <h2 className='poppins-semibold lg:text-[56px] text-[28px] text-[#081831] lg:leading-[72.8px] lg:-tracking-[0.01em]'>Statement of Purpose for Australia</h2>
-            </div>
-            <div className='flex flex-col lg:flex-row items-center lg:gap-[35px] gap-0 lg:pt-[58px] pt-[20px]'>
-                <div className='Australia--purpose'>
-                    <svg width="594" height="594" viewBox="0 0 594 594" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className='Australia--purpose'>
+            <svg width="594" height="594" viewBox="0 0 594 594" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g className='drawer-one--australia'>
                         <path d="M116.424 461.241C220.326 515.521 388.797 515.521 492.699 461.241C596.602 406.961 596.602 318.954 492.699 264.663C388.797 210.371 220.374 210.383 116.424 264.663C12.474 318.942 12.569 406.961 116.424 461.241Z" fill="#F5F5F5" />
                         <path d="M87.4604 393.224L53.6855 373.729V301.285L87.4604 320.792V393.224Z" fill="#E0E0E0" />
@@ -122,22 +116,8 @@ const Australia_Purpose = () => {
                         <path opacity="0.6" d="M370.731 340.861C367.57 336.881 361.143 324.585 358.399 319.228C358.291 319.016 358.122 318.841 357.914 318.726C357.706 318.612 357.468 318.562 357.232 318.584C356.995 318.605 356.77 318.698 356.587 318.848C356.403 318.999 356.269 319.202 356.201 319.429C353.232 329.578 351.509 340.05 351.069 350.614C347.113 347.473 343.711 343.691 341.007 339.424C340.892 339.258 340.731 339.129 340.545 339.052C340.359 338.975 340.155 338.952 339.956 338.987C339.758 339.022 339.573 339.113 339.425 339.249C339.276 339.386 339.17 339.561 339.118 339.756C333.938 359.703 336.54 379.328 336.54 379.328L374.758 357.255C373.166 351.743 371.847 346.255 370.731 340.861Z" fill="white" />
                     </g>
                     </svg>
-                </div>
-                <div className='px-5 lg:px-0'>
-                    <p className='poppins-medium text-[18px] text-[#1F1F1F] pb-[19px]'>The Statement of Purpose (SOP) is a crucial document for students who want to study abroad. It is typically 1000–1200 words long and serves as an essay that showcases your identity and outlines the value you will bring to the university. It is important to follow a specific format and stick to the word limit to create an impressive SOP. If you need detailed guidance on how to structure a compelling Statement of Purpose, you can seek assistance from Shabuj Global {`Educations's`} counselors.</p>
-                    <p className='poppins-medium text-[18px] text-[#1F1F1F] pb-8'>A typical SOP generally follows the following structure:</p>
-                    <ul className='list-disc poppins-medium text-[18px] text-[#1F1F1F] pl-6'>
-                        <li>Introduction</li>
-                        <li>Academic Background</li>
-                        <li>Research or Professional Experience</li>
-                        <li>Motivation and Objectives</li>
-                        <li>Future Plans and Contributions</li>
-                        <li>Conclusion</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     );
 };
 
-export default Australia_Purpose;
+export default DocumentSVG2;

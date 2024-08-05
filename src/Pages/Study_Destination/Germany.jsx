@@ -6,7 +6,8 @@ import RequirementCard from "../../Components/Study_Destination_Components/Share
 import DocumentsRequired from "../../Components/Study_Destination_Components/Germany/DocumentsRequired/DocumentsRequired";
 import Faq_Ger from "../../Components/Study_Destination_Components/Germany/Germany_Faq/Faq_Ger";
 import Germany_Counselor from "../../Components/Study_Destination_Components/Germany/Germany_Counselor/Germany_Counselor";
-import UniversityCards_Ger from "../../Components/Study_Destination_Components/Germany/Germany_UniversityCards/UniversityCards_Ger";
+import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 
 
 const Germany = () => {
@@ -14,11 +15,11 @@ const Germany = () => {
         <div>
             <Germany_Banner/>
             <Germany_StudyInGermany/>
-            <UniversityCards_Ger/>
+            <Tabs/>
+            <AnimatedText/>
             <RequirementCard country={'Germany'}/>
             <Exams country={'Germany'}/>
             <DocumentsRequired/>
-            <Germany_Purpose/>
             <Faq_Ger/>
             <Germany_Counselor/>
         </div>

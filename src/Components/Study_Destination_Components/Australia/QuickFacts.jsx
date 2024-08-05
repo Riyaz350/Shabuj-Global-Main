@@ -11,7 +11,7 @@ const QuickFacts = () => {
   ];
 
   return (
-    <div className="pt-10 pb-16 max-w-screen-xl mx-auto">
+    <div className="pt-10 px-10 pb-16 max-w-screen-xl mx-auto">
       <p className="text-center text-4xl font-bold mb-20">Quick Facts</p>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
         {facts.map((fact, index) => (
