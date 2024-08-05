@@ -1,9 +1,4 @@
 import { useEffect, useState } from "react";
-import imageOne from "../../../../public/cartoon/49a.png";
-import imageTwo from "../../../../public/cartoon/49b.png";
-import imageThree from "../../../../public/cartoon/49c.png";
-import imageFour from "../../../../public/cartoon/49d.png";
-import { motion } from "framer-motion";
 import Requirement_Card_SmallScreen from "../UK/Requirement_Card_SmallScreen";
 import Requirement_Card_LargeScreen from "../UK/Requirement_Card_LargeScreen";
 
@@ -24,7 +19,7 @@ const RequirementCard = ({ country }) => {
 
   return (
     <div className="m-5 md:m-0 lg:m-0">
-      <h1 className="pt-24 text-center font-semibold text-6xl">
+      <h1 className="pt-24 text-center font-semibold lg:text-6xl md:text-6xl text-4xl">
         Requirements for Studying in the {country}
       </h1>
       {isSmallScreen ? (
