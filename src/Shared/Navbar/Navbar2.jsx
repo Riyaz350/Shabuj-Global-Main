@@ -61,9 +61,7 @@ const Navbar2 = () => {
     const handleNavButton = (index) => {
         navButton == 0 ? setNavButton(index) : setNavButton(0);
     };
-    const handleSmallNavButton = (index) => {
-        setNavButton(index)
-    };
+
 
     const SmallNavButton = ({ ind }) => {
         return (
@@ -114,12 +112,15 @@ const Navbar2 = () => {
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
 
                             <ul className="    z-50 menu bg-base-200 text-base-content min-h-full w-80 p-4">
+                                <div  >
+                                    <Link to="/" className="pl-5 text-xl font-medium">Home</Link>
 
+                                </div>
                                 <div className="collapse collapse-arrow bg-base-200">
                                     <input type="radio" name="my-accordion-2" defaultChecked />
                                     <div className="collapse-title text-xl font-medium">Study Destination</div>
                                     <div className="collapse-content">
-                                        <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto">
+                                        <ul className="grid grid-cols-2 lg:flex justify-between max-w-7xl mx-auto">
                                             <Link className={flagClass} to={"/UK"}><img className={flag} src={UK} /><li>Study in UK</li></Link>
                                             <Link className={flagClass}><img className={flag} src={USA} /><li></li><li>Study in USA</li></Link>
                                             <Link className={flagClass} to={"/Australia"}><img className={flag} src={Australia} /><li>Study in Australia</li></Link>
@@ -135,6 +136,7 @@ const Navbar2 = () => {
                                     <div className="collapse-content">
                                         <div className="flex flex-col          ">
                                             <div className="col-span-2 ">
+                                                <Link className="text-lg underline text-blue-600 pl-2" to="/services">Services</Link>
                                                 <h2 className="my-5 text-xl font-medium border-b-2   border-[#f85424]">
                                                     FOR STUDENTS
                                                 </h2>
@@ -184,6 +186,8 @@ const Navbar2 = () => {
                                     <div className="collapse-content">
                                         <div className="     ">
                                             <ul className=" text-lg ">
+                                                <Link className="text-lg underline text-blue-600 pl-2" to="/services">About Us</Link>
+
                                                 <li className={iconStyle}>
                                                     <BsGridFill />
                                                     Who We Are
@@ -264,6 +268,9 @@ const Navbar2 = () => {
                 {/* Large device navbar buttons */}
 
                 <div className="hidden items-center justify-between my-5 lg:flex gap-6  ">
+                    <div className="flex items-center gap-1">
+                        <Link className={`${width >= 1244 ? 'text-base' : 'text-sm'} bg-white  lg:bg-[#F0F8FF] font-semibold`} to='/'>Home</Link>
+                    </div>
                     <div className="flex items-center gap-1">
                         <NavButton text='Study Destination' ind={1} />
                     </div>

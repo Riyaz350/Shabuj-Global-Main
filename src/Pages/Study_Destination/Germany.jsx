@@ -16,7 +16,6 @@ const Germany = () => {
             <RequirementCard country={'Germany'}/>
             <Exams country={'Germany'}/>
             <DocumentsRequired/>
-            <Germany_Purpose/>
             <Faq_Ger/>
             <Germany_Counselor/>
         </div>

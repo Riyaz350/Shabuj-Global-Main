@@ -24,11 +24,11 @@ const Footer = () => {
                     </div>
 
                     <div className='footer-2 leading-[150%] text-[#CACACA] border-t border-white pt-[35px] max-w-[1154px] mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
-                        <div className='w-[231px]'>
+                        <div className='w-3/4 lg:w-[231px] mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='mulish-regular text-base mb-4'>About Shabuj Global Education</h2>
                             <p className='mulish-regular lg:text-base text-sm'>Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula neque id varius sit lacus et. Pellentesque porta interdum morbi enim ultrices egestas aliquet amet. Aliquet elit amet porttitor posuere.</p>
                         </div>
-                        <div className='w-[177px]'>
+                        <div className='w-[177px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Study Destinations</h2>
                             <ul className='mulish-regular lg:text-base text-sm'>
                                 <li>UK</li>
@@ -39,7 +39,7 @@ const Footer = () => {
                                 <li>New Zealand</li>
                             </ul>
                         </div>
-                        <div className='w-[282px]'>
+                        <div className='w-[282px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Services for students</h2>
                             <ul className='mulish-regular lg:text-base text-sm'>
                                 <li>Counselling</li>
@@ -51,7 +51,7 @@ const Footer = () => {
                             <p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase'>Services for institutions</p>
                             <p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase'>Services for partners</p>
                         </div>
-                        <div className='w-[229px]'>
+                        <div className='w-[229px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Company</h2>
                             <ul className='mulish-regular lg:text-base text-sm'>
                                 <li>About Us</li>

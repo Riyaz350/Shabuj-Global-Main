@@ -1,6 +1,5 @@
 
 import Australia_Counselor from "../../Components/Study_Destination_Components/Australia/Australia_Counselor/Australia_Counselor";
-import Australia_Purpose from "../../Components/Study_Destination_Components/Australia/Australia_Purpose/Australia_Purpose";
 import Australia_Tab from "../../Components/Study_Destination_Components/Australia/Australia_Tab";
 import Faq_Aus from "../../Components/Study_Destination_Components/Australia/Faq_Aus";
 import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
