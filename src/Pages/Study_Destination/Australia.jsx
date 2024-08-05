@@ -5,6 +5,7 @@ import Australia_Tab from "../../Components/Study_Destination_Components/Austral
 import Faq_Aus from "../../Components/Study_Destination_Components/Australia/Faq_Aus";
 import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
 import Study_Australia from "../../Components/Study_Destination_Components/Australia/Study_Australia";
+import UniversityCards_Australia from "../../Components/Study_Destination_Components/Australia/UniversityCards_Australia";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import AustraliaBanner from "./../../Components/Study_Destination_Components/Australia/AustraliaBanner";
@@ -17,6 +18,7 @@ const Australia = () => {
       {/* <Study_Australia />
       <QuickFacts />
       <Australia_Tab /> */}
+      <UniversityCards_Australia/>
       <RequirementCard country={'Australia'}/>
       <Exams country={'Australia'}/>
       <DocumentsRequired />
