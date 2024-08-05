@@ -3,7 +3,7 @@ import Programs from "../TabComponents/Programs";
 import Cost from "../TabComponents/Cost";
 import Intakes from "../TabComponents/Intakes";
 import Deadline from "../TabComponents/Deadline";
-import './Tabs.css'
+// import './Tabs.css'
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab-program");
@@ -107,7 +107,7 @@ const Tabs = () => {
           </button>
         </li>
       </ul>
-      <div className="tab-content--container lg:p-[100px] md:p-[100px] p-5  bg-[#EFF6FF]">
+      <div className="lg:tab-content--container lg:p-[100px] md:p-[100px] p-0 bg-[#EFF6FF]">
         <div
           className={`tab-content-display ${
             activeTab === "tab-program" ? "active" : ""

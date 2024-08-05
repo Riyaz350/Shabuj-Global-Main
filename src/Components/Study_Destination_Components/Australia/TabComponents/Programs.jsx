@@ -24,7 +24,7 @@ const Programs = () => {
   
     return (
       <div className="max-w-[1350px] mx-auto px-4">
-        <div className="flex w-full text-[#181A1B] items-center lg:flex-row flex-col">
+        <div className="flex w-full text-[#181A1B] items-center   lg:flex-row flex-col">
           <div className="lg:w-[65%] w-full mt-20">
             <h1 className="lg:text-5xl md:text-5xl text-3xl font-bold text-center">
               Programs and their duration in The UK
@@ -32,7 +32,7 @@ const Programs = () => {
             <p className="text-xl font-medium text-center">
               Here are the programs that the UK universities offer:
             </p>
-            <div className="w-full lg:w-[80%] mx-auto lg:text-xl md:text-xl text-xs mt-10">
+            <div className="w-full lg:w-[80%]  lg:text-xl md:text-xl text-xs mt-10">
               <table className="bg-white border border-gray-300 w-full">
                 <thead>
                   <tr className="bg-[#3B82F6] text-white">

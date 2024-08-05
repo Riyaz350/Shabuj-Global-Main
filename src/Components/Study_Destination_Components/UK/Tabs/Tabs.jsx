@@ -106,7 +106,7 @@ const Tabs = () => {
           </button>
         </li>
       </ul>
-      <div className="tab-content--container lg:p-[100px] md:p-[100px] p-5 bg-[#EFF6FF]">
+      <div className="lg:tab-content--container lg:p-[100px] md:p-[100px] p-5 bg-[#EFF6FF]">
         <div
           className={`tab-content-display ${
             activeTab === "tab-program" ? "active" : ""
