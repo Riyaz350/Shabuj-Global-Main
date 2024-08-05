@@ -1,16 +1,16 @@
 import { useParams } from "react-router-dom";
-import Single_University_Banner from "../../Components/Single_University_Components/Single_University_Banner";
-import Single_University_Check from "./Single_University_Check";
-import Single_University_Form from "./Single_University_Form";
-import Single_University_Info from "./Single_University_Info";
-import Single_Universty_Accordion from "./Single_Universty_Accordion";
 import { useEffect, useState } from "react";
+import Single_University_Banner from "../../Single_University_Components/Single_University_Banner";
+import Single_Universty_Accordion from "../../../Pages/Single_University/Single_Universty_Accordion";
+import Single_University_Check from "../../../Pages/Single_University/Single_University_Check";
+import Single_University_Info from "../../../Pages/Single_University/Single_University_Info";
+import Single_University_Form from "../../../Pages/Single_University/Single_University_Form";
 
-const Single_University = () => {
+const Single_University_Aus = () => {
   const { id } = useParams();
   const [university, setUniversity] = useState({});
   useEffect(() => {
-    fetch("/universities_json/uk.json")
+    fetch("/universities_json/australia.json")
       .then((response) => response.json())
       .then((data) => {
         const singleUniversity = data.find((uni) => uni.id === parseInt(id));
@@ -41,4 +41,4 @@ const Single_University = () => {
   );
 };
 
-export default Single_University;
+export default Single_University_Aus;
