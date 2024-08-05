@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Programs from "../TabComponents/Programs";
 import Cost from "../TabComponents/Cost";
 import Intakes from "../TabComponents/Intakes";
@@ -11,6 +11,12 @@ const Tabs = () => {
     setActiveTab(tabId);
   };
 
+  const [width, setWidth] = useState(null)
+
+    useEffect(() => {
+        setWidth(window.innerWidth)
+    }, [])
+
   return (
     <div>
       <ul className="lg:flex md:flex hidden tab-item-links">
@@ -21,7 +27,7 @@ const Tabs = () => {
           } `}
           data-tab="tab-program"
         >
-          <button className="bg-transparent p-1">Programs & Duration</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-program" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Programs & Duration</button>
         </li>
         <li
           onClick={() => handleClick("tab-cost")}
@@ -30,7 +36,7 @@ const Tabs = () => {
           }`}
           data-tab="tab-cost"
         >
-          <button className="bg-transparent p-1">Cost of Studying</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-cost" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Cost of Studying</button>
         </li>
         <li
           onClick={() => handleClick("tab-intakes")}
@@ -39,7 +45,7 @@ const Tabs = () => {
           } `}
           data-tab="tab-intakes"
         >
-          <button className="bg-transparent p-1">Academic Intakes</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-intakes" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Academic Intakes</button>
         </li>
         <li
           onClick={() => handleClick("tab-deadline")}
@@ -48,7 +54,7 @@ const Tabs = () => {
           }`}
           data-tab="tab-deadline"
         >
-          <button className="bg-transparent p-1">Deadline</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-deadline" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Deadline</button>
         </li>
       </ul>
       {/* for mobile */}
@@ -106,7 +112,7 @@ const Tabs = () => {
           </button>
         </li>
       </ul>
-      <div className="lg:tab-content--container lg:p-[100px] md:p-[100px] p-5 bg-[#EFF6FF]">
+      <div className={`${width < 600 ? "" :'tab-content--container' }   lg:p-[100px] md:p-[100px] p-0 bg-[#EFF6FF]`}>
         <div
           className={`tab-content-display ${
             activeTab === "tab-program" ? "active" : ""
