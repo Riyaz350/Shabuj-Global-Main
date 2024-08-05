@@ -25,7 +25,7 @@ const PopularPrograms = () => {
         config: { duration: 1000 },
     });
     return (
-        <div className="relative h-screen flex flex-col items-center justify-center">
+        <div className="relative h-screen flex flex-col items-center justify-center  ">
             <animated.div style={{ ...props, ...vanishProps }} className="text-2xl font-bold">
                 {texts[index]}
             </animated.div>

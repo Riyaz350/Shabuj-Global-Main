@@ -23,9 +23,9 @@ import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Navbar2 = () => {
-    const [navButton, setNavButton] = useState(0);
+    const [navButton, setNavButton] = useState(4);
     const [navIndex, setNavIndex] = useState(0);
-    const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2";
+    const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center";
     const flagClass = "flex w-10/12 mx-auto lg:w-full flex-col justify-center item-center text-center my-2 lg:my-20"
     const flag = "w-3/4 mx-auto rounded-lg "
 
@@ -392,7 +392,7 @@ const Navbar2 = () => {
                                 </span>
                             </div>
                             <li>
-                                <Link className={iconStyle} to="/blogs">
+                                <Link className={` ${iconStyle}`} to="/blogs">
                                     <RiNewsFill />
                                     Blog
                                 </Link>
@@ -410,8 +410,8 @@ const Navbar2 = () => {
                                 News & Press
                             </li>
 
-                            <li className={iconStyle}>
-                                <Link className={iconStyle} to="/events">
+                            <li className={`flex ${iconStyle}`}>
+                                <Link className="flex items-center gap-2"  to="/events">
                                     <BsCameraVideoFill />
                                     Events & Webinars
                                 </Link>
