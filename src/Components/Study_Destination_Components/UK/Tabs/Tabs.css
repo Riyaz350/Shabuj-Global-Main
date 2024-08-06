@@ -33,7 +33,6 @@
     position: relative;
     z-index: 10;
     border-radius: 32px;
-    
 }
 
 .tab-link-item.active + .tab-link-item,
