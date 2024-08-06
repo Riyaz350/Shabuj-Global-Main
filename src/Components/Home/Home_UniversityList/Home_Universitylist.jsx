@@ -1,6 +1,7 @@
 import './Home_UniversityList.css'
 import allUni from '../../../../public/universities_json/allUni.json'
 import { Link } from 'react-router-dom';
+import Marquee from 'react-fast-marquee';
 const Home_UniversityList = () => {
     console.log(allUni)
     return (
@@ -10,7 +11,7 @@ const Home_UniversityList = () => {
                 <p className='poppins-bold text-[67px]'>The Choice is Endless</p>
                 <img className='mx-auto lg:w-[290px] w-[190px] py-3 bg-white' src="https://i.ibb.co/wMCkStV/University-Section-Animation.gif" alt="" />
             </div>
-            <div className='ticker-one flex overflow-hidden mb-6'>
+            {/* <div className='ticker-one flex overflow-hidden mb-6'>
                 <div className='flex ticker-items gap-5'>
                     {allUni.slice(0, 30).map((uni) => (
                         <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img src={uni.logo} alt="university" /></Link>
@@ -33,7 +34,23 @@ const Home_UniversityList = () => {
                         <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img src={uni.logo} alt="university" /></Link>
                     ))}
                 </div>                
-            </div>
+            </div> */}
+            <Marquee className='mb-10' pauseOnHover={true} speed={250} direction='right'>
+                <div className='flex  gap-10'>
+                    {allUni.slice(0,40).map((uni) => (
+                        <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img className='w-[200px]' src={uni.logo} alt="university" /></Link>
+                    ))}
+                </div>
+            </Marquee>
+            <Marquee pauseOnHover={true} speed={250}>
+                <div className='flex  gap-10'>
+                    {allUni.slice(41,76).map((uni) => (
+                        <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img className='w-[200px]' src={uni.logo} alt="university" /></Link>
+                    ))}
+                </div>
+            </Marquee>
+            
+            
             <div className='text-center mt-[98px]'>
                 <button className='text-white bg-[#2563EB] hover:bg-[#3D7DED] rounded-[32px] mulish-regular lg:text-[21px] text-[14px] px-[89px] py-2 mb-[41px]'>View All Universites</button>
             </div>
