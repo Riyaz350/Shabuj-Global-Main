@@ -16,7 +16,7 @@ const Home_UniversityList = () => {
                         <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img src={uni.logo} alt="university" /></Link>
                     ))}
                 </div>
-                <div className='flex ticker-items'>
+                <div className='flex ticker-items gap-5'>
                     {allUni.slice(31, 77).map((uni) => (
                         <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img src={uni.logo} alt="university" /></Link>
                     ))}
@@ -28,12 +28,11 @@ const Home_UniversityList = () => {
                         <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img src={uni.logo} alt="university" /></Link>
                     ))}
                 </div>
-                <div className='flex ticker-items'>
-                <div className='flex ticker-items'>
+                <div className='flex ticker-items gap-5'>
                     {allUni.slice(0, 30).map((uni) => (
                         <Link to={`/singleUniversityAll/${uni.id}`} className='cursor-pointer' key={uni?.id}><img src={uni.logo} alt="university" /></Link>
                     ))}
-                </div>                </div>
+                </div>                
             </div>
             <div className='text-center mt-[98px]'>
                 <button className='text-white bg-[#2563EB] hover:bg-[#3D7DED] rounded-[32px] mulish-regular lg:text-[21px] text-[14px] px-[89px] py-2 mb-[41px]'>View All Universites</button>
