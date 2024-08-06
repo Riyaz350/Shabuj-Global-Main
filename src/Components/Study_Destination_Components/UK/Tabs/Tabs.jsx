@@ -22,7 +22,7 @@ const Tabs = () => {
       <ul className="lg:flex md:flex hidden tab-item-links">
         <li
           onClick={() => handleClick("tab-program")}
-          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#EF9C66] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
+          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#EF9C66] poppins-semibold xl:text-[28px] lg:text-[28px] md:text-[17px] text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
             activeTab === "tab-program" ? "active" : ""
           } `}
           data-tab="tab-program"
@@ -31,7 +31,7 @@ const Tabs = () => {
         </li>
         <li
           onClick={() => handleClick("tab-cost")}
-          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#9667EF] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
+          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#9667EF] poppins-semibold xl:text-[28px] lg:text-[28px] md:text-[17px] text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
             activeTab === "tab-cost" ? "active" : ""
           }`}
           data-tab="tab-cost"
@@ -40,7 +40,7 @@ const Tabs = () => {
         </li>
         <li
           onClick={() => handleClick("tab-intakes")}
-          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#E2635E] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
+          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#E2635E] poppins-semibold xl:text-[28px] lg:text-[28px] md:text-[17px] text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
             activeTab === "tab-intakes" ? "active" : ""
           } `}
           data-tab="tab-intakes"
@@ -49,7 +49,7 @@ const Tabs = () => {
         </li>
         <li
           onClick={() => handleClick("tab-deadline")}
-          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#58B1EA] poppins-semibold text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
+          className={`h-[90px] pt-[22px] lg:w-[25%] md:w-[25%] w-full text-center text-white bg-[#58B1EA] poppins-semibold xl:text-[28px] lg:text-[28px] md:text-[17px] text-[28px] leading-[39.2px] rounded-[32px] tab-link-item relative ${
             activeTab === "tab-deadline" ? "active" : ""
           }`}
           data-tab="tab-deadline"
@@ -112,7 +112,7 @@ const Tabs = () => {
           </button>
         </li>
       </ul>
-      <div className={`${width < 600 ? "" :'tab-content--container' }   lg:p-[100px] md:p-[100px] p-0 bg-[#EFF6FF]`}>
+      <div className={`${width < 600 ? "" :'tab-content--container' }   lg:p-[100px] md:p-[100px] p-0 pb-10 bg-[#EFF6FF]`}>
         <div
           className={`tab-content-display ${
             activeTab === "tab-program" ? "active" : ""

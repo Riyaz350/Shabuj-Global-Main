@@ -1,9 +1,4 @@
 import { useEffect, useState } from "react";
-import imageOne from "../../../../public/cartoon/49a.png";
-import imageTwo from "../../../../public/cartoon/49b.png";
-import imageThree from "../../../../public/cartoon/49c.png";
-import imageFour from "../../../../public/cartoon/49d.png";
-import { motion } from "framer-motion";
 import Requirement_Card_SmallScreen from "../UK/Requirement_Card_SmallScreen";
 import Requirement_Card_LargeScreen from "../UK/Requirement_Card_LargeScreen";
 
