@@ -10,25 +10,23 @@ import NZ from '../../assets/Flags/Newzealand Flag.svg'
 import testPrep1 from '../../assets/Navbar/Test Prep/IELTS Logo.svg'
 import testPrep2 from '../../assets/Navbar/Test Prep/SELT Logo.png'
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
-import {
-    IoShieldCheckmarkSharp,
-    IoCheckmarkDoneCircleSharp,
-} from "react-icons/io5";
+import { IoShieldCheckmarkSharp,  IoCheckmarkDoneCircleSharp,} from "react-icons/io5";
 import { FaClock, FaUserFriends, FaHeart, FaChevronDown } from "react-icons/fa";
 import { SiGooglesheets } from "react-icons/si";
 import { RiNewsFill } from "react-icons/ri";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar2 = () => {
     const [navButton, setNavButton] = useState(0);
     const [navIndex, setNavIndex] = useState(0);
-    const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2";
+    const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center";
     const flagClass = "flex w-10/12 mx-auto lg:w-full flex-col justify-center item-center text-center my-2 lg:my-20"
     const flag = "w-3/4 mx-auto rounded-lg "
 
+    
     const enterNavButton = (index) => {
         setNavButton(index)
     };
@@ -121,7 +119,7 @@ const Navbar2 = () => {
                                     <div className="collapse-title text-xl font-medium">Study Destination</div>
                                     <div className="collapse-content">
                                         <ul className="grid grid-cols-2 lg:flex justify-between max-w-7xl mx-auto">
-                                            <Link className={flagClass} to={"/UK"}><img className={flag} src={UK} /><li>Study in UK</li></Link>
+                                            <Link className={flagClass} to={"/UK"}><img htmlFor="my-drawer-4"  className={`${flag}`} src={UK} /><li>Study in UK</li></Link>
                                             <Link className={flagClass}><img className={flag} src={USA} /><li></li><li>Study in USA</li></Link>
                                             <Link className={flagClass} to={"/Australia"}><img className={flag} src={Australia} /><li>Study in Australia</li></Link>
                                             <Link className={flagClass}><img className={flag} src={Canada} /><li>Study in Canada</li></Link>
@@ -186,7 +184,7 @@ const Navbar2 = () => {
                                     <div className="collapse-content">
                                         <div className="     ">
                                             <ul className=" text-lg ">
-                                                <Link className="text-lg underline text-blue-600 pl-2" to="/services">About Us</Link>
+                                                <Link className="text-lg underline text-blue-600 pl-2" to="/about">About Us</Link>
 
                                                 <li className={iconStyle}>
                                                     <BsGridFill />
@@ -304,11 +302,11 @@ const Navbar2 = () => {
                     <div>
                         <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto">
                             <Link className={flagClass} to={"/UK"}><img className={flag} src={UK} /><li>Study in UK</li></Link>
-                            <Link className={flagClass}><img className={flag} src={USA} /><li></li><li>Study in USA</li></Link>
+                            <Link className={flagClass} to="/comingSoon"><img className={flag} src={USA} /><li></li><li>Study in USA</li></Link>
                             <Link className={flagClass} to={"/Australia"}><img className={flag} src={Australia} /><li>Study in Australia</li></Link>
-                            <Link className={flagClass}><img className={flag} src={Canada} /><li>Study in Canada</li></Link>
+                            <Link className={flagClass} to="/comingSoon"><img className={flag} src={Canada} /><li>Study in Canada</li></Link>
                             <Link className={flagClass} to={"/Germany"}><img className={flag} src={Germany} /><li>Study in Germany</li></Link>
-                            <Link className={flagClass}><img className={flag} src={NZ} /><li>Study in New Zealand</li></Link>
+                            <Link className={flagClass} to="/comingSoon"><img className={flag} src={NZ} /><li>Study in New Zealand</li></Link>
                         </ul>
                     </div>
                 )}
@@ -358,64 +356,58 @@ const Navbar2 = () => {
                 {navIndex == 4 && (
                     <div className="md:grid md:grid-cols-2 lg:grid-cols-4  max-w-7xl mx-10 space-y-2 lg:space-y-0 lg:mx-auto my-10">
                         <ul className="col-span-1 space-y-4 text-lg ">
-                            <li className={iconStyle}>
+                            <Link to="/comingSoon" className={iconStyle}>
                                 <BsGridFill />
                                 Who We Are
-                            </li>
-                            <li className={iconStyle}>
+                            </Link>
+                            <Link to="/comingSoon" className={iconStyle}>
                                 <FaHeart />
                                 Our Partners
-                            </li>
-                            <li className={iconStyle}>
+                            </Link>
+                            <Link to="/comingSoon" className={iconStyle}>
                                 <FaClock />
                                 Our Timeline
-                            </li>
-                            <li className={iconStyle}>
+                            </Link>
+                            <Link to="/comingSoon" className={iconStyle}>
                                 <FaUserFriends />
                                 Our Leadership Team
-                            </li>
+                            </Link>
                         </ul>
                         <ul className="col-span-1 space-y-4 text-lg ">
-                            <li className={iconStyle}>
+                            <Link to="/comingSoon" className={iconStyle}>
                                 <IoShieldCheckmarkSharp />
                                 Partner With Us
-                            </li>
-                            <li className={iconStyle}>
+                            </Link>
+                            <Link to="/comingSoon" className={iconStyle}>
                                 <IoCheckmarkDoneCircleSharp />
                                 Award Recognitions
-                            </li>
-                            <div className={`${iconStyle}'flex gap-2 items-center'`}>
+                            </Link>
+                            <Link to="/comingSoon" className={`${iconStyle}'flex gap-2 items-center'`}>
                                 <SiGooglesheets />
-                                <li>Careers</li>{" "}
+                                <li>Careers</li>
                                 <span className="text-sm bg-green-500 text-white mx-2 p-1 rounded-sm">
                                     Hiring
                                 </span>
-                            </div>
-                            <li>
-                                <Link className={iconStyle} to="/blogs">
+                            </Link>
+                                <Link className={` ${iconStyle}`} to="/blogs">
                                     <RiNewsFill />
                                     Blog
                                 </Link>
-                            </li>
                         </ul>
                         <ul className="col-span-1 space-y-4 text-lg ">
-                            <li>
-                                <Link className={iconStyle} to="/contact">
-                                    <BiSolidPhoneCall />
-                                    Contact Us
-                                </Link>
-                            </li>
-                            <li className={iconStyle}>
+                            <Link className={iconStyle} to="/contact">
+                                <BiSolidPhoneCall />
+                                Contact Us
+                            </Link>
+                            <Link className={iconStyle} to="/comingSoon">
                                 <FaMicrophoneLines />
                                 News & Press
-                            </li>
+                            </Link>
 
-                            <li className={iconStyle}>
-                                <Link className={iconStyle} to="/events">
-                                    <BsCameraVideoFill />
-                                    Events & Webinars
-                                </Link>
-                            </li>
+                            <Link className={iconStyle} to="/events">
+                                <BsCameraVideoFill />
+                                Events & Webinars
+                            </Link>
                         </ul>
                         <ul></ul>
                     </div>

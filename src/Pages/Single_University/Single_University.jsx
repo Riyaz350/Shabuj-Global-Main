@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 const Single_University = () => {
   const { id } = useParams();
   const [university, setUniversity] = useState({});
-  console.log(id);
   useEffect(() => {
     fetch("/universities_json/uk.json")
       .then((response) => response.json())

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Monash University Clayton Campus",
+        "info": "Monash University Clayton Campus is a leading research institution offering a diverse range of programs. Known for its innovative teaching methods and strong industry connections, it provides a vibrant academic environment.",
+        "location": "Clayton, Victoria, Australia",
+        "logo": "/universities/A-1.png"
+    },
+    {
+        "id": 2,
+        "name": "The Australian National University",
+        "info": "The Australian National University is renowned for its strong research focus and comprehensive range of programs. It fosters academic excellence and innovation, attracting students from around the world.",
+        "location": "Canberra, Australian Capital Territory, Australia",
+        "logo": "/universities/A-2.png"
+    },
+    {
+        "id": 3,
+        "name": "The University of Adelaide",
+        "info": "The University of Adelaide is a prestigious institution known for its robust research output and wide variety of academic programs. It promotes a dynamic and supportive learning environment.",
+        "location": "Adelaide, South Australia, Australia",
+        "logo": "/universities/A-3.png"
+    },
+    {
+        "id": 4,
+        "name": "The University of Melbourne",
+        "info": "The University of Melbourne is a leading global university known for its high-quality teaching and research. It offers a diverse range of programs and fosters an inclusive and innovative academic community.",
+        "location": "Melbourne, Victoria, Australia",
+        "logo": "/universities/A-4.png"
+    },
+    {
+        "id": 5,
+        "name": "The University of Sydney",
+        "info": "The University of Sydney is one of Australia's most prestigious universities, offering a wide range of programs. It is renowned for its research excellence and vibrant campus life.",
+        "location": "Sydney, New South Wales, Australia",
+        "logo": "/universities/A-5.png"
+    },
+    {
+        "id": 6,
+        "name": "Monash University Clayton Campus",
+        "info": "Monash University Clayton Campus is a leading research institution offering a diverse range of programs. Known for its innovative teaching methods and strong industry connections, it provides a vibrant academic environment.",
+        "location": "Clayton, Victoria, Australia",
+        "logo": "/universities/A-6.png"
+    }
+]

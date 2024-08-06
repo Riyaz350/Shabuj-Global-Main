@@ -1,7 +1,7 @@
 import './SVG.css'
 const Doc2 = () => {
     return (
-        <svg width="594" height="594" viewBox="0 0 594 594" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='w-[400px] mx-auto md:w-[600px]' viewBox="0 0 594 594" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g className='drawer-one--uk'>
                 <path d="M116.424 461.241C220.326 515.521 388.797 515.521 492.699 461.241C596.602 406.961 596.602 318.954 492.699 264.662C388.797 210.371 220.374 210.383 116.424 264.662C12.4739 318.942 12.569 406.961 116.424 461.241Z" fill="#F5F5F5" />
                 <path d="M87.4604 393.224L53.6855 373.729V301.285L87.4604 320.792V393.224Z" fill="#E0E0E0" />
