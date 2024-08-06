@@ -20,7 +20,7 @@ const Single_University_Ger = () => {
   }, [id]);
   
   return (
-    <div>
+    <div className="mb-20">
       <Single_University_Banner university={university} />
       <div className="max-w-7xl mx-auto">
         <p className="text-center md:text-6xl text-4xl font-semibold md:mt-36 mt-28 md:mx-0 mx-5">

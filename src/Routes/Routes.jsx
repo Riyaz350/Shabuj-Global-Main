@@ -16,6 +16,7 @@ import Single_University from "../Pages/Single_University/Single_University";
 import Coming_Soon from "../Pages/Coming_Soon/Coming_Soon";
 import Single_University_Ger from "../Components/Study_Destination_Components/Germany/Germany_Single_University/Single_University_Ger";
 import Single_University_Aus from "../Components/Study_Destination_Components/Australia/Single_University_Aus";
+import HomeSingleUniversity from "../Components/Home/HomeSingleUniversity/HomeSingleUniversity";
 
 export const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ export const router = createBrowserRouter([
         path: "/comingSoon",
         element: <Coming_Soon/>,
       }, 
+      {
+        path: "/singleUniversityAll/:id",
+        element: <HomeSingleUniversity/>
+      },
     ],
   },
 ]);

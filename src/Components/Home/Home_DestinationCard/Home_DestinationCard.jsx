@@ -36,44 +36,48 @@ const Home_DestinationCard = () => {
             </div>
           </div>
         </Link>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
-              <p className="uppercase text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
-                USA
-              </p>
-              <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
-                <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
-              </button>
-            </div>
-            <div className="flip-card--back">
-              <img
-                className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
-                src="./assets/usa.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
-              <p className="uppercase text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
-                Canada
-              </p>
-              <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
-                <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
-              </button>
-            </div>
-            <div className="flip-card--back">
-              <img
-                className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
-                src="./assets/canada.png"
-                alt=""
-              />
+        <Link to="/comingSoon">
+          <div className="flip-card cursor-pointer">
+            <div className="flip-card-inner">
+              <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
+                <p className="uppercase text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
+                  USA
+                </p>
+                <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
+                  <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
+                </button>
+              </div>
+              <div className="flip-card--back">
+                <img
+                  className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
+                  src="./assets/usa.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </Link>
+        <Link to="/comingSoon">
+          <div className="flip-card cursor-pointer">
+            <div className="flip-card-inner">
+              <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
+                <p className="uppercase text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
+                  Canada
+                </p>
+                <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
+                  <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
+                </button>
+              </div>
+              <div className="flip-card--back">
+                <img
+                  className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
+                  src="./assets/canada.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </Link>
         <Link to={"/Australia"}>
           <div className="flip-card cursor-pointer">
             <div className="flip-card-inner">
@@ -82,9 +86,9 @@ const Home_DestinationCard = () => {
                   Australia
                 </p>
                 <Link to={"/Australia"}>
-                <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
-                  <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
-                </button>
+                  <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
+                    <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
+                  </button>
                 </Link>
               </div>
               <div className="flip-card--back">
@@ -98,47 +102,49 @@ const Home_DestinationCard = () => {
           </div>
         </Link>
         <Link to={'/Germany'}>
-        <div className="flip-card cursor-pointer">
-          <div className="flip-card-inner">
-            <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
-              <p className="text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
-                Germany
-              </p>
-              <Link to={'/Germany'}>
-              <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
-                <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
-              </button>
-              </Link>
-            </div>
-            <div className="flip-card--back">
-              <img
-                className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
-                src="./assets/germany.png"
-                alt=""
-              />
+          <div className="flip-card cursor-pointer">
+            <div className="flip-card-inner">
+              <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
+                <p className="text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
+                  Germany
+                </p>
+                <Link to={'/Germany'}>
+                  <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
+                    <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
+                  </button>
+                </Link>
+              </div>
+              <div className="flip-card--back">
+                <img
+                  className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
+                  src="./assets/germany.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
         </Link>
-        <div className="flip-card">
-          <div className="flip-card-inner">
-            <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
-              <p className="text-[#88F3D0] flex items-center justify-center lg:pt-[120px] md:pt-[145px] pt-[69px] poppins-bold text-center lg:text-[38px] text-[20px]">
-                New<br></br> Zealand
-              </p>
-              <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[27px] pt-[20px]">
-                <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
-              </button>
-            </div>
-            <div className="flip-card--back">
-              <img
-                className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
-                src="./assets/newzealand.png"
-                alt=""
-              />
+        <Link to="comingSoon">
+          <div className="flip-card cursor-pointer">
+            <div className="flip-card-inner">
+              <div className="flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]">
+                <p className="text-[#88F3D0] flex items-center justify-center lg:pt-[120px] md:pt-[145px] pt-[69px] poppins-bold text-center lg:text-[38px] text-[20px]">
+                  New<br></br> Zealand
+                </p>
+                <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[27px] pt-[20px]">
+                  <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
+                </button>
+              </div>
+              <div className="flip-card--back">
+                <img
+                  className="rounded-[32px] lg:w-[270px] w-[148px] lg:h-[350px] h-[192px]"
+                  src="./assets/newzealand.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
       <div className="text-center pt-[70px]">
         <button className="relative z-20 text-white hover:text-[#1968E7] bg-transparent border border-[#E1E1E1] hover:border-[#1968E7] rounded-[32px] poppins-bold lg:text-[18px] text-[14px] px-[124px] py-[21px]">
