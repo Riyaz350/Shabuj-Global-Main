@@ -1,9 +1,9 @@
 const Deadline = () => {
     return (
-      <div className="max-w-[1250px] mx-auto px-4 mt-10">
+      <div className="max-w-[1250px] mx-auto px-4 mt-10 py-10 lg:py-0">
         <div className="flex w-full text-[#181A1B] items-center lg:flex-row flex-col">
           <div className="lg:w-[70%] w-full">
-            <h1 className="text-5xl font-bold text-center">
+            <h1 className="lg:text-5xl md:text-5xl text-3xl font-bold text-center">
               Deadline for the UK Universities
             </h1>
             <p className="text-xl font-medium text-center mx-auto mt-5">

@@ -18,7 +18,7 @@ const Intakes = () => {
       <div className="max-w-[1400px] mx-auto px-4">
         <div className="flex w-full text-[#181A1B] items-center lg:flex-row flex-col">
           <div className="lg:w-[65%] w-full mt-20">
-            <h1 className="text-5xl font-bold text-center">
+            <h1 className="lg:text-5xl md:text-5xl text-3xl font-bold text-center">
               Academic Intake to Study in the UK
             </h1>
             <p className="text-xl font-medium text-center lg:w-[70%] w-full mx-auto mt-5">
