@@ -1,16 +1,16 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Single_University_Banner from "../../../Single_University_Components/Single_University_Banner";
-import Single_Universty_Accordion from "../../../../Pages/Single_University/Single_Universty_Accordion";
-import Single_University_Check from "../../../../Pages/Single_University/Single_University_Check";
-import Single_University_Info from "../../../../Pages/Single_University/Single_University_Info";
-import Single_University_Form from "../../../../Pages/Single_University/Single_University_Form";
+import Single_University_Banner from "../../Single_University_Components/Single_University_Banner";
+import Single_Universty_Accordion from "../../../Pages/Single_University/Single_Universty_Accordion";
+import Single_University_Check from "../../../Pages/Single_University/Single_University_Check";
+import Single_University_Info from "../../../Pages/Single_University/Single_University_Info";
+import Single_University_Form from "../../../Pages/Single_University/Single_University_Form";
 
-const Single_University_Ger = () => {
+const Single_University_UK = () => {
   const { id } = useParams();
   const [university, setUniversity] = useState({});
   useEffect(() => {
-    fetch("/universities_json/germany.json")
+    fetch("/universities_json/uk.json")
       .then((response) => response.json())
       .then((data) => {
         const singleUniversity = data.find((uni) => uni.id === parseInt(id));
@@ -44,4 +44,4 @@ const Single_University_Ger = () => {
   );
 };
 
-export default Single_University_Ger;
+export default Single_University_UK;

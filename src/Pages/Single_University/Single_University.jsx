@@ -18,7 +18,10 @@ const Single_University = () => {
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, [id]);
-  
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, );
   return (
     <div className="mb-20">
       <Single_University_Banner university={university} />
