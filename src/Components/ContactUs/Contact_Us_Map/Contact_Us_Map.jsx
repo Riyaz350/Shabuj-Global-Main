@@ -12,7 +12,7 @@ const Contact_Us_Map = () => {
   const [showModal, setShowModal] = useState(false);
   const [showDiv, setShowDiv] = useState("block");
   const officeAddress = {
-   " United Kingdom": {
+   "United Kingdom": {
       title: "United Kingdom",
       offices: [
         {
@@ -63,6 +63,48 @@ const Contact_Us_Map = () => {
     },
     Bangladesh: {
       title: "Bangladesh",
+      offices: [
+        {
+          city: "Dhaka",
+          address: "Nagar Lutfun Homes, House No 11, Road No 17,Block D, Banani, Dhaka.",
+          phone: "09065327323, 07048293093",
+          email:
+            "bd@shabujglobal.com, applications.bd@shabujglobal.com",
+        },
+        {
+          city: "Chattogram",
+          address: "R.I. Tower(level 3),23/A MM Ali Road, Golpahar moor, Chattogram.",
+          phone: "+2349033173017",
+          email: "bd@shabujglobal.com",
+        },
+      ],
+    },
+    "Nepal": {
+      title: "Nepal",
+      offices: [
+        {
+          city: "Kathmandu",
+          address: "3rd Floor, Putalisadak, रामशाह पथ, Kathmandu 44600",
+          phone: "00447903108549",
+          email:
+            "applications.nepal@shabujglobal.com",
+        },
+      ],
+    },
+    "Dubai": {
+      title: "Dubai",
+      offices: [
+        {
+          city: "Kathmandu",
+          address: "3rd Floor, Putalisadak, रामशाह पथ, Kathmandu 44600",
+          phone: "00447903108549",
+          email:
+            "applications.nepal@shabujglobal.com",
+        },
+      ],
+    },
+    "Saudi Arabia": {
+      title: "Saudi Arabia",
       offices: [
         {
           city: "Dhaka",
@@ -383,9 +425,9 @@ const Contact_Us_Map = () => {
                 fill="#EFF6FF"
               />
               <path
+                fill="#93C5FD"
                 id="United Kingdom"
                 className="allPaths hover-path"
-                fill="#93C5FD"
                 onClick={() => setShowModal(true)}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
@@ -1266,13 +1308,17 @@ const Contact_Us_Map = () => {
                 fill="#EFF6FF"
               />
               <path
+              onClick={() => setShowModal(true)}
+              onMouseOver={handleMouseEnter}
+              onMouseOut={handleMouseLeave}
+              id="Nepal"
                 d="M817.587 269.408C820.208 269.545 821.887 270.299 824.234 271.344L824.577 271.498C825.108 271.738 825.691 272.029 826.29 272.32C828.432 273.399 830.882 274.615 832.681 274.153C834.394 273.708 834.086 271.052 833.966 270.299C832.698 269.271 830.419 268.843 828.74 268.517C827.284 268.243 826.582 268.106 826.205 267.729C825.639 267.147 822.898 265.605 820.876 264.8C819.317 264.183 818.632 263.721 817.279 262.796C816.85 262.504 816.353 262.179 815.754 261.768C814.023 260.637 812.344 261.562 811.711 262.008C811.471 262.419 810.563 264.097 810.614 265.588C810.665 266.941 814.914 269.219 817.621 269.356L817.587 269.408Z"
                 fill="#93C5FD"
               />
               <path
+                fill="#93C5FD"
                 id="Bangladesh"
                 className="allPaths hover-path"
-                fill="#93C5FD"
                 onClick={() => setShowModal(true)}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
@@ -2079,57 +2125,119 @@ const Contact_Us_Map = () => {
                 cx="802.012"
                 cy="321"
                 r="8"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
+                id="India"
                 fill="#D80621"
               />
-              <circle cx="802.012" cy="321" r="4.61253" fill="#FF1A1A" />
+              <circle className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
+                id="India" cx="802.012" cy="321" r="4.61253" fill="#FF1A1A" />
               <circle
                 opacity="0.3"
                 cx="589.671"
                 cy="333.927"
                 r="8"
                 fill="#D80621"
+                id="Nigeria"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
               />
-              <circle cx="589.671" cy="333.927" r="4.61253" fill="#FF1A1A" />
+              <circle id="Nigeria"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave} cx="589.671" cy="333.927" r="4.61253" fill="#FF1A1A" />
               <circle
                 opacity="0.3"
                 cx="702.828"
                 cy="287.864"
                 r="8"
                 fill="#D80621"
+                id="Saudi Arabia"
+                className="allPaths hover-path"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
               />
-              <circle cx="702.828" cy="287.864" r="4.61253" fill="#FF1A1A" />
+              <circle onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave} id="Saudi Arabia"
+                className="allPaths hover-path cursor-pointer" cx="702.828" cy="287.864" r="4.61253" fill="#FF1A1A" />
               <circle
                 opacity="0.3"
                 cx="734.076"
                 cy="277.922"
                 r="8"
                 fill="#D80621"
+                id="Dubai"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
               />
-              <circle cx="734.076" cy="277.922" r="4.61253" fill="#FF1A1A" />
+              <circle id="Dubai"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave} cx="734.076" cy="277.922" r="4.61253" fill="#FF1A1A" />
               <circle
                 opacity="0.3"
                 cx="846.154"
                 cy="287.991"
                 r="8"
                 fill="#D80621"
+                id="Bangladesh"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
               />
-              <circle cx="846.154" cy="287.991" r="4.61253" fill="#FF1A1A" />
+              <circle id="Bangladesh"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave} cx="846.154" cy="287.991" r="4.61253" fill="#FF1A1A" />
               <circle
                 opacity="0.3"
                 cx="827.093"
                 cy="272.984"
                 r="8"
                 fill="#D80621"
+                id="Nepal"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
               />
-              <circle cx="827.093" cy="272.984" r="4.61253" fill="#FF1A1A" />
+              <circle id="Nepal"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave} cx="827.093" cy="272.984" r="4.61253" fill="#FF1A1A" />
               <circle
                 opacity="0.3"
                 cx="556.242"
                 cy="173.956"
                 r="8"
                 fill="#D80621"
+                id="United Kingdom"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
               />
-              <circle cx="556.242" cy="173.956" r="4.61253" fill="#FF1A1A" />
+              <circle id="United Kingdom"
+                className="allPaths hover-path cursor-pointer"
+                onClick={() => setShowModal(true)}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave} cx="556.242" cy="173.956" r="4.61253" fill="#FF1A1A" />
             </g>
             <defs>
               <filter
@@ -2270,7 +2378,7 @@ const Contact_Us_Map = () => {
           <img
             src={gifImage}
             alt="GIF Image"
-            className="w-[22%] lg:absolute bottom-0 pl-10 lg:pl-0 left-14"
+            className="w-[22%] hidden lg:flex lg:absolute bottom-0 pl-10 lg:pl-0 left-14"
           />
         </div>
       </div>

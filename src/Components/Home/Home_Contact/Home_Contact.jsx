@@ -5,7 +5,7 @@ const Home_Contact = () => {
     const Letter = text.split("");
 
     return (
-        <div className='bg-[#E7E7E7] pt-[98px] pb-[59px] overflow-hidden'>
+        <div className='bg-[#E7E7E7] pt-[98px] pb-[119px] overflow-hidden'>
             <div className='text-center'>
                 <h2 className='poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] pb-[39px]'>It’s Time to Start Your Journey With Us</h2>
                 <p className='mulish-regular text-[16px] text-[#1F1F1F] leading-[150%] pb-[18px]'>Book Your <span className='bg-[#88F3D0] rounded-sm px-1 font-medium py-1'>FREE</span> Consultation with Certified Counsellors</p>
