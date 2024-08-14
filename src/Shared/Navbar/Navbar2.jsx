@@ -22,7 +22,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Navbar2 = () => {
     const [navButton, setNavButton] = useState(0);
     const [navIndex, setNavIndex] = useState(0);
-    const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center";
+    const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center hover:text-blue-500";
     const flagClass = "flex w-10/12 mx-auto lg:w-full flex-col justify-center item-center text-center my-2 lg:my-20"
     const flag = "w-3/4 mx-auto rounded-lg "
 
@@ -212,7 +212,7 @@ const Navbar2 = () => {
                                                     <IoCheckmarkDoneCircleSharp />
                                                     Award Recognitions
                                                 </li>
-                                                <div className={`${iconStyle}'flex gap-2 items-center justify-center py-5 my-4'`}>
+                                                <div className={`${iconStyle} flex gap-2 items-center justify-center py-5 my-4`}>
                                                     <SiGooglesheets />
                                                     <li>Careers</li>{" "}
                                                     <span className="text-sm bg-green-500 text-white mx-2 p-1 rounded-sm">
@@ -382,7 +382,7 @@ const Navbar2 = () => {
                                 <IoCheckmarkDoneCircleSharp />
                                 Award Recognitions
                             </Link>
-                            <Link to="/comingSoon" className={`${iconStyle}'flex gap-2 items-center'`}>
+                            <Link to="/comingSoon" className={`${iconStyle} hover:text-blue-500 flex gap-2 items-center`}>
                                 <SiGooglesheets />
                                 <li>Careers</li>
                                 <span className="text-sm bg-green-500 text-white mx-2 p-1 rounded-sm">
