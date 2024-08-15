@@ -1,28 +1,28 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Faq_SVG_Swit from './SVG/Faq_SVG_Swit';
+import Faq_SVG_WestIndies from './SVG/Faq_SVG_WestIndies';
 
 
-const Faq_Swit = () => {
+const Faq_WestIndies = () => {
   const faq=[
     {
-      question: "How much can it cost to study in the Switzerland?",
-      answer: "The cost of studying in the Switzerland can vary, but on average,it can range from £10,000 to £38,000 per year for international students."
+      question: "How much can it cost to study in the West-Indies?",
+      answer: "The cost of studying in the West-Indies can vary, but on average,it can range from £10,000 to £38,000 per year for international students."
     },
     {
-      question: "How can I go to the Switzerland from Bangladesh to study?",
-      answer: "To go to the Switzerland from Bangladesh to study, you need to apply for a student visa and meet the eligibility criteria set by the Switzerland government."
+      question: "How can I go to the West-Indies from Bangladesh to study?",
+      answer: "To go to the West-Indies from Bangladesh to study, you need to apply for a student visa and meet the eligibility criteria set by the West-Indies government."
     },
     {
-      question: "Do I need IELTS to study in the Switzerland?",
-      answer: "Yes, generally, a valid IELTS score is required for studying in the Switzerland, although some universities may accept alternative English language proficiency tests."
+      question: "Do I need IELTS to study in the West-Indies?",
+      answer: "Yes, generally, a valid IELTS score is required for studying in the West-Indies, although some universities may accept alternative English language proficiency tests."
     },
     {
-      question: "What is the minimum qualification to study in the Switzerland?",
-      answer: "The minimum qualification to study in the Switzerland is a completed secondary education or equivalent, such as A-levels, International Baccalaureate (IB), or equivalent qualifications."
+      question: "What is the minimum qualification to study in the West-Indies?",
+      answer: "The minimum qualification to study in the West-Indies is a completed secondary education or equivalent, such as A-levels, International Baccalaureate (IB), or equivalent qualifications."
     },
     {
-      question: "What is the minimum GPA required to study in the Switzerland?",
-      answer: "The minimum GPA required to study in the Switzerland can vary depending on the university and program, but a good academic record is generally expected."
+      question: "What is the minimum GPA required to study in the West-Indies?",
+      answer: "The minimum GPA required to study in the West-Indies can vary depending on the university and program, but a good academic record is generally expected."
     }
   ];
   const [activeIndex, setActiveIndex] = useState(null);
@@ -47,9 +47,9 @@ const Faq_Swit = () => {
       <div className="mx-auto md:max-w-screen-xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-y-5 lg:flex-row lg:justify-between mx-auto">
           <div className="w-full px-5 lg:w-1/2">
-            <Faq_SVG_Swit />
+            <Faq_SVG_WestIndies />
           </div>
-          <div className="w-full lg:w-1/2 bg-[#f76c6c] h-[525px] rounded-[36px] ">
+          <div className="w-full lg:w-1/2 bg-[#890001] h-[525px] rounded-[36px] ">
             <div className="lg:max-w-xl">
               <div className="accordion-group px-5 py-8 text-white overflow-y-hidden" data-accordion="default-accordion">
                 {faq.map((item, index) => (
@@ -102,4 +102,4 @@ const Faq_Swit = () => {
   );
 };
 
-export default Faq_Swit;
+export default Faq_WestIndies;

@@ -1,9 +1,9 @@
 import Doc1 from "./SVG/Doc1";
 import Doc2 from "./SVG/Doc2";
-import Document_Last_SVG_France from "./SVG/Document_Last_SVG_France";
+import Document_Last_SVG_WestIndies from "./SVG/Document_Last_SVG_WestIndies";
 
 
-const DocumentsRequired_Swit = () => {
+const DocumentsRequired_WestIndies = () => {
   return (
     <>
       <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
@@ -105,7 +105,7 @@ const DocumentsRequired_Swit = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Document_Last_SVG_France/>
+            <Document_Last_SVG_WestIndies/>
           </div>
         </div>
       </div>
@@ -113,4 +113,4 @@ const DocumentsRequired_Swit = () => {
   );
 };
 
-export default DocumentsRequired_Swit;
+export default DocumentsRequired_WestIndies;
