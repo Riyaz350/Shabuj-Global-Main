@@ -35,7 +35,7 @@ const Navbar2 = () => {
   const iconStyle =
     "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center hover:text-blue-500";
   const flagClass =
-    "flex w-10/12 mx-auto flex-1 max-w-[16.66%] flex-col justify-center item-center text-center my-2 lg:mt-20";
+    "flex w-10/12 mx-auto flex-1 md:max-w-[14.28%] flex-col justify-center item-center text-center my-2 lg:mt-10";
   const flag = "w-3/4 mx-auto rounded-lg ";
 
   const enterNavButton = (index) => {
@@ -451,12 +451,12 @@ const Navbar2 = () => {
                 <img className={flag} src={NZ} />
                 <li>Study in New Zealand</li>
               </Link>
-            </ul>
-            <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto">
               <Link className={flagClass} to={"/UAE"}>
                 <img className={flag} src={UAE} />
                 <li>Study in UAE</li>
               </Link>
+            </ul>
+            <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto mb-10">
               <Link className={flagClass} to="/Georgia">
                 <img className={flag} src={Georgia} />
                 <li></li>
@@ -478,18 +478,15 @@ const Navbar2 = () => {
                 <img className={flag} src={France} />
                 <li>Study in France</li>
               </Link>
-            </ul>
-            <ul className="grid grid-cols-2 md:flex md: gap-6 md:justify-start max-w-7xl my-10">
               <Link
-                className="flex-1 max-w-[16.66%] flex flex-col items-center justify-center"
+                className={flagClass}
                 to={"/West-Indies"}
               >
                 <img className={flag} src={WestIndies} />
                 <li>Study in West-Indies</li>
               </Link>
               <Link
-                className="flex-1 max-w-[16.66%] flex flex-col items-center justify-center"
-                to=""
+                className={flagClass}
               >
                 <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
                   Rest of the Countries
