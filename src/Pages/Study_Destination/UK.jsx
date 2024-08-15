@@ -8,7 +8,6 @@ import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFa
 import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
 import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Counselor/Uk_Counselor";
-
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 
