@@ -6,6 +6,13 @@ import Australia from "../../assets/Flags/Australia Flag.svg";
 import Germany from "../../assets/Flags/Germany Flag.svg";
 import Canada from "../../assets/Flags/Canada Flag.svg";
 import NZ from "../../assets/Flags/Newzealand Flag.svg";
+import UAE from "../../assets/Flags/UAE.jpg";
+import Georgia from "../../assets/Flags/Georgia.png";
+import Finland from "../../assets/Flags/Finland.png";
+import Cyprus from "../../assets/Flags/Cyprus.png";
+import Switzerland from "../../assets/Flags/Switzerland.png";
+import France from "../../assets/Flags/France.png";
+import WestIndies from "../../assets/Flags/West-Indies.jpg";
 
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
@@ -28,7 +35,7 @@ const Navbar2 = () => {
   const iconStyle =
     "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center hover:text-blue-500";
   const flagClass =
-    "flex w-10/12 mx-auto lg:w-full flex-col justify-center item-center text-center my-2 lg:my-20";
+    "flex w-10/12 mx-auto flex-1 max-w-[16.66%] flex-col justify-center item-center text-center my-2 lg:mt-20";
   const flag = "w-3/4 mx-auto rounded-lg ";
 
   const enterNavButton = (index) => {
@@ -104,7 +111,7 @@ const Navbar2 = () => {
       <div className="px-3 lg:px-14 gap-10 flex flex-row items-center lg:items-end justify-between py-10  lg:py-5">
         <Link to={"/"}>
           <img
-            className="h-[30px] w-[200px]   lg:mx-0 md:h-[40px] md:w-[250px] lg:h-[50px] lg:w-[350px]"
+            className="h-[30px] w-[200px] lg:mx-0 md:h-[40px] md:w-[250px] lg:h-[50px] lg:w-[350px]"
             src={logo}
             alt=""
           />
@@ -170,6 +177,37 @@ const Navbar2 = () => {
                       <Link className={flagClass}>
                         <img className={flag} src={NZ} />
                         <li>Study in New Zealand</li>
+                      </Link>
+                      <Link className={flagClass} to={"/UAE"}>
+                        <img className={flag} src={UAE} />
+                        <li>Study in UAE</li>
+                      </Link>
+                      <Link className={flagClass} to="/Georgia">
+                        <img className={flag} src={Georgia} />
+                        <li>Study in Georgia</li>
+                      </Link>
+                      <Link className={flagClass} to={"/Finland"}>
+                        <img className={flag} src={Finland} />
+                        <li>Study in Finland</li>
+                      </Link>
+                      <Link className={flagClass} to={"/Cyprus"}>
+                        <img className={flag} src={Cyprus} />
+                        <li>Study in Cyprus</li>
+                      </Link>
+                      <Link className={flagClass} to={"/Switzerland"}>
+                        <img className={flag} src={Switzerland} />
+                        <li>Study in Switzerland</li>
+                      </Link>
+                      <Link className={flagClass} to={"/France"}>
+                        <img className={flag} src={France} />
+                        <li>Study in France</li>
+                      </Link>
+                      <Link className={flagClass} to={"/West-Indies"}>
+                        <img className={flag} src={WestIndies} />
+                        <li>Study in West-Indies</li>
+                      </Link>
+                      <Link className={flagClass}>
+                        <button>Rest of the World</button>
                       </Link>
                     </ul>
                   </div>
@@ -384,9 +422,9 @@ const Navbar2 = () => {
       </div>
 
       {/* Navbar Item */}
-      <div className=" bg-white absolute w-full    z-40 shadow-lg">
+      <div className=" bg-white absolute w-full z-40 shadow-lg">
         {navIndex == 1 && (
-          <div>
+          <div className="md:px-10">
             <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto">
               <Link className={flagClass} to={"/UK"}>
                 <img className={flag} src={UK} />
@@ -412,6 +450,50 @@ const Navbar2 = () => {
               <Link className={flagClass} to="/comingSoon">
                 <img className={flag} src={NZ} />
                 <li>Study in New Zealand</li>
+              </Link>
+            </ul>
+            <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto">
+              <Link className={flagClass} to={"/UAE"}>
+                <img className={flag} src={UAE} />
+                <li>Study in UAE</li>
+              </Link>
+              <Link className={flagClass} to="/Georgia">
+                <img className={flag} src={Georgia} />
+                <li></li>
+                <li>Study in Georgia</li>
+              </Link>
+              <Link className={flagClass} to={"/Finland"}>
+                <img className={flag} src={Finland} />
+                <li>Study in Finland</li>
+              </Link>
+              <Link className={flagClass} to="/Cyprus">
+                <img className={flag} src={Cyprus} />
+                <li>Study in Cyprus</li>
+              </Link>
+              <Link className={flagClass} to={"/Switzerland"}>
+                <img className={flag} src={Switzerland} />
+                <li>Study in Switzerland</li>
+              </Link>
+              <Link className={flagClass} to="/France">
+                <img className={flag} src={France} />
+                <li>Study in France</li>
+              </Link>
+            </ul>
+            <ul className="grid grid-cols-2 md:flex md: gap-6 md:justify-start max-w-7xl my-10">
+              <Link
+                className="flex-1 max-w-[16.66%] flex flex-col items-center justify-center"
+                to={"/West-Indies"}
+              >
+                <img className={flag} src={WestIndies} />
+                <li>Study in West-Indies</li>
+              </Link>
+              <Link
+                className="flex-1 max-w-[16.66%] flex flex-col items-center justify-center"
+                to=""
+              >
+                <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
+                  Rest of the Countries
+                </button>
               </Link>
             </ul>
           </div>
