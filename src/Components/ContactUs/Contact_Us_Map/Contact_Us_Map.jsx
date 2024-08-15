@@ -1,18 +1,60 @@
-
 import gifImage from "../../../assets/Flow 1@512p-50fps.gif";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { SlLocationPin } from "react-icons/sl";
 import { FiSmartphone } from "react-icons/fi";
 import { IoMailOutline } from "react-icons/io5";
 import "./Contact_US.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const Contact_Us_Map = () => {
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [showDiv, setShowDiv] = useState("block");
+  const modalRef = useRef(null); 
+
+  const handleMouseEnter = (event) => {
+    setSelectedCountry(event.target.id);
+    setShowDiv("block");
+  };
+
+  const handleMouseLeave = () => {
+    setShowDiv(null);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+  const handleClickOutside = (event) => {
+    if (modalRef.current && !modalRef.current.contains(event.target)) {
+      closeModal();
+    }
+  };
+
+  useEffect(() => {
+    if (showModal) {
+      document.addEventListener("click", handleClickOutside); 
+    } else {
+      document.removeEventListener("click", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [showModal]);
+
+  const [width, setWidth] = useState(null);
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
+
+  const handleSvgClick = (event) => {
+    event.stopPropagation(); 
+    setShowModal(true);
+  };
   const officeAddress = {
-   "United Kingdom": {
+    "United Kingdom": {
       title: "United Kingdom",
       offices: [
         {
@@ -66,40 +108,39 @@ const Contact_Us_Map = () => {
       offices: [
         {
           city: "Dhaka",
-          address: "Nagar Lutfun Homes, House No 11, Road No 17,Block D, Banani, Dhaka.",
+          address:
+            "Nagar Lutfun Homes, House No 11, Road No 17,Block D, Banani, Dhaka.",
           phone: "09065327323, 07048293093",
-          email:
-            "bd@shabujglobal.com, applications.bd@shabujglobal.com",
+          email: "bd@shabujglobal.com, applications.bd@shabujglobal.com",
         },
         {
           city: "Chattogram",
-          address: "R.I. Tower(level 3),23/A MM Ali Road, Golpahar moor, Chattogram.",
+          address:
+            "R.I. Tower(level 3),23/A MM Ali Road, Golpahar moor, Chattogram.",
           phone: "+2349033173017",
           email: "bd@shabujglobal.com",
         },
       ],
     },
-    "Nepal": {
+    Nepal: {
       title: "Nepal",
       offices: [
         {
           city: "Kathmandu",
           address: "3rd Floor, Putalisadak, रामशाह पथ, Kathmandu 44600",
           phone: "00447903108549",
-          email:
-            "applications.nepal@shabujglobal.com",
+          email: "applications.nepal@shabujglobal.com",
         },
       ],
     },
-    "Dubai": {
+    Dubai: {
       title: "Dubai",
       offices: [
         {
           city: "Kathmandu",
           address: "3rd Floor, Putalisadak, रामशाह पथ, Kathmandu 44600",
           phone: "00447903108549",
-          email:
-            "applications.nepal@shabujglobal.com",
+          email: "applications.nepal@shabujglobal.com",
         },
       ],
     },
@@ -108,42 +149,23 @@ const Contact_Us_Map = () => {
       offices: [
         {
           city: "Dhaka",
-          address: "Nagar Lutfun Homes, House No 11, Road No 17,Block D, Banani, Dhaka.",
+          address:
+            "Nagar Lutfun Homes, House No 11, Road No 17,Block D, Banani, Dhaka.",
           phone: "09065327323, 07048293093",
-          email:
-            "bd@shabujglobal.com, applications.bd@shabujglobal.com",
+          email: "bd@shabujglobal.com, applications.bd@shabujglobal.com",
         },
         {
           city: "Chattogram",
-          address: "R.I. Tower(level 3),23/A MM Ali Road, Golpahar moor, Chattogram.",
+          address:
+            "R.I. Tower(level 3),23/A MM Ali Road, Golpahar moor, Chattogram.",
           phone: "+2349033173017",
           email: "bd@shabujglobal.com",
         },
       ],
     },
-    
   };
 
-  const handleMouseEnter = (event) => {
-    setSelectedCountry(event.target.id);
-    setShowDiv("block");
-    console.log(selectedCountry);
-  };
-  const handleMouseLeave = () => {
-    console.log(selectedCountry);
-    setShowDiv(null);
-  };
 
-  const closeModal = () => {
-    setShowModal(false);
-    // setSelectedCountry(null);
-  };
-
-  const [width, setWidth] = useState(null)
-
-    useEffect(() => {
-        setWidth(window.innerWidth)
-    }, [])
   return (
     <div className="bg-[#EFF6FF]">
       <div className="bg-[#081831] overflow-scroll rounded-[32px] pb-16">
@@ -428,7 +450,7 @@ const Contact_Us_Map = () => {
                 fill="#93C5FD"
                 id="United Kingdom"
                 className="allPaths hover-path"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
                 d="M539.545 159.09C538.808 159.689 538.946 160.374 540.231 160.22C541.515 160.066 540.762 162.242 540.899 163.321C541.019 164.4 541.361 165.342 542.012 164.4C542.646 163.458 542.252 161.436 543.246 161.933C544.239 162.43 542.612 166.867 543.743 167.449C544.873 168.049 544.771 167.449 545.816 167.449C546.861 167.449 547.94 168.049 548.437 168.974C548.934 169.916 550.116 169.076 549.619 171.046C549.122 173.016 549.122 172.828 547.203 173.171C545.285 173.513 544.102 175.141 546.21 175.449C546.21 175.449 547.289 175.98 546.364 176.734C545.422 177.47 541.378 179.389 543.897 180.228C546.415 181.068 546.604 181.016 547.786 180.965C548.968 180.913 550.013 179.92 550.047 180.674C550.099 181.41 549.893 182.113 548.471 182.164C547.032 182.215 546.244 182.164 545.507 183.192C544.771 184.237 543.486 185.264 542.835 185.556C542.201 185.847 541.361 186.446 541.995 187.08C542.629 187.731 543.383 186.789 544.565 186.635C545.747 186.481 547.477 186.19 547.477 186.19C547.477 186.19 548.471 184.665 549.259 184.614C550.047 184.562 553.114 184.562 555.924 184.408C558.733 184.254 562.931 184.254 562.297 181.993C561.663 179.731 562.091 179.731 563.085 178.789C564.079 177.847 564.953 176.168 563.873 175.295C562.794 174.404 560.567 176.083 559.83 175.792C559.093 175.5 559.539 174.798 560.173 174.267C560.807 173.719 559.933 172.794 559.265 171.697C558.596 170.618 557.654 168.597 556.421 167.946C555.187 167.295 554.296 165.582 554.245 164.434C554.193 163.304 549.208 161.179 551.384 159.055C553.559 156.931 554.296 154.122 552.669 153.574C551.041 153.026 548.18 154.019 547.101 154.173C547.101 154.173 546.758 153.831 547.203 153.18C547.649 152.529 547.101 152.135 547.752 151.655C548.386 151.158 550.065 150.028 549.533 149.685C548.985 149.343 544.102 149.976 544.102 149.976C544.102 149.976 542.646 150.045 542.663 150.319C542.663 150.319 542.955 152.135 542.064 152.529C541.173 152.923 540.333 154.002 540.882 154.944C541.43 155.886 541.087 156.52 540.71 157.017C540.333 157.514 540.282 158.439 539.545 159.038V159.09Z"
@@ -533,7 +555,7 @@ const Contact_Us_Map = () => {
                 id="Nigeria"
                 className="allPaths hover-path"
                 fill="#93C5FD"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
                 d="M588.938 338.768C589.623 337.86 590.36 337.363 591.148 337.295C592.039 337.209 592.638 337.706 592.707 337.774L592.776 337.843L592.827 337.928C592.93 338.1 593.495 338.956 594.797 338.271C595.739 337.791 596.048 336.661 596.322 335.667C596.528 334.879 596.716 334.211 597.196 333.817C597.984 333.149 599.92 330.443 600.16 329.106C600.451 327.445 601.325 325.749 602.335 324.875C603.055 324.259 603.98 322.957 604.254 322.546L604.357 321.466C602.592 321.124 601.17 319.017 600.536 317.903C599.766 318.4 598.275 319.034 596.288 318.52C594.592 318.092 592.587 318.674 590.959 319.154C590.189 319.377 589.469 319.582 588.869 319.668C587.533 319.856 585.94 319.496 584.398 319.171C583.695 319.017 583.027 318.88 582.393 318.777C580.406 318.486 577.065 317.132 576.671 316.978C575.386 316.636 574.358 316.773 573.519 317.407C571.394 319 571.24 323.111 571.223 323.591C571.172 325.886 570.418 329.312 569.287 330.888C568.979 331.316 568.705 331.607 568.482 331.847C567.985 332.378 567.865 332.498 568.019 333.577C568.208 334.965 568.31 337.329 568.345 338.528C570.315 338.374 573.759 339.179 575.009 342.708C576.328 346.425 576.911 346.751 579.327 346.168C581.263 345.688 582.787 344.678 585.203 345.466C585.529 344.935 585.991 344.027 586.402 343.239C587.207 341.68 588.116 339.916 588.955 338.802L588.938 338.768Z"
@@ -1265,7 +1287,7 @@ const Contact_Us_Map = () => {
               <path
                 className="allPaths hover-path"
                 fill="#93C5FD"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
                 id="India"
@@ -1308,10 +1330,10 @@ const Contact_Us_Map = () => {
                 fill="#EFF6FF"
               />
               <path
-              onClick={() => setShowModal(true)}
-              onMouseOver={handleMouseEnter}
-              onMouseOut={handleMouseLeave}
-              id="Nepal"
+                onClick={handleSvgClick}
+                onMouseOver={handleMouseEnter}
+                onMouseOut={handleMouseLeave}
+                id="Nepal"
                 d="M817.587 269.408C820.208 269.545 821.887 270.299 824.234 271.344L824.577 271.498C825.108 271.738 825.691 272.029 826.29 272.32C828.432 273.399 830.882 274.615 832.681 274.153C834.394 273.708 834.086 271.052 833.966 270.299C832.698 269.271 830.419 268.843 828.74 268.517C827.284 268.243 826.582 268.106 826.205 267.729C825.639 267.147 822.898 265.605 820.876 264.8C819.317 264.183 818.632 263.721 817.279 262.796C816.85 262.504 816.353 262.179 815.754 261.768C814.023 260.637 812.344 261.562 811.711 262.008C811.471 262.419 810.563 264.097 810.614 265.588C810.665 266.941 814.914 269.219 817.621 269.356L817.587 269.408Z"
                 fill="#93C5FD"
               />
@@ -1319,7 +1341,7 @@ const Contact_Us_Map = () => {
                 fill="#93C5FD"
                 id="Bangladesh"
                 className="allPaths hover-path"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
                 d="M848.562 291.06H848.528C848.528 291.06 848.46 288.011 847.706 285.493C847.603 285.168 847.517 285.013 847.466 284.945C847.312 285.031 847.055 285.305 846.918 285.459C846.558 285.836 846.198 286.195 845.753 286.195C845.53 286.195 845.307 286.093 845.153 285.921C844.176 284.842 845.581 281.844 846.575 280.611C846.746 280.405 846.883 280.234 847.003 280.08C847.586 279.378 847.637 279.309 847.671 278.864C847.192 278.675 845.667 278.692 844.725 278.692C843.988 278.692 843.303 278.692 842.72 278.658C840.733 278.521 840.459 278.23 839.893 276.757C839.842 276.62 839.791 276.466 839.722 276.311C839.551 275.9 839.448 275.729 839.397 275.677C839.328 275.695 839.191 275.746 839.105 275.797C838.9 275.883 838.626 276.003 838.3 276.072C837.529 276.26 836.998 276.02 836.57 275.849C836.227 275.695 835.953 275.592 835.542 275.626C835.405 275.626 835.336 275.678 835.319 275.695C835.268 275.797 835.422 276.226 835.816 276.534C835.936 276.62 836.124 276.74 836.33 276.859C837.101 277.322 838.06 277.887 838.06 278.778C838.06 279.6 837.204 280.063 836.929 280.217C836.621 280.388 836.518 280.508 836.467 280.56C836.587 280.714 837.084 280.971 837.512 281.091L837.992 281.228L837.94 281.724C837.855 282.53 837.683 284.825 837.94 285.87C838.18 286.864 838.471 288.919 838.626 290.084C839.893 290.118 841.093 289.176 841.881 288.011C842.96 286.435 844.057 283.763 846.267 287.72C846.267 287.72 846.661 288.457 846.712 290.478C846.746 292.225 846.986 293.047 848.545 294.127C848.545 292.893 848.562 291.728 848.545 291.026L848.562 291.06Z"
@@ -1406,7 +1428,7 @@ const Contact_Us_Map = () => {
                 id="Saudi Arabia"
                 className="allPaths hover-path"
                 fill="#93C5FD"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
                 d="M705.592 266.17C706.466 266.41 707.751 266.924 708.059 267.369L708.077 267.352C708.454 267.883 709.002 268.072 709.584 268.072C709.978 268.072 710.372 268.003 710.749 267.9C710.766 268.157 710.784 268.397 710.852 268.551C710.934 268.744 711.369 269.066 711.845 269.417C712.467 269.877 713.158 270.387 713.216 270.727C713.302 271.309 713.405 271.755 714.296 272.251C715.187 272.748 715.632 273.827 715.478 274.821C715.341 275.797 716.077 276.74 716.917 277.031C717.364 277.186 717.699 277.593 718.033 277.999C718.327 278.357 718.621 278.714 718.99 278.898C719.763 279.301 719.25 278.303 718.631 277.1L718.596 277.031C717.962 275.797 719.641 274.752 720.326 275.746C721.029 276.74 720.772 277.682 720.086 279.155C719.401 280.645 720.549 281.262 720.549 281.262C721.479 282.691 723.343 282.422 724.704 282.227C725.028 282.18 725.323 282.138 725.57 282.123L726.984 285.815L727.159 286.271L727.619 286.107L738.116 282.349C738.175 282.365 738.236 282.379 738.298 282.392C740.011 282.752 741.159 283.369 742.701 284.328C744.243 285.287 746.059 287.686 745.562 289.039C745.065 290.392 742.581 293.184 741.947 293.613C741.754 293.747 741.598 293.807 741.442 293.867C741.101 293.998 740.763 294.129 740.046 295.035C739.58 295.622 739.523 296.429 739.469 297.183C739.401 298.122 739.34 298.977 738.504 299.214C736.996 299.643 736.071 300.722 735.848 301.51C735.608 302.298 734.889 302.623 734.889 302.623C731.205 302.657 731.342 305.381 731.342 305.381C731.342 305.381 729.8 305.278 728.481 305.278C727.74 305.278 727.166 305.609 726.489 305.998C725.962 306.302 725.372 306.641 724.592 306.889C723.043 307.385 722.775 307.881 722.199 308.945C722.119 309.093 722.033 309.252 721.937 309.424C721.149 310.829 719.864 311.171 718.51 311.428C718.262 311.479 718.029 311.521 717.805 311.561C716.825 311.736 715.998 311.884 714.604 312.679C714.225 312.895 713.876 313.112 713.532 313.327C712.32 314.082 711.155 314.808 708.848 315.368C705.884 316.088 702.44 317.698 701.018 318.52C699.596 319.342 697.489 319.908 697.232 319.736C693.093 319.411 692.796 312.891 692.624 309.136L692.623 309.116C692.51 306.367 691.561 305.283 690.387 303.943C689.959 303.454 689.501 302.931 689.043 302.281C688.298 301.213 687.96 300.291 687.656 299.465C687.269 298.408 686.938 297.508 685.89 296.662L685.832 296.615C683.964 295.09 681.158 292.799 680.768 288.696C680.471 285.575 678.853 284.037 677.37 282.626C676.883 282.163 676.411 281.714 676.005 281.228C675.148 280.202 675.184 279.264 675.214 278.475C675.241 277.749 675.264 277.149 674.583 276.722C673.161 275.832 672.116 274.29 671.944 273.468C671.916 273.331 671.895 273.194 671.874 273.056C671.769 272.369 671.662 271.669 670.591 270.898C670.047 270.507 669.792 270.376 669.599 270.183C669.336 269.92 669.189 269.54 668.586 268.226C667.894 266.729 668.074 265.877 668.209 265.234C668.278 264.906 668.336 264.632 668.261 264.354C668.237 264.319 668.221 264.283 668.208 264.253C668.203 264.24 668.198 264.228 668.192 264.217C668.586 264.372 669.152 264.457 669.94 264.491C671.996 264.594 676.245 264.663 676.245 264.663H676.296C676.301 264.662 676.307 264.662 676.314 264.661C676.539 264.637 677.874 264.497 678.438 263.618C678.643 263.309 678.814 262.796 678.557 262.059C678.232 261.151 677.581 260.26 676.998 259.472C676.957 259.415 676.914 259.355 676.869 259.294C676.585 258.902 676.267 258.464 676.193 258.256C676.386 258.031 677.367 257.699 678.366 257.362C678.43 257.34 678.494 257.318 678.557 257.297C678.674 257.258 678.794 257.219 678.917 257.179C679.176 257.096 679.45 257.007 679.74 256.903C680.819 256.526 681.487 256.235 681.813 255.858C682.549 255.738 685.085 255.515 687.381 257.434C688.895 258.704 690.332 259.695 691.706 260.643C691.778 260.693 691.849 260.742 691.921 260.791C691.987 260.836 692.052 260.881 692.117 260.926C693.294 261.731 694.393 262.484 695.416 263.344C697.712 265.245 699.767 266.102 702.286 266.17C703.731 266.21 704.737 266.188 705.264 266.176C705.411 266.173 705.521 266.17 705.592 266.17ZM736.906 281.72C736.239 281.173 735.835 280.441 735.552 279.927C735.511 279.853 735.473 279.784 735.437 279.72C735.009 278.966 735.009 277.322 735.18 276.465C735.206 276.337 735.234 276.209 735.262 276.085C735.418 275.384 735.545 274.812 734.992 274.958C734.6 275.061 733.878 275.767 733.168 276.462C732.699 276.921 732.235 277.375 731.874 277.647C730.966 278.333 729.047 280.011 728.361 281.159C727.873 281.977 727.35 282.099 726.638 282.114L727.743 285L736.906 281.72Z"
@@ -2126,17 +2148,23 @@ const Contact_Us_Map = () => {
                 cy="321"
                 r="8"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
                 id="India"
                 fill="#D80621"
               />
-              <circle className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+              <circle
+                className="allPaths hover-path cursor-pointer"
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
-                id="India" cx="802.012" cy="321" r="4.61253" fill="#FF1A1A" />
+                id="India"
+                cx="802.012"
+                cy="321"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
               <circle
                 opacity="0.3"
                 cx="589.671"
@@ -2145,15 +2173,21 @@ const Contact_Us_Map = () => {
                 fill="#D80621"
                 id="Nigeria"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
               />
-              <circle id="Nigeria"
+              <circle
+                id="Nigeria"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
-                onMouseOut={handleMouseLeave} cx="589.671" cy="333.927" r="4.61253" fill="#FF1A1A" />
+                onMouseOut={handleMouseLeave}
+                cx="589.671"
+                cy="333.927"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
               <circle
                 opacity="0.3"
                 cx="702.828"
@@ -2162,14 +2196,21 @@ const Contact_Us_Map = () => {
                 fill="#D80621"
                 id="Saudi Arabia"
                 className="allPaths hover-path"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
               />
-              <circle onClick={() => setShowModal(true)}
+              <circle
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
-                onMouseOut={handleMouseLeave} id="Saudi Arabia"
-                className="allPaths hover-path cursor-pointer" cx="702.828" cy="287.864" r="4.61253" fill="#FF1A1A" />
+                onMouseOut={handleMouseLeave}
+                id="Saudi Arabia"
+                className="allPaths hover-path cursor-pointer"
+                cx="702.828"
+                cy="287.864"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
               <circle
                 opacity="0.3"
                 cx="734.076"
@@ -2178,15 +2219,21 @@ const Contact_Us_Map = () => {
                 fill="#D80621"
                 id="Dubai"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
               />
-              <circle id="Dubai"
+              <circle
+                id="Dubai"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
-                onMouseOut={handleMouseLeave} cx="734.076" cy="277.922" r="4.61253" fill="#FF1A1A" />
+                onMouseOut={handleMouseLeave}
+                cx="734.076"
+                cy="277.922"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
               <circle
                 opacity="0.3"
                 cx="846.154"
@@ -2195,15 +2242,21 @@ const Contact_Us_Map = () => {
                 fill="#D80621"
                 id="Bangladesh"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
               />
-              <circle id="Bangladesh"
+              <circle
+                id="Bangladesh"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
-                onMouseOut={handleMouseLeave} cx="846.154" cy="287.991" r="4.61253" fill="#FF1A1A" />
+                onMouseOut={handleMouseLeave}
+                cx="846.154"
+                cy="287.991"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
               <circle
                 opacity="0.3"
                 cx="827.093"
@@ -2212,15 +2265,21 @@ const Contact_Us_Map = () => {
                 fill="#D80621"
                 id="Nepal"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
               />
-              <circle id="Nepal"
+              <circle
+                id="Nepal"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
-                onMouseOut={handleMouseLeave} cx="827.093" cy="272.984" r="4.61253" fill="#FF1A1A" />
+                onMouseOut={handleMouseLeave}
+                cx="827.093"
+                cy="272.984"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
               <circle
                 opacity="0.3"
                 cx="556.242"
@@ -2229,15 +2288,21 @@ const Contact_Us_Map = () => {
                 fill="#D80621"
                 id="United Kingdom"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
                 onMouseOut={handleMouseLeave}
               />
-              <circle id="United Kingdom"
+              <circle
+                id="United Kingdom"
                 className="allPaths hover-path cursor-pointer"
-                onClick={() => setShowModal(true)}
+                onClick={handleSvgClick}
                 onMouseOver={handleMouseEnter}
-                onMouseOut={handleMouseLeave} cx="556.242" cy="173.956" r="4.61253" fill="#FF1A1A" />
+                onMouseOut={handleMouseLeave}
+                cx="556.242"
+                cy="173.956"
+                r="4.61253"
+                fill="#FF1A1A"
+              />
             </g>
             <defs>
               <filter
@@ -2320,59 +2385,60 @@ const Contact_Us_Map = () => {
               showDiv ? "block" : "hidden"
             }`}
           >
-            <p id="namep" className="text-xl md:text-4xl lg:text-[56px] font-semibold">
+            <p
+              id="namep"
+              className="text-xl md:text-4xl lg:text-[56px] font-semibold"
+            >
               {selectedCountry || ""}
             </p>
           </div>
 
           {showModal ? (
-            <>
-              <div className="contact_modal">
-                <div className="modal-content">
-                  <button className="close-button" onClick={closeModal}>
-                    <IoIosCloseCircleOutline />
-                  </button>
-                  <h2 className="text-[30px] text-center font-bold mb-6">
-                    {officeAddress[selectedCountry]?.title}
-                  </h2>
-                  {officeAddress[selectedCountry]?.offices.map(
-                    (office, index) => (
-                      <div
-                        key={index}
-                        className={`py-5 mx-auto space-y-2 w-[75%] ${
-                          index !==
-                          officeAddress[selectedCountry]?.offices.length - 1
-                            ? "border-b border-dashed border-black"
-                            : ""
-                        }`}
-                      >
-                        <h3 className="font-bold uppercase">{office.city}</h3>
-                        <div className="font-medium flex gap-2 items-start">
-                          <div className="flex-none ">
-                            <SlLocationPin size={22} className="mt-[6px]" />
-                          </div>
-                          <p className="align-top ">{office.address}</p>
+            <div className="contact_modal">
+              <div className="modal-content" ref={modalRef}> {/* Attach ref to modal content */}
+                <button className="close-button" onClick={closeModal}>
+                  <IoIosCloseCircleOutline />
+                </button>
+                <h2 className="text-[30px] text-center font-bold mb-6">
+                  {officeAddress[selectedCountry]?.title}
+                </h2>
+                {officeAddress[selectedCountry]?.offices.map(
+                  (office, index) => (
+                    <div
+                      key={index}
+                      className={`py-5 mx-auto space-y-2 w-[75%] ${
+                        index !==
+                        officeAddress[selectedCountry]?.offices.length - 1
+                          ? "border-b border-dashed border-black"
+                          : ""
+                      }`}
+                    >
+                      <h3 className="font-bold uppercase">{office.city}</h3>
+                      <div className="font-medium flex gap-2 items-start">
+                        <div className="flex-none ">
+                          <SlLocationPin size={22} className="mt-[6px]" />
                         </div>
-                        <p className="font-medium">
-                          <FiSmartphone
-                            size={22}
-                            className=" inline-block justify-center items-center mr-2"
-                          />
-                          {office.phone}
-                        </p>
-
-                        <div className="font-medium flex gap-2 items-start">
-                          <div className="flex-none ">
-                            <IoMailOutline size={22} />
-                          </div>
-                          <p className="align-top ">{office.email}</p>
-                        </div>
+                        <p className="align-top ">{office.address}</p>
                       </div>
-                    )
-                  )}
-                </div>
+                      <p className="font-medium">
+                        <FiSmartphone
+                          size={22}
+                          className=" inline-block justify-center items-center mr-2"
+                        />
+                        {office.phone}
+                      </p>
+
+                      <div className="font-medium flex gap-2 items-start">
+                        <div className="flex-none ">
+                          <IoMailOutline size={22} />
+                        </div>
+                        <p className="align-top ">{office.email}</p>
+                      </div>
+                    </div>
+                  )
+                )}
               </div>
-            </>
+            </div>
           ) : null}
 
           <img
