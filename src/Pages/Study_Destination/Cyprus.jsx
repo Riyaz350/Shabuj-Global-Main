@@ -26,8 +26,8 @@ const Cyprus = () => {
             <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard>
             <Exams country={"Cyprus"}></Exams>
             <GuidanceBanner></GuidanceBanner>
-            <Cyprus_Faq></Cyprus_Faq>
             <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired>
+            <Cyprus_Faq></Cyprus_Faq>
             <Cyprus_Counselor></Cyprus_Counselor>
         </div>
     );
