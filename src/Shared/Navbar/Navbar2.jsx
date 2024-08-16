@@ -28,6 +28,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { FcAbout } from "react-icons/fc";
 
 const Navbar2 = () => {
   const [navButton, setNavButton] = useState(0);
@@ -59,17 +60,15 @@ const Navbar2 = () => {
         >
           <button className="flex items-center gap-1">
             <p
-              className={`${
-                width >= 1244 ? "text-base" : "text-sm"
-              } bg-white  lg:bg-[#F0F8FF] font-semibold`}
+              className={`${width >= 1244 ? "text-base" : "text-sm"
+                } bg-white  lg:bg-[#F0F8FF] font-semibold`}
             >
               {text}
             </p>
           </button>
           <span
-            className={` ${
-              navButton == ind && "rotate-180 transition ease-in-out delay-450"
-            }`}
+            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
+              }`}
           >
             <FaChevronUp />
           </span>
@@ -108,7 +107,7 @@ const Navbar2 = () => {
       onMouseLeave={() => leaveNavButton()}
       className="relative bg-[#F0F8FF]  "
     >
-      <div className="px-3 lg:px-14 gap-10 flex flex-row items-center lg:items-end justify-between py-10  lg:py-5">
+      <div className="px-3  lg:px-14 gap-10 flex flex-row items-center    justify-between py-10  lg:py-5">
         <Link to={"/"}>
           <img
             className="h-[30px] w-[200px] lg:mx-0 md:h-[40px] md:w-[250px] lg:h-[50px] lg:w-[350px]"
@@ -375,12 +374,11 @@ const Navbar2 = () => {
 
         {/* Large device navbar buttons */}
 
-        <div className="hidden items-center justify-between my-5 lg:flex gap-3  ">
+        <div className="hidden items-center justify-between my-5 lg:flex gap-3 flex-wrap ">
           <div className="flex items-center gap-1">
             <Link
-              className={`${
-                width >= 1244 ? "text-base" : "text-sm"
-              } bg-white  lg:bg-[#F0F8FF] font-semibold`}
+              className={`${width >= 1244 ? "text-base" : "text-sm"
+                } bg-white  lg:bg-[#F0F8FF] font-semibold`}
               to="/"
             >
               Home
@@ -400,24 +398,24 @@ const Navbar2 = () => {
             <NavButton text="Test Prep." ind={3} />
           </div>
 
-          <div className="flex items-center gap-1">
+          <div className="flex items-center  gap-1">
             <Link to={"/about"}>
               <NavButton ind={4} text="About Us" />
             </Link>
           </div>
-          <div className="flex items-center gap-1">
+          <div className={`${width >= 1244 ? "text-base" : "text-sm"
+            } flex items-center justify-end gap-1`}>
             <Link
-              className={`${
-                width >= 1244 ? "text-base" : "text-sm"
-              } bg-white  lg:bg-[#F0F8FF] font-semibold`}
+              className={` bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
               to="/registration"
             >
               Registration
             </Link>
+            <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
+              Log In
+            </button>
           </div>
-          <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
-            Log In
-          </button>
+
         </div>
       </div>
 
@@ -498,7 +496,13 @@ const Navbar2 = () => {
         {navIndex == 2 && (
           <>
             <div className="flex flex-col  mx-20 my-10 md:grid  grid-cols-3  md:max-w-7xl lg:mx-auto ">
-              <div className="col-span-2 my-10">
+              <div className="col-span-2 my-5">
+                <Link
+                  className="text-2xl  text-blue-600 "
+                  to="/services"
+                >
+                  Services
+                </Link>
                 <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
                   FOR STUDENTS
                 </h2>
@@ -595,6 +599,13 @@ const Navbar2 = () => {
               <Link className={iconStyle} to="/events">
                 <BsCameraVideoFill />
                 Events & Webinars
+              </Link>
+              <Link
+                className={`${iconStyle} `}
+                to="/about"
+              >
+                <FcAbout />
+                About Us
               </Link>
             </ul>
             <ul></ul>
