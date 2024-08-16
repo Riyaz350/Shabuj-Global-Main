@@ -14,13 +14,12 @@ import Privacy from "../Components/Privacy/Privacy";
 const Layout = () => {
     return (
         <div>
-            {/* <Navbar2/>
+            <Navbar2/>
             
             
             <Outlet/>
             
-            <Footer/> */}
-            <Privacy></Privacy>
+            <Footer/>
         </div>
     );
 };
