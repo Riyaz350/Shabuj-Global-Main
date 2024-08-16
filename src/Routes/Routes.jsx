@@ -22,6 +22,7 @@ import Registration_Page from "../Components/Registration_Components/Registratio
 import Switzerland from "../Pages/Study_Destination/Switzerland";
 import France from "../Pages/Study_Destination/France";
 import WestIndies from "../Pages/Study_Destination/WestIndies";
+import UAE from "../Pages/Study_Destination/UAE";
 
 export const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ export const router = createBrowserRouter([
       {
         path: "/UK",
         element: <UK />,
+      },
+      {
+        path: "/UAE",
+        element: <UAE />,
       },
       {
         path: "/Australia",
