@@ -2,7 +2,7 @@
 
 const Privacy = () => {
     return (
-        <div>
+        <div className="pb-28">
             <div className="bg-gradient-two py-32 text-center">
                 <h2 className="lg:text-7xl text-5xl text-white poppins-semibold">Privacy Policy</h2>
             </div>
