@@ -24,6 +24,8 @@ import France from "../Pages/Study_Destination/France";
 import WestIndies from "../Pages/Study_Destination/WestIndies";
 import UAE from "../Pages/Study_Destination/UAE";
 import Georgia from "../Pages/Study_Destination/Georgia";
+import Finland from "../Pages/Study_Destination/Finland";
+import Cyprus from "../Pages/Study_Destination/Cyprus";
 
 
 export const router = createBrowserRouter([
@@ -75,6 +77,14 @@ export const router = createBrowserRouter([
       {
         path: "/Georgia",
         element: <Georgia />,
+      },
+      {
+        path: "/Finland",
+        element: <Finland />,
+      },
+      {
+        path: "/Cyprus",
+        element: <Cyprus />,
       },
       {
         path: "/Australia",

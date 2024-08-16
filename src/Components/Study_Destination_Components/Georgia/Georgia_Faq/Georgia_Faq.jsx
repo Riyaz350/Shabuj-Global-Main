@@ -7,23 +7,23 @@ import Georgia_FaqSVG from './Georgia_FaqSVG';
 const Georgia_Faq = () => {
   const faq=[
     {
-      question: "Which course is best for PR in Germany?",
-      answer: "The cost of studying in Germany varies depending on factors such as the chosen university, course, and location. On average, international students can expect to pay between AUD 20,000 to AUD 45,000 per year for undergraduate programs and AUD 22,000 to AUD 50,000 per year for postgraduate programs."
+      question: "Which course is best for PR in Georgia?",
+      answer: "The cost of studying in Georgia varies depending on factors such as the chosen university, course, and location. On average, international students can expect to pay between AUD 20,000 to AUD 45,000 per year for undergraduate programs and AUD 22,000 to AUD 50,000 per year for postgraduate programs."
     },
     {
-      question: "How do I get PR in Germany?",
-      answer: "There are different pathways to obtaining Permanent Residency in Australia. Some common routes include employer-sponsored visas, state/territory nomination programs, the Skilled Independent visa (subclass 189), the Skilled Nominated visa (subclass 190), and the Regional Skilled visa (subclass 491). Each pathway has its own specific criteria and requirements, which may include work experience, English language proficiency, skill assessments, and meeting the occupation list requirements."
+      question: "How do I get PR in Georgia?",
+      answer: "There are different pathways to obtaining Permanent Residency in Georgia. Some common routes include employer-sponsored visas, state/territory nomination programs, the Skilled Independent visa (subclass 189), the Skilled Nominated visa (subclass 190), and the Regional Skilled visa (subclass 491). Each pathway has its own specific criteria and requirements, which may include work experience, English language proficiency, skill assessments, and meeting the occupation list requirements."
     },
     {
       question: "Are there any options to reduce the cost of studying?",
       answer: "Yes, options to reduce costs include scholarships, part-time work, choosing regional areas, budgeting, and work-integrated learning opportunities."
     },
     {
-      question: "How much does an Germanian study visa cost?",
-      answer: "A student visa in Germany costs AUD 650 for international students. However, there are additional costs that one may have to pay. This includes costs for health checks, biometrics, police certificates, etc. If you are under the age of 18, your total Australia student visa fees will be AUD 650 + AUD 160."
+      question: "How much does an Georgian study visa cost?",
+      answer: "A student visa in Georgia costs AUD 650 for international students. However, there are additional costs that one may have to pay. This includes costs for health checks, biometrics, police certificates, etc. If you are under the age of 18, your total Georgia student visa fees will be AUD 650 + AUD 160."
     },
     {
-      question: "How much does it cost to study in Germany?",
+      question: "How much does it cost to study in Georgia?",
       answer: "The cost of studying in Germany varies depending on factors such as the chosen university, course, and location. On average, international students can expect to pay between AUD 20,000 to AUD 45,000 per year for undergraduate programs and AUD 22,000 to AUD 50,000 per year for postgraduate programs."
     }
   ];

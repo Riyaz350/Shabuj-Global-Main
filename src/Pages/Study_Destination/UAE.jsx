@@ -2,6 +2,7 @@ import UAE_AnimatedText from "../../Components/Study_Destination_Components/UAE/
 import UAE_Banner from "../../Components/Study_Destination_Components/UAE/UAE_Banner/UAE_Banner";
 import UAE_Counselor from "../../Components/Study_Destination_Components/UAE/UAE_Counselor/UAE_Counselor";
 import UAE_DocumentsRequired from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_DocumentsRequired";
+
 import UAE_Exams from "../../Components/Study_Destination_Components/UAE/UAE_Exams/UAE_Exams";
 import UAE_Faq from "../../Components/Study_Destination_Components/UAE/UAE_Faq/UAE_Faq";
 import UAE_GuidanceBanner from "../../Components/Study_Destination_Components/UAE/UAE_GuidanceBanner";
