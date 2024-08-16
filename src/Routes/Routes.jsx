@@ -19,6 +19,9 @@ import Single_University_Aus from "../Components/Study_Destination_Components/Au
 import HomeSingleUniversity from "../Components/Home/HomeSingleUniversity/HomeSingleUniversity";
 import Single_University_UK from "../Components/Study_Destination_Components/UK/Sing_University_UK";
 import Registration_Page from "../Components/Registration_Components/Registration_Page";
+import Switzerland from "../Pages/Study_Destination/Switzerland";
+import France from "../Pages/Study_Destination/France";
+import WestIndies from "../Pages/Study_Destination/WestIndies";
 
 export const router = createBrowserRouter([
   {
@@ -97,6 +100,18 @@ export const router = createBrowserRouter([
       {
         path: "/singleUniversityAll/:id",
         element: <HomeSingleUniversity/>
+      },
+      {
+        path: "/Switzerland",
+        element: <Switzerland />,
+      },
+      {
+        path: "/France",
+        element: <France />,
+      },
+      {
+        path: "/West-Indies",
+        element: <WestIndies />,
       },
     ],
   },

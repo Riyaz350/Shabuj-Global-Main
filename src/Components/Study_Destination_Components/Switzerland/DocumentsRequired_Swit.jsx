@@ -1,18 +1,18 @@
 import Doc1 from "./SVG/Doc1";
 import Doc2 from "./SVG/Doc2";
-import Document_Last_SVG_UK from "./SVG/Document_Last_SVG_UK";
+import Document_Last_SVG_Swit from "./SVG/Document_Last_SVG_Swit";
 
-const DocumentsRequired = () => {
+const DocumentsRequired_Swit = () => {
   return (
     <>
       <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
         <h1 className="text-3xl md:text-4xl lg:text-[56px] p-5 lg:p-0 lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
-          Documents Required to Study in the UK for International Students
+          Documents Required to Study in the Switzerland for International Students
         </h1>
         <div className="relative flex flex-col md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2 items-center justify-between">
           <div className="flex-1 px-10 lg:px-0 text-[18px] font-normal text-[#1F1F1F]  ">
             <p className="text-gray-700 mb-8 ">
-              When seeking admission as an international student in the UK,
+              When seeking admission as an international student in the Switzerland,
               {`you'll`} generally need to furnish various documents as part of your
               application process. Although the exact prerequisites might differ
               based on the university and the program {`you're`} applying to, the
@@ -42,7 +42,7 @@ const DocumentsRequired = () => {
       {/* Second section  */}
       <div className="min-h-screen bg-white py-28 ">
         <h1 className="text-2xl md:text-4xl  lg:text-[56px] lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
-          Statement of Purpose for UK
+          Statement of Purpose for Switzerland
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
           <Doc2/>
@@ -50,10 +50,10 @@ const DocumentsRequired = () => {
             <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
               application procedure for international students aiming to pursue
-              studies in the UK. It functions as a written piece intended to
+              studies in the Switzerland. It functions as a written piece intended to
               articulate your reasons, academic history, career aspirations, and
               the reasoning behind your choice of university and program in the
-              UK. With the SOP, you have an opportunity to showcase your
+              Switzerland. With the SOP, you have an opportunity to showcase your
               passion, achievements, and suitability for the desired course,
               enabling the admissions committee to gauge your capabilities and
               compatibility with the program.
@@ -78,12 +78,12 @@ const DocumentsRequired = () => {
        {/* Documents Required Last Section */}
        <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
         <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
-        Documents Required to apply for the UK Study Visa
+        Documents Required to apply for the Switzerland Study Visa
         </h1>
         <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
           <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
             <p className=" pb-8">
-              To apply for an UK study visa, you'll need to provide the
+              To apply for an Switzerland study visa, you'll need to provide the
               following documents:
             </p>
             <ul className="list-disc pl-6">
@@ -104,7 +104,7 @@ const DocumentsRequired = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Document_Last_SVG_UK/>
+            <Document_Last_SVG_Swit/>
           </div>
         </div>
       </div>
@@ -112,4 +112,4 @@ const DocumentsRequired = () => {
   );
 };
 
-export default DocumentsRequired;
+export default DocumentsRequired_Swit;

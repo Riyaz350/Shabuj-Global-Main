@@ -2,6 +2,7 @@ import Home_Banner from "../../Components/Home/Home_Banner/Home_Banner";
 import Home_Connection from "../../Components/Home/Home_Connection/Home_Connection";
 import Home_Contact from "../../Components/Home/Home_Contact/Home_Contact";
 import Home_Counter from "../../Components/Home/Home_Counter/Home_Counter";
+import Home_Destination from "../../Components/Home/Home_Destination/Home_Destination";
 import Home_DestinationCard from "../../Components/Home/Home_DestinationCard/Home_DestinationCard";
 import Home_Events from "../../Components/Home/Home_Events/Home_Events";
 import Home_ImageGallery from "../../Components/Home/Home_ImageGallery/Home_ImageGallery";
@@ -21,7 +22,8 @@ export default function Home() {
       <Home_Ticker/>
       <Home_Testimonial/>
       <Home_Connection/>
-      <Home_DestinationCard/>
+      <Home_Destination/>
+      {/* <Home_DestinationCard/> */}
       <Home_UniversityList/>
       <Home_ImageGallery/>
       <Home_Contact/>
