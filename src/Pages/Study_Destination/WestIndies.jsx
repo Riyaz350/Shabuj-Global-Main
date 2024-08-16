@@ -9,6 +9,7 @@ import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner"
 import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Counselor/Uk_Counselor";
 import DocumentsRequired_WestIndies from "../../Components/Study_Destination_Components/West-Indies/DocumentsRequired_WestIndies";
 import Faq_WestIndies from "../../Components/Study_Destination_Components/West-Indies/Faq_WestIndies";
+import WestIndies_Counselor from "../../Components/Study_Destination_Components/West-Indies/WestIndies_Counselor/WestIndies_Counselor";
 
 
 const WestIndies = () => {
@@ -24,7 +25,7 @@ const WestIndies = () => {
       <GuidanceBanner />
       <DocumentsRequired_WestIndies />
       <Faq_WestIndies />
-      <Uk_Counselor/>
+      <WestIndies_Counselor/>
     </div>
   );
 };
