@@ -10,29 +10,6 @@ import Navbar2 from "../Shared/Navbar/Navbar2";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Layout = () => {
     return (
         <div>
@@ -42,7 +19,6 @@ const Layout = () => {
             <Outlet/>
             
             <Footer/>
-            
         </div>
     );
 };
