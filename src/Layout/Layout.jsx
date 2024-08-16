@@ -6,29 +6,6 @@ import UAE_GuidanceBanner from "../Components/UAE/UAE_GuidanceBanner";
 import UAE_FaqSVG from "../Components/UAE/UAE_Faq/UAE_FaqSVG";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Layout = () => {
     return (
         <div>
@@ -38,7 +15,6 @@ const Layout = () => {
             <Outlet/>
             
             <Footer/>
-            <UAE_FaqSVG></UAE_FaqSVG>
         </div>
     );
 };
