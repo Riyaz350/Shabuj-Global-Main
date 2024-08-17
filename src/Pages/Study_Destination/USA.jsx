@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
@@ -12,6 +13,9 @@ import USA_Counselor from "../../Components/Study_Destination_Components/USA/USA
 
 
 const USA = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, );
   return (
     <div>
       <UKBanner country={'USA'}/>
