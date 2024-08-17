@@ -8,8 +8,9 @@ import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import DocumentsRequired_Swit from "../../Components/Study_Destination_Components/Switzerland/DocumentsRequired_Swit";
 import Faq_Swit from "../../Components/Study_Destination_Components/Switzerland/Faq_Swit";
-import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Counselor/Uk_Counselor";
-import Switzerland_Counselor from "../../Components/Study_Destination_Components/Switzerland/Switzerland_Counselor/Switzerland_Counselor";
+import Switz_Counselor from "../../Components/Study_Destination_Components/Switzerland/Switz_Counselor/Switz_Counselor";
+
+
 
 
 const Switzerland = () => {
@@ -25,7 +26,7 @@ const Switzerland = () => {
       <GuidanceBanner />
       <DocumentsRequired_Swit />
       <Faq_Swit />
-      <Switzerland_Counselor/>
+      <Switz_Counselor/>
     </div>
   );
 };
