@@ -196,7 +196,7 @@ const Footer = () => {
                         <div className='flex lg:gap-[18px] flex-col items-center lg:flex-row text-center'>
                             <p className='mulish-regular text-[14px] text-[#CACACA] mt-6 lg:mt-0 px-20 lg:px-0'>Copyright © 2024, All Right Reserved <a href='/'><span className='underline'>Shabuj Global Education</span></a></p>
                             <a href='/comingSoon' target='_blank'><p className='mulish-regular text-[14px] text-[#CACACA]'>Terms & Conditions</p></a>
-                            <a href='/comingSoon' target='_blank'><p className='mulish-regular text-[14px] text-[#CACACA]'>Privacy Policy</p></a>
+                            <a href='/Privacy' target='_blank'><p className='mulish-regular text-[14px] text-[#CACACA]'>Privacy Policy</p></a>
                         </div>
                     </div>
                     <div className='absolute bottom-0 left-48 lg:block hidden'>

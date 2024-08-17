@@ -9,8 +9,6 @@ import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner"
 import DocumentsRequired_WestIndies from "../../Components/Study_Destination_Components/West-Indies/DocumentsRequired_WestIndies";
 import Faq_WestIndies from "../../Components/Study_Destination_Components/West-Indies/Faq_WestIndies";
 import West_Indies_Counselor from "../../Components/Study_Destination_Components/West-Indies/West_Indies_Counselor/West_Indies_Counselor";
-
-
 const WestIndies = () => {
   return (
     <div>

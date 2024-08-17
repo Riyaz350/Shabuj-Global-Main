@@ -1,0 +1,20 @@
+.ukCounselor_bg{
+    background: linear-gradient(93deg, rgba(50,135,253,1) 0%, rgba(2,28,229,1) 100%);
+}
+
+.ukCounselor_svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.ukCounselor:hover .ukCounselor_svg{
+    opacity: 1;
+    visibility: visible; 
+    transition: all 0.24s ease;
+}
+
+@media screen and (max-width : 640px) {
+    .ukCounselor svg {
+        width: 353px;
+        height: 353px;
+    }
+}

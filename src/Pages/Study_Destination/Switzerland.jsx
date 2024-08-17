@@ -11,6 +11,8 @@ import Faq_Swit from "../../Components/Study_Destination_Components/Switzerland/
 import Switz_Counselor from "../../Components/Study_Destination_Components/Switzerland/Switz_Counselor/Switz_Counselor";
 
 
+
+
 const Switzerland = () => {
   return (
     <div>

@@ -14,6 +14,7 @@ import Switzerland from "../../../assets/Switzerland.png";
 import France from "../../../assets/France.png";
 import WestIndies from "../../../assets/West-Indies.jpg";
 import { LiaGreaterThanSolid } from "react-icons/lia";
+import { Link } from "react-router-dom";
 
 const Home_Destination = () => {
   const [cardIndex, setCardIndex] = useState(null);
@@ -21,19 +22,19 @@ const Home_Destination = () => {
   const width = window.innerWidth;
 
   const countries = [
-    { name: "UK", img: UK, to: "UK" },
-    { name: "USA", img: USA, to: "USA" },
-    { name: "CANADA", img: CANADA, to: "Canada" },
-    { name: "Australia", img: AUSTRALIA, to: "Australia" },
-    { name: "Germany", img: GERMANY, to: "Germany" },
-    { name: "New Zealand", img: NZ, to: "NZ" },
-    { name: "UAE", img: UAE, to: "UAE" },
-    { name: "Georgia", img: Georgia, to: "Georgia" },
-    { name: "Finland", img: Finland, to: "Finland" },
-    { name: "Cyprus", img: Cyprus, to: "Cyprus" },
-    { name: "Switzerland", img: Switzerland, to: "Switzerland" },
-    { name: "France", img: France, to: "France" },
-    { name: "West-Indies", img: WestIndies, to: "West-Indies" },
+    { name: "UK", img: UK, to: "/UK" },
+    { name: "USA", img: USA, to: "/USA" },
+    { name: "CANADA", img: CANADA, to: "/comingSoon" },
+    { name: "Australia", img: AUSTRALIA, to: "/Australia" },
+    { name: "Germany", img: GERMANY, to: "/Germany" },
+    { name: "New Zealand", img: NZ, to: "/comingSoon" },
+    { name: "UAE", img: UAE, to: "/UAE" },
+    { name: "Georgia", img: Georgia, to: "/Georgia" },
+    { name: "Finland", img: Finland, to: "/Finland" },
+    { name: "Cyprus", img: Cyprus, to: "/Cyprus" },
+    { name: "Switzerland", img: Switzerland, to: "/Switzerland" },
+    { name: "France", img: France, to: "/France" },
+    { name: "West-Indies", img: WestIndies, to: "/West-Indies" },
   ];
 
   const displayedCountries = showAll ? countries : countries.slice(0, 6);
@@ -64,7 +65,7 @@ const Home_Destination = () => {
         <h1 className="text-5xl font-bold pb-10">We’ll Plan the Rest</h1>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-36 my-10 max-w-7xl mx-auto p-5 lg:p-0">
           {displayedCountries.map((country, index) => (
-            <div
+            <Link to={country?.to}
               key={index}
               onMouseEnter={() => setCardIndex(index)}
               onMouseLeave={() => setCardIndex(null)}
@@ -107,7 +108,7 @@ const Home_Destination = () => {
                   <LiaGreaterThanSolid />
                 </button>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
