@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import Faq_SVG_NZ from './SVG/Faq_SVG_NZ';
 
 
 
@@ -47,7 +48,7 @@ const Faq_NZ = () => {
       <div className="mx-auto md:max-w-screen-xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-y-5 lg:flex-row lg:justify-between mx-auto">
           <div className="w-full px-5 lg:w-1/2">
-            
+            <Faq_SVG_NZ/>
           </div>
           <div className="w-full lg:w-1/2 bg-[#a3a7ff] h-[525px] rounded-[36px] ">
             <div className="lg:max-w-xl">
