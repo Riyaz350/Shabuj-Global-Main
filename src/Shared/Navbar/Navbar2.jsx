@@ -174,7 +174,7 @@ const Navbar2 = () => {
                         <li>Study in Germany</li>
                       </Link>
                       <Link className={flagClass}>
-                        <img className={flag} src={NZ} />
+                        <img className={flag} src={NZ} to={"/New-Zealand"}/>
                         <li>Study in New Zealand</li>
                       </Link>
                       <Link className={flagClass} to={"/UAE"}>
