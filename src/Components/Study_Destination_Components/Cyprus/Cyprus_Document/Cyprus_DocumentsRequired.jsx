@@ -86,7 +86,7 @@ const Cyprus_DocumentsRequired = () => {
         <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
           <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
             <p className=" pb-8">
-              To apply for an Finland study visa, you'll need to provide the
+              To apply for an Cyprus study visa, you'll need to provide the
               following documents:
             </p>
             <ul className="list-disc pl-6">
