@@ -529,7 +529,7 @@ const Navbar2 = () => {
         )}
         {navIndex == 2 && (
           <>
-            <div className={`${width <= 1450 ? 'grid-cols-4': 'grid-cols-5'}  flex flex-col  mx-10  md:grid    md:max-w-[1800px]`}>
+            <div className={`${width <= 1450 ? 'grid-cols-4': 'grid-cols-5'}  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}>
               <div className="col-span-1 md:my-10 my-5">
 
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
@@ -537,15 +537,15 @@ const Navbar2 = () => {
                 </h2>
                 <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
                   <ul className="space-y-2 text-base">
-                    <li>Free Study Abroad Counselling</li>
-                    <li>Student Visa</li>
-                    <li>University Application Process</li>
-                    <li>International Student Visa Guidance</li>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Free Study Abroad Counselling</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Student Visa</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Application Process</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>International Student Visa Guidance</li></Link>
 
-                    <li>University Scholarship Guidance</li>
-                    <li>Study Abroad Destination Guide</li>
-                    <li>Personality Assessment Test</li>
-                    <li>Study Accommodation</li>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Scholarship Guidance</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Abroad Destination Guide</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Personality Assessment Test</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Accommodation</li></Link>
                   </ul>
                 </div>
               </div>
@@ -555,10 +555,10 @@ const Navbar2 = () => {
                   CHANNEL PARTNERS
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <li>Customized Solution</li>
-                  <li>Instant Support</li>
-                  <li>Commissions</li>
-                  <li>Technological Support</li>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                 </ul>
               </div>
 
@@ -567,10 +567,10 @@ const Navbar2 = () => {
                   PARTNER INSTITUTION
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <li>Customized Solution</li>
-                  <li>Instant Support</li>
-                  <li>Commissions</li>
-                  <li>Technological Support</li>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                 </ul>
               </div>
 
@@ -579,10 +579,10 @@ const Navbar2 = () => {
                   GOVERNMENT INSTITUTIONS
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <li>Customized Solution</li>
-                  <li>Instant Support</li>
-                  <li>Commissions</li>
-                  <li>Technological Support</li>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                 </ul>
               </div>
 
@@ -591,10 +591,10 @@ const Navbar2 = () => {
                   BUSINESS
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <li>Customized Solution</li>
-                  <li>Instant Support</li>
-                  <li>Commissions</li>
-                  <li>Technological Support</li>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                 </ul>
               </div>
             </div>

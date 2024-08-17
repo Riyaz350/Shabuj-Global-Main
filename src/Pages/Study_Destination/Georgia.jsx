@@ -20,12 +20,16 @@ import GuidanceBanner from "../../Components/Study_Destination_Components/UK/Gui
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 import Georgia_UniversityCards from "../../Components/Study_Destination_Components/Georgia/Georgia_UniversityCards/Georgia_UniversityCards";
 import Georgia_AnimatedText from "../../Components/Study_Destination_Components/Georgia/Georgia_AnimatedText";
+import { useEffect } from "react";
 
 
 
 
 
 const Georgia = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, );
     return (
         <div>
             <Georgia_Banner></Georgia_Banner>
