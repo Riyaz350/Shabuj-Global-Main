@@ -28,6 +28,7 @@ import Finland from "../Pages/Study_Destination/Finland";
 import Cyprus from "../Pages/Study_Destination/Cyprus";
 import Privacy from "../Components/Privacy/Privacy";
 import Canada from "../Pages/Study_Destination/Canada";
+import New_Zealand from "../Pages/Study_Destination/New_Zealand";
 
 
 export const router = createBrowserRouter([
