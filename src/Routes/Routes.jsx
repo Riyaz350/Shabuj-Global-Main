@@ -29,6 +29,7 @@ import Cyprus from "../Pages/Study_Destination/Cyprus";
 import Privacy from "../Components/Privacy/Privacy";
 import Canada from "../Pages/Study_Destination/Canada";
 import New_Zealand from "../Pages/Study_Destination/New_Zealand";
+import USA from "../Pages/Study_Destination/USA";
 
 
 export const router = createBrowserRouter([
@@ -144,6 +145,10 @@ export const router = createBrowserRouter([
       {
         path: "/New-Zealand",
         element: <New_Zealand />,
+      },
+      {
+        path: "/USA",
+        element: <USA />,
       },
       {
         path: "/Privacy",

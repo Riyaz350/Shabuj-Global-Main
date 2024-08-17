@@ -156,7 +156,7 @@ const Navbar2 = () => {
                         />
                         <li>Study in UK</li>
                       </Link>
-                      <Link className={flagClass}>
+                      <Link className={flagClass} to={"/USA"}>
                         <img className={flag} src={USA} />
                         <li></li>
                         <li>Study in USA</li>
@@ -464,7 +464,7 @@ const Navbar2 = () => {
                 <img className={flag} src={UK} />
                 <li>Study in UK</li>
               </Link>
-              <Link className={flagClass} to="/comingSoon">
+              <Link className={flagClass} to={"/USA"}>
                 <img className={flag} src={USA} />
                 <li></li>
                 <li>Study in USA</li>
