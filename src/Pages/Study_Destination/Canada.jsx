@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Canada_AnimatedText from "../../Components/Study_Destination_Components/Canada/Canada_AnimatedText";
 import Canada_Banner from "../../Components/Study_Destination_Components/Canada/Canada_Banner/Canada_Banner";
 import Canada_Counselor from "../../Components/Study_Destination_Components/Canada/Canada_Counselor/Canada_Counselor";
@@ -13,6 +14,9 @@ import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFa
 
 
 const Canada = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, );
     return (
         <div>
             <Canada_Banner></Canada_Banner>

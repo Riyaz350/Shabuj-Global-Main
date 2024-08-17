@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import UAE_AnimatedText from "../../Components/Study_Destination_Components/UAE/UAE_AnimatedText";
 import UAE_Banner from "../../Components/Study_Destination_Components/UAE/UAE_Banner/UAE_Banner";
 import UAE_Counselor from "../../Components/Study_Destination_Components/UAE/UAE_Counselor/UAE_Counselor";
@@ -14,6 +15,9 @@ import UAE_UniversityCards from "../../Components/Study_Destination_Components/U
 
 
 const UAE = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, );
     return (
         <div>
             <UAE_Banner></UAE_Banner>

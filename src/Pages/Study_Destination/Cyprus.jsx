@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Cyprus_AnimatedText from "../../Components/Study_Destination_Components/Cyprus/Cyprus_AnimatedText";
 import Cyprus_Banner from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Banner/Cyprus_Banner";
 import Cyprus_Counselor from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Counselor/Cyprus_Counselor";
@@ -15,6 +16,9 @@ import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFa
 
 
 const Cyprus = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, );
     return (
         <div>
             <Cyprus_Banner></Cyprus_Banner>
