@@ -52,7 +52,7 @@ const Cyprus_Faq = () => {
           <div className="w-full px-5 lg:w-1/2">
             <Cyprus_FaqSVG />
           </div>
-          <div className="w-full lg:w-1/2 bg-[#ff00ff] h-[525px] rounded-[36px] ">
+          <div className="w-full lg:w-1/2 bg-[#692a00] h-[525px] rounded-[36px] ">
             <div className="lg:max-w-xl">
               <div className="accordion-group px-5 py-8 text-white overflow-y-hidden" data-accordion="default-accordion">
                 {faq.map((item, index) => (
