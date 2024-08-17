@@ -46,7 +46,7 @@ const Navbar2 = () => {
     setNavButton(0);
   };
   const [width, setWidth] = useState(null);
-
+  console.log(width)
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
@@ -60,8 +60,7 @@ const Navbar2 = () => {
         >
           <button className="flex items-center gap-1">
             <p
-              className={`${width >= 1244 ? "text-base" : "text-sm"
-                } bg-white  lg:bg-[#F0F8FF] font-semibold`}
+              className={`   bg-white  lg:bg-[#F0F8FF] font-semibold`}
             >
               {text}
             </p>
@@ -395,7 +394,7 @@ const Navbar2 = () => {
                   </div>
                 </div>
                 <div>
-                  <Link to="/registration" className="pl-5 text-xl font-medium">
+                  <Link to="/registration" className={`  pl-5 text-xl font-medium`}>
                     Registration
                   </Link>
                 </div>
@@ -410,11 +409,10 @@ const Navbar2 = () => {
 
         {/* Large device navbar buttons */}
 
-        <div className="hidden items-center justify-between my-5 lg:flex gap-3 flex-wrap ">
-          <div className="flex items-center gap-1">
+        <div className={`  hidden items-center   my-5 lg:flex flex-wrap justify-end gap-3`}>
+          <div className={` flex items-center gap-1`}>
             <Link
-              className={`${width >= 1244 ? "text-base" : "text-sm"
-                } bg-white  lg:bg-[#F0F8FF] font-semibold`}
+              className={` bg-white  lg:bg-[#F0F8FF] font-semibold`}
               to="/"
             >
               Home
@@ -442,12 +440,12 @@ const Navbar2 = () => {
           <div className={`${width >= 1244 ? "text-base" : "text-sm"
             } flex items-center justify-end gap-1`}>
             <Link
-              className={` bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
+              className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
               to="/registration"
             >
               Registration
             </Link>
-            <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
+            <button className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}>
               Log In
             </button>
           </div>
@@ -531,14 +529,9 @@ const Navbar2 = () => {
         )}
         {navIndex == 2 && (
           <>
-            <div className="flex flex-col  mx-20 my-10 md:grid  grid-cols-6  md:max-w-[1800px] lg:mx-auto ">
-              <div className="col-span-2 my-5">
-                <Link
-                  className="text-2xl  text-blue-600 "
-                  to="/services"
-                >
-                  Services
-                </Link>
+            <div className={`${width <= 1450 ? 'grid-cols-4': 'grid-cols-5'}  flex flex-col  mx-10  md:grid    md:max-w-[1800px]`}>
+              <div className="col-span-1 md:my-10 my-5">
+
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
                   FOR STUDENTS
                 </h2>
@@ -548,8 +541,7 @@ const Navbar2 = () => {
                     <li>Student Visa</li>
                     <li>University Application Process</li>
                     <li>International Student Visa Guidance</li>
-                  </ul>
-                  <ul className="space-y-2 text-base">
+
                     <li>University Scholarship Guidance</li>
                     <li>Study Abroad Destination Guide</li>
                     <li>Personality Assessment Test</li>
@@ -558,7 +550,7 @@ const Navbar2 = () => {
                 </div>
               </div>
 
-              <div className="col-span-1 md:my-10">
+              <div className="col-span-1   md:my-10">
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
                   CHANNEL PARTNERS
                 </h2>
@@ -606,6 +598,12 @@ const Navbar2 = () => {
                 </ul>
               </div>
             </div>
+            <Link
+              className="text-2xl flex justify-end bg-blue-600 text-white  w-fit ml-auto m-20 mt-0 p-2 rounded-lg "
+              to="/services"
+            >
+              Services
+            </Link>
           </>
         )}
         {navIndex == 3 && (
