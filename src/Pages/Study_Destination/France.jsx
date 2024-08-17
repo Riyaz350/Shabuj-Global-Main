@@ -7,8 +7,8 @@ import StudyUK from "../../Components/Study_Destination_Components/UK/StudyUK";
 import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import DocumentsRequired_France from "../../Components/Study_Destination_Components/France/DocumentsRequired_France";
-import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Counselor/Uk_Counselor";
 import Faq_France from "../../Components/Study_Destination_Components/France/Faq_France";
+import France_Counselor from "../../Components/Study_Destination_Components/France/France_Counselor/France_Counselor";
 
 
 const France = () => {
@@ -24,7 +24,7 @@ const France = () => {
       <GuidanceBanner />
       <DocumentsRequired_France />
       <Faq_France />
-      <Uk_Counselor/>
+      <France_Counselor/>
     </div>
   );
 };
