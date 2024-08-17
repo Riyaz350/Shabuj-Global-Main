@@ -165,7 +165,7 @@ const Navbar2 = () => {
                         <img className={flag} src={Australia} />
                         <li>Study in Australia</li>
                       </Link>
-                      <Link className={flagClass}>
+                      <Link className={flagClass} to={"/Canada"}>
                         <img className={flag} src={Canada} />
                         <li>Study in Canada</li>
                       </Link>
@@ -246,7 +246,43 @@ const Navbar2 = () => {
 
                       <div className="col-span-1 md:my-10">
                         <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
-                          FOR PARTNERS
+                          CHANNEL PARTNERS
+                        </h2>
+                        <ul className="space-y-2 text-lg">
+                          <li>Customized Solution</li>
+                          <li>Instant Support</li>
+                          <li>Commissions</li>
+                          <li>Technological Support</li>
+                        </ul>
+                      </div>
+
+                      <div className="col-span-1 md:my-10">
+                        <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
+                          PARTNER INSTITUTION
+                        </h2>
+                        <ul className="space-y-2 text-lg">
+                          <li>Customized Solution</li>
+                          <li>Instant Support</li>
+                          <li>Commissions</li>
+                          <li>Technological Support</li>
+                        </ul>
+                      </div>
+
+                      <div className="col-span-1 md:my-10">
+                        <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
+                          GOVERNMENT INSTITUTIONS
+                        </h2>
+                        <ul className="space-y-2 text-lg">
+                          <li>Customized Solution</li>
+                          <li>Instant Support</li>
+                          <li>Commissions</li>
+                          <li>Technological Support</li>
+                        </ul>
+                      </div>
+
+                      <div className="col-span-1 md:my-10">
+                        <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
+                          BUSINESS
                         </h2>
                         <ul className="space-y-2 text-lg">
                           <li>Customized Solution</li>
@@ -437,7 +473,7 @@ const Navbar2 = () => {
                 <img className={flag} src={Australia} />
                 <li>Study in Australia</li>
               </Link>
-              <Link className={flagClass} to="/comingSoon">
+              <Link className={flagClass} to="/Canada">
                 <img className={flag} src={Canada} />
                 <li>Study in Canada</li>
               </Link>
@@ -495,7 +531,7 @@ const Navbar2 = () => {
         )}
         {navIndex == 2 && (
           <>
-            <div className="flex flex-col  mx-20 my-10 md:grid  grid-cols-3  md:max-w-7xl lg:mx-auto ">
+            <div className="flex flex-col  mx-20 my-10 md:grid  grid-cols-6  md:max-w-[1800px] lg:mx-auto ">
               <div className="col-span-2 my-5">
                 <Link
                   className="text-2xl  text-blue-600 "
@@ -503,17 +539,17 @@ const Navbar2 = () => {
                 >
                   Services
                 </Link>
-                <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
+                <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
                   FOR STUDENTS
                 </h2>
                 <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
-                  <ul className="space-y-2 text-lg">
+                  <ul className="space-y-2 text-base">
                     <li>Free Study Abroad Counselling</li>
                     <li>Student Visa</li>
                     <li>University Application Process</li>
                     <li>International Student Visa Guidance</li>
                   </ul>
-                  <ul className="space-y-2 text-lg">
+                  <ul className="space-y-2 text-base">
                     <li>University Scholarship Guidance</li>
                     <li>Study Abroad Destination Guide</li>
                     <li>Personality Assessment Test</li>
@@ -523,10 +559,46 @@ const Navbar2 = () => {
               </div>
 
               <div className="col-span-1 md:my-10">
-                <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
-                  FOR PARTNERS
+                <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
+                  CHANNEL PARTNERS
                 </h2>
-                <ul className="space-y-2 text-lg">
+                <ul className="space-y-2 text-base">
+                  <li>Customized Solution</li>
+                  <li>Instant Support</li>
+                  <li>Commissions</li>
+                  <li>Technological Support</li>
+                </ul>
+              </div>
+
+              <div className="col-span-1 md:my-10">
+                <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
+                  PARTNER INSTITUTION
+                </h2>
+                <ul className="space-y-2 text-base">
+                  <li>Customized Solution</li>
+                  <li>Instant Support</li>
+                  <li>Commissions</li>
+                  <li>Technological Support</li>
+                </ul>
+              </div>
+
+              <div className="col-span-1 md:my-10">
+                <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
+                  GOVERNMENT INSTITUTIONS
+                </h2>
+                <ul className="space-y-2 text-base">
+                  <li>Customized Solution</li>
+                  <li>Instant Support</li>
+                  <li>Commissions</li>
+                  <li>Technological Support</li>
+                </ul>
+              </div>
+
+              <div className="col-span-1 md:my-10">
+                <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
+                  BUSINESS
+                </h2>
+                <ul className="space-y-2 text-base">
                   <li>Customized Solution</li>
                   <li>Instant Support</li>
                   <li>Commissions</li>
