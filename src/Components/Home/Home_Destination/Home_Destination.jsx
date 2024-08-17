@@ -27,7 +27,7 @@ const Home_Destination = () => {
     { name: "CANADA", img: CANADA, to: "/comingSoon" },
     { name: "Australia", img: AUSTRALIA, to: "/Australia" },
     { name: "Germany", img: GERMANY, to: "/Germany" },
-    { name: "New Zealand", img: NZ, to: "/comingSoon" },
+    { name: "New Zealand", img: NZ, to: "/New-Zealand" },
     { name: "UAE", img: UAE, to: "/UAE" },
     { name: "Georgia", img: Georgia, to: "/Georgia" },
     { name: "Finland", img: Finland, to: "/Finland" },

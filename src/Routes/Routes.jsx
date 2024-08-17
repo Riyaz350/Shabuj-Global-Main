@@ -136,9 +136,14 @@ export const router = createBrowserRouter([
         element: <WestIndies />,
       },
       {
+        path: "/New-Zealand",
+        element: <New_Zealand />,
+      },
+      {
         path: "/Privacy",
         element: <Privacy />,
       },
+     
     ],
   },
 ]);
