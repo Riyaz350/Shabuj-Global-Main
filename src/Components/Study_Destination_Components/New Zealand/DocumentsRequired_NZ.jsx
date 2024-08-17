@@ -1,5 +1,6 @@
 import Doc1 from "./SVG/Doc1";
 import Doc2 from "./SVG/Doc2";
+import Document_Last_SVG_NZ from "./SVG/Document_Last_SVG_NZ";
 
 
 
@@ -105,7 +106,7 @@ const DocumentsRequired_NZ = () => {
             </ul>
           </div>
           <div className="flex-1">
-           <DocumentsRequired_NZ/>
+           <Document_Last_SVG_NZ/>
           </div>
         </div>
       </div>
