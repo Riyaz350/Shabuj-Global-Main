@@ -229,16 +229,16 @@ const Navbar2 = () => {
                         </h2>
                         <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
                           <ul className="space-y-2 text-lg">
-                            <li>Free Study Abroad Counselling</li>
-                            <li>Student Visa</li>
-                            <li>University Application Process</li>
-                            <li>International Student Visa Guidance</li>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Free Study Abroad Counselling</li></Link>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Student Visa</li></Link>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Application Process</li></Link>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>International Student Visa Guidance</li></Link>
                           </ul>
                           <ul className="space-y-2 text-lg">
-                            <li>University Scholarship Guidance</li>
-                            <li>Study Abroad Destination Guide</li>
-                            <li>Personality Assessment Test</li>
-                            <li>Study Accommodation</li>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Scholarship Guidance</li></Link>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Abroad Destination Guide</li></Link>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Personality Assessment Test</li></Link>
+                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Accommodation</li></Link>
                           </ul>
                         </div>
                       </div>
@@ -248,10 +248,10 @@ const Navbar2 = () => {
                           CHANNEL PARTNERS
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <li>Customized Solution</li>
-                          <li>Instant Support</li>
-                          <li>Commissions</li>
-                          <li>Technological Support</li>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                         </ul>
                       </div>
 
@@ -260,10 +260,10 @@ const Navbar2 = () => {
                           PARTNER INSTITUTION
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <li>Customized Solution</li>
-                          <li>Instant Support</li>
-                          <li>Commissions</li>
-                          <li>Technological Support</li>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                         </ul>
                       </div>
 
@@ -272,10 +272,10 @@ const Navbar2 = () => {
                           GOVERNMENT INSTITUTIONS
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <li>Customized Solution</li>
-                          <li>Instant Support</li>
-                          <li>Commissions</li>
-                          <li>Technological Support</li>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                         </ul>
                       </div>
 
@@ -284,10 +284,10 @@ const Navbar2 = () => {
                           BUSINESS
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <li>Customized Solution</li>
-                          <li>Instant Support</li>
-                          <li>Commissions</li>
-                          <li>Technological Support</li>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
+                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
                         </ul>
                       </div>
                     </div>
@@ -328,32 +328,44 @@ const Navbar2 = () => {
                           About Us
                         </Link>
 
-                        <li className={iconStyle}>
-                          <BsGridFill />
-                          Who We Are
-                        </li>
-                        <li className={iconStyle}>
-                          <FaHeart />
-                          Our Partners
-                        </li>
-                        <li className={iconStyle}>
-                          <FaClock />
-                          Our Timeline
-                        </li>
-                        <li className={iconStyle}>
-                          <FaUserFriends />
-                          Our Leadership Team
-                        </li>
+                        <Link to={"/comingSoon"}>
+                          <li className={iconStyle}>
+                            <BsGridFill />
+                            Who We Are
+                          </li>
+                        </Link>
+                        <Link to={"/comingSoon"}>
+                          <li className={iconStyle}>
+                            <FaHeart />
+                            Our Partners
+                          </li>
+                        </Link>
+                        <Link to={"/comingSoon"}>
+                          <li className={iconStyle}>
+                            <FaClock />
+                            Our Timeline
+                          </li>
+                        </Link>
+                        <Link to={"/comingSoon"}>
+                          <li className={iconStyle}>
+                            <FaUserFriends />
+                            Our Leadership Team
+                          </li>
+                        </Link>
                       </ul>
                       <ul className="col-span-1 space-y-4 text-lg ">
-                        <li className={iconStyle}>
-                          <IoShieldCheckmarkSharp />
-                          Partner With Us
-                        </li>
-                        <li className={`pb-5 ${iconStyle}`}>
-                          <IoCheckmarkDoneCircleSharp />
-                          Award Recognitions
-                        </li>
+                        <Link to={"/comingSoon"}>
+                          <li className={iconStyle}>
+                            <IoShieldCheckmarkSharp />
+                            Partner With Us
+                          </li>
+                        </Link>
+                        <Link to={"/comingSoon"}>
+                          <li className={`pb-5 ${iconStyle}`}>
+                            <IoCheckmarkDoneCircleSharp />
+                            Award Recognitions
+                          </li>
+                        </Link>
                         <div
                           className={`${iconStyle} flex gap-2 items-center justify-center py-5 my-4`}
                         >
@@ -377,10 +389,12 @@ const Navbar2 = () => {
                             Contact Us
                           </Link>
                         </li>
-                        <li className={`pb-5 ${iconStyle}`}>
-                          <FaMicrophoneLines />
-                          News & Press
-                        </li>
+                        <Link to={"/comingSoon"}>
+                          <li className={`pb-5 ${iconStyle}`}>
+                            <FaMicrophoneLines />
+                            News & Press
+                          </li>
+                        </Link>
 
                         <li className={iconStyle}>
                           <Link className={iconStyle} to="/events">
@@ -529,7 +543,7 @@ const Navbar2 = () => {
         )}
         {navIndex == 2 && (
           <>
-            <div className={`${width <= 1450 ? 'grid-cols-4': 'grid-cols-5'}  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}>
+            <div className={`${width <= 1450 ? 'grid-cols-4' : 'grid-cols-5'}  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}>
               <div className="col-span-1 md:my-10 my-5">
 
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
