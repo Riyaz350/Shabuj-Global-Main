@@ -2,7 +2,7 @@
     position: relative;
     border-radius: 32px;
     overflow: hidden;
-    background-image: url('./assets/hero.jpg');
+    background-image: url('./hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
 
 .buttons-group button:after {
     content: "";
-    background-image: url('./assets/arrow.svg');
+    background-image: url('./arrow.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
