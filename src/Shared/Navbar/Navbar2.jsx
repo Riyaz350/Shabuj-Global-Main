@@ -622,8 +622,8 @@ const Navbar2 = () => {
         )}
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
-            <img className="w-5/12 lg:w-2/12" src={testPrep1} alt="img1" />
-            <img className="w-5/12 lg:w-2/12" src={testPrep2} alt="img2" />
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img  src={testPrep1} alt="img1" /></Link>
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img  src={testPrep2} alt="img1" /></Link>
           </div>
         )}
         {navIndex == 4 && (
