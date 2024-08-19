@@ -13,7 +13,6 @@ import Cyprus from "../../assets/Flags/Cyprus.png";
 import Switzerland from "../../assets/Flags/Switzerland.png";
 import France from "../../assets/Flags/France.png";
 import WestIndies from "../../assets/Flags/West-Indies.jpg";
-
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
@@ -535,20 +534,15 @@ const Navbar2 = () => {
                     </div>
                   </div>
                 </div>
-<<<<<<< HEAD
-                <div>
+
+                <div className="pb-4">
                   <Link
                     to="/registration"
-                    className={`  pl-5 text-xl font-medium`}
+                    className={`  pl-4 text-xl font-medium`}
                   >
-                    Registration
-=======
-                <div className="pb-4">
-                  <Link to="/registration" className={`  pl-4 text-xl font-medium`}>
                     <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
                       Registration
                     </button>
->>>>>>> 24cb198547b639471f7ca83d8283402eea9536a8
                   </Link>
                 </div>
 
@@ -819,17 +813,12 @@ const Navbar2 = () => {
         )}
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
-<<<<<<< HEAD
             <Link to="comingSoon" className="w-5/12 lg:w-2/12">
               <img src={testPrep1} alt="img1" />
             </Link>
             <Link to="comingSoon" className="w-5/12 lg:w-2/12">
               <img src={testPrep2} alt="img1" />
             </Link>
-=======
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep1} alt="img1" /></Link>
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img1" /></Link>
->>>>>>> 24cb198547b639471f7ca83d8283402eea9536a8
           </div>
         )}
         {navIndex == 4 && (
