@@ -52,7 +52,7 @@ const Navbar2 = () => {
 
   const NavButton = ({ ind, text }) => {
     return (
-      <div className={` cursor-pointer font-poppins`}>
+      <div className={`cursor-pointer font-poppins`}>
         <div
           className="flex items-center gap-2"
           onMouseEnter={() => enterNavButton(ind)}
