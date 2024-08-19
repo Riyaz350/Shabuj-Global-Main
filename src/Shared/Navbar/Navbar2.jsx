@@ -13,7 +13,6 @@ import Cyprus from "../../assets/Flags/Cyprus.png";
 import Switzerland from "../../assets/Flags/Switzerland.png";
 import France from "../../assets/Flags/France.png";
 import WestIndies from "../../assets/Flags/West-Indies.jpg";
-
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
@@ -809,7 +808,7 @@ const Navbar2 = () => {
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
             <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep1} alt="img1" /></Link>
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img1" /></Link>
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img2" /></Link>
           </div>
         )}
         {navIndex == 4 && (
