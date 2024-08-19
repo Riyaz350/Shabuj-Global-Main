@@ -1,6 +1,7 @@
 
 import { useRef } from 'react';
 import './Footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const accordion = useRef(null);
@@ -31,22 +32,22 @@ const Footer = () => {
                         <div className='w-[177px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Study Destinations</h2>
                             <ul className='mulish-regular lg:text-base text-sm'>
-                                <li>UK</li>
-                                <li>USA</li>
-                                <li>Canada</li>
-                                <li>Australia</li>
-                                <li>Germany</li>
-                                <li>New Zealand</li>
+                                <Link to={"/UK"}><li className='hover:text-blue-600'>UK</li></Link>
+                                <Link to={"/USA"}><li className='hover:text-blue-600'>USA</li></Link>
+                                <Link to={"/Canada"}><li className='hover:text-blue-600'>Canada</li></Link>
+                                <Link to={"/Australia"}><li className='hover:text-blue-600'>Australia</li></Link>
+                                <Link to={"/Germany"}><li className='hover:text-blue-600'>Germany</li></Link>
+                                <Link to={"/New-Zealand"}><li className='hover:text-blue-600'>New Zealand</li></Link>
                             </ul>
                         </div>
                         <div className='w-[282px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Services for students</h2>
                             <ul className='mulish-regular lg:text-base text-sm'>
-                                <li>Counselling</li>
-                                <li>Test Preparation</li>
-                                <li>Course, Country & University Selection</li>
-                                <li>Scholarship</li>
-                                <li>File Assessment</li>
+                                <Link to={"/comingSoon"}><li className='hover:text-blue-600'>Counselling</li></Link>
+                                <Link to={"/comingSoon"}><li className='hover:text-blue-600'>Test Preparation</li></Link>
+                                <Link to={"/comingSoon"}><li className='hover:text-blue-600'>Course, Country & University Selection</li></Link>
+                                <Link to={"/comingSoon"}><li className='hover:text-blue-600'>Scholarship</li></Link>
+                                <Link to={"/comingSoon"}><li className='hover:text-blue-600'>File Assessment</li></Link>
                             </ul>
                             <p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase'>Services for institutions</p>
                             <p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase'>Services for partners</p>
@@ -54,14 +55,14 @@ const Footer = () => {
                         <div className='w-[229px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Company</h2>
                             <ul className='mulish-regular lg:text-base text-sm'>
-                                <li>About Us</li>
-                                <li>Careers</li>
-                                <li>Events</li>
-                                <li>Blog</li>
-                                <li>Contact Us</li>
+                                <Link to={"/about"}><li className='hover:text-blue-600'>About Us</li></Link>
+                                <Link to={"/comingSoon"}><li className='hover:text-blue-600'>Careers</li></Link>
+                                <Link to={"/events"}><li className='hover:text-blue-600'>Events</li></Link>
+                                <Link to={"/blogs"}><li className='hover:text-blue-600'>Blog</li></Link>
+                                <Link to={"/contact"}><li className='hover:text-blue-600'>Contact Us</li></Link>
                             </ul>
                             <p className='lg:mulish-bold mulish-regular text-base mt-9 uppercase'>search universities</p>
-                            <p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase'>upcoming events</p>
+                            <Link to={"/events"}><p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase hover:text-blue-600'>upcoming events</p></Link>
                             <p className='lg:mulish-bold mulish-regular text-base mt-3 mb-[41px] uppercase'>book online counselling</p>
                         </div>
 

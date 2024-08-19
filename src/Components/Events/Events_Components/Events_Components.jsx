@@ -41,8 +41,12 @@ const Events_Components = () => {
                                     <img className='  lg:mx-auto rounded-3xl mb-10 shadow-lg' src={large} alt="" />
                                 }
                                 <div className='max-w-3xl mx-auto flex gap-2'>
-                                    <button onMouseEnter={() => setActive(1)} className={`${active == 1 ? 'bg-[#2563EB] text-white' : ' bg-white text-[#2563EB]'} rounded-3xl h-10 w-full`}>Join Now</button>
-                                    <button onMouseEnter={() => setActive(2)} className={`${active == 2 ? 'bg-[#2563EB] text-white' : ' bg-white text-[#2563EB]'} rounded-3xl h-10  w-full flex items-center justify-center gap-2`}><HiOutlineLocationMarker />Event Location</button>
+                                    <Link to={"/comingSoon"}  onMouseEnter={() => setActive(1)} className={`${active == 1 ? 'bg-[#2563EB] text-white' : ' bg-white text-[#2563EB]'} rounded-3xl h-10 w-full pt-2`}>
+                                    Join Now
+                                    </Link>
+                                    <Link to={"/comingSoon"} onMouseEnter={() => setActive(2)} className={`${active == 2 ? 'bg-[#2563EB] text-white' : ' bg-white text-[#2563EB]'} rounded-3xl h-10  w-full flex items-center justify-center gap-2`}>
+                                    <HiOutlineLocationMarker />Event Location
+                                    </Link>
                                 </div>
 
                             </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './UpcomingEvents_PastEvents.css'
 
 const UpcomingEvents_PastEvents = () => {
@@ -41,7 +42,9 @@ const UpcomingEvents_PastEvents = () => {
                                 </svg>
                                 <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
+                            <Link to={"/comingSoon"}>
                             <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
@@ -76,7 +79,9 @@ const UpcomingEvents_PastEvents = () => {
                                 </svg>
                                 <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
+                            <Link to={"/comingSoon"}>
                             <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
@@ -111,7 +116,9 @@ const UpcomingEvents_PastEvents = () => {
                                 </svg>
                                 <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
+                            <Link to={"/comingSoon"}>
                             <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -148,7 +155,9 @@ const UpcomingEvents_PastEvents = () => {
                                 </svg>
                                 <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
+                            <Link to={"/comingSoon"}> 
                             <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
@@ -183,7 +192,9 @@ const UpcomingEvents_PastEvents = () => {
                                 </svg>
                                 <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
+                            <Link to={"/comingSoon"}>
                             <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
@@ -218,7 +229,9 @@ const UpcomingEvents_PastEvents = () => {
                                 </svg>
                                 <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
+                            <Link to={"/comingSoon"}>
                             <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
