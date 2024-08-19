@@ -424,17 +424,13 @@ const Navbar2 = () => {
                     Test Prep.
                   </div>
                   <div className="collapse-content">
-                    <div className="flex  justify-around py-10">
-                      <img
-                        className="w-5/12 lg:w-2/12"
-                        src={testPrep1}
-                        alt="img1"
-                      />
-                      <img
-                        className="w-5/12 lg:w-2/12"
-                        src={testPrep2}
-                        alt="img2"
-                      />
+                    <div className="flex gap-5 flex-col justify-around py-10">
+                      <Link className="w-3/4 lg:w-2/12" to="/comingSoon">
+                        <img src={testPrep1} alt="img1" />
+                      </Link>
+                      <Link className="w-3/4 lg:w-2/12" to="/comingSoon">
+                        <img src={testPrep2} alt="img2" />
+                      </Link>
                     </div>
                   </div>
                 </div>
