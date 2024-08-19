@@ -1,7 +1,12 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Coming_Soon = () => {
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, );
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#EFF6FF] text-center">
       <motion.h1
@@ -10,7 +15,7 @@ const Coming_Soon = () => {
         transition={{ duration: 1 }}
         className="text-4xl lg:text-6xl font-bold text-[#2563EB]"
       >
-        We're Coming Soon
+        {`We're`} Coming Soon
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 50 }}

@@ -9,8 +9,15 @@ import AustraliaBanner from "./../../Components/Study_Destination_Components/Aus
 import DocumentsRequired from "./../../Components/Study_Destination_Components/Australia/DocumentsRequired";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Australia from "../../Components/Study_Destination_Components/Australia/UniversityCards_Australia";
+import { useEffect } from "react";
 
+
+  
 const Australia = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, );
   return (
     <div>
       <AustraliaBanner />

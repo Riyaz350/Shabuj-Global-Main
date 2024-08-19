@@ -8,9 +8,14 @@ import Germany_Counselor from "../../Components/Study_Destination_Components/Ger
 import Tabs from "../../Components/Study_Destination_Components/Australia/Tabs/Tabs";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Ger from "../../Components/Study_Destination_Components/Germany/Germany_UniversityCards/UniversityCards_Ger";
+import { useEffect } from "react";
 
 
+    
 const Germany = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, );
     return (
         <div>
             <Germany_Banner/>

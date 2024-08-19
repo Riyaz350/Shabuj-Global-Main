@@ -63,9 +63,8 @@ const Navbar2 = () => {
             </p>
           </button>
           <span
-            className={` ${
-              navButton == ind && "rotate-180 transition ease-in-out delay-450"
-            }`}
+            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
+              }`}
           >
             <FaChevronUp />
           </span>
@@ -536,10 +535,7 @@ const Navbar2 = () => {
                 </div>
 
                 <div className="pb-4">
-                  <Link
-                    to="/registration"
-                    className={`  pl-4 text-xl font-medium`}
-                  >
+                  <Link to="/registration" className={`  pl-4 text-xl font-medium`}>
                     <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
                       Registration
                     </button>
@@ -586,9 +582,8 @@ const Navbar2 = () => {
             </Link>
           </div>
           <div
-            className={`${
-              width >= 1244 ? "text-base" : "text-sm"
-            } flex items-center justify-end gap-1`}
+            className={`${width >= 1244 ? "text-base" : "text-sm"
+              } flex items-center justify-end gap-1`}
           >
             <Link
               className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
@@ -684,9 +679,8 @@ const Navbar2 = () => {
         {navIndex == 2 && (
           <>
             <div
-              className={`${
-                width <= 1450 ? "grid-cols-4" : "grid-cols-5"
-              }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
+              className={`${width <= 1450 ? "grid-cols-4" : "grid-cols-5"
+                }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
             >
               <div className="col-span-1 md:my-10 my-5">
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
@@ -813,12 +807,8 @@ const Navbar2 = () => {
         )}
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
-            <Link to="comingSoon" className="w-5/12 lg:w-2/12">
-              <img src={testPrep1} alt="img1" />
-            </Link>
-            <Link to="comingSoon" className="w-5/12 lg:w-2/12">
-              <img src={testPrep2} alt="img1" />
-            </Link>
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep1} alt="img1" /></Link>
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img2" /></Link>
           </div>
         )}
         {navIndex == 4 && (

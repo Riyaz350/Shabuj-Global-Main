@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
@@ -11,23 +12,27 @@ import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Co
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 
-const UK = () => {
-  return (
-    <div>
-      <UKBanner country={'UK'} />
-      <StudyUK country={'UK'}/>
-      <QuickFacts />
-      <Tabs />
-      <AnimatedText />
-      <UniversityCards />
-      <RequirementCard country={'UK'} />
-      <Exams country={'UK'}/>
-      <GuidanceBanner />
-      <DocumentsRequired />
-      <Faq_UK />
-      <Uk_Counselor/>
-    </div>
-  );
-};
 
-export default UK;
+  const UK = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    },);
+    return (
+      <div>
+        <UKBanner country={'UK'} />
+        <StudyUK country={'UK'} />
+        <QuickFacts />
+        <Tabs />
+        <AnimatedText />
+        <UniversityCards />
+        <RequirementCard country={'UK'} />
+        <Exams country={'UK'} />
+        <GuidanceBanner />
+        <DocumentsRequired />
+        <Faq_UK />
+        <Uk_Counselor />
+      </div>
+    );
+  };
+
+  export default UK;

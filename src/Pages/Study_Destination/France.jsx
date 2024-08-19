@@ -9,9 +9,16 @@ import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner"
 import DocumentsRequired_France from "../../Components/Study_Destination_Components/France/DocumentsRequired_France";
 import Faq_France from "../../Components/Study_Destination_Components/France/Faq_France";
 import France_Counselor from "../../Components/Study_Destination_Components/France/France_Counselor/France_Counselor";
+import { useEffect } from "react";
 
 
+  
 const France = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, );
+  
   return (
     <div>
       <UKBanner country={'France'}/>
