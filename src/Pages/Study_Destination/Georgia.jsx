@@ -29,7 +29,7 @@ import { useEffect } from "react";
 const Georgia = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, );
+    },);
     return (
         <div>
             <Georgia_Banner></Georgia_Banner>
