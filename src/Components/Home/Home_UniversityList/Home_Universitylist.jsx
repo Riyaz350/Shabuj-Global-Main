@@ -52,7 +52,9 @@ const Home_UniversityList = () => {
             
             
             <div className='text-center mt-[98px]'>
+                <Link to={"/comingSoon"}>
                 <button className='text-white bg-[#2563EB] hover:bg-[#3D7DED] rounded-[32px] mulish-regular lg:text-[21px] text-[14px] px-[89px] py-2 mb-[41px]'>View All Universites</button>
+                </Link>
             </div>
         </div>
     );

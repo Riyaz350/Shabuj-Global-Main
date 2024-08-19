@@ -407,15 +407,19 @@ const Navbar2 = () => {
                     </div>
                   </div>
                 </div>
-                <div>
-                  <Link to="/registration" className={`  pl-5 text-xl font-medium`}>
-                    Registration
+                <div className="pb-4">
+                  <Link to="/registration" className={`  pl-4 text-xl font-medium`}>
+                    <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
+                      Registration
+                    </button>
                   </Link>
                 </div>
 
-                <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
-                  Log In
-                </button>
+                <Link to={"/login"} className={`  pl-4 text-xl font-medium`}>
+                  <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
+                    Log In
+                  </button>
+                </Link>
               </ul>
             </div>
           </div>
@@ -622,8 +626,8 @@ const Navbar2 = () => {
         )}
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img  src={testPrep1} alt="img1" /></Link>
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img  src={testPrep2} alt="img1" /></Link>
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep1} alt="img1" /></Link>
+            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img1" /></Link>
           </div>
         )}
         {navIndex == 4 && (
