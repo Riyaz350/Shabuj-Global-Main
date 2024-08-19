@@ -12,7 +12,6 @@ import Registration from "../Pages/Registration/Registration";
 import UK from "../Pages/Study_Destination/UK";
 import Germany from "../Pages/Study_Destination/Germany";
 import Australia from "../Pages/Study_Destination/Australia";
-import Single_University from "../Pages/Single_University/Single_University";
 import Coming_Soon from "../Pages/Coming_Soon/Coming_Soon";
 import Single_University_Ger from "../Components/Study_Destination_Components/Germany/Germany_Single_University/Single_University_Ger";
 import Single_University_Aus from "../Components/Study_Destination_Components/Australia/Single_University_Aus";
@@ -30,7 +29,6 @@ import Privacy from "../Components/Privacy/Privacy";
 import Canada from "../Pages/Study_Destination/Canada";
 import New_Zealand from "../Pages/Study_Destination/New_Zealand";
 import USA from "../Pages/Study_Destination/USA";
-
 
 export const router = createBrowserRouter([
   {
@@ -113,22 +111,22 @@ export const router = createBrowserRouter([
       {
         path: "/singleUniversityUK/:id",
         element: <Single_University_UK />,
-      }, 
+      },
       {
         path: "/singleUniversityAUS/:id",
         element: <Single_University_Aus />,
-      }, 
+      },
       {
         path: "/singleUniversityGER/:id",
         element: <Single_University_Ger />,
-      }, 
+      },
       {
         path: "/comingSoon",
-        element: <Coming_Soon/>,
-      }, 
+        element: <Coming_Soon />,
+      },
       {
         path: "/singleUniversityAll/:id",
-        element: <HomeSingleUniversity/>
+        element: <HomeSingleUniversity />,
       },
       {
         path: "/Switzerland",
@@ -154,7 +152,6 @@ export const router = createBrowserRouter([
         path: "/Privacy",
         element: <Privacy />,
       },
-     
     ],
   },
 ]);

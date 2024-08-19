@@ -13,11 +13,10 @@ import Cyprus from "../../assets/Flags/Cyprus.png";
 import Switzerland from "../../assets/Flags/Switzerland.png";
 import France from "../../assets/Flags/France.png";
 import WestIndies from "../../assets/Flags/West-Indies.jpg";
-
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
-import { FcGlobe } from "react-icons/fc";
+import { FaGlobeAmericas } from "react-icons/fa";
 import {
   IoShieldCheckmarkSharp,
   IoCheckmarkDoneCircleSharp,
@@ -64,8 +63,9 @@ const Navbar2 = () => {
             </p>
           </button>
           <span
-            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
-              }`}
+            className={` ${
+              navButton == ind && "rotate-180 transition ease-in-out delay-450"
+            }`}
           >
             <FaChevronUp />
           </span>
@@ -205,12 +205,10 @@ const Navbar2 = () => {
                       <Link>
                         <div className={flagClass}>
                           <div className="mx-auto">
-                            <FcGlobe size={25} className="mx-auto" />
+                            <FaGlobeAmericas size={50} className="mx-auto" />
                           </div>
                           <div>
-                            <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
-                              Rest of the World
-                            </button>
+                            <li>Rest of the World</li>
                           </div>
                         </div>
                       </Link>
@@ -536,7 +534,10 @@ const Navbar2 = () => {
                 </div>
 
                 <div className="pb-4">
-                  <Link to="/registration" className={`  pl-4 text-xl font-medium`}>
+                  <Link
+                    to="/registration"
+                    className={`  pl-4 text-xl font-medium`}
+                  >
                     <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
                       Registration
                     </button>
@@ -583,8 +584,9 @@ const Navbar2 = () => {
             </Link>
           </div>
           <div
-            className={`${width >= 1244 ? "text-base" : "text-sm"
-              } flex items-center justify-end gap-1`}
+            className={`${
+              width >= 1244 ? "text-base" : "text-sm"
+            } flex items-center justify-end gap-1`}
           >
             <Link
               className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
@@ -662,16 +664,12 @@ const Navbar2 = () => {
                 <img className={flag} src={WestIndies} />
                 <li>Study in West-Indies</li>
               </Link>
-              <Link>
-                <div className="my-2 lg:mt-10">
+              <Link className={flagClass} to={"/comingSoon"}>
+                <div className="mb-2 lg:mt-10">
                   <div className="mx-auto">
-                    <FcGlobe size={65} className="mx-auto" />
+                    <FaGlobeAmericas size={65} className="mx-auto" />
                   </div>
-                  <div>
-                    <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
-                      Rest of the World
-                    </button>
-                  </div>
+                  <li>Rest of the World</li>
                 </div>
               </Link>
             </ul>
@@ -680,8 +678,9 @@ const Navbar2 = () => {
         {navIndex == 2 && (
           <>
             <div
-              className={`${width <= 1450 ? "grid-cols-4" : "grid-cols-5"
-                }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
+              className={`${
+                width <= 1450 ? "grid-cols-4" : "grid-cols-5"
+              }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
             >
               <div className="col-span-1 md:my-10 my-5">
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
@@ -808,8 +807,12 @@ const Navbar2 = () => {
         )}
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep1} alt="img1" /></Link>
-            <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img1" /></Link>
+            <Link to="comingSoon" className="w-5/12 lg:w-2/12">
+              <img src={testPrep1} alt="img1" />
+            </Link>
+            <Link to="comingSoon" className="w-5/12 lg:w-2/12">
+              <img src={testPrep2} alt="img1" />
+            </Link>
           </div>
         )}
         {navIndex == 4 && (
