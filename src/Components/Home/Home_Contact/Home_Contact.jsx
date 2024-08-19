@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home_Contact.css'
 
 const Home_Contact = () => {
@@ -66,7 +67,9 @@ const Home_Contact = () => {
                             <p className='poppins-regular text-[12px] leading-[22px]'>By clicking you agree to our <span className='text-[#008AFF] cursor-pointer'>Privacy Policy</span> and <span className='text-[#008AFF] cursor-pointer'>Terms & Conditions</span> *</p>
                         </div>
                         <div className='pt-[55px]'>
+                            <Link to={"/comingSoon"}>
                             <button className='lg:poppins-bold mulish-regular lg:text-[18px] text-[14px] lg:px-[81px] lg:py-[22px] px-[17px] py-2 bg-[#2563EB] hover:bg-[#3D7DED] text-white rounded-[32px]'>Book Free Counselling</button>
+                            </Link>
                         </div>
                     </form>
                 </div>
