@@ -53,7 +53,7 @@ const Home_Destination = () => {
     >
       <div className="text-white text-center space-y-5 py-5">
         <div
-          className={`absolute z-10 top-[-120px] hidden lg:flex ${width <= 1240 ? "right-[8%]" : "right-[27%]"} `}
+          className={`absolute z-5 top-[-120px] hidden lg:flex ${width <= 1240 ? "right-[8%]" : "right-[27%]"} `}
         >
           <img src={plane} alt="" className={`${
             showAll ? "md:hidden" : " "

@@ -13,7 +13,7 @@ import Privacy from "../Components/Privacy/Privacy";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="font-poppins">
             <Navbar2/>
             
             

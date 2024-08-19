@@ -3,7 +3,7 @@ import './Home_Connection.css'
 
 const Home_Connection = () => {
     return (
-        <div className="w-full py-[20%] lg:py-[10% mx-10]">
+        <div className="w-full py-[10%] lg:py-[10% mx-10]">
         <div
           className="lg:max-w-[1150px]   rounded-[40px] h-[300px] bg-no-repeat relative lg:mx-auto md:mx-auto mx-10 lg:p-0   p-2 bg-top"
           style={{

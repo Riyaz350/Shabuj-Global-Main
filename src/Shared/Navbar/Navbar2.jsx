@@ -17,6 +17,7 @@ import WestIndies from "../../assets/Flags/West-Indies.jpg";
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
+import { FcGlobe } from "react-icons/fc";
 import {
   IoShieldCheckmarkSharp,
   IoCheckmarkDoneCircleSharp,
@@ -46,28 +47,26 @@ const Navbar2 = () => {
     setNavButton(0);
   };
   const [width, setWidth] = useState(null);
-  console.log(width)
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
 
   const NavButton = ({ ind, text }) => {
     return (
-      <div className={` cursor-pointer  `}>
+      <div className={` cursor-pointer font-poppins`}>
         <div
           className="flex items-center gap-2"
           onMouseEnter={() => enterNavButton(ind)}
         >
           <button className="flex items-center gap-1">
-            <p
-              className={`   bg-white  lg:bg-[#F0F8FF] font-semibold`}
-            >
+            <p className={`   bg-white  lg:bg-[#F0F8FF] font-semibold`}>
               {text}
             </p>
           </button>
           <span
-            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
-              }`}
+            className={` ${
+              navButton == ind && "rotate-180 transition ease-in-out delay-450"
+            }`}
           >
             <FaChevronUp />
           </span>
@@ -204,8 +203,17 @@ const Navbar2 = () => {
                         <img className={flag} src={WestIndies} />
                         <li>Study in West-Indies</li>
                       </Link>
-                      <Link className={flagClass}>
-                        <button>Rest of the World</button>
+                      <Link>
+                        <div className={flagClass}>
+                          <div className="mx-auto">
+                            <FcGlobe size={25} className="mx-auto" />
+                          </div>
+                          <div>
+                            <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
+                              Rest of the World
+                            </button>
+                          </div>
+                        </div>
                       </Link>
                     </ul>
                   </div>
@@ -229,16 +237,56 @@ const Navbar2 = () => {
                         </h2>
                         <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
                           <ul className="space-y-2 text-lg">
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Free Study Abroad Counselling</li></Link>
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Student Visa</li></Link>
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Application Process</li></Link>
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>International Student Visa Guidance</li></Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>Free Study Abroad Counselling</li>
+                            </Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>Student Visa</li>
+                            </Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>University Application Process</li>
+                            </Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>International Student Visa Guidance</li>
+                            </Link>
                           </ul>
                           <ul className="space-y-2 text-lg">
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Scholarship Guidance</li></Link>
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Abroad Destination Guide</li></Link>
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Personality Assessment Test</li></Link>
-                            <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Accommodation</li></Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>University Scholarship Guidance</li>
+                            </Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>Study Abroad Destination Guide</li>
+                            </Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>Personality Assessment Test</li>
+                            </Link>
+                            <Link
+                              className="hover:text-blue-600"
+                              to={"/comingSoon"}
+                            >
+                              <li>Study Accommodation</li>
+                            </Link>
                           </ul>
                         </div>
                       </div>
@@ -248,10 +296,30 @@ const Navbar2 = () => {
                           CHANNEL PARTNERS
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Customized Solution</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Instant Support</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Commissions</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Technological Support</li>
+                          </Link>
                         </ul>
                       </div>
 
@@ -260,10 +328,30 @@ const Navbar2 = () => {
                           PARTNER INSTITUTION
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Customized Solution</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Instant Support</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Commissions</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Technological Support</li>
+                          </Link>
                         </ul>
                       </div>
 
@@ -272,10 +360,30 @@ const Navbar2 = () => {
                           GOVERNMENT INSTITUTIONS
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Customized Solution</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Instant Support</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Commissions</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Technological Support</li>
+                          </Link>
                         </ul>
                       </div>
 
@@ -284,10 +392,30 @@ const Navbar2 = () => {
                           BUSINESS
                         </h2>
                         <ul className="space-y-2 text-lg">
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                          <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Customized Solution</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Instant Support</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Commissions</li>
+                          </Link>
+                          <Link
+                            className="hover:text-blue-600"
+                            to={"/comingSoon"}
+                          >
+                            <li>Technological Support</li>
+                          </Link>
                         </ul>
                       </div>
                     </div>
@@ -407,11 +535,20 @@ const Navbar2 = () => {
                     </div>
                   </div>
                 </div>
+<<<<<<< HEAD
+                <div>
+                  <Link
+                    to="/registration"
+                    className={`  pl-5 text-xl font-medium`}
+                  >
+                    Registration
+=======
                 <div className="pb-4">
                   <Link to="/registration" className={`  pl-4 text-xl font-medium`}>
                     <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
                       Registration
                     </button>
+>>>>>>> 24cb198547b639471f7ca83d8283402eea9536a8
                   </Link>
                 </div>
 
@@ -427,12 +564,11 @@ const Navbar2 = () => {
 
         {/* Large device navbar buttons */}
 
-        <div className={`  hidden items-center   my-5 lg:flex flex-wrap justify-end gap-3`}>
+        <div
+          className={`  hidden items-center   my-5 lg:flex flex-wrap justify-end gap-3`}
+        >
           <div className={` flex items-center gap-1`}>
-            <Link
-              className={` bg-white  lg:bg-[#F0F8FF] font-semibold`}
-              to="/"
-            >
+            <Link className={` bg-white  lg:bg-[#F0F8FF] font-semibold`} to="/">
               Home
             </Link>
           </div>
@@ -455,19 +591,23 @@ const Navbar2 = () => {
               <NavButton ind={4} text="About Us" />
             </Link>
           </div>
-          <div className={`${width >= 1244 ? "text-base" : "text-sm"
-            } flex items-center justify-end gap-1`}>
+          <div
+            className={`${
+              width >= 1244 ? "text-base" : "text-sm"
+            } flex items-center justify-end gap-1`}
+          >
             <Link
               className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
               to="/registration"
             >
               Registration
             </Link>
-            <button className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}>
+            <button
+              className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
+            >
               Log In
             </button>
           </div>
-
         </div>
       </div>
 
@@ -528,42 +668,63 @@ const Navbar2 = () => {
                 <img className={flag} src={France} />
                 <li>Study in France</li>
               </Link>
-              <Link
-                className={flagClass}
-                to={"/West-Indies"}
-              >
+              <Link className={flagClass} to={"/West-Indies"}>
                 <img className={flag} src={WestIndies} />
                 <li>Study in West-Indies</li>
               </Link>
-              <Link
-                className={flagClass}
-              >
-                <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
-                  Rest of the Countries
-                </button>
+              <Link>
+                <div className="my-2 lg:mt-10">
+                  <div className="mx-auto">
+                    <FcGlobe size={65} className="mx-auto" />
+                  </div>
+                  <div>
+                    <button className="px-4 py-2 bg-blue-700 text-white rounded-md">
+                      Rest of the World
+                    </button>
+                  </div>
+                </div>
               </Link>
             </ul>
           </div>
         )}
         {navIndex == 2 && (
           <>
-            <div className={`${width <= 1450 ? 'grid-cols-4' : 'grid-cols-5'}  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}>
+            <div
+              className={`${
+                width <= 1450 ? "grid-cols-4" : "grid-cols-5"
+              }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
+            >
               <div className="col-span-1 md:my-10 my-5">
-
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
                   FOR STUDENTS
                 </h2>
                 <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
                   <ul className="space-y-2 text-base">
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Free Study Abroad Counselling</li></Link>
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Student Visa</li></Link>
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Application Process</li></Link>
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>International Student Visa Guidance</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>Free Study Abroad Counselling</li>
+                    </Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>Student Visa</li>
+                    </Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>University Application Process</li>
+                    </Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>International Student Visa Guidance</li>
+                    </Link>
 
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>University Scholarship Guidance</li></Link>
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Abroad Destination Guide</li></Link>
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Personality Assessment Test</li></Link>
-                    <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Study Accommodation</li></Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>University Scholarship Guidance</li>
+                    </Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>Study Abroad Destination Guide</li>
+                    </Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>Personality Assessment Test</li>
+                    </Link>
+                    <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                      <li>Study Accommodation</li>
+                    </Link>
                   </ul>
                 </div>
               </div>
@@ -573,10 +734,18 @@ const Navbar2 = () => {
                   CHANNEL PARTNERS
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Customized Solution</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Instant Support</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Commissions</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Technological Support</li>
+                  </Link>
                 </ul>
               </div>
 
@@ -585,10 +754,18 @@ const Navbar2 = () => {
                   PARTNER INSTITUTION
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Customized Solution</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Instant Support</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Commissions</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Technological Support</li>
+                  </Link>
                 </ul>
               </div>
 
@@ -597,10 +774,18 @@ const Navbar2 = () => {
                   GOVERNMENT INSTITUTIONS
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Customized Solution</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Instant Support</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Commissions</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Technological Support</li>
+                  </Link>
                 </ul>
               </div>
 
@@ -609,10 +794,18 @@ const Navbar2 = () => {
                   BUSINESS
                 </h2>
                 <ul className="space-y-2 text-base">
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Customized Solution</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Instant Support</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Commissions</li></Link>
-                  <Link className="hover:text-blue-600" to={"/comingSoon"}><li>Technological Support</li></Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Customized Solution</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Instant Support</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Commissions</li>
+                  </Link>
+                  <Link className="hover:text-blue-600" to={"/comingSoon"}>
+                    <li>Technological Support</li>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -626,8 +819,17 @@ const Navbar2 = () => {
         )}
         {navIndex == 3 && (
           <div className="flex  justify-around py-10">
+<<<<<<< HEAD
+            <Link to="comingSoon" className="w-5/12 lg:w-2/12">
+              <img src={testPrep1} alt="img1" />
+            </Link>
+            <Link to="comingSoon" className="w-5/12 lg:w-2/12">
+              <img src={testPrep2} alt="img1" />
+            </Link>
+=======
             <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep1} alt="img1" /></Link>
             <Link to='comingSoon' className="w-5/12 lg:w-2/12"><img src={testPrep2} alt="img1" /></Link>
+>>>>>>> 24cb198547b639471f7ca83d8283402eea9536a8
           </div>
         )}
         {navIndex == 4 && (
@@ -688,10 +890,7 @@ const Navbar2 = () => {
                 <BsCameraVideoFill />
                 Events & Webinars
               </Link>
-              <Link
-                className={`${iconStyle} `}
-                to="/about"
-              >
+              <Link className={`${iconStyle} `} to="/about">
                 <FcAbout />
                 About Us
               </Link>

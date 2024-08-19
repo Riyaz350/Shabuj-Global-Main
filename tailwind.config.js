@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        mulish: ["Mulish", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      }
+    },
   },
   plugins: [
     require('daisyui'),
