@@ -30,6 +30,7 @@ import Privacy from "../Components/Privacy/Privacy";
 import Canada from "../Pages/Study_Destination/Canada";
 import New_Zealand from "../Pages/Study_Destination/New_Zealand";
 import USA from "../Pages/Study_Destination/USA";
+import Login_Page from "../Components/Login_Page/Login_Page";
 
 
 export const router = createBrowserRouter([
@@ -109,6 +110,10 @@ export const router = createBrowserRouter([
       {
         path: "/registration",
         element: <Registration_Page />,
+      },
+      {
+        path: "/login",
+        element: <Login_Page />,
       },
       {
         path: "/singleUniversityUK/:id",

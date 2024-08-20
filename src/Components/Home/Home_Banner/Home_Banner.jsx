@@ -21,8 +21,8 @@ const Home_Banner = () => {
                         <div className="buttons-group-container">
                             <div className="buttons-group">
 
-                                <Link to='/comingSoon'><button>Enquire</button></Link>
-                                <Link to='/comingSoon'><button>Apply</button></Link>
+                                <a href='/comingSoon'>Enquire</a>
+                                <a href='/comingSoon'>Apply</a>
 
                             </div>
                         </div>

@@ -2,10 +2,10 @@
 const Event_Subscribe = () => {
     return (
         <div className="bg-[#0017E4] md:bg-gradient-to-r from-[#3793FF] to-[#0017E4] min-h-16 py-5 my-20">
-        <div className="max-w-screen-lg mx-auto px-3 md:px-0 flex flex-col md:flex-row justify-between items-center">
+        <div className="max-w-screen-lg mx-auto px-3 md:px-0 flex flex-col lg:flex-row justify-between items-center">
           <div className="py-5 text-white">
             <p className="text-[28px] font-semibold">Get Latest Updates on</p>
-            <p className="text-[28px] font-semibold">Overseas Education</p>
+            <p className="text-[28px] font-semibold lg:text-left md:text-center text-center">Overseas Education</p>
           </div>
           <div className="flex flex-col gap-y-5 md:flex-row items-center gap-x-9">
             <div className="flex items-center">
