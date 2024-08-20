@@ -16,9 +16,10 @@ const Germany = () => {
     window.scrollTo(0, 0);
   });
   return (
-    <div className="font-poppins">
+    <div>
       <Germany_Banner />
       <Germany_StudyInGermany />
+      <QuickFacts></QuickFacts>
       <Tabs />
       <AnimatedText />
       <UniversityCards_Ger />
