@@ -19,7 +19,7 @@
   
   .modal-box {
     padding: 0;
-    width: auto;
+    width: 450px;
   }
   
   .gallery-items {
@@ -36,21 +36,21 @@
   }
   
   .gallery-one>div {
-    animation: galleryanimate 80s -80s linear infinite;
+    animation: galleryanimate 120s -120s linear infinite;
     will-change: transform;
   }
   
   .gallery-one>div:last-child {
-    animation: galleryanimate2 80s -40s linear infinite;
+    animation: galleryanimate2 120s -60s linear infinite;
   }
   
   .gallery-two>div {
-    animation: galleryanimate3 80s -80s linear infinite;
+    animation: galleryanimate3 120s -120s linear infinite;
     will-change: transform;
   }
   
   .gallery-two>div:last-child {
-    animation: galleryanimate4 80s -40s linear infinite;
+    animation: galleryanimate4 120s -60s linear infinite;
   }
   
   .gallery-one:hover>div,

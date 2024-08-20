@@ -30,7 +30,7 @@ const Georgia_Tabs = () => {
           } `}
           data-tab="tab-program"
         >
-          <button className={`bg-transparent p-1  ${activeTab === "tab-program" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Programs & Duration</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-program" ? "  " : " hover:text-white"}`}>Programs & Duration</button>
         </li>
         <li
           onClick={() => handleClick("tab-cost")}
@@ -39,7 +39,7 @@ const Georgia_Tabs = () => {
           }`}
           data-tab="tab-cost"
         >
-          <button className={`bg-transparent p-1  ${activeTab === "tab-cost" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Cost of Studying</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-cost" ? "  " : " hover:text-white"}`}>Cost of Studying</button>
         </li>
         <li
           onClick={() => handleClick("tab-intakes")}
@@ -48,7 +48,7 @@ const Georgia_Tabs = () => {
           } `}
           data-tab="tab-intakes"
         >
-          <button className={`bg-transparent p-1  ${activeTab === "tab-intakes" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Academic Intakes</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-intakes" ? "  " : " hover:text-white"}`}>Academic Intakes</button>
         </li>
         <li
           onClick={() => handleClick("tab-deadline")}
@@ -57,7 +57,7 @@ const Georgia_Tabs = () => {
           }`}
           data-tab="tab-deadline"
         >
-          <button className={`bg-transparent p-1  ${activeTab === "tab-deadline" ? "  " : "hover:bg-[#f5f5f5] hover:text-white"}`}>Deadline</button>
+          <button className={`bg-transparent p-1  ${activeTab === "tab-deadline" ? "  " : " hover:text-white"}`}>Deadline</button>
         </li>
       </ul>
       {/* for mobile */}
