@@ -12,27 +12,26 @@ import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Co
 import UKBanner from "../../Components/Study_Destination_Components/UK/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 
+const UK = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <UKBanner country={"UK"} />
+      <StudyUK country={"UK"} />
+      <QuickFacts />
+      <Tabs />
+      <AnimatedText />
+      <UniversityCards />
+      <RequirementCard country={"UK"} />
+      <Exams country={"UK"} />
+      <GuidanceBanner />
+      <DocumentsRequired />
+      <Faq_UK />
+      <Uk_Counselor />
+    </div>
+  );
+};
 
-  const UK = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    },);
-    return (
-      <div>
-        <UKBanner country={'UK'} />
-        <StudyUK country={'UK'} />
-        <QuickFacts />
-        <Tabs />
-        <AnimatedText />
-        <UniversityCards />
-        <RequirementCard country={'UK'} />
-        <Exams country={'UK'} />
-        <GuidanceBanner />
-        <DocumentsRequired />
-        <Faq_UK />
-        <Uk_Counselor />
-      </div>
-    );
-  };
-
-  export default UK;
+export default UK;

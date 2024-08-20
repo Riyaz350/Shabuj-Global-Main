@@ -11,25 +11,24 @@ import Tabs from "../../Components/Study_Destination_Components/Tabs";
 import UKBanner from "../../Components/Study_Destination_Components/UKBanner";
 import UniversityCards from "../../Components/Study_Destination_Components/UniversityCards";
 
+const Study_Destination = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <UKBanner />
+      <StudyUK />
+      <QuickFacts />
+      <Tabs />
+      <AnimatedText />
+      <UniversityCards />
+      <RequirementCard />
+      <GuidanceBanner />
+      <DocumentsRequired />
+      <Faq />
+    </div>
+  );
+};
 
-  const Study_Destination = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    },);
-    return (
-      <div>
-        <UKBanner />
-        <StudyUK />
-        <QuickFacts />
-        <Tabs />
-        <AnimatedText />
-        <UniversityCards />
-        <RequirementCard />
-        <GuidanceBanner />
-        <DocumentsRequired />
-        <Faq />
-      </div>
-    );
-  };
-
-  export default Study_Destination;
+export default Study_Destination;

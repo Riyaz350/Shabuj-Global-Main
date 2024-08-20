@@ -11,27 +11,25 @@ import UniversityCards_Ger from "../../Components/Study_Destination_Components/G
 import { useEffect } from "react";
 import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
 
-
-    
 const Germany = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, );
-    return (
-        <div>
-            <Germany_Banner/>
-            <Germany_StudyInGermany/>
-            <QuickFacts></QuickFacts>
-            <Tabs/>
-            <AnimatedText/>
-            <UniversityCards_Ger/>
-            <RequirementCard country={'Germany'}/>
-            <Exams country={'Germany'}/>
-            <DocumentsRequired/>
-            <Faq_Ger/>
-            <Germany_Counselor/>
-        </div>
-    );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <Germany_Banner />
+      <Germany_StudyInGermany />
+      <Tabs />
+      <AnimatedText />
+      <UniversityCards_Ger />
+      <RequirementCard country={"Germany"} />
+      <Exams country={"Germany"} />
+      <DocumentsRequired />
+      <Faq_Ger />
+      <Germany_Counselor />
+    </div>
+  );
+
 };
 
 export default Germany;

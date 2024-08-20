@@ -9,33 +9,30 @@ import Finland_UniversityCards from "../../Components/Study_Destination_Componen
 import Georgia_Study from "../../Components/Study_Destination_Components/Georgia/Georgia_Study/Georgia_Study";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 
-
 import UAE_RequirementCard from "../../Components/Study_Destination_Components/UAE/UAE_RequirementCard/UAE_RequirementCard";
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 
-
-
 const Finland = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, );
-    return (
-        <div>
-            <Finland_Banner></Finland_Banner>
-            <Georgia_Study country={"Finland"}></Georgia_Study>
-            <QuickFacts></QuickFacts>
-            <Finland_Tabs></Finland_Tabs>
-            <Finland_AnimatedText></Finland_AnimatedText>
-            <Finland_UniversityCards></Finland_UniversityCards>
-            <UAE_RequirementCard country={"Finland"}></UAE_RequirementCard>
-            <Exams country={"Finland"}></Exams>
-            <GuidanceBanner></GuidanceBanner>
-            <Finland_DocumentsRequired></Finland_DocumentsRequired>
-            <Finland_Faq></Finland_Faq>
-            <Finland_Counselor></Finland_Counselor>
-        </div>
-    );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <Finland_Banner></Finland_Banner>
+      <Georgia_Study country={"Finland"}></Georgia_Study>
+      <QuickFacts></QuickFacts>
+      <Finland_Tabs></Finland_Tabs>
+      <Finland_AnimatedText></Finland_AnimatedText>
+      <Finland_UniversityCards></Finland_UniversityCards>
+      <UAE_RequirementCard country={"Finland"}></UAE_RequirementCard>
+      <Exams country={"Finland"}></Exams>
+      <GuidanceBanner></GuidanceBanner>
+      <Finland_DocumentsRequired></Finland_DocumentsRequired>
+      <Finland_Faq></Finland_Faq>
+      <Finland_Counselor></Finland_Counselor>
+    </div>
+  );
 };
 
 export default Finland;

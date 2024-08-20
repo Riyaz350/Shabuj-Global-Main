@@ -11,24 +11,23 @@ import DocumentsRequired_USA from "../../Components/Study_Destination_Components
 import Faq_USA from "../../Components/Study_Destination_Components/USA/Faq_USA";
 import USA_Counselor from "../../Components/Study_Destination_Components/USA/USA_Counselor/USA_Counselor";
 
-
 const USA = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, );
+  });
   return (
-    <div>
-      <UKBanner country={'USA'}/>
-      <StudyUK country={'USA'}/>
+    <div className="font-poppins">
+      <UKBanner country={"USA"} />
+      <StudyUK country={"USA"} />
       <QuickFacts />
       <Tabs />
       <AnimatedText />
-      <RequirementCard country={'USA'} />
-      <Exams country={'USA'}/>
+      <RequirementCard country={"USA"} />
+      <Exams country={"USA"} />
       <GuidanceBanner />
       <DocumentsRequired_USA />
       <Faq_USA />
-      <USA_Counselor/>
+      <USA_Counselor />
     </div>
   );
 };
