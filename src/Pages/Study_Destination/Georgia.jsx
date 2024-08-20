@@ -16,6 +16,7 @@ import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFa
 import Georgia_UniversityCards from "../../Components/Study_Destination_Components/Georgia/Georgia_UniversityCards/Georgia_UniversityCards";
 import Georgia_AnimatedText from "../../Components/Study_Destination_Components/Georgia/Georgia_AnimatedText";
 import { useEffect } from "react";
+import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 
 const Georgia = () => {
   useEffect(() => {
@@ -27,7 +28,8 @@ const Georgia = () => {
       <Georgia_Study country={"Georgia"}></Georgia_Study>
       <QuickFacts></QuickFacts>
       <Georgia_Tabs></Georgia_Tabs>
-      <Georgia_AnimatedText></Georgia_AnimatedText>
+      {/* <Georgia_AnimatedText></Georgia_AnimatedText> */}
+      <AnimatedText country={"Georgia"} />
       <Georgia_UniversityCards></Georgia_UniversityCards>
       <UAE_RequirementCard country={"Georgia"}></UAE_RequirementCard>
       <Exams country={"Georgia"}></Exams>

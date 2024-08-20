@@ -20,8 +20,8 @@ const New_Zealand = () => {
       <UKBanner country={"New Zealand"} />
       <StudyUK country={"New Zealand"} />
       <QuickFacts />
-      <Tabs />
-      <AnimatedText />
+      <Tabs country={"New Zealand"} />
+      <AnimatedText country={"New Zealand"} />
       <RequirementCard country={"New Zealand"} />
       <Exams country={"New Zealand"} />
       <GuidanceBanner />

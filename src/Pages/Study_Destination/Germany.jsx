@@ -5,7 +5,7 @@ import RequirementCard from "../../Components/Study_Destination_Components/Share
 import DocumentsRequired from "../../Components/Study_Destination_Components/Germany/DocumentsRequired/DocumentsRequired";
 import Faq_Ger from "../../Components/Study_Destination_Components/Germany/Germany_Faq/Faq_Ger";
 import Germany_Counselor from "../../Components/Study_Destination_Components/Germany/Germany_Counselor/Germany_Counselor";
-import Tabs from "../../Components/Study_Destination_Components/Australia/Tabs/Tabs";
+import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Ger from "../../Components/Study_Destination_Components/Germany/Germany_UniversityCards/UniversityCards_Ger";
 import { useEffect } from "react";
@@ -20,8 +20,8 @@ const Germany = () => {
       <Germany_Banner />
       <Germany_StudyInGermany />
       <QuickFacts></QuickFacts>
-      <Tabs />
-      <AnimatedText />
+      <Tabs country={"Germany"} />
+      <AnimatedText country={"Germany"} />
       <UniversityCards_Ger />
       <RequirementCard country={"Germany"} />
       <Exams country={"Germany"} />

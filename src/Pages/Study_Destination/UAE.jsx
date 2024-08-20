@@ -12,6 +12,7 @@ import UAE_RequirementCard from "../../Components/Study_Destination_Components/U
 import UAE_StudyUAE from "../../Components/Study_Destination_Components/UAE/UAE_StudyUAE/UAE_StudyUAE";
 import UAE_Tabs from "../../Components/Study_Destination_Components/UAE/UAE_Tabs/UAE_Tabs";
 import UAE_UniversityCards from "../../Components/Study_Destination_Components/UAE/UniversityCards/UAE_UniversityCards";
+import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 
 const UAE = () => {
   useEffect(() => {
@@ -23,7 +24,8 @@ const UAE = () => {
       <UAE_StudyUAE></UAE_StudyUAE>
       <UAE_QuickFacts></UAE_QuickFacts>
       <UAE_Tabs></UAE_Tabs>
-      <UAE_AnimatedText></UAE_AnimatedText>
+      {/* <UAE_AnimatedText></UAE_AnimatedText> */}
+      <AnimatedText country={"UAE"} />
       <UAE_UniversityCards></UAE_UniversityCards>
       <UAE_RequirementCard country={"UAE"}></UAE_RequirementCard>
       <UAE_Exams country={"UAE"}></UAE_Exams>

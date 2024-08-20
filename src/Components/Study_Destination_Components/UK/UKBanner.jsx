@@ -22,10 +22,18 @@ const UKBanner = ({ country }) => {
           <img className="rounded-3xl " src={png} alt="" />
         </div>
         <div className="absolute z-10 top-[10%] flex flex-col items-center justify-center">
-          <h1 className="text-2xl md:text-4xl lg:text-6xl poppins font-bold text-[#00399F] group-hover:text-white">
+          <h1
+            className={`text-2xl md:text-4xl lg:text-6xl poppins font-bold ${
+              bgHover == 1 ? "text-white" : "text-[#00399F]"
+            }`}
+          >
             Study in the {country}
           </h1>
-          <p className="mt-4 text-xs w-[80%] md:text-lg font-semibold text-[#1F1F1F] md:w-3/5 text-center group-hover:text-white">
+          <p
+            className={`mt-4 text-xs w-[80%] md:text-lg font-semibold md:w-3/5 text-center  ${
+              bgHover == 1 ? "text-white" : "text-[#1F1F1F]"
+            }`}
+          >
             Here’s a comprehensive guide for all students who want to study in
             the {country}.
           </p>

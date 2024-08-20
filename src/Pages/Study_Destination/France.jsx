@@ -21,8 +21,8 @@ const France = () => {
       <UKBanner country={"France"} />
       <StudyUK country={"France"} />
       <QuickFacts />
-      <Tabs />
-      <AnimatedText />
+      <Tabs country={"France"} />
+      <AnimatedText country={"France"} />
       <RequirementCard country={"France"} />
       <Exams country={"France"} />
       <GuidanceBanner />
