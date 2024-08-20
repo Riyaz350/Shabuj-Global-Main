@@ -392,7 +392,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/facebook.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="facebook"
                 />
               </a>
@@ -402,7 +402,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/instagram.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="instagram"
                 />
               </a>
@@ -412,7 +412,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/linkedin.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="linkedin"
                 />
               </a>
@@ -422,7 +422,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/youtube.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="youtube"
                 />
               </a>

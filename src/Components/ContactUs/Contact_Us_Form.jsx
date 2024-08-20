@@ -148,7 +148,7 @@ const Contact_Us_Form = () => {
                 By clicking you agree to our
                 <br />
                 <a
-                  href="/privacy-policy"
+                  href="/Privacy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 underline pr-2"
@@ -260,7 +260,7 @@ const Contact_Us_Form = () => {
               By clicking you agree to our
               <br />
               <a
-                href="/privacy-policy"
+                href="/Privacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 underline pr-2"
