@@ -9,6 +9,7 @@ import Tabs from "../../Components/Study_Destination_Components/Australia/Tabs/T
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Ger from "../../Components/Study_Destination_Components/Germany/Germany_UniversityCards/UniversityCards_Ger";
 import { useEffect } from "react";
+import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
 
 const Germany = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const Germany = () => {
       <Germany_Counselor />
     </div>
   );
+
 };
 
 export default Germany;

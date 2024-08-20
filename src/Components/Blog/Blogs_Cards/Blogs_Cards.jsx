@@ -168,14 +168,14 @@ const data = [
   },
   {
     "id": 6,
-    "image": "/src/assets/Blog_image_six.png",
+    "image": "/src/assets/Blog_image_four.png",
     "category": "Connections",
     "title": "Navigating University Networking: A Shabuj Global Student's Guide",
     "description": "Starting your university adventure in the UK is a thrilling phase of your life, not just in academics but also for personal and career growth"
   },
   {
     "id": 7,
-    "image": "/src/assets/Blog_image_seven.png",
+    "image": "/src/assets/Blog_image_two.png",
     "category": "Interacting",
     "title": "University Networking: A Guide for Shabuj Global Students",
     "description": "Beginning your university journey in the UK is an exciting chapter in your life, not just academically but also for personal and professional growth..."

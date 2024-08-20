@@ -131,6 +131,7 @@ const Footer = () => {
             </div>
           </div>
 
+
           <div className="footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white">
             <div className="mx-auto">
               <div className="lg:w-[577px] lg:h-[164px] w-[309px] bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]">
