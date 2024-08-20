@@ -4,14 +4,14 @@ import UpcomingEvents_EducationFair from "../../Components/Events/UpcomingEvents
 import UpcomingEvents_PastEvents from "../../Components/Events/UpcomingEvents_PastEvents/UpcomingEvents_PastEvents";
 
 const Single_Event = () => {
-    return (
-        <div>
-            <UpcomingEvents_EducationFair/>
-            <UpcomingEvents_PastEvents/>
-            <Event_Subscribe/>
-            <Event_Study/>
-        </div>
-    );
+  return (
+    <div className="font-poppins">
+      <UpcomingEvents_EducationFair />
+      <UpcomingEvents_PastEvents />
+      <Event_Subscribe />
+      <Event_Study />
+    </div>
+  );
 };
 
 export default Single_Event;
