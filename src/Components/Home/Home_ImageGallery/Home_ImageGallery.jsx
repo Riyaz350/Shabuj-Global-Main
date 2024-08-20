@@ -12,6 +12,7 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery8.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_1').showModal()} />
                         <dialog id="my_modal_1" className="modal">
                             <div className="modal-box">
+                                
                                 <div className='relative'>
                                     <img src="./assets/gallery1.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -1144,7 +1145,7 @@ const Home_ImageGallery = () => {
                     </div>
                 </div>
                 <div className='flex gap-5 gallery-items pl-2.5 pr-2.5'>
-                <div>
+                    <div>
                         <img src="./assets/gallery8.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_1').showModal()} />
                         <dialog id="my_modal_1" className="modal">
                             <div className="modal-box">
@@ -3418,7 +3419,7 @@ const Home_ImageGallery = () => {
                     </div>
                 </div>
                 <div className='flex gap-5 gallery-items pl-2.5 pr-2.5'>
-                <div>
+                    <div>
                         <img src="./assets/gallery8.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_1').showModal()} />
                         <dialog id="my_modal_1" className="modal">
                             <div className="modal-box">
