@@ -27,7 +27,7 @@ const Footer = () => {
                     <div className='footer-2 leading-[150%] text-[#CACACA] border-t border-white pt-[35px] max-w-[1154px] mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
                         <div className='w-3/4 lg:w-[231px] mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='mulish-regular text-base mb-4'>About Shabuj Global Education</h2>
-                            <p className='mulish-regular lg:text-base text-sm'>Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula neque id varius sit lacus et. Pellentesque porta interdum morbi enim ultrices egestas aliquet amet. Aliquet elit amet porttitor posuere.</p>
+                            <p className='mulish-regular lg:text-base text-sm'>Shabuj Global Education (also known as SG Education) is one of the BRITISH COUNCIL accredited education service providers in the UK. The company has been working since 2010 with great pride and service excellence. At Shabuj Global we provide services to local and international students for UK University admission.</p>
                         </div>
                         <div className='w-[177px]  mx-auto lg:mx-0 text-center lg:text-start'>
                             <h2 className='lg:mulish-bold mulish-regular text-base mb-4 mt-8 uppercase'>Study Destinations</h2>
@@ -63,7 +63,7 @@ const Footer = () => {
                             </ul>
                             <p className='lg:mulish-bold mulish-regular text-base mt-9 uppercase'>search universities</p>
                             <Link to={"/events"}><p className='lg:mulish-bold mulish-regular text-base mt-3 uppercase hover:text-blue-600'>upcoming events</p></Link>
-                            <p className='lg:mulish-bold mulish-regular text-base mt-3 mb-[41px] uppercase'>book online counselling</p>
+                            <p className='lg:mulish-bold mulish-regular text-base mt-3 lg:mb-[82px] mb-[41px] uppercase'>book online counselling</p>
                         </div>
 
                     </div>
