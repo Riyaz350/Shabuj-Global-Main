@@ -34,7 +34,7 @@ const Navbar2 = () => {
   const [navButton, setNavButton] = useState(0);
   const [navIndex, setNavIndex] = useState(0);
   const iconStyle =
-    "flex bg-gray-200 lg:bg-white px-5 gap-2 items-center hover:text-blue-500";
+    "flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
   const flagClass =
     "flex w-10/12 mx-auto flex-1 md:max-w-[14.28%] flex-col justify-center item-center text-center my-2 lg:mt-10";
   const flag = "w-3/4 mx-auto rounded-lg ";
@@ -222,9 +222,9 @@ const Navbar2 = () => {
                   </div>
                   <div className="collapse-content">
                     <div className="flex flex-col          ">
-                      <div className="col-span-2 ">
+                      <div className="col-span-2 mt-2">
                         <Link
-                          className="text-lg underline text-blue-600 pl-2"
+                          className="text-xl  mt-2  bg-blue-600 text-white  w-fit ml-auto    p-2 rounded-lg "
                           to="/services"
                         >
                           Services
@@ -441,16 +441,16 @@ const Navbar2 = () => {
                   </div>
                   <div className="collapse-content">
                     <div className="     ">
-                      <ul className=" text-lg ">
+                      <ul className=" text-lg  mt-2">
                         <Link
-                          className="text-lg underline text-blue-600 pl-2"
+                          className="text-xl bg-blue-600 text-white  w-fit ml-auto  p-2 rounded-lg "
                           to="/about"
                         >
                           About Us
                         </Link>
 
                         <Link to={"/comingSoon"}>
-                          <li className={iconStyle}>
+                          <li className={`mt-5 ${iconStyle}`}>
                             <BsGridFill />
                             Who We Are
                           </li>
@@ -488,7 +488,7 @@ const Navbar2 = () => {
                           </li>
                         </Link>
                         <div
-                          className={`${iconStyle} flex gap-2 items-center justify-center py-5 my-4`}
+                          className={`${iconStyle} flex gap-2 items-center  py-5 my-4`}
                         >
                           <SiGooglesheets />
                           <li>Careers</li>{" "}
@@ -517,8 +517,8 @@ const Navbar2 = () => {
                           </li>
                         </Link>
 
-                        <li className={iconStyle}>
-                          <Link className={iconStyle} to="/events">
+                        <li >
+                          <Link className={`${iconStyle}`} to="/events">
                             <BsCameraVideoFill />
                             Events & Webinars
                           </Link>
