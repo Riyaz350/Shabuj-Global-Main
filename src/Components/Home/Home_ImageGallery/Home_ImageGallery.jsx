@@ -12,7 +12,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery8.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_1').showModal()} />
                         <dialog id="my_modal_1" className="modal">
                             <div className="modal-box">
-                                
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery1.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -31,6 +33,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery9.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_2').showModal()} />
                         <dialog id="my_modal_2" className="modal">
                             <div className="modal-box">
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery2.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -49,6 +54,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery10.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_3').showModal()} />
                         <dialog id="my_modal_3" className="modal">
                             <div className="modal-box">
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery3.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -67,6 +75,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery11.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_4').showModal()} />
                         <dialog id="my_modal_4" className="modal">
                             <div className="modal-box">
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery4.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -85,6 +96,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery12.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_5').showModal()} />
                         <dialog id="my_modal_5" className="modal">
                             <div className="modal-box">
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery5.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -103,6 +117,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery13.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_6').showModal()} />
                         <dialog id="my_modal_6" className="modal">
                             <div className="modal-box">
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery6.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
@@ -121,6 +138,9 @@ const Home_ImageGallery = () => {
                         <img src="./assets/gallery14.png" alt="" className='lg:w-[172px] w-[83px] lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_7').showModal()} />
                         <dialog id="my_modal_7" className="modal">
                             <div className="modal-box">
+                                <form method="dialog">
+                                    <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
+                                </form>
                                 <div className='relative'>
                                     <img src="./assets/gallery7.png" className='w-full' alt="" />
                                     <div className='absolute modal-bg bottom-0 h-[150px]'>
