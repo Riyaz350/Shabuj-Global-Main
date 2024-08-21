@@ -30,7 +30,7 @@ const ExamsLargeScreen = () => {
         >
           <div className="h-[250px]">
             <div className="px-8 py-14">
-              <h2 className="lg:text-[45px] md:text-[30px] text-[45px] leading-tight font-semibold mt-3 mb-2">
+              <h2 className="lg:text-[40px] md:text-[30px] text-[45px] leading-tight font-semibold  mb-2">
                 {" "}
                 English Language Proficiency Exams
               </h2>
@@ -85,7 +85,7 @@ const ExamsLargeScreen = () => {
         >
           <div className="h-[250px]">
             <div className="px-8 py-14">
-              <h2 className="lg:text-[45px] md:text-[30px] text-[45px] leading-tight font-semibold mt-3 mb-2">
+              <h2 className="lg:text-[40px] md:text-[30px] text-[45px] leading-tight font-semibold  mb-2">
                 Graduation Admission Requirements
               </h2>
 
@@ -138,7 +138,7 @@ const ExamsLargeScreen = () => {
         >
           <div className="h-[250px]">
             <div className="px-8 py-14">
-              <h2 className="lg:text-[45px] md:text-[30px] text-[45px] leading-tight font-semibold mt-3 mb-2">
+              <h2 className="lg:text-[40px] md:text-[30px] text-[45px] leading-tight font-semibold  mb-2">
                 Undergraduation Admission Requirements
               </h2>
 
@@ -189,7 +189,7 @@ const ExamsLargeScreen = () => {
         >
           <div className="h-[250px]">
             <div className="px-8 py-14">
-              <h2 className="lg:text-[45px] md:text-[30px] text-[45px] leading-tight font-semibold mt-3 mb-2">
+              <h2 className="lg:text-[40px] md:text-[30px] text-[45px] leading-tight font-semibold mt-3 mb-2">
                 Subject-Specific Exams
               </h2>
 
