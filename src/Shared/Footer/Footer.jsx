@@ -34,11 +34,7 @@ const Footer = () => {
                 About Shabuj Global Education
               </h2>
               <p className="mulish-regular lg:text-base text-sm">
-                Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac
-                sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula
-                neque id varius sit lacus et. Pellentesque porta interdum morbi
-                enim ultrices egestas aliquet amet. Aliquet elit amet porttitor
-                posuere.
+              Shabuj Global Education (also known as SG Education) is one of the BRITISH COUNCIL accredited education service providers in the UK. The company has been working since 2010 with great pride and service excellence. At Shabuj Global we provide services to local and international students for UK University admission.
               </p>
             </div>
             <div className="w-[177px]  mx-auto lg:mx-0 text-center lg:text-start">
@@ -125,7 +121,7 @@ const Footer = () => {
                   upcoming events
                 </p>
               </Link>
-              <p className="lg:mulish-bold mulish-regular text-base mt-3 mb-[41px] uppercase">
+              <p className="lg:mulish-bold mulish-regular text-base mt-3 lg:mb-[81px] mb-[41px] uppercase">
                 book online counselling
               </p>
             </div>
@@ -392,7 +388,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/facebook.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="facebook"
                 />
               </a>
@@ -402,7 +398,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/instagram.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="instagram"
                 />
               </a>
@@ -412,7 +408,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/linkedin.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="linkedin"
                 />
               </a>
@@ -422,7 +418,7 @@ const Footer = () => {
               >
                 <img
                   src="./assets/youtube.png"
-                  className="hover:bg-blue-500 p-1"
+                  className="hover:bg-blue-500 p-1 rounded-md"
                   alt="youtube"
                 />
               </a>

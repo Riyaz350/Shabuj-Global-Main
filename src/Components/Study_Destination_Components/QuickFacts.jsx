@@ -2,11 +2,11 @@ import { FaCheck } from "react-icons/fa6";
 
 const QuickFacts = () => {
     const facts = [
-        "The UK undertakes 5% of the world’s scientific research and produces 14% of the world’s most frequently cited papers",
-        "14 of the best student cities in the world are in The UK (QS Best Student Cities 2023)",
-        "UK offers 131 universities of international repute to study from",
-        "UK welcomes over 400,000 students every year",
-        "12 of world’s top 100 universities are in The UK (QS World Rankings 2023)",
+        "The USA undertakes 5% of the world’s scientific research and produces 14% of the world’s most frequently cited papers",
+        "14 of the best student cities in the world are in The USA (QS Best Student Cities 2023)",
+        "USA offers 131 universities of international repute to study from",
+        "USA welcomes over 400,000 students every year",
+        "12 of world’s top 100 universities are in The USA (QS World Rankings 2023)",
         "Admission without IELTS possible"
     ];
 

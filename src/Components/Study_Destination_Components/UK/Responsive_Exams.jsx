@@ -16,9 +16,9 @@ const Responsive_Exams = () => {
         <motion.div
           className="relative bg-[#F1F8FF] rounded-[32px] overflow-hidden shadow-lg cursor-pointer"
           onClick={() => toggleCard(1)}
-          initial={{ height: '250px' }}
-          animate={{ height: expandedCard === 1 ? 'auto' : '250px' }}
-          transition={{ type: 'spring', stiffness: 100 }}
+          initial={{ height: "250px" }}
+          animate={{ height: expandedCard === 1 ? "auto" : "250px" }}
+          transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
             <h2 className="text-[31px] leading-tight font-semibold -mt-4 mb-2">
@@ -26,27 +26,24 @@ const Responsive_Exams = () => {
             </h2>
             {expandedCard === 1 && (
               <div className="overflow-hidden">
-                <p>
-                  Students usually need to have completed their secondary
-                  education, such as SSC or O-levels, with satisfactory grades.
-                  The specific grade requirements may vary depending on the
-                  university and program.
-                </p>
-                <br />
-                <p>
-                  A minimum overall band score of 5.5 to 6.0 in IELTS, with no
-                  individual component (Reading, Writing, Listening, Speaking)
-                  score below 5.5, a minimum overall score of 72 to 79 on the
-                  internet-based test (IBT) in TOEFL, and a minimum overall score
-                  of C1 or C2 level respectively are typically required.
-                </p>
+                <ul className={`pl-5 space-y-2 list-disc`}>
+                  <li>International English Language Testing System (IELTS)</li>
+                  <li>Test of English as a Foreign Language (TOFEL)</li>
+                  <li>The Pearson Test of English (PTE)</li>
+                </ul>
               </div>
             )}
           </div>
-          <div className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
-                  expandedCard == 1 ? "hidden" : ""
-                }`}>
-            <img className="w-20" src={arrow} alt="Arrow indicating more content" />
+          <div
+            className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
+              expandedCard == 1 ? "hidden" : ""
+            }`}
+          >
+            <img
+              className="w-20"
+              src={arrow}
+              alt="Arrow indicating more content"
+            />
           </div>
         </motion.div>
 
@@ -54,9 +51,9 @@ const Responsive_Exams = () => {
         <motion.div
           className="relative bg-[#F1F8FF] rounded-[32px] overflow-hidden shadow-lg cursor-pointer"
           onClick={() => toggleCard(2)}
-          initial={{ height: '250px' }}
-          animate={{ height: expandedCard === 2 ? 'auto' : '250px' }}
-          transition={{ type: 'spring', stiffness: 100 }}
+          initial={{ height: "250px" }}
+          animate={{ height: expandedCard === 2 ? "auto" : "250px" }}
+          transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
             <h2 className="text-[35px] leading-tight font-semibold -mt-4 mb-2">
@@ -64,27 +61,26 @@ const Responsive_Exams = () => {
             </h2>
             {expandedCard === 2 && (
               <div className="overflow-hidden">
-                <p>
-                  Students usually need to have completed their secondary
-                  education, such as SSC or O-levels, with satisfactory grades.
-                  The specific grade requirements may vary depending on the
-                  university and program.
-                </p>
-                <br />
-                <p>
-                  A minimum overall band score of 5.5 to 6.0 in IELTS, with no
-                  individual component (Reading, Writing, Listening, Speaking)
-                  score below 5.5, a minimum overall score of 72 to 79 on the
-                  internet-based test (IBT) in TOEFL, and a minimum overall score
-                  of C1 or C2 level respectively are typically required.
-                </p>
+                <ul className={`pl-5 space-y-2 list-disc`}>
+                  <li>General Certificate of Secondary Education (GCSE)</li>
+                  <li>Advanced Level (A-Level) exams</li>
+                  <li>International Baccalaureate (IB) Diploma</li>
+                  <li>Advanced Placement (AP) exams</li>
+                  <li>SAT or ACT</li>
+                </ul>
               </div>
             )}
           </div>
-          <div className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
-                  expandedCard == 2 ? "hidden" : ""
-                }`}>
-            <img className="w-20" src={arrow} alt="Arrow indicating more content" />
+          <div
+            className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
+              expandedCard == 2 ? "hidden" : ""
+            }`}
+          >
+            <img
+              className="w-20"
+              src={arrow}
+              alt="Arrow indicating more content"
+            />
           </div>
         </motion.div>
 
@@ -92,9 +88,9 @@ const Responsive_Exams = () => {
         <motion.div
           className="relative bg-[#F1F8FF] rounded-[32px] overflow-hidden shadow-lg cursor-pointer"
           onClick={() => toggleCard(3)}
-          initial={{ height: '250px' }}
-          animate={{ height: expandedCard === 3 ? 'auto' : '250px' }}
-          transition={{ type: 'spring', stiffness: 100 }}
+          initial={{ height: "250px" }}
+          animate={{ height: expandedCard === 3 ? "auto" : "250px" }}
+          transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
             <h2 className="text-[35px] leading-tight font-semibold -mt-4 mb-2">
@@ -102,27 +98,24 @@ const Responsive_Exams = () => {
             </h2>
             {expandedCard === 3 && (
               <div className="overflow-hidden">
-                <p>
-                  Students usually need to have completed their secondary
-                  education, such as SSC or O-levels, with satisfactory grades.
-                  The specific grade requirements may vary depending on the
-                  university and program.
-                </p>
-                <br />
-                <p>
-                  A minimum overall band score of 5.5 to 6.0 in IELTS, with no
-                  individual component (Reading, Writing, Listening, Speaking)
-                  score below 5.5, a minimum overall score of 72 to 79 on the
-                  internet-based test (IBT) in TOEFL, and a minimum overall score
-                  of C1 or C2 level respectively are typically required.
-                </p>
+                <ul className={`pl-5 space-y-2 list-disc`}>
+                  <li>International English Language Testing System (IELTS)</li>
+                  <li>Test of English as a Foreign Language (TOFEL)</li>
+                  <li>The Pearson Test of English (PTE)</li>
+                </ul>
               </div>
             )}
           </div>
-          <div className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
-                  expandedCard == 3 ? "hidden" : ""
-                }`}>
-            <img className="w-20" src={arrow} alt="Arrow indicating more content" />
+          <div
+            className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
+              expandedCard == 3 ? "hidden" : ""
+            }`}
+          >
+            <img
+              className="w-20"
+              src={arrow}
+              alt="Arrow indicating more content"
+            />
           </div>
         </motion.div>
 
@@ -130,9 +123,9 @@ const Responsive_Exams = () => {
         <motion.div
           className="relative bg-[#F1F8FF] rounded-[32px] overflow-hidden shadow-lg cursor-pointer"
           onClick={() => toggleCard(4)}
-          initial={{ height: '100%' }}
-          animate={{ height: expandedCard === 4 ? 'auto' : '100%' }}
-          transition={{ type: 'spring', stiffness: 100 }}
+          initial={{ height: "100%" }}
+          animate={{ height: expandedCard === 4 ? "auto" : "100%" }}
+          transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
             <h2 className="text-[35px] leading-tight font-semibold -mt-4 mb-2">
@@ -140,27 +133,26 @@ const Responsive_Exams = () => {
             </h2>
             {expandedCard === 4 && (
               <div className="overflow-hidden">
-                <p>
-                  Students usually need to have completed their secondary
-                  education, such as SSC or O-levels, with satisfactory grades.
-                  The specific grade requirements may vary depending on the
-                  university and program.
-                </p>
-                <br />
-                <p>
-                  A minimum overall band score of 5.5 to 6.0 in IELTS, with no
-                  individual component (Reading, Writing, Listening, Speaking)
-                  score below 5.5, a minimum overall score of 72 to 79 on the
-                  internet-based test (IBT) in TOEFL, and a minimum overall score
-                  of C1 or C2 level respectively are typically required.
-                </p>
+                <ul className={`pl-5 space-y-2 list-disc`}>
+                  <li>General Certificate of Secondary Education (GCSE)</li>
+                  <li>Advanced Level (A-Level) exams</li>
+                  <li>International Baccalaureate (IB) Diploma</li>
+                  <li>Advanced Placement (AP) exams</li>
+                  <li>SAT or ACT</li>
+                </ul>
               </div>
             )}
           </div>
-          <div className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
-                  expandedCard == 4 ? "hidden" : ""
-                }`}>
-            <img className="w-20" src={arrow} alt="Arrow indicating more content" />
+          <div
+            className={`absolute left-1/2 transform -translate-x-1/2 bottom-0 ${
+              expandedCard == 4 ? "hidden" : ""
+            }`}
+          >
+            <img
+              className="w-20"
+              src={arrow}
+              alt="Arrow indicating more content"
+            />
           </div>
         </motion.div>
       </div>

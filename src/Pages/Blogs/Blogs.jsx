@@ -4,7 +4,7 @@ import Blogs_Banner from "../../Components/Blog/Blogs_Component/Blogs_Banner";
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <Blogs_Banner />
       <Blogs_Cards />
       <Blog_BlogInbox />

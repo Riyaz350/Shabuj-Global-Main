@@ -11,27 +11,26 @@ import Faq_NZ from "../../Components/Study_Destination_Components/New Zealand/Fa
 import NZ_Counselor from "../../Components/Study_Destination_Components/New Zealand/NZ_Counselor/NZ_Counselor";
 import { useEffect } from "react";
 
+const New_Zealand = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  const description = `Discover the stunning natural beauty and friendly culture of New Zealand while pursuing a world-class education. Study at top-tier universities with renowned faculty, honing your skills in a supportive and international environment. Gain valuable practical experience through internships and placements with leading New Zealand companies, applying your knowledge in a dynamic and innovative setting. Graduate with a globally recognized degree and a deep appreciation for the Maori culture, opening doors to exciting career opportunities in New Zealand and worldwide.`;
+  return (
+    <div className="font-poppins">
+      <UKBanner country={"New Zealand"} />
+      <StudyUK country={"New Zealand"} description={description} />
+      <QuickFacts country="New Zealand"/>
+      <Tabs country="New Zealand"/>
+      <AnimatedText country={"New Zealand"} />
+      <RequirementCard country={"New Zealand"} />
+      <Exams country={"New Zealand"} />
+      <GuidanceBanner />
+      <DocumentsRequired_NZ />
+      <Faq_NZ />
+      <NZ_Counselor />
+    </div>
+  );
+};
 
- 
-  const New_Zealand = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    },);
-    return (
-      <div>
-        <UKBanner country={'New Zealand'} />
-        <StudyUK country={'New Zealand'} />
-        <QuickFacts />
-        <Tabs />
-        <AnimatedText />
-        <RequirementCard country={'New Zealand'} />
-        <Exams country={'New Zealand'} />
-        <GuidanceBanner />
-        <DocumentsRequired_NZ />
-        <Faq_NZ />
-        <NZ_Counselor />
-      </div>
-    );
-  };
-
-  export default New_Zealand;
+export default New_Zealand;

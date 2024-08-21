@@ -23,11 +23,12 @@ export default function Single_University_Form() {
   };
 
   return (
-    <div className=" ml-auto w-full md:p-0 p-5 mt-10">
+    <div className="font-poppins ml-auto w-full md:p-0 p-5 mt-10">
       <div className="shadow-xl rounded-2xl">
         <div className="bg-[#3b82f6] text-center text-white p-5 rounded-t-2xl">
-          <h2 className="md:text-2xl text-xl font-semibold">Want to Study at 
-          The University of Aberdeen?</h2>
+          <h2 className="md:text-2xl text-xl font-semibold">
+            Want to Study at The University of Aberdeen?
+          </h2>
         </div>
         <form className="p-4 space-y-5">
           <div>
@@ -42,7 +43,9 @@ export default function Single_University_Form() {
                 placeholder="Your Email"
                 type="text"
               />
-              <span className="text-gray-400 bg-[#fafafa] text-xs px-2">.com</span>
+              <span className="text-gray-400 bg-[#fafafa] text-xs px-2">
+                .com
+              </span>
             </div>
           </div>
           <div>
@@ -115,7 +118,7 @@ export default function Single_University_Form() {
           </div>
         </form>
         <div className="p-5">
-          <button className="bg-[#2563EB] hover:bg-[#3b82f6] text-white px-5 py-4 text-xs w-full rounded-full">
+          <button className="font-inter bg-[#2563EB] hover:bg-[#3b82f6] text-white px-5 py-4 text-xs w-full rounded-full">
             Schedule Meeting
           </button>
         </div>

@@ -12,28 +12,30 @@ import UAE_RequirementCard from "../../Components/Study_Destination_Components/U
 import UAE_StudyUAE from "../../Components/Study_Destination_Components/UAE/UAE_StudyUAE/UAE_StudyUAE";
 import UAE_Tabs from "../../Components/Study_Destination_Components/UAE/UAE_Tabs/UAE_Tabs";
 import UAE_UniversityCards from "../../Components/Study_Destination_Components/UAE/UniversityCards/UAE_UniversityCards";
+import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
+import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 
+const UAE = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <UAE_Banner></UAE_Banner>
+      <UAE_StudyUAE></UAE_StudyUAE>
+      <QuickFacts country="UAE"/>
+      <UAE_Tabs></UAE_Tabs>
+      {/* <UAE_AnimatedText></UAE_AnimatedText> */}
+      <AnimatedText country={"UAE"} />
+      <UAE_UniversityCards></UAE_UniversityCards>
+      <UAE_RequirementCard country={"UAE"}></UAE_RequirementCard>
+      <UAE_Exams country={"UAE"}></UAE_Exams>
+      <UAE_GuidanceBanner></UAE_GuidanceBanner>
+      <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired>
+      <UAE_Faq></UAE_Faq>
+      <UAE_Counselor></UAE_Counselor>
+    </div>
+  );
+};
 
-    const UAE = () => {
-        useEffect(() => {
-            window.scrollTo(0, 0);
-        },);
-        return (
-            <div>
-                <UAE_Banner></UAE_Banner>
-                <UAE_StudyUAE></UAE_StudyUAE>
-                <UAE_QuickFacts></UAE_QuickFacts>
-                <UAE_Tabs></UAE_Tabs>
-                <UAE_AnimatedText></UAE_AnimatedText>
-                <UAE_UniversityCards></UAE_UniversityCards>
-                <UAE_RequirementCard country={'UAE'}></UAE_RequirementCard>
-                <UAE_Exams country={'UAE'}></UAE_Exams>
-                <UAE_GuidanceBanner></UAE_GuidanceBanner>
-                <UAE_DocumentsRequired></UAE_DocumentsRequired>
-                <UAE_Faq></UAE_Faq>
-                <UAE_Counselor></UAE_Counselor>
-            </div>
-        );
-    };
-
-    export default UAE;
+export default UAE;

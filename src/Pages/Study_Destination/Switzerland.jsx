@@ -11,27 +11,26 @@ import Faq_Swit from "../../Components/Study_Destination_Components/Switzerland/
 import Switz_Counselor from "../../Components/Study_Destination_Components/Switzerland/Switz_Counselor/Switz_Counselor";
 import { useEffect } from "react";
 
+const Switzerland = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  const description = `Immerse yourself in the heart of European academia and innovation in Switzerland. Learn from world-renowned professors at prestigious universities, honing your skills amidst breathtaking Alpine scenery. Gain practical experience through internships and placements with leading Swiss companies, applying your knowledge in a dynamic and international environment. Graduate with a highly sought-after Swiss degree, opening doors to exciting career opportunities worldwide.`;
+  return (
+    <div className="font-poppins">
+      <UKBanner country={"Switzerland"} />
+      <StudyUK country={"Switzerland"} description={description} />
+      <QuickFacts country={"Switzerland"}/>
+      <Tabs country={"Switzerland"} />
+      <AnimatedText country={"Switzerland"} />
+      <RequirementCard country={"Switzerland"} />
+      <Exams country={"Switzerland"} />
+      <GuidanceBanner />
+      <DocumentsRequired_Swit />
+      <Faq_Swit />
+      <Switz_Counselor />
+    </div>
+  );
+};
 
-
-  const Switzerland = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    },);
-    return (
-      <div>
-        <UKBanner country={'Switzerland'} />
-        <StudyUK country={'Switzerland'} />
-        <QuickFacts />
-        <Tabs />
-        <AnimatedText />
-        <RequirementCard country={'Switzerland'} />
-        <Exams country={'Switzerland'} />
-        <GuidanceBanner />
-        <DocumentsRequired_Swit />
-        <Faq_Swit />
-        <Switz_Counselor />
-      </div>
-    );
-  };
-
-  export default Switzerland;
+export default Switzerland;
