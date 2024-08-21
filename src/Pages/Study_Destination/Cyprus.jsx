@@ -13,28 +13,26 @@ import UAE_RequirementCard from "../../Components/Study_Destination_Components/U
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 
-
-
 const Cyprus = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, );
-    return (
-        <div>
-            <Cyprus_Banner></Cyprus_Banner>
-            <Georgia_Study country={"Cyprus"}></Georgia_Study>
-            <QuickFacts></QuickFacts>
-            <Cyprus_Tabs></Cyprus_Tabs>
-            <Cyprus_AnimatedText></Cyprus_AnimatedText>
-            <Cyprus_UniversityCards></Cyprus_UniversityCards>
-            <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard>
-            <Exams country={"Cyprus"}></Exams>
-            <GuidanceBanner></GuidanceBanner>
-            <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired>
-            <Cyprus_Faq></Cyprus_Faq>
-            <Cyprus_Counselor></Cyprus_Counselor>
-        </div>
-    );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <Cyprus_Banner></Cyprus_Banner>
+      <Georgia_Study country={"Cyprus"}></Georgia_Study>
+      <QuickFacts></QuickFacts>
+      <Cyprus_Tabs></Cyprus_Tabs>
+      <Cyprus_AnimatedText></Cyprus_AnimatedText>
+      <Cyprus_UniversityCards></Cyprus_UniversityCards>
+      <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard>
+      <Exams country={"Cyprus"}></Exams>
+      <GuidanceBanner></GuidanceBanner>
+      <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired>
+      <Cyprus_Faq></Cyprus_Faq>
+      <Cyprus_Counselor></Cyprus_Counselor>
+    </div>
+  );
 };
 
 export default Cyprus;

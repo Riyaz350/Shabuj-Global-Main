@@ -11,27 +11,25 @@ import Faq_NZ from "../../Components/Study_Destination_Components/New Zealand/Fa
 import NZ_Counselor from "../../Components/Study_Destination_Components/New Zealand/NZ_Counselor/NZ_Counselor";
 import { useEffect } from "react";
 
+const New_Zealand = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <div className="font-poppins">
+      <UKBanner country={"New Zealand"} />
+      <StudyUK country={"New Zealand"} />
+      <QuickFacts />
+      <Tabs />
+      <AnimatedText />
+      <RequirementCard country={"New Zealand"} />
+      <Exams country={"New Zealand"} />
+      <GuidanceBanner />
+      <DocumentsRequired_NZ />
+      <Faq_NZ />
+      <NZ_Counselor />
+    </div>
+  );
+};
 
- 
-  const New_Zealand = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    },);
-    return (
-      <div>
-        <UKBanner country={'New Zealand'} />
-        <StudyUK country={'New Zealand'} />
-        <QuickFacts />
-        <Tabs />
-        <AnimatedText />
-        <RequirementCard country={'New Zealand'} />
-        <Exams country={'New Zealand'} />
-        <GuidanceBanner />
-        <DocumentsRequired_NZ />
-        <Faq_NZ />
-        <NZ_Counselor />
-      </div>
-    );
-  };
-
-  export default New_Zealand;
+export default New_Zealand;

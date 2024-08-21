@@ -11,27 +11,24 @@ import Faq_France from "../../Components/Study_Destination_Components/France/Faq
 import France_Counselor from "../../Components/Study_Destination_Components/France/France_Counselor/France_Counselor";
 import { useEffect } from "react";
 
-
-  
 const France = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, );
-  
+  });
+
   return (
-    <div>
-      <UKBanner country={'France'}/>
-      <StudyUK country={'France'}/>
+    <div className="font-poppins">
+      <UKBanner country={"France"} />
+      <StudyUK country={"France"} />
       <QuickFacts />
       <Tabs />
       <AnimatedText />
-      <RequirementCard country={'France'} />
-      <Exams country={'France'}/>
+      <RequirementCard country={"France"} />
+      <Exams country={"France"} />
       <GuidanceBanner />
       <DocumentsRequired_France />
       <Faq_France />
-      <France_Counselor/>
+      <France_Counselor />
     </div>
   );
 };

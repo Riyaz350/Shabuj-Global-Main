@@ -11,23 +11,20 @@ import AnimatedText from "../../Components/Study_Destination_Components/Shared/A
 import UniversityCards_Australia from "../../Components/Study_Destination_Components/Australia/UniversityCards_Australia";
 import { useEffect } from "react";
 
-
-  
 const Australia = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, );
+  });
   return (
-    <div>
+    <div className="font-poppins">
       <AustraliaBanner />
       <Study_Australia />
       <QuickFacts />
       <Tabs />
-      <AnimatedText/>
-      <UniversityCards_Australia/>
-      <RequirementCard country={'Australia'} />
-      <Exams country={'Australia'} />
+      <AnimatedText />
+      <UniversityCards_Australia />
+      <RequirementCard country={"Australia"} />
+      <Exams country={"Australia"} />
       <DocumentsRequired />
       <Faq_Aus />
       <Australia_Counselor />

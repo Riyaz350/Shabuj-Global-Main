@@ -11,24 +11,23 @@ import DocumentsRequired_WestIndies from "../../Components/Study_Destination_Com
 import Faq_WestIndies from "../../Components/Study_Destination_Components/West-Indies/Faq_WestIndies";
 import West_Indies_Counselor from "../../Components/Study_Destination_Components/West-Indies/West_Indies_Counselor/West_Indies_Counselor";
 
-
 const WestIndies = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  },);
+  });
   return (
-    <div>
-      <UKBanner country={'West-Indies'}/>
-      <StudyUK country={'West-Indies'}/>
+    <div className="font-poppins">
+      <UKBanner country={"West-Indies"} />
+      <StudyUK country={"West-Indies"} />
       <QuickFacts />
       <Tabs />
       <AnimatedText />
-      <RequirementCard country={'West-Indies'} />
-      <Exams country={'West-Indies'}/>
+      <RequirementCard country={"West-Indies"} />
+      <Exams country={"West-Indies"} />
       <GuidanceBanner />
       <DocumentsRequired_WestIndies />
       <Faq_WestIndies />
-      <West_Indies_Counselor/>
+      <West_Indies_Counselor />
     </div>
   );
 };

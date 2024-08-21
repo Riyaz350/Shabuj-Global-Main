@@ -29,7 +29,7 @@ const Contact_Us_Form = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="flex flex-col lg:grid lg:grid-cols-3 gap-5">
-        <div className="mx-auto px-4 lg:px-0 my-10 lg:my-28 lg:w-[75%] lg:col-span-1">
+        <div className="mx-auto px-4 lg:px-0 my-10 lg:my-28 lg:w-[80%] lg:col-span-1">
           <h1 className="text-4xl md:text-5xl lg:text-[64px] font-bold text-center lg:text-left">
             We’d love to hear from you!
           </h1>
@@ -148,7 +148,7 @@ const Contact_Us_Form = () => {
                 By clicking you agree to our
                 <br />
                 <a
-                  href="/privacy-policy"
+                  href="/Privacy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 underline pr-2"
@@ -260,7 +260,7 @@ const Contact_Us_Form = () => {
               By clicking you agree to our
               <br />
               <a
-                href="/privacy-policy"
+                href="/Privacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 underline pr-2"
