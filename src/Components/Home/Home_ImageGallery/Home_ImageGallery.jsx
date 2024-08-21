@@ -1,5 +1,5 @@
 import './Home_ImageGallery.css'
-
+import img1 from '../../../assets/gallery/1.jpg'
 const Home_ImageGallery = () => {
     return (
         <div className='gallery-bg lg:pb-[132px] pb-[52px]'>

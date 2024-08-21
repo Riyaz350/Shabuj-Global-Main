@@ -9,8 +9,8 @@ import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Ger from "../../Components/Study_Destination_Components/Germany/Germany_UniversityCards/UniversityCards_Ger";
 import { useEffect } from "react";
-import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
-
+import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
+ 
 const Germany = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -19,7 +19,7 @@ const Germany = () => {
     <div>
       <Germany_Banner />
       <Germany_StudyInGermany />
-      <QuickFacts></QuickFacts>
+      <QuickFacts country="Germany"/>
       <Tabs country={"Germany"} />
       <AnimatedText country={"Germany"} />
       <UniversityCards_Ger />
