@@ -12,18 +12,24 @@ import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import UAE_RequirementCard from "../../Components/Study_Destination_Components/UAE/UAE_RequirementCard/UAE_RequirementCard";
 import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
+import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 
 const Finland = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+  const description = `Experience the unique culture and stunning landscapes of Finland while pursuing a world-class education. Study at top-tier universities with renowned faculty, honing your skills in a supportive and international environment. Gain valuable practical experience through internships and placements with leading Finnish companies, applying your knowledge in a dynamic and innovative setting. Graduate with a highly sought-after Finnish degree, opening doors to exciting career opportunities in Finland and worldwide.`;
   return (
     <div className="font-poppins">
       <Finland_Banner></Finland_Banner>
-      <Georgia_Study country={"Finland"}></Georgia_Study>
+      <Georgia_Study
+        country={"Finland"}
+        description={description}
+      ></Georgia_Study>
       <QuickFacts></QuickFacts>
       <Finland_Tabs></Finland_Tabs>
-      <Finland_AnimatedText></Finland_AnimatedText>
+      <AnimatedText country={"Finland"} />
+      {/* <Finland_AnimatedText></Finland_AnimatedText> */}
       <Finland_UniversityCards></Finland_UniversityCards>
       <UAE_RequirementCard country={"Finland"}></UAE_RequirementCard>
       <Exams country={"Finland"}></Exams>

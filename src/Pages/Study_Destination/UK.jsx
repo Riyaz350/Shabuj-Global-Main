@@ -16,13 +16,14 @@ const UK = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+  const description = `Learn from some of the world's best academics and experts in some of world’s most prestigious universities and benefit from their exceptional academic support. Study alongside some of the finest and brilliant minds and hone your skills using state-of-the-art technology. Avail placements, internships and volunteering positions that are your right fit through strong industry links of UK universities and apply your knowledge and skills in a real-world professional environment. Graduate with skills and expertise that are in high demand around the world and get hired by your dream employers.`;
   return (
     <div className="font-poppins">
       <UKBanner country={"UK"} />
-      <StudyUK country={"UK"} />
+      <StudyUK country={"UK"} description={description} />
       <QuickFacts />
-      <Tabs />
-      <AnimatedText />
+      <Tabs country={"UK"} />
+      <AnimatedText country={"UK"} />
       <UniversityCards />
       <RequirementCard country={"UK"} />
       <Exams country={"UK"} />
