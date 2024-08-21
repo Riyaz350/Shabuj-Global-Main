@@ -1,7 +1,6 @@
 import Australia_Counselor from "../../Components/Study_Destination_Components/Australia/Australia_Counselor/Australia_Counselor";
 import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import Faq_Aus from "../../Components/Study_Destination_Components/Australia/Faq_Aus";
-import QuickFacts from "../../Components/Study_Destination_Components/Australia/QuickFacts";
 import Study_Australia from "../../Components/Study_Destination_Components/Australia/Study_Australia";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
@@ -10,6 +9,7 @@ import DocumentsRequired from "./../../Components/Study_Destination_Components/A
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Australia from "../../Components/Study_Destination_Components/Australia/UniversityCards_Australia";
 import { useEffect } from "react";
+import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 
 const Australia = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const Australia = () => {
     <div className="font-poppins">
       <AustraliaBanner />
       <Study_Australia />
-      <QuickFacts />
+      <QuickFacts country="Australia"/>
       <Tabs country={"Australia"} />
       <AnimatedText country={"Australia"} />
       <UniversityCards_Australia />

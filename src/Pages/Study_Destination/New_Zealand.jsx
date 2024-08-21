@@ -20,8 +20,8 @@ const New_Zealand = () => {
     <div className="font-poppins">
       <UKBanner country={"New Zealand"} />
       <StudyUK country={"New Zealand"} description={description} />
-      <QuickFacts />
-      <Tabs country={"New Zealand"} />
+      <QuickFacts country="New Zealand"/>
+      <Tabs country="New Zealand"/>
       <AnimatedText country={"New Zealand"} />
       <RequirementCard country={"New Zealand"} />
       <Exams country={"New Zealand"} />
