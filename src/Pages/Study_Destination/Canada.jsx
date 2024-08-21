@@ -25,7 +25,7 @@ const Canada = () => {
         country={"Canada"}
         description={description}
       ></Georgia_Study>
-      <QuickFacts></QuickFacts>
+      <QuickFacts country="Canada"></QuickFacts>
       <Canada_Tabs></Canada_Tabs>
       <AnimatedText country={"Canada"} />
       {/* <Canada_AnimatedText></Canada_AnimatedText> */}

@@ -1,4 +1,5 @@
 import './Home_ImageGallery.css'
+
 import img1 from "../../../assets/gallery/1.jpg"
 import img2 from "../../../assets/gallery/2.jpg"
 import img3 from "../../../assets/gallery/3.jpg"
@@ -13,6 +14,7 @@ import img11 from "../../../assets/gallery/11.jpg"
 import img12 from "../../../assets/gallery/13.jpg"
 import img13 from "../../../assets/gallery/15.jpg"
 import img14 from "../../../assets/gallery/14.jpg"
+
 const Home_ImageGallery = () => {
     return (
         <div className='gallery-bg lg:pb-[132px] pb-[52px]'>

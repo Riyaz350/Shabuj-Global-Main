@@ -13,6 +13,7 @@ import UAE_StudyUAE from "../../Components/Study_Destination_Components/UAE/UAE_
 import UAE_Tabs from "../../Components/Study_Destination_Components/UAE/UAE_Tabs/UAE_Tabs";
 import UAE_UniversityCards from "../../Components/Study_Destination_Components/UAE/UniversityCards/UAE_UniversityCards";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
+import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
 
 const UAE = () => {
   useEffect(() => {
@@ -22,7 +23,7 @@ const UAE = () => {
     <div className="font-poppins">
       <UAE_Banner></UAE_Banner>
       <UAE_StudyUAE></UAE_StudyUAE>
-      <UAE_QuickFacts></UAE_QuickFacts>
+      <QuickFacts country="UAE"/>
       <UAE_Tabs></UAE_Tabs>
       {/* <UAE_AnimatedText></UAE_AnimatedText> */}
       <AnimatedText country={"UAE"} />
@@ -30,7 +31,7 @@ const UAE = () => {
       <UAE_RequirementCard country={"UAE"}></UAE_RequirementCard>
       <UAE_Exams country={"UAE"}></UAE_Exams>
       <UAE_GuidanceBanner></UAE_GuidanceBanner>
-      <UAE_DocumentsRequired></UAE_DocumentsRequired>
+      <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired>
       <UAE_Faq></UAE_Faq>
       <UAE_Counselor></UAE_Counselor>
     </div>
