@@ -15,10 +15,11 @@ const New_Zealand = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+  const description = `Discover the stunning natural beauty and friendly culture of New Zealand while pursuing a world-class education. Study at top-tier universities with renowned faculty, honing your skills in a supportive and international environment. Gain valuable practical experience through internships and placements with leading New Zealand companies, applying your knowledge in a dynamic and innovative setting. Graduate with a globally recognized degree and a deep appreciation for the Maori culture, opening doors to exciting career opportunities in New Zealand and worldwide.`;
   return (
     <div className="font-poppins">
       <UKBanner country={"New Zealand"} />
-      <StudyUK country={"New Zealand"} />
+      <StudyUK country={"New Zealand"} description={description} />
       <QuickFacts />
       <Tabs country={"New Zealand"} />
       <AnimatedText country={"New Zealand"} />

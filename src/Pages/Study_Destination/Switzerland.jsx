@@ -15,10 +15,11 @@ const Switzerland = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+  const description = `Immerse yourself in the heart of European academia and innovation in Switzerland. Learn from world-renowned professors at prestigious universities, honing your skills amidst breathtaking Alpine scenery. Gain practical experience through internships and placements with leading Swiss companies, applying your knowledge in a dynamic and international environment. Graduate with a highly sought-after Swiss degree, opening doors to exciting career opportunities worldwide.`;
   return (
     <div className="font-poppins">
       <UKBanner country={"Switzerland"} />
-      <StudyUK country={"Switzerland"} />
+      <StudyUK country={"Switzerland"} description={description} />
       <QuickFacts />
       <Tabs country={"Switzerland"} />
       <AnimatedText country={"Switzerland"} />
