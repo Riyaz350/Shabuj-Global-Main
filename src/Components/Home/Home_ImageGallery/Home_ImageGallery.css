@@ -21,7 +21,11 @@
     padding: 0;
     width: 450px;
   }
-  
+  @media screen and (max-width: 640px) {
+    .modal-box{
+      width: 380px;
+    }
+  }
   .gallery-items {
     flex: 1 0 auto;
   }
