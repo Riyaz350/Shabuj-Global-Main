@@ -89,7 +89,7 @@ const Events_Components = () => {
             <h1 className="text-4xl lg:text-5xl font-bold">Upcoming Events</h1>
             {/* counter */}
             <div className="">
-              <CountDown date="2024-07-22 10:00" />
+              <CountDown date="2024-09-07 10:00" />
             </div>
             <div className="lg:grid grid-cols-2 flex flex-col gap-5 justify-center my-10 ">
               {/* first event */}
