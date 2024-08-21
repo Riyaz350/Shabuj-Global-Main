@@ -486,8 +486,8 @@ const Navbar2 = () => {
                             <IoCheckmarkDoneCircleSharp />
                             Award Recognitions
                           </li>
-                        </Link>
-                        <div
+                        </Link >
+                        <Link to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-5 my-4`}
                         >
                           <SiGooglesheets />
@@ -495,7 +495,7 @@ const Navbar2 = () => {
                           <span className="text-sm bg-green-500 text-white mx-2 p-1 rounded-sm">
                             Hiring
                           </span>
-                        </div>
+                        </Link>
                         <li>
                           <Link className={iconStyle} to="/blogs">
                             <RiNewsFill />
