@@ -63,9 +63,8 @@ const Navbar2 = () => {
             </p>
           </button>
           <span
-            className={` ${
-              navButton == ind && "rotate-180 transition ease-in-out delay-450"
-            }`}
+            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
+              }`}
           >
             <FaChevronUp />
           </span>
@@ -413,6 +412,7 @@ const Navbar2 = () => {
                           >
                             <li>Technological Support</li>
                           </Link>
+
                         </ul>
                       </div>
                     </div>
@@ -580,9 +580,8 @@ const Navbar2 = () => {
             </Link>
           </div>
           <div
-            className={`${
-              width >= 1244 ? "text-base" : "text-sm"
-            } flex items-center justify-end gap-1`}
+            className={`${width >= 1244 ? "text-base" : "text-sm"
+              } flex items-center justify-end gap-1`}
           >
             <Link
               className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
@@ -675,9 +674,8 @@ const Navbar2 = () => {
         {navIndex == 2 && (
           <>
             <div
-              className={`${
-                width <= 1450 ? "grid-cols-4" : "grid-cols-5"
-              }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
+              className={`${width <= 1450 ? "grid-cols-4" : "grid-cols-5"
+                }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
             >
               <div className="col-span-1 md:my-10 my-5">
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
@@ -778,7 +776,7 @@ const Navbar2 = () => {
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
                   BUSINESS
                 </h2>
-                <ul className="space-y-2 text-base">
+                <ul className="flex flex-col text-base">
                   <Link className="hover:text-blue-600" to={"/comingSoon"}>
                     <li>Customized Solution</li>
                   </Link>
@@ -791,15 +789,16 @@ const Navbar2 = () => {
                   <Link className="hover:text-blue-600" to={"/comingSoon"}>
                     <li>Technological Support</li>
                   </Link>
+                  <Link
+                    className=" text-lg  mt-5  font-medium border-b-2 w-fit border-[#f85424]"
+                    to="/services"
+                  >
+                    SERVICES
+                  </Link>
                 </ul>
               </div>
             </div>
-            <Link
-              className="text-2xl flex justify-end bg-blue-600 text-white  w-fit ml-auto m-20 mt-0 p-2 rounded-lg "
-              to="/services"
-            >
-              Services
-            </Link>
+
           </>
         )}
         {navIndex == 3 && (
