@@ -11,6 +11,7 @@ import Privacy from "../Components/Privacy/Privacy";
 
 
 
+
 const Layout = () => {
     return (
         <div className="font-poppins">
