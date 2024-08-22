@@ -12,7 +12,7 @@ function App() {
       <h1 className="text-white text-[67px] text-center font-[700] leading-[87px] p-[20px]">Image Gallery</h1>
       <Marquee pauseOnHover={true} autoFill={true}  >
         {
-          data.slice(0, 25).map((data, index) => (
+          data.slice(0, 25).map((data) => (
             <div key={data.id}>
               <motion.div initial={{ width: '172px' }} whileHover={{ width: '368px' }} transition={{ duration: .2, delay: .1 }}
                 onClick={() => { document.getElementById(data.id).showModal() }}
@@ -48,7 +48,7 @@ function App() {
 
       <Marquee pauseOnHover={true}     >
         {
-          data.slice(26, 57).map((data, index) => (
+          data.slice(26, 57).map((data) => (
             <div key={data.id}>
 
 
