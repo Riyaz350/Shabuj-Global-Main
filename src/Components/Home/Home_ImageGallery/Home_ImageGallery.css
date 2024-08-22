@@ -1,4 +1,4 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -41,21 +41,21 @@
   }
   
   .gallery-one>div {
-    animation: galleryanimate 180s -180s linear infinite;
+    animation: galleryanimate 100s -100s linear infinite;
     will-change: transform;
   }
   
   .gallery-one>div:last-child {
-    animation: galleryanimate2 180s -90s linear infinite;
+    animation: galleryanimate2 100s -50s linear infinite;
   }
   
   .gallery-two>div {
-    animation: galleryanimate3 180s -180s linear infinite;
+    animation: galleryanimate3 100s -100s linear infinite;
     will-change: transform;
   }
   
   .gallery-two>div:last-child {
-    animation: galleryanimate4 180s -90s linear infinite;
+    animation: galleryanimate4 100s -50s linear infinite;
   }
   
   .gallery-one:hover>div,
@@ -108,8 +108,5 @@
   
   .image-gallery:hover .display-block {
     width: 368px;
-    height: 100%;
-  }
-  
-  
-   */
+    height: 100%;
+  }
