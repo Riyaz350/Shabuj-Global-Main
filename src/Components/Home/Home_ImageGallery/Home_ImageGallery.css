@@ -1,115 +1,119 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .gallery-bg {
-    background: linear-gradient(269.94deg, rgba(29, 80, 160, 0.2) 8.85%, rgba(7, 33, 178, 0.2) 87.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(87.26deg, #3793FF -3.49%, #0017E4 97.72%);
-  
-  }
-  
-  .gallery-image {
-    background-color: #3773ff;
-  }
-  
-  .modal-bg {
-    background: linear-gradient(90.67deg, rgba(63, 189, 178, 0.2) 7.74%, rgba(204, 238, 140, 0.2) 95.9%), linear-gradient(67.84deg, #01A8C4 -1.82%, #FBFE7F 106.59%);
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gallery-bg {
+  background: linear-gradient(269.94deg, rgba(29, 80, 160, 0.2) 8.85%, rgba(7, 33, 178, 0.2) 87.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(87.26deg, #3793FF -3.49%, #0017E4 97.72%);
+
+}
+
+.gallery-image {
+  background-color: #3773ff;
+}
+
+.modal-bg {
+  background: linear-gradient(90.67deg, rgba(63, 189, 178, 0.2) 7.74%, rgba(204, 238, 140, 0.2) 95.9%), linear-gradient(67.84deg, #01A8C4 -1.82%, #FBFE7F 106.59%);
+}
+
+.modal-box {
+  padding: 0;
+  width: 380px;
+
+}
+
+@media screen and (max-width: 640px) {
   .modal-box {
-    padding: 0;
     width: 380px;
-    
   }
-  @media screen and (max-width: 640px) {
-    .modal-box{
-      width: 380px;
-    }
+}
+
+.gallery-items {
+  flex: 1 0 auto;
+}
+
+
+.gallery-items>img {
+  min-width: 120px;
+  max-width: 368px;
+  height: auto;
+  aspect-ratio: 172/368;
+  background-color: red;
+}
+
+.gallery-one>div {
+  animation: galleryanimate 180s -180s linear infinite;
+  will-change: transform;
+}
+
+.gallery-one>div:last-child {
+  animation: galleryanimate2 180s -90s linear infinite;
+}
+
+.gallery-two>div {
+  animation: galleryanimate3 180s -180s linear infinite;
+  will-change: transform;
+}
+
+.gallery-two>div:last-child {
+  animation: galleryanimate4 180s -90s linear infinite;
+}
+
+.gallery-one:hover>div,
+.gallery-two:hover>div {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+
+@keyframes galleryanimate {
+  0% {
+    transform: translateX(100%);
   }
-  .gallery-items {
-    flex: 1 0 auto;
+
+  100% {
+    transform: translateX(-100%);
   }
-  
-  
-  .gallery-items>img {
-    min-width: 120px;
-    max-width: 368px;
-    height: auto;
-    aspect-ratio: 172/368;
-    background-color: red;
+}
+
+
+@keyframes galleryanimate2 {
+  0% {
+    transform: translateX(0);
   }
-  
-  .gallery-one>div {
-    animation: galleryanimate 120s -120s linear infinite;
-    will-change: transform;
+
+  100% {
+    transform: translateX(-200%);
   }
-  
-  .gallery-one>div:last-child {
-    animation: galleryanimate2 120s -60s linear infinite;
+}
+
+@keyframes galleryanimate3 {
+  0% {
+    transform: translateX(-100%);
   }
-  
-  .gallery-two>div {
-    animation: galleryanimate3 120s -120s linear infinite;
-    will-change: transform;
+
+  100% {
+    transform: translateX(100%);
   }
-  
-  .gallery-two>div:last-child {
-    animation: galleryanimate4 120s -160s linear infinite;
+}
+
+@keyframes galleryanimate4 {
+  0% {
+    transform: translateX(-200%);
   }
-  
-  .gallery-one:hover>div,
-  .gallery-two:hover>div {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -ms-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    animation-play-state: paused;
+
+  100% {
+    transform: translateX(0);
   }
-  
-   
-    @keyframes galleryanimate {
-      0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
-    
-    
-    @keyframes galleryanimate2 {
-      0% {
-        transform: translateX(0);
-      }
-      100% {
-        transform: translateX(-200%);
-      }
-    }  
-  
-    @keyframes galleryanimate3 {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(100%);
-      }
-    }  
-    @keyframes galleryanimate4 {
-      0% {
-        transform: translateX(-200%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }    
-  
-  
-  
-  .image-gallery:hover .display-block {
-    width: 368px;
-    height: 100%;
-  }
-  
-  
-  
+}
+
+
+
+.image-gallery:hover .display-block {
+  width: 368px;
+  height: 100%;
+}
