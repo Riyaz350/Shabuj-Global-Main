@@ -8,7 +8,7 @@ const UAE_DocumentsRequired = () => {
   return (
     <>
       <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
-        <h1 className="text-3xl md:text-4xl lg:text-[56px] p-5 lg:p-0 lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
+      <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
           Documents Required to Study in the Georgia for International Students
         </h1>
         <div className="relative flex flex-col md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2 items-center justify-between">

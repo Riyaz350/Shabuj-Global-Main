@@ -39,7 +39,7 @@ export default Latest_Blogs;
 const data = [
   {
     id: 1,
-    image: "/src/assets/Blog_image_one.png",
+    image: "https://i.ibb.co/sqZW4W2/Blog-Image-three.png",
     category: "Networking",
     title: "Networking in University: A Shabuj Global Student's Guide",
     description:
@@ -47,7 +47,7 @@ const data = [
   },
   {
     id: 2,
-    image: "/src/assets/Blog_image_two.png",
+    image: "https://i.ibb.co/8KLDMFT/Blog-Image-two.png",
     category: "Socializing",
     title: "Connecting at University: Shabuj Global Student Pathway",
     description:
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 3,
-    image: "/src/assets/Blog_image_three.png",
+    image: "https://i.ibb.co/Cbt0NYW/Blog-image-one.png",
     category: "Networking",
     title: "University Networking: Guide for Global Students by Shabuj",
     description:

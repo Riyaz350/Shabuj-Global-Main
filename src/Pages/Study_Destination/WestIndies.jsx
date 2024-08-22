@@ -20,7 +20,7 @@ const WestIndies = () => {
     <div className="font-poppins">
       <UKBanner country={"West-Indies"} />
       <StudyUK country={"West-Indies"} description={description} />
-      <QuickFacts />
+      <QuickFacts country={"West-Indies"}/>
       <Tabs country={"West-Indies"} />
       <AnimatedText country={"West-Indies"} />
       <RequirementCard country={"West-Indies"} />

@@ -55,7 +55,7 @@
   }
   
   .gallery-two>div:last-child {
-    animation: galleryanimate4 120s -60s linear infinite;
+    animation: galleryanimate4 120s -160s linear infinite;
   }
   
   .gallery-one:hover>div,
