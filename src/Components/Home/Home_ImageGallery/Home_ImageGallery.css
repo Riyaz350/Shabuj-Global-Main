@@ -108,5 +108,6 @@
   
   .image-gallery:hover .display-block {
     width: 368px;
-    height: 100%;
+    height: "100%"
+    
   }

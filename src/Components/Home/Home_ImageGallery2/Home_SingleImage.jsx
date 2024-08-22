@@ -4,8 +4,8 @@ const Home_SingleImage = ({item}) => {
     
     return (
         <div>
-            <img src={item?.url} alt="" className='lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById('my_modal_1').showModal()} />
-            <dialog id="my_modal_1" className="modal">
+            <img src={item?.url} alt="" className='lg:h-[368px] h-[187px] border border-white p-2 rounded-2xl gallery-image' onClick={() => document.getElementById(item?.id).showModal()} />
+            <dialog id={item?.id} className="modal">
                 <div className="modal-box">
                     <form method="dialog">
                         <button className="btn btn-md btn-circle text-lg text-blue-600 absolute z-10 right-2 top-2">✕</button>
