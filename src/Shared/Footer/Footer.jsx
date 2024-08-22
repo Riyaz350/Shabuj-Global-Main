@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <div className="w-full bg-transparent -mt-[60px] mb-[-1px]">
+        <div className="w-full bg-transparent -mt-[240px] mb-[-1px]">
           <img src="./assets/footerShape.png" className="w-full" alt="" />
         </div>
         <div className="bg-[#081831] px-6 relative">
