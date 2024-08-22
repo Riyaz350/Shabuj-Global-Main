@@ -7,12 +7,6 @@
       "description": "Guided tour for new students showcasing key campus areas, followed by a welcome session with university representatives."
   },
   {
-    "id": 1,
-    "url": "https://i.ibb.co/GPzCxM0/1.jpg",
-    "title": "International Student Orientation",
-    "description": "Orientation event introducing international students to campus facilities, academic programs, and cultural integration activities."
-},
-  {
       "id": 3,
       "url": "https://i.ibb.co/58znYkh/3.jpg",
       "title": "Study Abroad Fair",
@@ -78,18 +72,8 @@
       "title": "Graduate Job Fair",
       "description": "Job fair featuring companies offering graduate positions and internships, tailored to recent university graduates."
   },
-  {
-      "id": 14,
-      "url": "https://i.ibb.co/YB9nRdw/13.jpg",
-      "title": "Undergraduate Admissions Workshop",
-      "description": "Workshop guiding prospective students through the undergraduate admissions process, application tips, and essay writing."
-  },
-  {
-      "id": 15,
-      "url": "https://i.ibb.co/R3rz6D3/14-1.jpg",
-      "title": "Summer Internship Information Session",
-      "description": "Information session about summer internship programs, including application processes and available opportunities."
-  },
+  
+  
   {
       "id": 16,
       "url": "https://i.ibb.co/19js2ZG/14.jpg",
@@ -102,12 +86,7 @@
       "title": "Graduate School Open House",
       "description": "Open house event for prospective graduate students to explore programs, meet faculty, and tour facilities."
   },
-  {
-      "id": 18,
-      "url": "https://i.ibb.co/xzH58st/16-1.jpg",
-      "title": "Student Volunteer Day",
-      "description": "A day dedicated to student volunteering, with various community service opportunities and projects on and off campus."
-  },
+  
   {
       "id": 19,
       "url": "https://i.ibb.co/MGFshjB/16.jpg",
@@ -367,3 +346,5 @@
       "description": "Workshop led by students on social justice issues, encouraging discussion and activism within the university community."
   }
 ]
+
+
