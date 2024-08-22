@@ -41,21 +41,21 @@
   }
   
   .gallery-one>div {
-    animation: galleryanimate 220s -220s linear infinite;
+    animation: galleryanimate 120s -120s linear infinite;
     will-change: transform;
   }
   
   .gallery-one>div:last-child {
-    animation: galleryanimate2 220s -160s linear infinite;
+    animation: galleryanimate2 120s -60s linear infinite;
   }
   
   .gallery-two>div {
-    animation: galleryanimate3 220s -220s linear infinite;
+    animation: galleryanimate3 120s -120s linear infinite;
     will-change: transform;
   }
   
   .gallery-two>div:last-child {
-    animation: galleryanimate4 220s -160s linear infinite;
+    animation: galleryanimate4 120s -160s linear infinite;
   }
   
   .gallery-one:hover>div,

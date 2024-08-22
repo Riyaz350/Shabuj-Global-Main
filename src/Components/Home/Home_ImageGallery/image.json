@@ -1,5 +1,4 @@
-{
-    "images": [
+ [
       {
         "id": 1,
         "url": "../../../assets/gallery/1.jpg",
@@ -7,286 +6,283 @@
       },
       {
         "id": 2,
-        "url": "../../../assets/gallery/2.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 3,
-        "url": "../../../assets/gallery/3.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 4,
-        "url": "../../../assets/gallery/4.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 5,
-        "url": "../../../assets/gallery/5.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 6,
-        "url": "../../../assets/gallery/6.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 7,
-        "url": "../../../assets/gallery/7.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 8,
-        "url": "../../../assets/gallery/8.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 9,
-        "url": "../../../assets/gallery/9.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 11,
         "url": "../../../assets/gallery/11.jpg",
         "description": "Description of image 1"
       },
       {
-        "id": 12,
+        "id": 3,
+        "url": "../../../assets/gallery/112.jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 4,
+        "url": "../../../assets/gallery/12 years of success aberdeen(1).jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 5,
+        "url": "../../../assets/gallery/12 years of success aberdeen.jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 6,
+        "url": "../../../assets/gallery/12(1).jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 7,
         "url": "../../../assets/gallery/12.jpg",
         "description": "Description of image 1"
       },
       {
+        "id": 8,
+        "url": "../../../assets/gallery/123.jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 9,
+        "url": "../../../assets/gallery/12344.jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 11,
+        "url": "../../../assets/gallery/13(1).jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 12,
+        "url": "../../../assets/gallery/124.jpg",
+        "description": "Description of image 1"
+      },
+      {
         "id": 13,
-        "url": "../../../assets/gallery/3.jpg",
+        "url": "../../../assets/gallery/13.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 14,
-        "url": "../../../assets/gallery/14.jpg",
+        "url": "../../../assets/gallery/14(1).jpg",
         "description": "Description of image 1"
       },
       {
         "id": 15,
-        "url": "../../../assets/gallery/15.jpg",
+        "url": "../../../assets/gallery/14.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 16,
-        "url": "../../../assets/gallery/16.jpg",
+        "url": "../../../assets/gallery/15(1).jpg",
         "description": "Description of image 1"
       },
       {
         "id": 17,
-        "url": "../../../assets/gallery/17.jpg",
+        "url": "../../../assets/gallery/15.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 18,
-        "url": "../../../assets/gallery/18.jpg",
+        "url": "../../../assets/gallery/16(1).jpg",
         "description": "Description of image 1"
       },
       {
         "id": 19,
-        "url": "../../../assets/gallery/19.jpg",
+        "url": "../../../assets/gallery/16.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 20,
-        "url": "../../../assets/gallery/20.jpg",
+        "url": "../../../assets/gallery/17(1).jpg",
         "description": "Description of image 1"
       },
       {
         "id": 21,
-        "url": "../../../assets/gallery/21.jpg",
+        "url": "../../../assets/gallery/17.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 22,
-        "url": "../../../assets/gallery/22.jpg",
+        "url": "../../../assets/gallery/18.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 23,
-        "url": "../../../assets/gallery/23.jpg",
+        "url": "../../../assets/gallery/2.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 24,
-        "url": "../../../assets/gallery/24.jpg",
+        "url": "../../../assets/gallery/256318.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 25,
-        "url": "../../../assets/gallery/25.jpg",
+        "url": "../../../assets/gallery/2653.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 26,
-        "url": "../../../assets/gallery/26.jpg",
+        "url": "../../../assets/gallery/3.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 27,
-        "url": "../../../assets/gallery/27.jpg",
+        "url": "../../../assets/gallery/4.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 28,
-        "url": "../../../assets/gallery/28.jpg",
+        "url": "../../../assets/gallery/430063548_804327235061644_1976084213451621930_n.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 29,
-        "url": "../../../assets/gallery/29.jpg",
+        "url": "../../../assets/gallery/4444.jpg",
         "description": "Description of image 1"
-      }
-    ],
-    "images2": [
+      },
       {
         "id": 30,
-        "url": "../../../assets/gallery/30.jpg",
+        "url": "../../../assets/gallery/452221.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 31,
-        "url": "../../../assets/gallery/31.jpg",
+        "url": "../../../assets/gallery/5.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 32,
-        "url": "../../../assets/gallery/32.jpg",
+        "url": "../../../assets/gallery/6.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 33,
-        "url": "../../../assets/gallery/33.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 34,
-        "url": "../../../assets/gallery/34.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 35,
-        "url": "../../../assets/gallery/35.jpg",
-        "description": "Description of image 1"
-      },
-      {
-        "id": 36,
         "url": "../../../assets/gallery/7.jpg",
         "description": "Description of image 1"
       },
       {
+        "id": 34,
+        "url": "../../../assets/gallery/8.jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 35,
+        "url": "../../../assets/gallery/9.jpg",
+        "description": "Description of image 1"
+      },
+      {
+        "id": 36,
+        "url": "../../../assets/gallery/99658.jpg",
+        "description": "Description of image 1"
+      },
+      {
         "id": 37,
-        "url": "../../../assets/gallery/37.jpg",
+        "url": "../../../assets/gallery/adfgadf.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 38,
-        "url": "../../../assets/gallery/38.jpg",
+        "url": "../../../assets/gallery/dfgggr.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 39,
-        "url": "../../../assets/gallery/39.jpg",
+        "url": "../../../assets/gallery/dfgh.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 40,
-        "url": "../../../assets/gallery/40.jpg",
+        "url": "../../../assets/gallery/dfgr.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 41,
-        "url": "../../../assets/gallery/41.jpg",
+        "url": "../../../assets/gallery/dfh.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 42,
-        "url": "../../../assets/gallery/42.jpg",
+        "url": "../../../assets/gallery/dfgsdfg.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 43,
-        "url": "../../../assets/gallery/43.jpg",
+        "url": "../../../assets/gallery/erthet.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 44,
-        "url": "../../../assets/gallery/44.jpg",
+        "url": "../../../assets/gallery/fdh.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 45,
-        "url": "../../../assets/gallery/45.jpg",
+        "url": "../../../assets/gallery/gdfg.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 46,
-        "url": "../../../assets/gallery/46.jpg",
+        "url": "../../../assets/gallery/gdfg.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 47,
-        "url": "../../../assets/gallery/47.jpg",
+        "url": "../../../assets/gallery/gfgd.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 48,
-        "url": "../../../assets/gallery/48.jpg",
+        "url": "../../../assets/gallery/gfh.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 49,
-        "url": "../../../assets/gallery/49.jpg",
+        "url": "../../../assets/gallery/ggfg.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 50,
-        "url": "../../../assets/gallery/50.jpg",
+        "url": "../../../assets/gallery/ggfgdf.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 51,
-        "url": "../../../assets/gallery/51.jpg",
+        "url": "../../../assets/gallery/hstrhsrt.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 52,
-        "url": "../../../assets/gallery/52.jpg",
+        "url": "../../../assets/gallery/IMG-20240625-WA0011.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 53,
-        "url": "../../../assets/gallery/53.jpg",
+        "url": "../../../assets/gallery/IMG-20240625-WA0023.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 54,
-        "url": "../../../assets/gallery/54.jpg",
+        "url": "../../../assets/gallery/IMG-20240625-WA0024.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 55,
-        "url": "../../../assets/gallery/55.jpg",
+        "url": "../../../assets/gallery/Oxford speech ceo.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 56,
-        "url": "../../../assets/gallery/56.jpg",
+        "url": "../../../assets/gallery/Represantative visit at our office.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 57,
-        "url": "../../../assets/gallery/29.jpg",
+        "url": "../../../assets/gallery/sdfgg.jpg",
         "description": "Description of image 1"
       },
       {
         "id": 58,
-        "url": "../../../assets/gallery/58.jpg",
+        "url": "../../../assets/gallery/sfgh.jpg",
         "description": "Description of image 1"
       }
     ]
-  }
   
