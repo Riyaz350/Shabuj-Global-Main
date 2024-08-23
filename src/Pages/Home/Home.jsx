@@ -26,8 +26,8 @@ export default function Home() {
       {/* <Home_DestinationCard/> */}
       <Home_UniversityList />
       <Home_UniversityList />
-      <Home_ImageGallery2/>
-      {/* <ImageGallery/> */}
+      {/* <Home_ImageGallery2/> */}
+      <ImageGallery/>
       <Home_Contact />
     </div>
   );
