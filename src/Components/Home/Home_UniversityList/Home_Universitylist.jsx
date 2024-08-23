@@ -8,7 +8,7 @@ const Home_UniversityList = () => {
         <div className='lg:mt-[131px] mt-[40px] lg:mb-[117px] mb-[40px]'>
             <div className='text-center'>
                 <h2 className='text-[#004ACB] poppins-bold text-[50px] mb-2'>Universities Across The Globe</h2>
-                <p className='poppins-bold text-[67px]'>The Choice is Endless</p>
+                <p className='poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[67px]'>The Choice is Endless</p>
                 <img className='mx-auto lg:w-[290px] w-[190px] py-3 bg-white' src="https://i.ibb.co/wMCkStV/University-Section-Animation.gif" alt="" />
             </div>
             {/* <div className='ticker-one flex overflow-hidden mb-6'>
