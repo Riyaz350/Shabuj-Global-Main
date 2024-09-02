@@ -23,10 +23,7 @@ export default function Home() {
       <Home_Testimonial />
       <Home_Connection />
       <Home_Destination />
-      {/* <Home_DestinationCard/> */}
       <Home_UniversityList />
-      <Home_UniversityList />
-      {/* <Home_ImageGallery2/> */}
       <ImageGallery/>
       <Home_Contact />
     </div>
