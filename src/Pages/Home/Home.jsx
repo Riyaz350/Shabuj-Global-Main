@@ -11,8 +11,13 @@ import Home_Tab from "../../Components/Home/Home_Tab/Home_Tab";
 import Home_Testimonial from "../../Components/Home/Home_Testimonial/Home_Testimonial";
 import Home_Ticker from "../../Components/Home/Home_Ticker/Home_Ticker";
 import Home_UniversityList from "../../Components/Home/Home_UniversityList/Home_Universitylist";
+import FacebookMsg from "../../Components/FacebookMsg";
+
 
 export default function Home() {
+
+
+
   return (
     <div className="font-poppins">
       <Home_Banner />
@@ -26,6 +31,7 @@ export default function Home() {
       <Home_UniversityList />
       <ImageGallery/>
       <Home_Contact />
+      <FacebookMsg></FacebookMsg>
     </div>
   );
 }
