@@ -24,7 +24,7 @@ export default function Home() {
       <Home_Connection />
       <Home_Destination />
       <Home_UniversityList />
-      {/* <ImageGallery/> */}
+      <ImageGallery/>
       <Home_Contact />
     </div>
   );
