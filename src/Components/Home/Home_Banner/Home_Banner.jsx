@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home_Banner.css'
 
 
@@ -20,8 +21,8 @@ const Home_Banner = () => {
                         <div className="buttons-group-container">
                             <div className="buttons-group">
 
-                                <button>Enquire</button>
-                                <button>Apply</button>
+                                <a href='/comingSoon'>Enquire</a>
+                                <a href='/comingSoon'>Apply</a>
 
                             </div>
                         </div>

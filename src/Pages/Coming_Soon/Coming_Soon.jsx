@@ -1,7 +1,12 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Coming_Soon = () => {
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, );
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#EFF6FF] text-center">
       <motion.h1
@@ -10,7 +15,7 @@ const Coming_Soon = () => {
         transition={{ duration: 1 }}
         className="text-4xl lg:text-6xl font-bold text-[#2563EB]"
       >
-        We're Coming Soon
+        {`We're`} Coming Soon
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 50 }}
@@ -26,16 +31,16 @@ const Coming_Soon = () => {
         transition={{ duration: 1, delay: 1 }}
         className="flex space-x-4 mt-8"
       >
-        <a href="#" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
+        <a href="https://www.facebook.com/ShabujGlobaleducationuk/" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
           <FaFacebookF />
         </a>
-        <a href="#" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
+        <a href="https://x.com/shabujglobaluk" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
           <FaTwitter />
         </a>
-        <a href="#" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
+        <a href="https://www.instagram.com/shabujglobaleducation/" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
           <FaInstagram />
         </a>
-        <a href="#" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
+        <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEkbZ14xeAt8wAAAZEXbnaoJWt-ogVrPCWsB3Ufw3gb3wrzBSE3XcNHequ5lpil4I54Crsk0qaoWcyHvqLrTdX2geridADLkgc3_cGAuBn7zb4v-iR2dBdszRH3_wEnsRkelIE=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fshabuj-global-education%2F" className="text-[#2563EB] text-2xl hover:text-[#1e40af]">
           <FaLinkedinIn />
         </a>
       </motion.div>

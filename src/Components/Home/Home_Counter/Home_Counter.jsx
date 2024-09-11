@@ -13,49 +13,49 @@ const Home_Counter = () => {
                     <img src="./assets/strength1.png" alt="strength" />
                 </div>
                 
-                <h2 className="poppins-bold text-gradient text-[67px] py-[101px] text-right pr-[66px] order-1">Our Core Strength</h2>
+                <h2 className="poppins-bold text-gradient text-3xl text-center lg:text-[67px] py-[101px] lg:text-right lg:pr-[66px] order-1">Our Core Strength</h2>
             </div>
             
             <ScrollTrigger onEnter={()=> setCounterState(true)} onExit={()=> setCounterState(false)}>
                 <div className="flex justify-around flex-wrap gap-10 pb-[46px] pl-5 pr-5">
                     <div className="text-center child-one">
                         <img className="mx-auto" src="./assets/vector1.png" alt="icon" />
-                        <h2 className="poppins-bold text-[50px] text-white">
+                        <h2 className="poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[50px] text-white">
                             { counterState && <CountUp start={0} end={16} duration={5}></CountUp>}
                         </h2>
                         <p className="mulish-regular text-[16px] text-white">Global Offices</p>
                     </div>
                     <div className="text-center child-two">
                         <img className="mx-auto" src="./assets/vector2.png" alt="icon" />
-                        <h2 className="poppins-bold text-[50px] text-white">
+                        <h2 className="poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[50px] text-white">
                         { counterState && <CountUp start={0} end={100} duration={5}></CountUp>}+
                         </h2>
                         <p className="mulish-regular text-[16px] text-white">UK Education Fair</p>
                     </div>
                     <div className="text-center child-three">
                         <img className="mx-auto" src="./assets/vector3.png" alt="icon" />
-                        <h2 className="poppins-bold text-[50px] text-white">
+                        <h2 className="poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[50px] text-white">
                         { counterState && <CountUp start={0} end={50000} duration={5}></CountUp>}+
                         </h2>
                         <p className="mulish-regular text-[16px] text-white">Courses Offered</p>
                     </div>
                     <div className="text-center child-four">
                         <img className="mx-auto" src="./assets/vector4.png" alt="icon" />
-                        <h2 className="poppins-bold text-[50px] text-white">
+                        <h2 className="poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[50px] text-white">
                         { counterState && <CountUp start={0} end={350} duration={5}></CountUp>}+
                         </h2>
                         <p className="mulish-regular text-[16px] text-white">Global Counsellors</p>
                     </div>
                     <div className="text-center child-five">
                         <img className="mx-auto" src="./assets/vector5.png" alt="icon" />
-                        <h2 className="poppins-bold text-[50px] text-white">
+                        <h2 className="poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[50px] text-white">
                         { counterState && <CountUp start={0} end={150} duration={5}></CountUp>}+
                         </h2>
                         <p className="mulish-regular text-[16px] text-white">Recruiting University</p>
                     </div>
                     <div className="text-center child-six">
                         <img className="mx-auto" src="./assets/vector6.png" alt="icon" />
-                        <h2 className="poppins-bold text-[50px] text-white">
+                        <h2 className="poppins-bold pt-5 lg:pt-0 text-4xl lg:text-[50px] text-white">
                         { counterState && <CountUp start={0} end={5000} duration={5}></CountUp>}+
                         </h2>
                         <p className="mulish-regular text-[16px] text-white">Student Served</p>

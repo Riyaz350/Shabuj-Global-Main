@@ -20,7 +20,7 @@ const Home_DestinationCard = () => {
                 <p className="uppercase text-[#88F3D0] flex items-center justify-center lg:pt-[145px] md:pt-[145px] pt-[81px] poppins-bold lg:text-[38px] text-[20px]">
                   UK
                 </p>
-                <Link to={"UK"}>
+                <Link to={"/UK"}>
                   <button className="lg:pl-28 md:pl-32 pl-[62px] lg:pt-[61px] pt-[32px]">
                     <MdKeyboardArrowRight className="rounded-full lg:w-[40px] w-[22px] lg:h-[40px] h-[22px] text-white bg-[#2563EB]"></MdKeyboardArrowRight>
                   </button>

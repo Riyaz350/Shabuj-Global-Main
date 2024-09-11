@@ -59,30 +59,35 @@ const Home_Events = () => {
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-center carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents1.png'></source>
+                            <source media='(max-width : 768px)' srcSet='./assets/upcomingEvents1.png'></source>
                             <img src="./assets/event1.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-right1 carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents2.png'></source>
+                            <source media='(max-width : 768px)' srcSet='./assets/upcomingEvents2.png'></source>
                             <img src="./assets/event2.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-right2 carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents3.png'></source>
+                            <source media='(max-width : 768px)' srcSet='./assets/upcomingEvents3.png'></source>
                             <img src="./assets/event3.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left1 carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents4.png'></source>
+                            <source media='(max-width : 768px)' srcSet='./assets/upcomingEvents4.png'></source>
                             <img src="./assets/event4.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left2 carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='./assets/upcomingEvents5.png'></source>
+                            <source media='(max-width : 768px)' srcSet='./assets/upcomingEvents5.png'></source>
                             <img src="./assets/event5.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
                         </picture>
                     </div>
@@ -102,7 +107,7 @@ const Home_Events = () => {
                     </button>
                 
                 
-                    <button className='absolute lg:hidden block z-10 top-[440px] left-52 md:left-96' onClick={slideNext}>
+                    <button className='absolute lg:hidden block z-10 top-[440px] left-52 md:left-[400px]' onClick={slideNext}>
                         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" fill="white" />
                             <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" stroke="white" stroke-width="0.913044" />
@@ -111,7 +116,7 @@ const Home_Events = () => {
                     </button>
                 
                 
-                    <button className='absolute lg:hidden block top-[440px] left-40 md:left-80' onClick={slidePrev}>
+                    <button className='absolute lg:hidden block top-[440px] left-40 md:left-[335px]' onClick={slidePrev}>
                         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" fill="white" />
                             <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" stroke="white" stroke-width="0.913044" />

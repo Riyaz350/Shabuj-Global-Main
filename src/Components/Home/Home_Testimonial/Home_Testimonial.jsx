@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import Highlight from '../../../assets/Highlight.png';
+import Highlight from "../../../assets/Highlight.png";
 const Home_Testimonial = () => {
-    const [currentSlider, setCurrentSlider] = useState(0);
+  const [currentSlider, setCurrentSlider] = useState(0);
 
   const nextSlider = () =>
     setCurrentSlider((currentSlider) =>
@@ -13,9 +13,9 @@ const Home_Testimonial = () => {
     setCurrentSlider((currentSlider) =>
       currentSlider === 0 ? sliders.length - 1 : currentSlider - 1
     );
-    return (
-        <div className="bg-gradient-to-r from-[#031EE5] to-[#2081ff] overflow-hidden">
-      <div className="lg:flex md:flex block lg:ml-[15%] md:ml-[15%] ml-0 relative">
+  return (
+    <div className="bg-gradient-to-r from-[#031EE5] to-[#2081ff] overflow-hidden">
+      <div className="md:flex block lg:ml-[15%] md:ml-[15%] ml-0 relative">
         <div className="lg:w-[26%] md:w-[26%] w-full px-4 drop-shadow-lg ">
           <h1 className="lg:text-7xl md:text-7xl text-5xl lg:text-left md:text-left text-center font-bold mb-3 bg-gradient-to-r from-[#88F3D0] to-[#88F3D0] bg-clip-text text-transparent w-full transition-all duration-300 lg:pt-16 md:pt-16 pt-5">
             Become a Part of Our Success Stories
@@ -54,7 +54,7 @@ const Home_Testimonial = () => {
                 <img className="absolute top-8 left-8" src={Highlight} alt="" />
                 <img
                   src={slide.img}
-                  className="mx-auto mt-28"
+                  className="mx-auto mt-28 h-40 w-40 object-cover rounded-xl"
                   alt={slide.tags}
                 />
                 <div className="mx-5">
@@ -75,10 +75,14 @@ const Home_Testimonial = () => {
                     : "h-[280px] md:h-[530px] lg:h-[530px] transition-all duration-300"
                 } min-w-[50%] duration-200 bg-white rounded-3xl lg:hidden md:hidden block relative`}
               >
-                 <img className="absolute top-5 left-8 w-10" src={Highlight} alt="" />
+                <img
+                  className="absolute top-5 left-8 w-10"
+                  src={Highlight}
+                  alt=""
+                />
                 <img
                   src={slide.img}
-                  className="mx-auto mt-14 w-16"
+                  className="mx-auto mt-14 w-16 h-16 object-cover rounded-lg"
                   alt={slide.tags}
                 />
                 <div className="mx-1">
@@ -93,35 +97,45 @@ const Home_Testimonial = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Home_Testimonial;
 
 const sliders = [
-    {
-      img: "https://i.ibb.co/smYfCG0/author.png",
-      name: "Naima Islam",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    },
-    {
-      img: "https://i.ibb.co/LPNmfbk/author2.png",
-      name: "Jakaria Khan",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    },
-    {
-      img: "https://i.ibb.co/smYfCG0/author.png",
-      name: "Naima Islam",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    },
-    {
-      img: "https://i.ibb.co/LPNmfbk/author2.png",
-      name: "Jakaria Khan",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    },
-    {
-      img: "https://i.ibb.co/smYfCG0/author.png",
-      name: "Naima Islam",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    },
-  ];
+  {
+    img: "https://i.ibb.co/smYfCG0/author.png",
+    name: "Naima Islam",
+    text: "Shabuj Global Education transformed my career prospects. Excellent guidance and support throughout!",
+  },
+  {
+    img: "https://i.ibb.co/LPNmfbk/author2.png",
+    name: "Jakaria Khan",
+    text: "Highly recommend Shabuj Global Education. Their expert counseling helped me secure my dream university.",
+  },
+  {
+    img: "https://i.ibb.co/9Wy7gmJ/author3.jpg",
+    name: "Alexa John",
+    text: "Amazing experience with Shabuj Global Education. Friendly staff, personalized guidance, and great results!",
+  },
+  {
+    img: "https://i.ibb.co/RTq6HcR/author4.jpg",
+    name: "Masud Parvez",
+    text: "Shabuj Global Education made the entire application process smooth and stress-free. Thank you!",
+  },
+  {
+    img: "https://i.ibb.co/bHjqW8W/author5.jpg",
+    name: "Sinthia Gomes",
+    text: "Best study abroad consultancy! Shabuj Global Education provided invaluable support and resources.",
+  },
+  {
+    img: "https://i.ibb.co/DwbSRxp/author6.jpg",
+    name: "Nayona Serxokha",
+    text: "Shabuj Global Education is a game-changer. Their expertise helped me achieve my study abroad goals.",
+  },
+  {
+    img: "https://i.ibb.co/VpBsDG0/author7.jpg",
+    name: "David Luke",
+    text: "Couldn't be happier with Shabuj Global Education. They made my dream of studying abroad a reality.",
+  },
+];

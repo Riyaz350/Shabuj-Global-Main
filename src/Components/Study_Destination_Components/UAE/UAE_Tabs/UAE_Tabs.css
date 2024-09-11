@@ -1,0 +1,86 @@
+.tab-content-display:not(.active){
+    display: none;
+}
+
+.tab-link-item::before {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    width: 64px;
+    height: 32px;
+    left: -32px;
+    bottom: 0px;
+}
+
+
+.tab-link-item:nth-child(1) {
+    z-index: 4;
+}
+
+.tab-link-item:nth-child(2) {
+    z-index: 3;
+}
+
+.tab-link-item:nth-child(3) {
+    z-index: 2;
+}
+
+.tab-link-item:nth-child(4) {
+    z-index: 1;
+}
+
+.tab-content--container {
+    position: relative;
+    z-index: 10;
+    border-radius: 32px;
+}
+
+.tab-link-item.active + .tab-link-item,
+.tab-link-item.active + .tab-link-item + .tab-link-item,
+.tab-link-item.active + .tab-link-item + .tab-link-item + .tab-link-item,
+.tab-link-item.active + .tab-link-item + .tab-link-item + .tab-link-item + .tab-link-item {
+    z-index: unset;
+}
+
+.tab-link-item.active + .tab-link-item:before,
+.tab-link-item.active + .tab-link-item + .tab-link-item:before,
+.tab-link-item.active + .tab-link-item + .tab-link-item + .tab-link-item:before,
+.tab-link-item.active + .tab-link-item + .tab-link-item + .tab-link-item + .tab-link-item:before {
+    right: -32px;
+    left: auto;
+}
+
+
+.active.tab-link-item {
+    background-color: #EFF6FF;
+    color: black;
+    z-index: 0;
+}
+.active.tab-link-item:after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    width: 64px;
+    height: 32px;
+    right: -32px;
+    bottom: 0px;
+}
+
+.tab-link-item:first-child::before,
+.tab-link-item:last-child::before{
+    
+    width: 32px;
+    height: 64px;
+    bottom: -32px;
+    left: 0;
+}
+
+.tab-link-item:last-child:before{
+    left: auto !important;
+    right: 0 !important;
+}
+
+.active.tab-link-item:last-child:after {
+    right: auto !important;
+    left: -32px !important;
+}

@@ -19,9 +19,14 @@
   
   .modal-box {
     padding: 0;
-    width: auto;
+    width: 380px;
+    
   }
-  
+  @media screen and (max-width: 640px) {
+    .modal-box{
+      width: 380px;
+    }
+  }
   .gallery-items {
     flex: 1 0 auto;
   }
@@ -36,21 +41,21 @@
   }
   
   .gallery-one>div {
-    animation: galleryanimate 80s -80s linear infinite;
+    animation: galleryanimate 100s -100s linear infinite;
     will-change: transform;
   }
   
   .gallery-one>div:last-child {
-    animation: galleryanimate2 80s -40s linear infinite;
+    animation: galleryanimate2 100s -50s linear infinite;
   }
   
   .gallery-two>div {
-    animation: galleryanimate3 80s -80s linear infinite;
+    animation: galleryanimate3 100s -100s linear infinite;
     will-change: transform;
   }
   
   .gallery-two>div:last-child {
-    animation: galleryanimate4 80s -40s linear infinite;
+    animation: galleryanimate4 100s -50s linear infinite;
   }
   
   .gallery-one:hover>div,
@@ -103,8 +108,6 @@
   
   .image-gallery:hover .display-block {
     width: 368px;
-    height: 100%;
-  }
-  
-  
-  
+    height: "100%"
+    
+  }

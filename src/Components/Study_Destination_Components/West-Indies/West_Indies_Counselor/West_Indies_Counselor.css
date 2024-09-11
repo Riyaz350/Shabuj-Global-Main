@@ -1,0 +1,20 @@
+.wICounselor_bg{
+    background: linear-gradient(93deg, rgb(139, 42, 42) 0%, rgba(137,0,1) 100%);
+}
+
+.wICounselor_svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.wICounselor:hover .wICounselor_svg{
+    opacity: 1;
+    visibility: visible; 
+    transition: all 0.24s ease;
+}
+
+@media screen and (max-width : 640px) {
+    .wICounselor svg {
+        width: 353px;
+        height: 353px;
+    }
+}

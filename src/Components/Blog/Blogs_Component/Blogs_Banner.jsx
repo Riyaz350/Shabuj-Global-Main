@@ -2,6 +2,7 @@ import banner from '../../../assets/Rectangle 190.png'
 import bg from '../../../assets/Rectangle 188.png'
 import { useEffect, useState } from 'react';
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom';
 
 const Blogs_Banner = () => {
 
@@ -26,7 +27,9 @@ const Blogs_Banner = () => {
                             <div className='text-white font-light mb-5 bg-[#ff8156] w-fit px-2 rounded-md'>UK University</div>
                             <h1 className='text-2xl lg:text-5xl mb-2 lg:mb-5 font-semibold'>Choosing the Right UK University and Course: Factor to Consider</h1>
                             <p className='mb-2 lg:mb-10 font-semibold text-lg'>Embarking on higher education in the UK is a crucial journey that sets the stage for your future career and personal development...</p>
+                            <Link to={"/comingSoon"}>
                             <button className='bg-[#2563eb] mt-5 text-white px-4 py-2 rounded-full'>Continue Reading</button>
+                            </Link>
                         </div>
                     </motion.div>
                     <motion.div initial={{x:'200px'}} animate={{x:0}} transition={{duration:.5}} className='lg:absolute hidden lg:flex   justify-end z-10 lg:px-5 -right-0'>

@@ -2,7 +2,7 @@
     position: relative;
     border-radius: 32px;
     overflow: hidden;
-    background-image: url('./assets/hero.jpg');
+    background-image: url('./hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@
     display: flex;
 }
 
-.buttons-group button {
+.buttons-group a {
     background: transparent;
     border-radius: 50px;
 
@@ -53,9 +53,9 @@
     font-size: 22px;
 }
 
-.buttons-group button:after {
+.buttons-group a:after {
     content: "";
-    background-image: url('./assets/arrow.svg');
+    background-image: url('./arrow.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -65,29 +65,29 @@
 }
 
 
-.buttons-group:not(:hover) button:first-child,
-.buttons-group button:hover {
+.buttons-group:not(:hover) a:first-child,
+.buttons-group a:hover {
     background: #004AC8;
     color: #ffffff;
 }
 
-.buttons-group:not(:hover) button:first-child:after,
-.buttons-group button:hover:after {
+.buttons-group:not(:hover) a:first-child:after,
+.buttons-group a:hover:after {
     width: 42px;
     height: 42px;
 }
 
 
 @media screen and (max-width: 640px) {
-    .buttons-group button {
+    .buttons-group a {
         padding: 6px 14px;
         height: 32px;
         font-size: 10px;
 
     }
 
-    .buttons-group:not(:hover) button:first-child:after,
-    .buttons-group button:hover:after {
+    .buttons-group:not(:hover) a:first-child:after,
+    .buttons-group a:hover:after {
         width: 22px;
         height: 22px;
 
@@ -115,7 +115,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Inconsolata, sans-serif;
 }
 
 html {

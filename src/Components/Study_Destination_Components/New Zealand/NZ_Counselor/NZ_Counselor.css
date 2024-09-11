@@ -1,0 +1,20 @@
+.nzCounselor_bg{
+    background: linear-gradient(93deg, rgb(182, 186, 250) 0%, rgb(163,167,255) 100%);
+}
+
+.nzCounselor_svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.nzCounselor:hover .nzCounselor_svg{
+    opacity: 1;
+    visibility: visible; 
+    transition: all 0.24s ease;
+}
+
+@media screen and (max-width : 640px) {
+    .nzCounselor svg {
+        width: 353px;
+        height: 353px;
+    }
+}
