@@ -6,7 +6,7 @@ import { useState } from "react";
 const Home_Counter = () => {
     const [counterState, setCounterState] = useState(false)
     return (
-        <div className="bg-gradient-two bg-[#EBEBEB] max-w-[1154px] mx-auto rounded-[64px] lg:mt-[150px] mt-[28px] lg:mb-[140px] mb-[28px] relative lg:z-20">
+        <div className="bg-gradient-two bg-[#EBEBEB] max-w-[1154px] mx-auto rounded-[64px] lg:mt-[150px]  lg:mb-[140px] mb-[28px] relative lg:z-20 mt-16">
             <div className="section-bg-overlay"></div>
             <div className="flex flex-col lg:block">
                 <div className="lg:absolute lg:-top-24 lg:-z-40 order-2 pb-12 md:mx-auto">
