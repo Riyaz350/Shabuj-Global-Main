@@ -442,8 +442,8 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="absolute bottom-0 left-48 lg:block hidden">
-            <img src="./assets/vector7.png" alt="" />
+          <div className="relative">
+            <img src="./assets/vector7.png" alt="" className="absolute bottom-0 hidden left-0 lg:block mx-auto right-0"/>
           </div>
         </div>
       </div>
