@@ -12,7 +12,6 @@ import bg from '../../assets/Blue Background.png'
 const SelectedEvent = () => {
     const [tik, setTik] = useState(false)
     const [width, setWidth] = useState(null)
-    console.log(width)
     useEffect(() => {
         setWidth(window.innerWidth)
     }, [])

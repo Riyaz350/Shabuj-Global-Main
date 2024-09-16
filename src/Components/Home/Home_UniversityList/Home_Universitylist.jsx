@@ -3,7 +3,6 @@ import allUni from '../../../../public/universities_json/allUni.json'
 import { Link } from 'react-router-dom';
 import Marquee from 'react-fast-marquee';
 const Home_UniversityList = () => {
-    console.log(allUni)
     return (
         <div className='lg:mt-[131px] mt-[40px] lg:mb-[117px] mb-[40px]'>
             <div className='text-center'>
