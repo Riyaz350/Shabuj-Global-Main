@@ -14,10 +14,9 @@ const Home_Tab = () => {
                 </div>
                 <div className='flex flex-col lg:flex-row justify-between gap-[28px] items-center'>
                     <div className='order-2 lg:order-1 text-center lg:text-left'>
-                        <h2 className='poppins-semibold text-[20px] lg:text-[38px] text-[#081831] leading-[130%]  lg:px-0 px-6'>Get complete guidance in<br></br>
-                            your study abroad journey-<br></br> from start to finish
+                        <h2 className='poppins-semibold text-[20px] lg:text-[38px] text-[#081831] leading-[130%] max-w-lg lg:px-0 px-6'>Get complete guidance in your study abroad journey from start to finish
                         </h2>
-                        <p className='mulish-regular text-[12px] lg:text-[16px] text-[1F1F1F] pt-[14px]  lg:px-0 px-6'>Shabuj Global Education helps you with Course & University<br></br> Selection, Interview and Test Preparation, Visa Application and<br></br> Admission and more- so you can join your dream university<br></br> with ease!</p>
+                        <p className='mulish-regular text-[12px] lg:text-[16px] text-[1F1F1F] pt-[14px] max-w-lg  lg:px-0 px-6'>Shabuj Global Education helps you with Course & University Selection, Interview and Test Preparation, Visa Application and Admission and more- so you can join your dream university with ease!</p>
                         <Link to={"/comingSoon"}>
                         <button className='bg-[#2563EB] hover:bg-[#126def] mulish-regular lg:text-[21px] text-[14px] text-white rounded-[32px] lg:px-[85px] px-10 lg:py-2 py-[8px] mt-6 mx-auto'>Start Now</button>
                         </Link>
@@ -39,8 +38,8 @@ const Home_Tab = () => {
                 <div className='flex flex-col lg:flex-row justify-between gap-[28px] items-center'>
                     <div className='order-2 lg:order-1 text-center lg:text-left'>
                         
-                        <h2 className='poppins-semibold text-[20px] lg:text-[38px] text-[#081831] leading-[130%]  lg:px-0 px-6'>Wow your students with<br></br> Shabuj Global Education's<br></br> trusted admission process</h2>
-                        <p className='mulish-regular text-[12px] lg:text-[16px] text-[1F1F1F] pt-[14px]  lg:px-0 px-6'>No more lack of trust and transparency- we treat your<br></br> business as our own. With SGE's 1500+ strong university<br></br> network, experienced counsellors, and dedicated customer<br></br> support, you can just focus on increasing your student reach-<br></br> and leave the processing part to us!</p>
+                        <h2 className='poppins-semibold text-[20px] lg:text-[38px] text-[#081831]  max-w-lg leading-[130%]  lg:px-0 px-6'>Wow your students with Shabuj Global Education's trusted admission process</h2>
+                        <p className='mulish-regular text-[12px] lg:text-[16px] text-[1F1F1F] pt-[14px] max-w-lg lg:px-0 px-6'>No more lack of trust and transparency we treat your business as our own. With SGE's 1500+ strong university network, experienced counsellors, and dedicated customer support, you can just focus on increasing your student reach and leave the processing part to us!</p>
                         <Link to={"/comingSoon"}><button className='bg-[#2563EB] hover:bg-[#126def] mulish-regular lg:text-[21px] text-[14px] text-white rounded-[32px] lg:px-[85px] px-10 lg:py-2 py-[8px] mt-6'>Explore More</button></Link>
                     </div>
                     <div className='order-1 lg:order-2'>
