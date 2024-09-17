@@ -24,7 +24,7 @@ import {
 import { FaClock, FaUserFriends, FaHeart, FaChevronDown } from "react-icons/fa";
 import { SiGooglesheets } from "react-icons/si";
 import { RiNewsFill } from "react-icons/ri";
-import { BiSolidPhoneCall } from "react-icons/bi";
+import { BiSolidMessageSquareError, BiSolidPhoneCall } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ const Navbar2 = () => {
   const iconStyle =
     "flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
   const flagClass =
-    "flex w-10/12 mx-auto flex-1 md:max-w-[14.28%] flex-col justify-center item-center text-center my-2 lg:mt-10";
+    "flex  mx-auto  w-full flex-col justify-between item-center text-center my-2 lg:mt-10";
   const flag = "w-3/4 mx-auto rounded-lg ";
 
   const enterNavButton = (index) => {
@@ -63,8 +63,9 @@ const Navbar2 = () => {
             </p>
           </button>
           <span
-            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
-              }`}
+            className={` ${
+              navButton == ind && "rotate-180 transition ease-in-out delay-450"
+            }`}
           >
             <FaChevronUp />
           </span>
@@ -98,10 +99,11 @@ const Navbar2 = () => {
   useEffect(() => {
     setNavIndex(navButton);
   }, [navButton, setNavIndex]);
+
   return (
     <div
       onMouseLeave={() => leaveNavButton()}
-      className="relative bg-[#F0F8FF]  "
+      className="relative bg-[#F0F8FF]  z-40"
     >
       <div className="px-3  lg:px-14 gap-10 flex flex-row items-center    justify-between py-10  lg:py-5">
         <Link to={"/"}>
@@ -143,25 +145,21 @@ const Navbar2 = () => {
                     Study Destination
                   </div>
                   <div className="collapse-content">
-                    <ul className="grid grid-cols-2 lg:flex justify-between max-w-7xl mx-auto">
+                    <ul className="grid grid-cols-2   justify-between items-start  max-w-7xl mx-auto my-8 gap-3">
                       <Link className={flagClass} to={"/UK"}>
-                        <img
-                          htmlFor="my-drawer-4"
-                          className={`${flag}`}
-                          src={UK}
-                        />
+                        <img className={flag} src={UK} />
                         <li>Study in UK</li>
                       </Link>
                       <Link className={flagClass} to={"/USA"}>
                         <img className={flag} src={USA} />
-                        <li></li>
+                        {/* <li></li> */}
                         <li>Study in USA</li>
                       </Link>
                       <Link className={flagClass} to={"/Australia"}>
                         <img className={flag} src={Australia} />
                         <li>Study in Australia</li>
                       </Link>
-                      <Link className={flagClass} to={"/Canada"}>
+                      <Link className={flagClass} to="/Canada">
                         <img className={flag} src={Canada} />
                         <li>Study in Canada</li>
                       </Link>
@@ -179,13 +177,14 @@ const Navbar2 = () => {
                       </Link>
                       <Link className={flagClass} to="/Georgia">
                         <img className={flag} src={Georgia} />
+                        {/* <li></li> */}
                         <li>Study in Georgia</li>
                       </Link>
                       <Link className={flagClass} to={"/Finland"}>
                         <img className={flag} src={Finland} />
                         <li>Study in Finland</li>
                       </Link>
-                      <Link className={flagClass} to={"/Cyprus"}>
+                      <Link className={flagClass} to="/Cyprus">
                         <img className={flag} src={Cyprus} />
                         <li>Study in Cyprus</li>
                       </Link>
@@ -193,7 +192,7 @@ const Navbar2 = () => {
                         <img className={flag} src={Switzerland} />
                         <li>Study in Switzerland</li>
                       </Link>
-                      <Link className={flagClass} to={"/France"}>
+                      <Link className={flagClass} to="/France">
                         <img className={flag} src={France} />
                         <li>Study in France</li>
                       </Link>
@@ -201,38 +200,37 @@ const Navbar2 = () => {
                         <img className={flag} src={WestIndies} />
                         <li>Study in West-Indies</li>
                       </Link>
-                      <Link>
-                        <div className={flagClass}>
+                      <Link className={flagClass} to={"/comingSoon"}>
+                        <div className="">
                           <div className="mx-auto">
-                            <FaGlobeAmericas size={50} className="mx-auto" />
+                            <FaGlobeAmericas size={55} className="mx-auto" />
                           </div>
-                          <div>
-                            <li>Rest of the World</li>
-                          </div>
+                          <li>Rest of the World</li>
                         </div>
                       </Link>
                     </ul>
                   </div>
                 </div>
+
                 <div className="collapse collapse-arrow bg-base-200">
                   <input type="radio" name="my-accordion-2" />
-                  <div className="collapse-title text-xl font-medium">
+                  <div className="collapse-title text-xl font-medium ">
                     Services
                   </div>
-                  <div className="collapse-content">
-                    <div className="flex flex-col          ">
-                      <div className="col-span-2 mt-2">
-                        <Link
-                          className="text-xl  mt-2  bg-blue-600 text-white  w-fit ml-auto    p-2 rounded-lg "
-                          to="/services"
-                        >
-                          Services
+                  <div className="collapse-content ">
+                    <div className="flex flex-col  w-full ">
+                      <div className="col-span-2 mt-2 ">
+                        <Link to="/services">
+                          <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
+                            SERVICES
+                          </h2>
                         </Link>
+
                         <h2 className="my-5 text-xl font-medium border-b-2   border-[#f85424]">
                           FOR STUDENTS
                         </h2>
                         <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
-                          <ul className="space-y-2 text-lg">
+                          <ul className="flex-col flex gap-2 text-lg">
                             <Link
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
@@ -258,7 +256,7 @@ const Navbar2 = () => {
                               <li>International Student Visa Guidance</li>
                             </Link>
                           </ul>
-                          <ul className="space-y-2 text-lg">
+                          <ul className="flex-col flex gap-2 text-lg">
                             <Link
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
@@ -319,7 +317,7 @@ const Navbar2 = () => {
                         </ul>
                       </div>
 
-                      <div className="col-span-1 md:my-10">
+                      <div className="col-span-1 mt-0">
                         <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
                           PARTNER INSTITUTION
                         </h2>
@@ -383,7 +381,7 @@ const Navbar2 = () => {
                         </ul>
                       </div>
 
-                      <div className="col-span-1 md:my-10">
+                      <div className="col-span-1 mt-0">
                         <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
                           BUSINESS
                         </h2>
@@ -412,7 +410,6 @@ const Navbar2 = () => {
                           >
                             <li>Technological Support</li>
                           </Link>
-
                         </ul>
                       </div>
                     </div>
@@ -443,52 +440,61 @@ const Navbar2 = () => {
                     <div className="     ">
                       <ul className=" text-lg  mt-2">
                         <Link
-                          className="text-xl bg-blue-600 text-white  w-fit ml-auto  p-2 rounded-lg "
+                          c
+                          className={`${iconStyle} flex gap-2 items-center  py-3 pt-6 `}
                           to="/about"
                         >
-                          About Us
+                          <BiSolidMessageSquareError />
+                          <li>About Us</li>
                         </Link>
 
-                        <Link to={"/comingSoon"}>
-                          <li className={`mt-5 ${iconStyle}`}>
-                            <BsGridFill />
-                            Who We Are
-                          </li>
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3 `}
+                        >
+                          <BsGridFill />
+                          <li>Who We Are</li>
                         </Link>
-                        <Link to={"/comingSoon"}>
-                          <li className={iconStyle}>
-                            <FaHeart />
-                            Our Partners
-                          </li>
+
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <FaHeart />
+                          <li> Our Partners</li>
                         </Link>
-                        <Link to={"/comingSoon"}>
-                          <li className={iconStyle}>
-                            <FaClock />
-                            Our Timeline
-                          </li>
+
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <FaClock />
+                          <li> Our Timeline</li>
                         </Link>
-                        <Link to={"/comingSoon"}>
-                          <li className={iconStyle}>
-                            <FaUserFriends />
-                            Our Leadership Team
-                          </li>
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <FaUserFriends />
+                          <li> Our Leadership Team</li>
                         </Link>
-                      </ul>
-                      <ul className="col-span-1 space-y-4 text-lg ">
-                        <Link to={"/comingSoon"}>
-                          <li className={iconStyle}>
-                            <IoShieldCheckmarkSharp />
-                            Partner With Us
-                          </li>
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <IoShieldCheckmarkSharp />
+                          <li> Partner With Us</li>
                         </Link>
-                        <Link to={"/comingSoon"}>
-                          <li className={`pb-5 ${iconStyle}`}>
-                            <IoCheckmarkDoneCircleSharp />
-                            Award Recognitions
-                          </li>
-                        </Link >
-                        <Link to={"/comingSoon"}
-                          className={`${iconStyle} flex gap-2 items-center  py-5 my-4`}
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <IoCheckmarkDoneCircleSharp />
+                          <li> Award Recognitions</li>
+                        </Link>
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
                           <SiGooglesheets />
                           <li>Careers</li>{" "}
@@ -496,55 +502,52 @@ const Navbar2 = () => {
                             Hiring
                           </span>
                         </Link>
-                        <li>
-                          <Link className={iconStyle} to="/blogs">
-                            <RiNewsFill />
-                            Blog
-                          </Link>
-                        </li>
-                      </ul>
-                      <ul className="col-span-1 space-y-4 text-lg ">
-                        <li>
-                          <Link className={iconStyle} to="/contact">
-                            <BiSolidPhoneCall />
-                            Contact Us
-                          </Link>
-                        </li>
-                        <Link to={"/comingSoon"}>
-                          <li className={`pb-5 ${iconStyle}`}>
-                            <FaMicrophoneLines />
-                            News & Press
-                          </li>
+                        <Link
+                          to="/blogs"
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <RiNewsFill />
+                          <li> Blog</li>
+                        </Link>
+                        <Link
+                          to="/contact"
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <BiSolidPhoneCall />
+                          <li> Contact Us</li>
+                        </Link>
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3`}
+                        >
+                          <FaMicrophoneLines />
+                          <li> News & Press</li>
                         </Link>
 
-                        <li >
-                          <Link className={`${iconStyle}`} to="/events">
-                            <BsCameraVideoFill />
-                            Events & Webinars
-                          </Link>
-                        </li>
+                        <Link
+                          to={"/comingSoon"}
+                          className={`${iconStyle} flex gap-2 items-center  py-3 pb-5`}
+                        >
+                          <BsCameraVideoFill />
+                          <li> Events & Webinars</li>
+                        </Link>
                       </ul>
-                      <ul></ul>
                     </div>
                   </div>
                 </div>
 
-                <div className="pb-4">
-                  <Link
-                    to="/registration"
-                    className={`  pl-4 text-xl font-medium`}
-                  >
-                    <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
+                <div className="flex flex-col gap-2 px-4">
+                  <Link to="/registration" className={`  text-xl font-medium`}>
+                    <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl w-full">
                       Registration
                     </button>
                   </Link>
+                  <Link to={"/login"} className={` text-xl font-medium`}>
+                    <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl w-full">
+                      Log In
+                    </button>
+                  </Link>
                 </div>
-
-                <Link to={"/login"} className={`  pl-4 text-xl font-medium`}>
-                  <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl">
-                    Log In
-                  </button>
-                </Link>
               </ul>
             </div>
           </div>
@@ -580,8 +583,9 @@ const Navbar2 = () => {
             </Link>
           </div>
           <div
-            className={`${width >= 1244 ? "text-base" : "text-sm"
-              } flex items-center justify-end gap-1`}
+            className={`${
+              width >= 1244 ? "text-base" : "text-sm"
+            } flex items-center justify-end gap-1`}
           >
             <Link
               className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
@@ -600,17 +604,17 @@ const Navbar2 = () => {
       </div>
 
       {/* Navbar Item */}
-      <div className=" bg-white absolute w-full z-40 shadow-lg">
+      <div className=" bg-white absolute w-full z-40 shadow-lg px-10 ">
         {navIndex == 1 && (
           <div className="md:px-10">
-            <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto">
+            <ul className="lg:grid hidden lg:grid-cols-7 justify-between items-start  max-w-7xl mx-auto my-8 gap-3">
               <Link className={flagClass} to={"/UK"}>
                 <img className={flag} src={UK} />
                 <li>Study in UK</li>
               </Link>
               <Link className={flagClass} to={"/USA"}>
                 <img className={flag} src={USA} />
-                <li></li>
+                {/* <li></li> */}
                 <li>Study in USA</li>
               </Link>
               <Link className={flagClass} to={"/Australia"}>
@@ -633,11 +637,9 @@ const Navbar2 = () => {
                 <img className={flag} src={UAE} />
                 <li>Study in UAE</li>
               </Link>
-            </ul>
-            <ul className="grid grid-cols-2 md:flex justify-between max-w-7xl mx-auto mb-10">
               <Link className={flagClass} to="/Georgia">
                 <img className={flag} src={Georgia} />
-                <li></li>
+                {/* <li></li> */}
                 <li>Study in Georgia</li>
               </Link>
               <Link className={flagClass} to={"/Finland"}>
@@ -661,9 +663,9 @@ const Navbar2 = () => {
                 <li>Study in West-Indies</li>
               </Link>
               <Link className={flagClass} to={"/comingSoon"}>
-                <div className="mb-2 lg:mt-10">
+                <div className="">
                   <div className="mx-auto">
-                    <FaGlobeAmericas size={65} className="mx-auto" />
+                    <FaGlobeAmericas size={80} className="mx-auto" />
                   </div>
                   <li>Rest of the World</li>
                 </div>
@@ -674,8 +676,9 @@ const Navbar2 = () => {
         {navIndex == 2 && (
           <>
             <div
-              className={`${width <= 1450 ? "grid-cols-4" : "grid-cols-5"
-                }  flex flex-col  mx-10  md:grid md:mx-auto   md:max-w-[1800px]`}
+              className={`${
+                width <= 1450 ? "grid-cols-4" : "grid-cols-5"
+              }   mx-10 gap-5 hidden  lg:grid md:mx-auto   md:max-w-[1800px]`}
             >
               <div className="col-span-1 md:my-10 my-5">
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
@@ -798,11 +801,10 @@ const Navbar2 = () => {
                 </ul>
               </div>
             </div>
-
           </>
         )}
         {navIndex == 3 && (
-          <div className="flex  justify-around py-10">
+          <div className="lg:flex max-w-7xl  mx-auto hidden justify-around py-10">
             <Link to="comingSoon" className="w-5/12 lg:w-2/12">
               <img src={testPrep1} alt="img1" />
             </Link>
@@ -812,7 +814,7 @@ const Navbar2 = () => {
           </div>
         )}
         {navIndex == 4 && (
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-4  max-w-7xl mx-10 space-y-2 lg:space-y-0 lg:mx-auto my-10">
+          <div className="hidden lg:grid  lg:grid-cols-3 px-10 max-w-7xl mx-10 space-y-2 lg:space-y-0 lg:mx-auto my-10">
             <ul className="col-span-1 space-y-4 text-lg ">
               <Link to="/comingSoon" className={iconStyle}>
                 <BsGridFill />
@@ -870,7 +872,7 @@ const Navbar2 = () => {
                 Events & Webinars
               </Link>
               <Link className={`${iconStyle} `} to="/about">
-                <FcAbout />
+                <BiSolidMessageSquareError />
                 About Us
               </Link>
             </ul>
