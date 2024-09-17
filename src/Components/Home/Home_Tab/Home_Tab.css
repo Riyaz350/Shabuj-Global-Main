@@ -6,11 +6,16 @@
 .tabs-area:before {
     position: absolute;
     content: "";
-    width: 60px;
-    height: 50px;
-    top: 50px;
-    left: calc(50% - 30px);
-    background-color: #EEEEEE;
+    width: 755px;
+    height: 60px;
+    top: 45px;
+    left: 0;
+    margin: 0 auto;
+    bottom: 0;
+    background-color: white;
+    border: 2px solid #EEEEEE ;
+    right: 0;
+    border-radius: 80px;
 }
 
 .tabs-area .tab-content,
@@ -43,6 +48,7 @@
 .single-tab:has( > input:checked ) .tab-btn {
     background: #004ACB;
     color: #fff;
+    transition: 0.5s;
 }
 
 .single-tab:has( > input:checked ) .tab-content {
