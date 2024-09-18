@@ -41,7 +41,7 @@ const DocumentsRequired = () => {
 
       {/* Second section  */}
       <div className="min-h-screen bg-white py-28 ">
-        <h1 className="text-2xl md:text-4xl  lg:text-[56px] lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
+        <h1 className="text-2xl md:text-4xl px-10 lg:text-[56px] lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
           Statement of Purpose for UK
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">

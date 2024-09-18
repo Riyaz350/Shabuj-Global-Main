@@ -5,7 +5,7 @@ const ExamsLargeScreen = () => {
   const [cardNo, setCardNo] = useState(0);
 
   return (
-    <div className="m-5 md:m-0 lg:m-0 text-[#3B82F6] bg-[#F1F8FF]">
+    <div className="m-5 md:m-0 lg:m-0 text-[#3B82F6] bg-[#F1F8FF] px-5">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8 pt-24 pb-36">
         {/* first card */}
         <motion.div
