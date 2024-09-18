@@ -1,345 +1,354 @@
+
 [
   {
     "id": 1,
     "name": "UNIVERSITY OF ABERDEEN",
     "info": "Founded in 1495, the University of Aberdeen blends tradition with innovation, offering diverse undergraduate and postgraduate programs. It emphasizes research-led teaching and fosters a supportive academic community in scenic Aberdeen, Scotland.",
     "location": "Aberdeen, Scotland, UK",
-    "logo": "/universities/1.png"
+    "logo": "https://i.ibb.co/2SBtVv0/1.png"
   },
   {
     "id": 2,
     "name": "Anglia Ruskin University",
     "info": "Anglia Ruskin University, located in East Anglia, UK, is a modern institution offering a wide range of undergraduate and postgraduate courses. Known for its strong focus on employability, it equips students with practical skills for the job market.",
     "location": "East Anglia, England, UK",
-    "logo": "/universities/2.png"
+    "logo": "https://i.ibb.co/c6D8qN6/2-10.png"
   },
   {
     "id": 3,
     "name": "PRIFYSGOL BANGOR UNIVERSITY",
     "info": "Bangor University, established in 1884, offers a variety of undergraduate and postgraduate programs. Renowned for research excellence, it provides a supportive learning environment and vibrant student life in Bangor, Wales.",
     "location": "Bangor, Wales, UK",
-    "logo": "/universities/3.png"
+    "logo": "https://i.ibb.co/N150632/3-51.png"
   },
   {
     "id": 4,
     "name": "BATH SPA UNIVERSITY",
     "info": "Bath Spa University is known for its creative and cultural programs, offering a range of undergraduate and postgraduate courses with a strong emphasis on arts, humanities, and education. It is located in the historic city of Bath, England.",
     "location": "Bath, England, UK",
-    "logo": "/universities/4.png"
+    "logo": "https://i.ibb.co/CMTd1Wj/4-1.png"
   },
   {
     "id": 5,
     "name": "University of Bedfordshire",
     "info": "The University of Bedfordshire provides diverse undergraduate and postgraduate courses, focusing on employability and practical skills. It offers students hands-on learning opportunities in a supportive environment, located in Bedfordshire, UK.",
     "location": "Bedfordshire, England, UK",
-    "logo": "/universities/5.png"
+    "logo": "https://i.ibb.co/jbqmPp7/5-1.png"
   },
   {
     "id": 6,
     "name": "UNIVERSITY OF BIRMINGHAM",
     "info": "Founded in 1900, the University of Birmingham is a prestigious institution offering a wide range of undergraduate and postgraduate programs. Known for its research and academic excellence, it fosters a vibrant academic environment in Birmingham, UK.",
     "location": "Birmingham, England, UK",
-    "logo": "/universities/6.png"
+    "logo": "https://i.ibb.co/2FP0L7T/6-1.png"
   },
   {
     "id": 7,
     "name": "BIRMINGHAM CITY University",
     "info": "Birmingham City University offers a variety of undergraduate and postgraduate programs, emphasizing practical skills and employability. Known for its strong industry links, it provides a vibrant student community in Birmingham, UK.",
     "location": "Birmingham, England, UK",
-    "logo": "/universities/7.png"
+    "logo": "https://i.ibb.co/9r6wmHm/7-1.png"
   },
   {
     "id": 8,
     "name": "UNIVERSITY COLLEGE BIRMINGHAM",
     "info": "University College Birmingham specializes in vocational courses, offering a range of undergraduate and postgraduate programs. Known for its strong industry links and employability focus, it is located in Birmingham, UK.",
     "location": "Birmingham, England, UK",
-    "logo": "/universities/8.png"
+    "logo": "https://i.ibb.co/fvsPVmT/8-1.png"
   },
   {
     "id": 9,
     "name": "University of Brighton",
     "info": "The University of Brighton offers diverse undergraduate and postgraduate programs, emphasizing practical skills and employability. It is renowned for its strong industry links and vibrant student community, located in Brighton, UK.",
     "location": "Brighton, England, UK",
-    "logo": "/universities/9.png"
+    "logo": "https://i.ibb.co/5R2hmMq/9-1.png"
   },
   {
     "id": 10,
     "name": "Cardiff Metropolitan University",
     "info": "Cardiff Metropolitan University provides a diverse range of undergraduate and postgraduate programs, focusing on employability and practical skills. It offers a supportive learning environment in Cardiff, Wales.",
     "location": "Cardiff, Wales, UK",
-    "logo": "/universities/10.png"
+    "logo": "https://i.ibb.co/zGw7qSw/10-1.png"
   },
   {
     "id": 11,
     "name": "Conventry University",
     "info": "Coventry University emphasizes employability and practical skills, offering a wide range of undergraduate and postgraduate programs. Located in Coventry, UK, the university focuses on innovation and research excellence.",
     "location": "Coventry, England, UK",
-    "logo": "/universities/11.png"
+    "logo": "https://i.ibb.co/LPPvpQL/11-1.png"
   },
   {
     "id": 12,
     "name": "University for the Creative Arts",
     "info": "The University for the Creative Arts offers a variety of creative courses in arts, design, and media. It provides a supportive and inspiring environment for students across various campuses in the UK to develop their creative skills.",
     "location": "Various locations, England, UK",
-    "logo": "/universities/12.png"
+    "logo": "https://i.ibb.co/0tZ35fB/12-1.png"
   },
   {
     "id": 13,
     "name": "DE MONTFORT UNIVERSITY",
     "info": "De Montfort University offers a wide range of undergraduate and postgraduate programs, focusing on employability and practical skills. Located in Leicester, UK, it is known for its strong industry links and vibrant student community.",
     "location": "Leicester, England, UK",
-    "logo": "/universities/13.png"
+    "logo": "https://i.ibb.co/mRPhmF5/13-1.png"
   },
   {
     "id": 14,
     "name": "University of Derby",
     "info": "The University of Derby offers a broad range of undergraduate and postgraduate programs, emphasizing practical skills and employability. It provides a supportive learning environment in Derby, UK.",
     "location": "Derby, England, UK",
-    "logo": "/universities/14.png"
+    "logo": "https://i.ibb.co/txgrStn/14.png"
   },
   {
     "id": 15,
     "name": "University of Dundee",
     "info": "Established in 1881, the University of Dundee is renowned for research excellence and offers diverse undergraduate and postgraduate programs. It provides a supportive academic environment in Dundee, Scotland.",
     "location": "Dundee, Scotland, UK",
-    "logo": "/universities/15.png"
+    "logo": "https://i.ibb.co/qRdJbjT/15-1.png"
   },
   {
     "id": 16,
     "name": "University of East Anglia",
     "info": "The University of East Anglia offers a variety of undergraduate and postgraduate programs, emphasizing research and academic excellence. Located in Norwich, UK, it fosters a vibrant and supportive academic community.",
     "location": "Norwich, England, UK",
-    "logo": "/universities/16.png"
+    "logo": "https://i.ibb.co/NjB1xXJ/16-2.png"
   },
   {
     "id": 17,
     "name": "University of East London",
     "info": "The University of East London offers a wide range of undergraduate and postgraduate programs with a focus on practical skills and employability. It provides a diverse and supportive learning environment in London, UK.",
     "location": "London, England, UK",
-    "logo": "/universities/17.png"
+    "logo": "https://i.ibb.co/rFD7mTn/17-1.png"
   },
   {
     "id": 18,
     "name": "Abertay University",
     "info": "Abertay University, located in Dundee, Scotland, offers a range of undergraduate and postgraduate programs with a focus on practical skills and employability. It is known for its strong emphasis on research and innovation.",
     "location": "Dundee, Scotland, UK",
-    "logo": "/universities/18.png"
+    "logo": "https://i.ibb.co/w0ScTqF/18-1.png"
   },
   {
     "id": 19,
     "name": "University of Exeter",
     "info": "The University of Exeter, established in 1955, is known for its research excellence and diverse range of undergraduate and postgraduate programs. It provides a supportive academic environment in Exeter, UK.",
     "location": "Exeter, England, UK",
-    "logo": "/universities/19.png"
+    "logo": "https://i.ibb.co/ckgRjx6/19-1.png"
   },
   {
     "id": 20,
     "name": "UNIVERSITY OF EXETER",
     "info": "The University of Exeter, established in 1955, is known for its research excellence and diverse range of undergraduate and postgraduate programs. It provides a supportive academic environment in Exeter, UK.",
     "location": "Exeter, England, UK",
-    "logo": "/universities/19u.png"
+    "logo": "https://i.ibb.co/m4H7YFF/19u-1.png"
   },
   {
     "id": 21,
     "name": "Glasgow Caledonian University",
     "info": "Glasgow Caledonian University offers a range of programs focused on practical skills and employability. Located in Glasgow, Scotland, it provides a vibrant academic environment and is known for its strong community engagement.",
     "location": "Glasgow, Scotland, UK",
-    "logo": "/universities/20.png"
+    "logo": "https://i.ibb.co/8c4b9MM/20-1.png"
   },
   {
     "id": 22,
     "name": "UNIVERSITY OF GLOUCESTERSHIRE",
     "info": "The University of Gloucestershire, situated in the picturesque Gloucestershire, UK, offers diverse programs emphasizing employability and practical skills, fostering a supportive learning environment for students.",
     "location": "Gloucestershire, England, UK",
-    "logo": "/universities/21.png"
+    "logo": "https://i.ibb.co/M5ZvQNv/21-1.png"
   },
   {
     "id": 23,
     "name": "University of Hertfordshire",
     "info": "Located in Hertfordshire, UK, the University of Hertfordshire offers a wide variety of programs focused on employability and innovation. It provides a dynamic and supportive academic environment for its students.",
     "location": "Hertfordshire, England, UK",
-    "logo": "/universities/22.png"
+    "logo": "https://i.ibb.co/GQFnPW3/22-1.png"
   },
   {
     "id": 24,
     "name": "University of HUDDERSFIELD",
     "info": "The University of Huddersfield, located in Huddersfield, UK, offers a diverse array of programs with a strong focus on practical skills and career readiness, fostering a supportive and innovative learning environment.",
     "location": "Huddersfield, England, UK",
-    "logo": "/universities/23.png"
+    "logo": "https://i.ibb.co/6ZHMgr1/23-1.png"
   },
   {
     "id": 25,
     "name": "Manchester Metropolitan University",
     "info": "Manchester Metropolitan University provides a wide range of programs aimed at practical skills and employability. Located in Manchester, UK, it offers a vibrant academic community with strong industry connections.",
     "location": "Manchester, England, UK",
-    "logo": "/universities/24.png"
+    "logo": "https://i.ibb.co/CmwSv8K/24-1.png"
   },
   {
     "id": 26,
     "name": "University of South Wales Prifysgol",
     "info": "Located in South Wales, UK, the University of South Wales offers a variety of programs focusing on employability and practical skills, providing a supportive and dynamic learning environment for its students.",
     "location": "South Wales, Wales, UK",
-    "logo": "/universities/25.png"
+    "logo": "https://i.ibb.co/qjdS6tq/25-1.png"
   },
   {
     "id": 27,
     "name": "CITY UNIVERSITY LONDON",
     "info": "City University London offers a diverse range of programs emphasizing practical skills and employability. Situated in the heart of London, it provides students with a dynamic urban learning experience and strong industry links.",
     "location": "London, England, UK",
-    "logo": "/universities/25U.png"
+    "logo": "https://i.ibb.co/3WrP1rQ/25U-1.png"
   },
   {
     "id": 28,
     "name": "Newcastle University",
     "info": "Newcastle University, located in Newcastle, UK, offers a wide variety of programs with a focus on research and academic excellence, providing students with a vibrant and supportive educational environment.",
     "location": "Newcastle, England, UK",
-    "logo": "/universities/26.png"
+    "logo": "https://i.ibb.co/YR4htvZ/26-1.png"
   },
   {
     "id": 29,
     "name": "Northumbria University NEWCASTLE",
     "info": "Northumbria University in Newcastle, UK, offers a broad range of programs emphasizing practical skills and employability, fostering a supportive and innovative academic community for its students.",
     "location": "Newcastle, England, UK",
-    "logo": "/universities/27.png"
+    "logo": "https://i.ibb.co/JvzNPHh/27-1.png"
   },
   {
     "id": 30,
     "name": "The University of Nottingham",
     "info": "The University of Nottingham, known for its research excellence, offers diverse programs across various disciplines. Located in Nottingham, UK, it provides a dynamic and supportive learning environment.",
     "location": "Nottingham, England, UK",
-    "logo": "/universities/28.png"
+    "logo": "https://i.ibb.co/SwsbYsn/28-1.png"
   },
   {
     "id": 31,
     "name": "NOTTINGHAM TRENT UNIVERSITY",
     "info": "Nottingham Trent University, located in Nottingham, UK, offers a wide range of programs with a strong focus on practical skills and employability, fostering a vibrant and supportive academic community.",
     "location": "Nottingham, England, UK",
-    "logo": "/universities/29.png"
+    "logo": "https://i.ibb.co/9wNhgty/29-1.png"
   },
   {
     "id": 32,
     "name": "QUEEN'S UNIVERSITY BELFAST",
     "info": "Queen's University Belfast, situated in Belfast, Northern Ireland, offers a variety of programs known for research excellence and academic rigor, providing a supportive and innovative learning environment.",
     "location": "Belfast, Northern Ireland, UK",
-    "logo": "/universities/30.png"
+    "logo": "https://i.ibb.co/mNnSxNr/30-1.png"
   },
   {
     "id": 33,
     "name": "University of Reading",
     "info": "The University of Reading, located in Reading, UK, offers diverse undergraduate and postgraduate programs with a strong emphasis on research and practical skills, fostering a supportive academic community.",
     "location": "Reading, England, UK",
-    "logo": "/universities/31.png"
+    "logo": "https://i.ibb.co/M8SYH5H/31-1.png"
   },
   {
     "id": 34,
     "name": "University of Chester",
     "info": "The University of Chester, located in Chester, UK, provides a variety of programs focused on employability and practical skills, offering a supportive and dynamic learning environment for its students.",
     "location": "Chester, England, UK",
-    "logo": "/universities/32.png"
+    "logo": "https://i.ibb.co/DVhQQbM/32-1.png"
   },
   {
     "id": 35,
     "name": "UNIVERSITY OF CHICHESTER",
     "info": "The University of Chichester, situated in Chichester, UK, offers a range of programs with a strong focus on employability and practical skills, providing a supportive and vibrant academic environment.",
     "location": "Chichester, England, UK",
-    "logo": "/universities/33.png"
+    "logo": "https://i.ibb.co/2yjD3N5/33-2.png"
   },
   {
     "id": 36,
     "name": "St Mary's University",
     "info": "St Mary's University, located in Twickenham, London, offers diverse programs with a focus on practical skills and employability, fostering a supportive and dynamic academic community for its students.",
     "location": "Twickenham, London, England, UK",
-    "logo": "/universities/34.png"
+    "logo": "https://i.ibb.co/M8qtMNW/34-1.png"
   },
   {
     "id": 37,
     "name": "UNIVERSITY of STIRLING",
     "info": "The University of Stirling, located in Stirling, Scotland, offers a wide range of programs emphasizing research, practical skills, and employability, providing a vibrant and supportive learning environment.",
     "location": "Stirling, Scotland, UK",
-    "logo": "/universities/35.png"
+    "logo": "https://i.ibb.co/xqckWtB/35-1.png"
   },
   {
     "id": 38,
     "name": "UNIVERSITY OF PORTSMOUTH",
     "info": "The University of Portsmouth, located in Portsmouth, UK, offers a variety of programs focused on practical skills and employability, fostering a supportive and innovative academic community for its students.",
     "location": "Portsmouth, England, UK",
-    "logo": "/universities/36.png"
+    "logo": "https://i.ibb.co/X4B5VcG/36-1.png"
   },
   {
     "id": 39,
     "name": "UNIVERSITY OF WOLVERHAMPTON",
     "info": "The University of Wolverhampton, located in Wolverhampton, UK, offers diverse programs emphasizing employability and practical skills, providing a supportive and dynamic learning environment.",
     "location": "Wolverhampton, England, UK",
-    "logo": "/universities/37.png"
+    "logo": "https://i.ibb.co/Stg7XkN/37-1.png"
   },
   {
     "id": 40,
     "name": "UNIVERSITY OF SURREY",
     "info": "The University of Surrey, situated in Guildford, UK, offers a wide range of programs with a focus on research, employability, and practical skills, providing a vibrant and supportive academic environment.",
     "location": "Guildford, England, UK",
-    "logo": "/universities/38.png"
+    "logo": "https://i.ibb.co/60VbqNr/38-1.png"
   },
   {
     "id": 41,
     "name": "Ulster University",
     "info": "Ulster University, located in Northern Ireland, offers a variety of programs with a strong emphasis on practical skills and employability, fostering a supportive and dynamic academic community for its students.",
     "location": "Northern Ireland, UK",
-    "logo": "/universities/39.png"
+    "logo": "https://i.ibb.co/4Vhf9zj/39-1.png"
   },
   {
     "id": 42,
     "name": "The University of Law",
     "info": "The University of Law, with campuses across the UK, offers specialized programs in law and related fields, focusing on practical skills and employability, providing a supportive and professional learning environment.",
     "location": "Multiple locations, UK",
-    "logo": "/universities/40.png"
+    "logo": "https://i.ibb.co/4MJp7vW/40-1.png"
   },
   {
     "id": 43,
     "name": "University of the West of England",
     "info": "The University of the West of England, located in Bristol, UK, offers a wide range of programs focused on employability and practical skills, providing a supportive and innovative academic community.",
     "location": "Bristol, England, UK",
-    "logo": "/universities/41.png"
+    "logo": "https://i.ibb.co/ZB6BDgw/41-1.png"
   },
   {
     "id": 44,
     "name": "University of Worcester",
     "info": "The University of Worcester, located in Worcester, UK, offers a variety of programs with a focus on practical skills and employability, fostering a supportive and dynamic learning environment for its students.",
     "location": "Worcester, England, UK",
-    "logo": "/universities/42.png"
+    "logo": "https://i.ibb.co/FDyvGPW/42-1.png"
   },
   {
     "id": 45,
     "name": "Coventry University, London",
     "info": "Coventry University, London campus, offers a range of programs with a strong focus on practical skills and employability, providing a dynamic and supportive learning environment in the heart of London.",
     "location": "London, England, UK",
-    "logo": "/universities/48.png"
+    "logo": "https://i.ibb.co/z6xGbf7/43-1.png"
   },
   {
     "id": 46,
     "name": "Newcastle University, London",
     "info": "Newcastle University, London campus, offers a variety of programs emphasizing practical skills and employability, providing a supportive and vibrant learning environment in a major global city.",
     "location": "London, England, UK",
-    "logo": "/universities/49.png"
+    "logo": "https://i.ibb.co/0YfhqKL/44.png"
   },
   {
     "id": 47,
     "name": "Robert Gordon University",
     "info": "Robert Gordon University, located in Aberdeen, Scotland, offers a wide range of programs with a strong focus on practical skills and employability, fostering a supportive and innovative academic community.",
     "location": "Aberdeen, Scotland, UK",
-    "logo": "/universities/50.png"
+    "logo": "https://i.ibb.co/Ch93zj7/45.png"
   },
   {
     "id": 48,
     "name": "Canterbury Christ Church University",
     "info": "Canterbury Christ Church University, situated in Canterbury, UK, offers a diverse range of programs with an emphasis on practical skills and employability, providing a supportive and vibrant academic environment.",
     "location": "Canterbury, England, UK",
-    "logo": "/universities/51.png"
+    "logo": "https://i.ibb.co/3MjrR3Q/46.png"
   },
   {
     "id": 49,
     "name": "Solent University, Southampton",
     "info": "Solent University, located in Southampton, UK, offers a variety of programs focused on practical skills and employability, fostering a dynamic and supportive learning environment for its students.",
     "location": "Southampton, England, UK",
-    "logo": "/universities/52.png"
+    "logo": "https://i.ibb.co/WzyV6s1/47.png"
+  },
+  {
+    "id": 50,
+    "name": "University of Roehampton",
+    "info": "The University of Roehampton, located in London, offers a diverse range of undergraduate and postgraduate programs. It emphasizes employability and a supportive academic environment.",
+    "location": "London, England, UK",
+    "logo": "https://i.ibb.co/VSPnTFN/G-2.jpg"
   }
 ]
+

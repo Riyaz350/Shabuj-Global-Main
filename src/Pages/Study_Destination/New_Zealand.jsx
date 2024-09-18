@@ -8,6 +8,8 @@ import DocumentsRequired_NZ from "../../Components/Study_Destination_Components/
 import Faq_NZ from "../../Components/Study_Destination_Components/New Zealand/Faq_NZ";
 import NZ_Counselor from "../../Components/Study_Destination_Components/New Zealand/NZ_Counselor/NZ_Counselor";
 import { useEffect } from "react";
+import UniversityCards from "../../Components/Study_Destination_Components/Shared/Universities/UniversityCards";
+import uniData from '../../../public/universities_json/newZealand.json'
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 
@@ -23,6 +25,7 @@ const New_Zealand = () => {
       <QuickFacts country="New Zealand"/>
       <Tabs country="New Zealand"/>
       <AnimatedText country={"New Zealand"} />
+      <UniversityCards prop={uniData}/>
       <RequirementCard country={"New Zealand"} />
       <Exams country={"New Zealand"} />
       <GuidanceBanner />

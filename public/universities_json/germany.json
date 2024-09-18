@@ -1,156 +1,156 @@
 [
   {
     "id": 1,
-    "name": "University of Mannheim",
-    "info": "The University of Mannheim is renowned for its programs in economics, business administration, and social sciences. It is known for its strong research orientation and international collaborations.",
-    "location": "Mannheim, Germany",
-    "logo": "/universities/G-1.png"
+    "name": "Bergische Universität Wuppertal",
+    "info": "Founded in 1972, Bergische Universität Wuppertal is a modern university with a focus on research and practical education, offering a wide range of programs in engineering, humanities, and social sciences.",
+    "location": "Wuppertal, Germany",
+    "logo": "https://i.ibb.co.com/WGwMC0C/G-7.png"
   },
   {
     "id": 2,
-    "name": "University of Cologne",
-    "info": "The University of Cologne is one of the oldest and largest universities in Germany, offering a wide range of programs with a strong emphasis on research and academic excellence.",
-    "location": "Cologne, Germany",
-    "logo": "/universities/G-2.jpeg"
+    "name": "Technische Universität Hamburg (TUHH)",
+    "info": "Technische Universität Hamburg (TUHH) is renowned for its focus on engineering and applied sciences, fostering innovation and entrepreneurship through its cutting-edge research and industry collaborations.",
+    "location": "Hamburg, Germany",
+    "logo": "https://i.ibb.co.com/r5cWFGw/G-8.jpg"
   },
   {
     "id": 3,
-    "name": "University of Bayreuth",
-    "info": "The University of Bayreuth is known for its interdisciplinary research and strong programs in the natural sciences, law, and business, fostering innovation and academic excellence.",
-    "location": "Bayreuth, Germany",
-    "logo": "/universities/G-3.png"
+    "name": "Justus Liebig University Giessen",
+    "info": "Established in 1607, Justus Liebig University Giessen is known for its strong emphasis on life sciences, agriculture, and veterinary medicine, with significant contributions to research and teaching in these fields.",
+    "location": "Giessen, Germany",
+    "logo": "https://i.ibb.co.com/RDwQ8H7/G-9.png"
   },
   {
     "id": 4,
-    "name": "University of Freiburg",
-    "info": "The University of Freiburg is a leading research institution with a wide range of programs in humanities, social sciences, natural sciences, and engineering, promoting academic excellence.",
-    "location": "Freiburg, Germany",
-    "logo": "/universities/G-4.jpeg"
+    "name": "Eberhard Karls Universität Tübingen",
+    "info": "Eberhard Karls Universität Tübingen is a historic institution founded in 1477, recognized for its research excellence in medicine, natural sciences, and the humanities.",
+    "location": "Tübingen, Germany",
+    "logo": "https://i.ibb.co.com/WFQKgf4/G-10.png"
   },
   {
     "id": 5,
-    "name": "University of Potsdam",
-    "info": "The University of Potsdam offers a diverse range of programs with a strong focus on interdisciplinary research and innovation, located in the historic city of Potsdam.",
-    "location": "Potsdam, Germany",
-    "logo": "/universities/G-5.png"
+    "name": "Johannes Gutenberg University Mainz",
+    "info": "Johannes Gutenberg University Mainz, founded in 1477, offers a wide range of academic disciplines, excelling in natural sciences and the humanities. It is also known for its research in social sciences and media.",
+    "location": "Mainz, Germany",
+    "logo": "https://i.ibb.co.com/QM4Jg6m/G-11.png"
   },
   {
     "id": 6,
-    "name": "RWTH Aachen University",
-    "info": "RWTH Aachen University is one of Europe's leading institutions for engineering and technology, renowned for its cutting-edge research and strong industry partnerships.",
-    "location": "Aachen, Germany",
-    "logo": "/universities/G-6.jpeg"
+    "name": "Leibniz University Hannover",
+    "info": "Leibniz University Hannover is one of the leading technical universities in Germany, offering programs in engineering, natural sciences, and social sciences, with a strong focus on interdisciplinary research.",
+    "location": "Hannover, Germany",
+    "logo": "https://i.ibb.co.com/t8MsZkG/G-12.png"
   },
   {
     "id": 7,
-    "name": "University of Erlangen-Nuremberg",
-    "info": "The University of Erlangen-Nuremberg offers a wide range of programs with a strong emphasis on research and innovation, fostering a dynamic and supportive academic environment.",
-    "location": "Erlangen-Nuremberg, Germany",
-    "logo": "/universities/G-7.png"
+    "name": "University of Rostock",
+    "info": "Founded in 1419, the University of Rostock is one of the oldest universities in Germany, known for its strong research programs in marine sciences, engineering, and medicine.",
+    "location": "Rostock, Germany",
+    "logo": "https://i.ibb.co.com/tcdvCvb/G-13.png"
   },
   {
     "id": 8,
-    "name": "University of Bonn",
-    "info": "The University of Bonn is a leading institution in Germany, known for its strong research programs in science, humanities, and social sciences, promoting academic excellence and innovation.",
-    "location": "Bonn, Germany",
-    "logo": "/universities/G-8.jpeg"
+    "name": "Universität Siegen",
+    "info": "Universität Siegen is a research university with a focus on interdisciplinary education, offering programs in engineering, humanities, and social sciences.",
+    "location": "Siegen, Germany",
+    "logo": "https://i.ibb.co.com/58nbgHP/G-14.png"
   },
   {
     "id": 9,
-    "name": "Philipps-University Marburg",
-    "info": "Philipps-University Marburg, one of the oldest universities in Germany, offers a wide range of programs with a strong emphasis on research and academic excellence.",
-    "location": "Marburg, Germany",
-    "logo": "/universities/G-9.png"
+    "name": "Humboldt University of Berlin",
+    "info": "Humboldt University of Berlin, founded in 1810, is renowned for its contributions to research and education in humanities, social sciences, and natural sciences, with a strong focus on academic excellence.",
+    "location": "Berlin, Germany",
+    "logo": "https://i.ibb.co.com/YB049Hc/G-15.png"
   },
   {
     "id": 10,
-    "name": "Ruhr-Universität Bochum",
-    "info": "Ruhr-Universität Bochum offers a diverse range of programs with a focus on interdisciplinary research and innovation, fostering a dynamic academic environment.",
-    "location": "Bochum, Germany",
-    "logo": "/universities/G-10.png"
+    "name": "University of Hamburg",
+    "info": "Founded in 1919, the University of Hamburg is one of Germany’s largest universities, offering a wide range of disciplines and excelling in research, particularly in the fields of climate science and public health.",
+    "location": "Hamburg, Germany",
+    "logo": "https://i.ibb.co.com/bKv9M3B/G-16.png"
   },
   {
     "id": 11,
-    "name": "University of Münster",
-    "info": "The University of Münster is one of Germany's largest universities, offering a wide range of programs with a strong focus on research and academic excellence.",
-    "location": "Münster, Germany",
-    "logo": "/universities/G-11.png"
+    "name": "University of Bonn",
+    "info": "Founded in 1818, the University of Bonn is a leading institution known for its research programs in mathematics, economics, and natural sciences.",
+    "location": "Bonn, Germany",
+    "logo": "https://i.ibb.co.com/rmpfLqk/G-17.png"
   },
   {
     "id": 12,
-    "name": "Freie Universität Berlin",
-    "info": "Freie Universität Berlin is a leading research institution with a wide range of programs in humanities, social sciences, natural sciences, and medicine, promoting academic excellence.",
-    "location": "Berlin, Germany",
-    "logo": "/universities/G-12.png"
+    "name": "Philipps-Universität Marburg",
+    "info": "Founded in 1527, Philipps-Universität Marburg is one of Germany’s oldest universities, renowned for its research and teaching in natural sciences and humanities.",
+    "location": "Marburg, Germany",
+    "logo": "https://i.ibb.co.com/mJ02B7Q/G-18.png"
   },
   {
     "id": 13,
-    "name": "Humboldt University of Berlin",
-    "info": "Humboldt University of Berlin, a prestigious institution, offers diverse programs with a strong emphasis on research and interdisciplinary collaboration, fostering academic excellence.",
-    "location": "Berlin, Germany",
-    "logo": "/universities/G-13.png"
+    "name": "Ruhr University Bochum (RUB)",
+    "info": "RUB is one of Germany's largest research universities, excelling in engineering, natural sciences, and medicine.",
+    "location": "Bochum, Germany",
+    "logo": "https://i.ibb.co.com/P9b9B01/G-19.png"
   },
   {
     "id": 14,
-    "name": "University of Hamburg",
-    "info": "The University of Hamburg is a major research institution offering a wide range of programs in humanities, social sciences, natural sciences, and medicine, promoting academic excellence.",
-    "location": "Hamburg, Germany",
-    "logo": "/universities/G-14.png"
+    "name": "University of Mannheim",
+    "info": "Renowned for its business and economics programs, the University of Mannheim fosters close ties with the industry and international institutions.",
+    "location": "Mannheim, Germany",
+    "logo": "https://i.ibb.co.com/80gh6SK/G-20.png"
   },
   {
     "id": 15,
-    "name": "University of Wuppertal",
-    "info": "The University of Wuppertal offers a diverse range of programs with a focus on practical skills and employability, fostering a supportive and dynamic academic environment.",
-    "location": "Wuppertal, Germany",
-    "logo": "/universities/G-15.png"
+    "name": "University of Cologne",
+    "info": "Founded in 1388, the University of Cologne is one of Europe's oldest universities, known for its academic strength in law, economics, and the social sciences.",
+    "location": "Cologne, Germany",
+    "logo": "https://i.ibb.co.com/0m9bMxz/G-21.jpg"
   },
   {
     "id": 16,
-    "name": "Hamburg University of Technology",
-    "info": "Hamburg University of Technology is known for its strong programs in engineering and technology, fostering innovation and providing a dynamic academic environment.",
-    "location": "Hamburg, Germany",
-    "logo": "/universities/G-16.png"
+    "name": "University of Bayreuth",
+    "info": "Founded in 1975, the University of Bayreuth is recognized for its interdisciplinary programs, particularly in law, economics, and African studies.",
+    "location": "Bayreuth, Germany",
+    "logo": "https://i.ibb.co.com/FstMbBk/G-22.png"
   },
   {
     "id": 17,
-    "name": "University of Giessen",
-    "info": "The University of Giessen offers a wide range of programs with a strong focus on research and interdisciplinary collaboration, fostering a dynamic academic environment.",
-    "location": "Giessen, Germany",
-    "logo": "/universities/G-17.png"
+    "name": "Albert-Ludwigs-Universität Freiburg",
+    "info": "Albert-Ludwigs-Universität Freiburg, founded in 1457, is renowned for its research in natural sciences, engineering, and humanities.",
+    "location": "Freiburg, Germany",
+    "logo": "https://i.ibb.co.com/sgqSSbF/G-1.png"
   },
   {
     "id": 18,
-    "name": "Eberhard Karls University of Tübingen",
-    "info": "Eberhard Karls University of Tübingen, one of Germany's oldest universities, offers diverse programs with a strong emphasis on research and academic excellence.",
-    "location": "Tübingen, Germany",
-    "logo": "/universities/G-18.png"
+    "name": "University of Potsdam",
+    "info": "The University of Potsdam is a modern institution with strong programs in the natural and social sciences, fostering international collaboration.",
+    "location": "Potsdam, Germany",
+    "logo": "https://i.ibb.co.com/VSPnTFN/G-2.jpg"
   },
   {
     "id": 19,
-    "name": "Johannes Gutenberg University of Mainz",
-    "info": "Johannes Gutenberg University of Mainz offers a variety of programs with a strong focus on research and innovation, fostering a dynamic and supportive academic environment.",
-    "location": "Mainz, Germany",
-    "logo": "/universities/G-19.png"
+    "name": "RWTH Aachen University",
+    "info": "RWTH Aachen is one of Europe's leading universities in engineering and technology, driving innovation and industrial collaboration.",
+    "location": "Aachen, Germany",
+    "logo": "https://i.ibb.co.com/djKyFnP/G-3.png"
   },
   {
     "id": 20,
-    "name": "Leibniz University Hannover",
-    "info": "Leibniz University Hannover is known for its strong programs in engineering, natural sciences, and humanities, fostering innovation and academic excellence.",
-    "location": "Hannover, Germany",
-    "logo": "/universities/G-20.png"
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+    "info": "Founded in 1743, FAU is one of Germany’s largest research universities, excelling in engineering, business, and medicine.",
+    "location": "Erlangen, Germany",
+    "logo": "https://i.ibb.co.com/pX1J3TB/G-4.jpg"
   },
   {
     "id": 21,
-    "name": "University of Rostock",
-    "info": "The University of Rostock offers a wide range of programs with a strong focus on research and interdisciplinary collaboration, fostering a supportive academic environment.",
-    "location": "Rostock, Germany",
-    "logo": "/universities/G-21.jpeg"
+    "name": "Freie Universität Berlin",
+    "info": "Founded in 1948, Freie Universität Berlin is a leading research institution known for its strong programs in humanities and social sciences.",
+    "location": "Berlin, Germany",
+    "logo": "https://i.ibb.co.com/DpffHbb/G-5.png"
   },
   {
     "id": 22,
-    "name": "University of Siegen",
-    "info": "The University of Siegen offers diverse programs with a focus on practical skills and employability, fostering a supportive and dynamic academic environment.",
-    "location": "Siegen, Germany",
-    "logo": "/universities/G-22.png"
+    "name": "Westfälische Wilhelms-Universität Münster",
+    "info": "Founded in 1780, the University of Münster is a prominent public research university, renowned for its wide range of academic disciplines and strong research output.",
+    "location": "Münster, Germany",
+    "logo": "https://i.ibb.co.com/5rCncS4/G-6.jpg"
   }
 ]

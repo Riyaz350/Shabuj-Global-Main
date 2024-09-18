@@ -3,7 +3,7 @@ import logo from "../../assets/Logo.png";
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
-import {  IoShieldCheckmarkSharp, IoCheckmarkDoneCircleSharp,} from "react-icons/io5";
+import { IoShieldCheckmarkSharp, IoCheckmarkDoneCircleSharp, } from "react-icons/io5";
 import { FaClock, FaUserFriends, FaHeart } from "react-icons/fa";
 import { SiGooglesheets } from "react-icons/si";
 import { RiNewsFill } from "react-icons/ri";
@@ -13,12 +13,11 @@ import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import countryData from '../../../public/CountryJSON/countries.json'
 const Navbar2 = () => {
-  const [navButton, setNavButton] = useState(1);
-  const [navIndex, setNavIndex] = useState(1);
-  const iconStyle ="flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
-  const flagClass =" text-center my-2  ";
+  const [navButton, setNavButton] = useState(0);
+  const [navIndex, setNavIndex] = useState(0);
+  const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
+  const flagClass = " text-center my-2  ";
   const flag = "w-2/4 mx-auto rounded-lg  -rotate-90";
-
   const enterNavButton = (index) => {
     setNavButton(index);
   };
@@ -71,7 +70,8 @@ const Navbar2 = () => {
           />
         </Link>
 
-        {/* Small device nav drawer start */}
+        {/* Small device navbar buttons */}
+        
         <div className=" flex lg:hidden">
           <div className="drawer drawer-end  z-50">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
