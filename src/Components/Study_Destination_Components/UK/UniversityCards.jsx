@@ -28,7 +28,7 @@ const UniversityCards = () => {
       </h1>
       <div className="flex max-w-screen-xl mx-auto">
         <div
-          className={`flex flex-wrap lg:justify-normal md:justify-around gap-10 h-[700px] overflow-y-auto ${
+          className={`flex flex-wrap justify-evenly gap-8 h-[700px] overflow-y-auto ${
             selectedUniversity
               ? "lg:w-[66%] md:w-[33%] w-[33%] overflow-x-hidden overflow-y-auto h-[700px] uk-scrollbar"
               : "w-full"

@@ -1,8 +1,8 @@
 import "./Georgia_Study.css";
 
-const Georgia_Study = ({ country, description }) => {
+const Georgia_Study = ({ country, description, bgColor }) => {
   return (
-    <div className="bg-[#63099c] max-w-[1154px] mx-auto rounded-[32px] lg:px-[97px] px-10 pt-[51px] pb-[92px] mt-[59px] mb-[73px] relative">
+    <div className={` ${bgColor? bgColor : 'bg-[#63099c]'} max-w-[1154px] mx-auto rounded-[32px] lg:px-[97px] px-10 pt-[51px] pb-[92px] mt-[59px] mb-[73px] relative`}>
       <div className="text-center text-white">
         <h2 className="poppins-semibold text-[40px] leading-[56px] -tracking-[0.02em] pb-[21px]">
           Why Study in {country}?
@@ -11,7 +11,7 @@ const Georgia_Study = ({ country, description }) => {
           {description}
         </p>
       </div>
-      <div className="lg:absolute lg:-bottom-24 lg:-right-20 text-center">
+      <div className="lg:absolute lg:-bottom-24 w-auto  sm:ml-[200px] lg:-right-20 text-center">
         <svg
           width="359"
           height="262"

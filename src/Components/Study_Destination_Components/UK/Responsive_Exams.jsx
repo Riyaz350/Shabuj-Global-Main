@@ -21,7 +21,7 @@ const Responsive_Exams = () => {
           transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
-            <h2 className="text-[31px] leading-tight font-semibold -mt-4 mb-2">
+            <h2 className="text-2xl sm:text-[35px] leading-tight font-semibold -mt-4 mb-2">
               English Language Proficiency Exams
             </h2>
             {expandedCard === 1 && (
@@ -56,7 +56,7 @@ const Responsive_Exams = () => {
           transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
-            <h2 className="text-[35px] leading-tight font-semibold -mt-4 mb-2">
+            <h2 className="text-2xl sm:text-[35px] leading-tight font-semibold -mt-4 mb-2 ">
               Graduation Admission Requirements
             </h2>
             {expandedCard === 2 && (
@@ -93,7 +93,7 @@ const Responsive_Exams = () => {
           transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
-            <h2 className="text-[35px] leading-tight font-semibold -mt-4 mb-2">
+            <h2 className="text-2xl sm:text-[35px] leading-tight font-semibold -mt-4 mb-2">
               Undergraduate Admission Requirements
             </h2>
             {expandedCard === 3 && (
@@ -128,7 +128,7 @@ const Responsive_Exams = () => {
           transition={{ type: "spring", stiffness: 100 }}
         >
           <div className="px-8 py-14">
-            <h2 className="text-[35px] leading-tight font-semibold -mt-4 mb-2">
+            <h2 className="text-2xl sm:text-[35px] leading-tight font-semibold -mt-4 mb-2">
               Subject-Specific Exams
             </h2>
             {expandedCard === 4 && (

@@ -1,4 +1,4 @@
-import TowerSVG from "./SVG/TowerSVG";
+import TowerSVG from "../UK/SVG/TowerSVG";
 const StudyUK = ({ country, description }) => {
   return (
     <div className=" max-w-screen-xl mx-auto rounded-[32px] bg-[#004AC8] relative my-16">
@@ -10,7 +10,7 @@ const StudyUK = ({ country, description }) => {
           {description}
         </p>
       </div>
-      <div className="-mt-32 md:-mt-44 hidden md:block">
+      <div className="-mt-5 lg:-mt-44  lg:block">
         <TowerSVG />
       </div>
     </div>
