@@ -9,14 +9,14 @@ import DocumentsRequired from "./../../Components/Study_Destination_Components/A
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Australia from "../../Components/Study_Destination_Components/Australia/UniversityCards_Australia";
 import { useEffect } from "react";
-import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
+import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 
 const Australia = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
-    <div className="font-poppins">
+    <div className="font-poppins overflow-hidden">
       <AustraliaBanner />
       <Study_Australia />
       <QuickFacts country="Australia"/>

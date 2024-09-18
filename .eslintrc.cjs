@@ -12,15 +12,11 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh', 'unused-imports'], // Add unused-imports plugin
   rules: {
-    'react/no-unescaped-entities': 'off',
-     "react/no-unknown-property": "off",
-    'react/prop-types': 'off',
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
-    // Unused Imports Rules
     'unused-imports/no-unused-imports': 'warn', // Flag unused imports
     'unused-imports/no-unused-vars': [
       'warn',
