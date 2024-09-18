@@ -3,9 +3,9 @@ import "./Home_Connection.css";
 
 const Home_Connection = () => {
   return (
-    <div className="w-full mx-auto py-[20%] md:py-[10%]">
+    <div className="w-full mx-auto py-[20%] md:py-[10%] px-5">
       <div
-        className="lg:max-w-[1150px] rounded-[40px] h-[300px] bg-no-repeat relative md:mx-auto mx-10 lg:p-0 p-2 bg-top"
+        className="w-full lg:max-w-[1150px] rounded-[40px] h-[300px] bg-no-repeat relative md:mx-auto  lg:p-0 p-2 bg-top"
         style={{
           backgroundImage: `url(https://i.ibb.co/m8GTzjY/Rectangle.png)`,
         }}
@@ -15,7 +15,7 @@ const Home_Connection = () => {
           src="https://i.ibb.co/ZS43HFb/Leap-Icon.png"
           alt=""
         />
-        <div className="flex flex-col h-full justify-center md:pt-16 py-7 text-center text-white">
+        <div className="flex flex-col h-full justify-center md:pt-16 mx-auto py-7 text-center text-white w-11/12">
           <p className="font-bold lg:text-5xl md:text-4xl text-3xl leading-[3rem]">
             Ready to take the leap?
           </p>
