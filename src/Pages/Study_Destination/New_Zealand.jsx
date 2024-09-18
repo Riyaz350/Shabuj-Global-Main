@@ -9,13 +9,9 @@ import DocumentsRequired_NZ from "../../Components/Study_Destination_Components/
 import Faq_NZ from "../../Components/Study_Destination_Components/New Zealand/Faq_NZ";
 import NZ_Counselor from "../../Components/Study_Destination_Components/New Zealand/NZ_Counselor/NZ_Counselor";
 import { useEffect } from "react";
-<<<<<<< HEAD
 import UniversityCards from "../../Components/Study_Destination_Components/Shared/Universities/UniversityCards";
 import uniData from '../../../public/universities_json/newZealand.json'
-=======
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
-
->>>>>>> ec7bfc1dba66689aa07143a882b899da861cd951
 const New_Zealand = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
