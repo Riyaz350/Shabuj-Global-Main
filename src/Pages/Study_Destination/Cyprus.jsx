@@ -14,6 +14,10 @@ import Canada_Banner from "../../Components/Study_Destination_Components/Shared_
 import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Cyprus_Doc1 from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_Doc1";
+import Cyprus_Doc2 from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_Doc2";
+import Cyprus_DocumentsSvg from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_DocumentsSvg";
 
 const Cyprus = () => {
   useEffect(() => {
@@ -23,7 +27,7 @@ const Cyprus = () => {
   return (
     <div className="font-poppins overflow-hidden">
       {/* <Cyprus_Banner></Cyprus_Banner> */}
-      <Canada_Banner country={'Cyprus'} />
+      <Canada_Banner country={"Cyprus"} />
       <Georgia_Study
         country={"Cyprus"}
         description={description}
@@ -34,12 +38,18 @@ const Cyprus = () => {
       <AnimatedText country={"Cyprus"} />
       {/* <Cyprus_AnimatedText></Cyprus_AnimatedText> */}
       <Cyprus_UniversityCards></Cyprus_UniversityCards>
-      <RequirementCard country={"Cyprus"}/>
+      <RequirementCard country={"Cyprus"} />
       {/* <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard> */}
       <Exams country={"Cyprus"}></Exams>
       <GuidanceBanner></GuidanceBanner>
-      <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired>
-      <Cyprus_Faq></Cyprus_Faq>
+      {/* <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired> */}
+      <University_Required_Docs
+        country={"Cyprus"}
+        doc1={<Cyprus_Doc1 />}
+        doc2={<Cyprus_Doc2 />}
+        doc3={<Cyprus_DocumentsSvg />}
+      />
+      F<Cyprus_Faq></Cyprus_Faq>
       <Cyprus_Counselor></Cyprus_Counselor>
     </div>
   );

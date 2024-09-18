@@ -10,6 +10,10 @@ import West_Indies_Counselor from "../../Components/Study_Destination_Components
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Document_Last_SVG_WestIndies from "../../Components/Study_Destination_Components/West-Indies/SVG/Document_Last_SVG_WestIndies";
+import Doc2 from "../../Components/Study_Destination_Components/West-Indies/SVG/Doc2";
+import Doc1 from "../../Components/Study_Destination_Components/West-Indies/SVG/Doc1";
 
 const WestIndies = () => {
   useEffect(() => {
@@ -20,13 +24,19 @@ const WestIndies = () => {
     <div className="font-poppins overflow-hidden">
       <UKBanner country={"West-Indies"} />
       <StudyUK country={"West-Indies"} description={description} />
-      <QuickFacts country={"West-Indies"}/>
+      <QuickFacts country={"West-Indies"} />
       <Tabs country={"West-Indies"} />
       <AnimatedText country={"West-Indies"} />
       <RequirementCard country={"West-Indies"} />
       <Exams country={"West-Indies"} />
       <GuidanceBanner />
-      <DocumentsRequired_WestIndies />
+      {/* <DocumentsRequired_WestIndies /> */}
+      <University_Required_Docs
+        country={"West-Indies"}
+        doc1={<Doc1 />}
+        doc2={<Doc2 />}
+        doc3={<Document_Last_SVG_WestIndies />}
+      />
       <Faq_WestIndies />
       <West_Indies_Counselor />
     </div>

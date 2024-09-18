@@ -11,6 +11,10 @@ import UKBanner from "../../Components/Study_Destination_Components/Shared_Desti
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
+import Doc1 from "../../Components/Study_Destination_Components/UK/SVG/Doc1";
+import Doc2 from "../../Components/Study_Destination_Components/UK/SVG/Doc2";
+import Document_Last_SVG_UK from "../../Components/Study_Destination_Components/UK/SVG/Document_Last_SVG_UK";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
 
 const UK = () => {
   useEffect(() => {
@@ -21,14 +25,20 @@ const UK = () => {
     <div className="font-poppins overflow-hidden">
       <UKBanner country={"UK"} />
       <StudyUK country={"UK"} description={description} />
-      <QuickFacts country={'UK'}/>
+      <QuickFacts country={"UK"} />
       <Tabs country={"UK"} />
       <AnimatedText country={"UK"} />
       <UniversityCards />
       <RequirementCard country={"UK"} />
       <Exams country={"UK"} />
       <GuidanceBanner />
-      <DocumentsRequired />
+      {/* <DocumentsRequired /> */}
+      <University_Required_Docs
+        country={"UK"}
+        doc1={<Doc1 />}
+        doc2={<Doc2 />}
+        doc3={<Document_Last_SVG_UK />}
+      />
       <Faq_UK />
       <Uk_Counselor />
     </div>

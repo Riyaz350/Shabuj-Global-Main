@@ -10,6 +10,10 @@ import { useEffect } from "react";
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Document_Last_SVG_France from "../../Components/Study_Destination_Components/France/SVG/Document_Last_SVG_France";
+import Doc2 from "../../Components/Study_Destination_Components/France/SVG/Doc2";
+import Doc1 from "../../Components/Study_Destination_Components/France/SVG/Doc1";
 
 const France = () => {
   useEffect(() => {
@@ -20,13 +24,19 @@ const France = () => {
     <div className="font-poppins overflow-hidden">
       <UKBanner country={"France"} />
       <StudyUK country={"France"} description={description} />
-      <QuickFacts country={"France"}/>
+      <QuickFacts country={"France"} />
       <Tabs country={"France"} />
       <AnimatedText country={"France"} />
       <RequirementCard country={"France"} />
       <Exams country={"France"} />
       <GuidanceBanner />
       <DocumentsRequired_France />
+      <University_Required_Docs
+        country={"France"}
+        doc1={<Doc1 />}
+        doc2={<Doc2 />}
+        doc3={<Document_Last_SVG_France />}
+      />
       <Faq_France />
       <France_Counselor />
     </div>

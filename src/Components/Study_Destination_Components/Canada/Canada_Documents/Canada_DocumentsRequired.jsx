@@ -38,7 +38,6 @@ const Canada_DocumentsRequired = () => {
             </ul>
           </div>
           <div className=" ">
-            <Canada_Doc1 />
           </div>
         </div>
       </div>
@@ -49,7 +48,6 @@ const Canada_DocumentsRequired = () => {
           Statement of Purpose for Canada
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
-          <Canada_Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
@@ -108,7 +106,6 @@ const Canada_DocumentsRequired = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Canada_DocumentsSvg></Canada_DocumentsSvg>
           </div>
         </div>
       </div>

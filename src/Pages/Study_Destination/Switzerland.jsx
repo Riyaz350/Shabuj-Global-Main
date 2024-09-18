@@ -10,6 +10,10 @@ import Switz_Counselor from "../../Components/Study_Destination_Components/Switz
 import { useEffect } from "react";
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Document_Last_SVG_Swit from "../../Components/Study_Destination_Components/Switzerland/SVG/Document_Last_SVG_Swit";
+import Doc2 from "../../Components/Study_Destination_Components/Switzerland/SVG/Doc2";
+import Doc1 from "../../Components/Study_Destination_Components/Switzerland/SVG/Doc1";
 
 const Switzerland = () => {
   useEffect(() => {
@@ -20,13 +24,19 @@ const Switzerland = () => {
     <div className="font-poppins overflow-hidden">
       <UKBanner country={"Switzerland"} />
       <StudyUK country={"Switzerland"} description={description} />
-      <QuickFacts country={"Switzerland"}/>
+      <QuickFacts country={"Switzerland"} />
       <Tabs country={"Switzerland"} />
       <AnimatedText country={"Switzerland"} />
       <RequirementCard country={"Switzerland"} />
       <Exams country={"Switzerland"} />
       <GuidanceBanner />
-      <DocumentsRequired_Swit />
+      {/* <DocumentsRequired_Swit /> */}
+      <University_Required_Docs
+        country={"Switzerland"}
+        doc1={<Doc1 />}
+        doc2={<Doc2 />}
+        doc3={<Document_Last_SVG_Swit />}
+      />
       <Faq_Swit />
       <Switz_Counselor />
     </div>

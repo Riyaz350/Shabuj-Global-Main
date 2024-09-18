@@ -37,7 +37,6 @@ const Cyprus_DocumentsRequired = () => {
             </ul>
           </div>
           <div className=" ">
-            <Cyprus_Doc1 />
           </div>
         </div>
       </div>
@@ -48,7 +47,6 @@ const Cyprus_DocumentsRequired = () => {
           Statement of Purpose for Cyprus
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
-          <Cyprus_Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
@@ -107,7 +105,6 @@ const Cyprus_DocumentsRequired = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Cyprus_DocumentsSvg></Cyprus_DocumentsSvg>
           </div>
         </div>
       </div>

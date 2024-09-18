@@ -34,7 +34,6 @@ const DocumentsRequired = () => {
             </ul>
           </div>
           <div className=" ">
-            <Doc1 />
           </div>
         </div>
       </div>
@@ -45,7 +44,6 @@ const DocumentsRequired = () => {
           Statement of Purpose for UK
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
-          <Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
@@ -104,7 +102,6 @@ const DocumentsRequired = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Document_Last_SVG_UK/>
           </div>
         </div>
       </div>

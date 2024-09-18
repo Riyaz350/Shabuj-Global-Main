@@ -18,6 +18,10 @@ import QuickFacts from "../../Components/Study_Destination_Components/Shared_Des
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import UAE_Doc1 from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_Doc1";
+import UAE_Doc2 from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_Doc2";
+import UAE_DocumentsSvg from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_DocumentsSvg";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
 
 const UAE = () => {
   useEffect(() => {
@@ -51,7 +55,13 @@ const UAE = () => {
       <Exams country={"UAE"} />
       {/* <UAE_GuidanceBanner></UAE_GuidanceBanner> */}
       <GuidanceBanner />
-      <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired>
+      {/* <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired> */}
+      <University_Required_Docs
+        country={"UAE"}
+        doc1={<UAE_Doc1 />}
+        doc2={<UAE_Doc2 />}
+        doc3={<UAE_DocumentsSvg />}
+      />
       <UAE_Faq></UAE_Faq>
       <UAE_Counselor></UAE_Counselor>
     </div>
