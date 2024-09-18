@@ -127,7 +127,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white justify-center">
+          <div className="footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white justify-center ">
             <div className="mx-auto">
               <div className="md:w-[577px] w-full mx-auto lg:h-[164px]  bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]">
                 <h2 className="lg:mulish-semibold mulish-bold lg:text-[28px] text-[18px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]">
@@ -156,8 +156,8 @@ const Footer = () => {
               className="max-w-[1152px] mx-auto pt-[23px] pb-[23px]"
               ref={accordion}
             >
-              <div className="flex sm:flex-row flex-col lg:mx-4 md:mx-12 mx-8">
-                <div className="md:w-1/2 lg:w-[25%] w-full pb-8">
+              <div className="flex sm:flex-row flex-col lg:mx-4 md:mx-12 mx-8 flex-wrap">
+                <div className="sm:w-[25%] w-full pb-8">
                   <div className="mulish-semibold lg:text-[18px] text-base text-blue-600 pl-4">
                     United Kingdom
                   </div>
@@ -180,7 +180,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="md:w-1/2 lg:w-[25%] w-full pb-8">
+                <div className="sm:w-[25%] w-full pb-8">
                   <div className="mulish-semibold lg:text-[18px] text-base text-blue-600 pl-4">
                     Bangladesh
                   </div>
@@ -239,7 +239,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="lmd:w-1/2 lg:w-[16%] w-full pb-8">
+                <div className="sm:w-[16%] w-full pb-8">
                   <div className="mulish-semibold lg:text-[18px] text-base text-blue-600 pl-4">
                     India
                   </div>
@@ -283,7 +283,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="md:w-1/2 lg:w-[16%] w-full pb-8">
+                <div className="sm:w-[16%] w-full pb-8">
                   <div className="mulish-semibold lg:text-[18px] text-base text-blue-600 pl-4">
                     Nigeria
                   </div>
@@ -325,7 +325,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="md:w-1/2 lg:w-[18%] w-full pb-8">
+                <div className="sm:w-[18%] w-full pb-8">
                   <div className="mulish-semibold lg:text-[18px] text-base text-blue-600 pl-4">
                     Middle East
                   </div>
@@ -380,7 +380,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="footer-4 max-w-[1154px] relative z-10 mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center border-t border-white">
+          <div className="footer-4 max-w-[1154px] relative z-10 mx-auto pb-6 lg:pb-0  flex flex-col lg:flex-row justify-between items-center border-t border-white">
             <div className="flex gap-[26px] mt-[21px] lg:justify-start justify-center lg:border-none border-b border-white lg:w-1/3 w-full pb-[11px]">
               <a
                 href="https://www.facebook.com/ShabujGlobaleducationuk/"
