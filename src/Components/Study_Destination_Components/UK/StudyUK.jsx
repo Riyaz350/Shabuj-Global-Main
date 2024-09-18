@@ -10,7 +10,7 @@ const StudyUK = ({ country, description }) => {
           {description}
         </p>
       </div>
-      <div className="-mt-32 md:-mt-44 hidden md:block">
+      <div className="-mt-32 md:-mt-44 hidden lg:block">
         <TowerSVG />
       </div>
     </div>
