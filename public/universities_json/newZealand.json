@@ -1,0 +1,101 @@
+[
+    {
+      "id": 1,
+      "name": "Auckland Institute of Studies",
+      "info": "Auckland Institute of Studies (AIS) offers diploma, undergraduate, and postgraduate degrees in various fields including business, IT, and tourism.",
+      "location": "Auckland, New Zealand",
+      "logo": "https://i.ibb.co.com/4VRWh5Y/Auckland-Institute-Of-Studies.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Auckland University of Technology",
+      "info": "Auckland University of Technology (AUT) is a contemporary university offering various programs focused on innovation and industry connections.",
+      "location": "Auckland, New Zealand",
+      "logo": "https://i.ibb.co.com/CVVfgt8/Auckland-University-of-Technology.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Eastern Institute of Technology",
+      "info": "The Eastern Institute of Technology (EIT) offers applied degree programs in fields such as arts, business, and computing.",
+      "location": "Hawke’s Bay, New Zealand",
+      "logo": "https://i.ibb.co.com/QpzSgQp/Eastern-Institute-Of-Technology.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lincoln University",
+      "info": "Lincoln University is New Zealand's specialist land-based university, focusing on agriculture, horticulture, viticulture, and environmental studies.",
+      "location": "Lincoln, New Zealand",
+      "logo": "https://i.ibb.co.com/FsS0zSQ/Lincoln-University.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Massey University",
+      "info": "Massey University is known for its research-led teaching, particularly in agriculture, aviation, business, and creative arts.",
+      "location": "Palmerston North, New Zealand",
+      "logo": "https://i.ibb.co.com/YTWnffR/Massey-University.jpg"
+    },
+    {
+      "id": 6,
+      "name": "New Zealand College of Business",
+      "info": "NZCB offers specialized courses in business, accounting, and management for international students in New Zealand.",
+      "location": "Christchurch, New Zealand",
+      "logo": "https://i.ibb.co.com/2yJ86bh/New-Zealand-College-of-Business.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Toi Ohomai Institute of Technology",
+      "info": "Toi Ohomai is a prominent tertiary institution, offering applied and vocational degrees across a wide range of industries.",
+      "location": "Rotorua, New Zealand",
+      "logo": "https://i.ibb.co.com/4pGcxjJ/Toi-Ohomai-Institute-of-Technology.jpg"
+    },
+    {
+      "id": 8,
+      "name": "UCOL Manawatū Campus",
+      "info": "UCOL Manawatū Campus is known for its hands-on, practical qualifications in industries such as healthcare, trades, and business.",
+      "location": "Palmerston North, New Zealand",
+      "logo": "https://i.ibb.co.com/vQdDCJF/UCOL-Manawat-Campus.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Unitec Institute of Technology",
+      "info": "Unitec offers programs focused on practical, hands-on learning in fields like trades, IT, engineering, and healthcare.",
+      "location": "Auckland, New Zealand",
+      "logo": "https://i.ibb.co.com/XVrYMPb/Unitec-Mt-Albert-Campus.png"
+    },
+    {
+      "id": 10,
+      "name": "University of Canterbury",
+      "info": "The University of Canterbury is one of New Zealand's top research universities, offering degrees across engineering, law, and the arts.",
+      "location": "Christchurch, New Zealand",
+      "logo": "https://i.ibb.co.com/9sFVFGw/University-of-Canterbury.jpg"
+    },
+    {
+      "id": 11,
+      "name": "University of Otago",
+      "info": "University of Otago is known for its strong research programs, especially in health sciences, law, and the humanities.",
+      "location": "Dunedin, New Zealand",
+      "logo": "https://i.ibb.co.com/6nJphJW/University-of-Otago.jpg"
+    },
+    {
+      "id": 12,
+      "name": "University of Waikato",
+      "info": "The University of Waikato offers degrees in arts, business, sciences, and has a focus on innovation and research.",
+      "location": "Hamilton, New Zealand",
+      "logo": "https://i.ibb.co.com/J2SC413/University-of-Waikato.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Victoria University of Wellington",
+      "info": "Victoria University of Wellington is renowned for its law, humanities, and environmental studies programs.",
+      "location": "Wellington, New Zealand",
+      "logo": "https://i.ibb.co.com/8PL68tR/Victoria-University-of-Wellington.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Ara Institute of Canterbury Ltd",
+      "info": "Ara is one of New Zealand’s largest tertiary institutions, offering applied learning in a range of vocational programs.",
+      "location": "Christchurch, New Zealand",
+      "logo": "https://i.ibb.co.com/68fTVsW/Ara-Institute-of-Canterbury-Ltd.jpg"
+    }
+  ]
+  
