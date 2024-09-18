@@ -15,9 +15,9 @@ const Home_Testimonial = () => {
     );
   return (
     <div className="bg-gradient-to-r from-[#031EE5] to-[#2081ff] overflow-hidden">
-      <div className="md:flex block lg:ml-[15%] md:ml-[15%] ml-0 relative">
-        <div className="lg:w-[26%] md:w-[26%] w-full px-4 drop-shadow-lg ">
-          <h1 className="lg:text-7xl md:text-7xl text-5xl lg:text-left md:text-left text-center font-bold mb-3 bg-gradient-to-r from-[#88F3D0] to-[#88F3D0] bg-clip-text text-transparent w-full transition-all duration-300 lg:pt-16 md:pt-16 pt-5">
+      <div className="md:flex block lg:ml-[15%] md:ml-[15%] ml-0 relative gap-10">
+        <div className="md:w-[26%] w-full  drop-shadow-lg ">
+          <h1 className="lg:text-7xl text-5xl lg:text-left md:text-left text-center font-bold mb-3 bg-gradient-to-r from-[#88F3D0] to-[#88F3D0] bg-clip-text text-transparent w-full transition-all duration-300 lg:pt-16 md:pt-16 pt-5">
             Become a Part of Our Success Stories
           </h1>
           <div className="flex gap-3 px-5 lg:pt-[200px] md:pt-[200px] pt-[400px] pb-10 lg:justify-start md:justify-start justify-center">
@@ -35,10 +35,10 @@ const Home_Testimonial = () => {
             </button>
           </div>
         </div>
-        <div className="lg:w-[1000px] md:w-[1000px] w-full h-[240px] md:h-[670px] flex items-center lg:relative md:relative absolute lg:top-0 md:top-0 top-60 lg:overflow-hidden md:overflow-hidden overflow-visible lg:ml-auto md:ml-auto ml-16">
+        <div className="lg:w-[1000px] md:w-[1000px] w-full  flex items-center lg:relative md:relative absolute lg:top-0 md:top-0 top-60 lg:overflow-hidden md:overflow-hidden overflow-visible lg:ml-auto md:ml-auto ml-16">
           {/* slider container */}
           <div
-            className="lg:w-[80%] md:w-[80%] w-[100%] ease-linear flex gap-[2%] absolute lg:left-0 md:left-0 left-10  transition-transform duration-300"
+            className="lg:w-[80%] md:w-[80%] w-[100%] ease-linear flex gap-[2%] absolute lg:left-0 md:left-0 left-10  transition-transform duration-300 -mt-30 lg:mt-0"
             style={{ transform: `translateX(-${currentSlider * 52}%)` }}
           >
             {/* sliders */}
@@ -47,9 +47,9 @@ const Home_Testimonial = () => {
                 key={inx}
                 className={`${
                   currentSlider === inx
-                    ? "bg-gradient-to-b from-[#88D6F3] via-[#88F3D0] to-[#ACFFE4] h-[260px] md:h-[530px] lg:h-[530px] transition-all duration-300"
-                    : "h-[260px] md:h-[530px] lg:h-[530px] transition-all duration-300"
-                } min-w-[50%]  relative duration-200 bg-white rounded-3xl lg:block md:block hidden`}
+                    ? "bg-gradient-to-b from-[#88D6F3] via-[#88F3D0] to-[#ACFFE4] transition-all duration-300"
+                    : " transition-all duration-300"
+                } h-full py-5 min-w-[50%]  relative duration-200 bg-white rounded-3xl lg:block md:block hidden`}
               >
                 <img className="absolute top-8 left-8" src={Highlight} alt="" />
                 <img

@@ -6,9 +6,9 @@ const Home_Contact = () => {
   const Letter = text.split("");
 
   return (
-    <div className="bg-[#E7E7E7] pt-[98px] pb-[120px] overflow-hidden">
+    <div className="bg-[#E7E7E7] pt-[98px] pb-[120px] overflow-hidden px-4">
       <div className="text-center">
-        <h2 className="poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] pb-[39px]">
+        <h2 className="poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] lg:pb-[39px] pb-5">
           It’s Time to Start Your Journey With Us
         </h2>
         <p className="mulish-regular text-[16px] text-[#1F1F1F] leading-[150%] pb-[18px]">
@@ -19,7 +19,7 @@ const Home_Contact = () => {
           Consultation with Certified Counsellors
         </p>
       </div>
-      <div className="text-center">
+      <div className="flex justify-center text-center">
         <div className="max-w-[565px] lg:mx-auto md:mx-auto mx-5">
           <form>
             <input
@@ -39,21 +39,21 @@ const Home_Contact = () => {
             </div>
             <div className="flex">
               <input
-                type="text"
+                type="number"
                 placeholder="+880"
-                className="lg:w-[74px] w-[41px] lg:h-[40px] h-[45px] rounded inter-regular text-[12px] leading-[12px] lg:pl-4 pl-[5px]"
+                className="lg:w-[74px] w-[41px] lg:h-[40px] h-[45px] rounded inter-regular text-[12px] leading-[12px] lg:pl-4 pl-[5px] outline-none"
               />
               <input
-                type="text"
+                type="number"
                 placeholder="Mobile Number"
-                className="bg-white rounded flex-1 lg:h-[40px] h-[45px] lg:pl-[12px] pl-[5px] inter-regular text-[12px] leading-[12px] outline-none mx-auto mb-[10px] lg:ml-[26px] ml-[14px]"
+                className="bg-white rounded flex-1 lg:h-[40px] h-[45px] pl-[12px]  inter-regular text-[12px] leading-[12px] outline-none mx-auto mb-[10px] lg:ml-[26px] ml-[14px]"
               />
             </div>
             <div className="relative mb-[10px]">
               <select
                 id="subcategory"
                 name="destination"
-                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer"
+                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
               >
                 <option value defaultChecked>
                   Preferred Study Destination
@@ -84,7 +84,7 @@ const Home_Contact = () => {
               <select
                 id="subcategory"
                 name="year"
-                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer"
+                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
               >
                 <option value defaultChecked>
                   Preferred Study Year
@@ -115,7 +115,7 @@ const Home_Contact = () => {
               <select
                 id="subcategory"
                 name="subject"
-                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer"
+                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
               >
                 <option value defaultChecked>
                   Preferred Study Intake
@@ -142,8 +142,8 @@ const Home_Contact = () => {
                 </svg>
               </div>
             </div>
-            <div className="flex items-center space-x-3 lg:max-w-[565px] max-w-[290px] lg:mx-auto ml-12">
-              <input type="checkbox" />
+            <div className="flex items-start lg:items-center space-x-2 lg:max-w-[565px] max-w-[290px] lg:mx-auto ">
+              <input type="checkbox" className="mt-1" />
               <p className="poppins-regular text-[12px] leading-[22px]">
                 By clicking you agree to our{" "}
                 <a href="/Privacy" className="text-[#008AFF] cursor-pointer">

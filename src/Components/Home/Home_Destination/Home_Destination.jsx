@@ -16,7 +16,7 @@ const Home_Destination = () => {
 
   return (
     <div
-      className="poppins flex flex-col py-10 my-20 relative overflow-hidden lg:overflow-visible"
+      className="poppins flex flex-col py-10 lg:my-20 mt-0 mb-20   relative overflow-hidden lg:overflow-visible"
       style={{
         background:
           "linear-gradient(90deg, rgba(13,53,234,1) 30%, rgba(44,124,249,1) 50%, rgba(13,53,234,1) 70%)",
