@@ -1,41 +1,12 @@
 import { useState } from "react";
 import plane from "../../../assets/planepath.png";
-import UK from "../../../assets/UK.jpeg";
-import USA from "../../../assets/USA.jpg";
-import CANADA from "../../../assets/CANADA.jpeg";
-import AUSTRALIA from "../../../assets/AUSTRALIA.jpeg";
-import GERMANY from "../../../assets/GERMANY.jpeg";
-import NZ from "../../../assets/NZ.jpeg";
-import UAE from "../../../assets/UAE.jpg";
-import Georgia from "../../../assets/Georgia.png";
-import Finland from "../../../assets/Finland.png";
-import Cyprus from "../../../assets/Cyprus.png";
-import Switzerland from "../../../assets/Switzerland.png";
-import France from "../../../assets/France.png";
-import WestIndies from "../../../assets/West-Indies.jpg";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
-
+import countries from '../../../../public/CountryJSON/countries.json'
 const Home_Destination = () => {
   const [cardIndex, setCardIndex] = useState(null);
   const [showAll, setShowAll] = useState(false);
   const width = window.innerWidth;
-
-  const countries = [
-    { name: "UK", img: UK, to: "/UK" },
-    { name: "USA", img: USA, to: "/USA" },
-    { name: "CANADA", img: CANADA, to: "/Canada" },
-    { name: "Australia", img: AUSTRALIA, to: "/Australia" },
-    { name: "Germany", img: GERMANY, to: "/Germany" },
-    { name: "New Zealand", img: NZ, to: "/New-Zealand" },
-    { name: "UAE", img: UAE, to: "/UAE" },
-    { name: "Georgia", img: Georgia, to: "/Georgia" },
-    { name: "Finland", img: Finland, to: "/Finland" },
-    { name: "Cyprus", img: Cyprus, to: "/Cyprus" },
-    { name: "Switzerland", img: Switzerland, to: "/Switzerland" },
-    { name: "France", img: France, to: "/France" },
-    { name: "West-Indies", img: WestIndies, to: "/West-Indies" },
-  ];
 
   const displayedCountries = showAll ? countries : countries.slice(0, 6);
 
@@ -81,7 +52,7 @@ const Home_Destination = () => {
                 <img
                   className={`${
                     cardIndex === index && "rotate-bg"
-                  } h-[300px] scale-x-[-1] w-full rounded-3xl bg-red-500`}
+                  } h-[300px] scale-x-[-1] w-full rounded-3xl bg-white`}
                   src={country.img}
                   alt=""
                 />

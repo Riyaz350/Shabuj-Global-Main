@@ -1,43 +1,23 @@
 import { useEffect, useState } from "react";
 import logo from "../../assets/Logo.png";
-import UK from "../../assets/Flags/UK Flag.svg";
-import USA from "../../assets/Flags/USA Flag.svg";
-import Australia from "../../assets/Flags/Australia Flag.svg";
-import Germany from "../../assets/Flags/Germany Flag.svg";
-import Canada from "../../assets/Flags/Canada Flag.svg";
-import NZ from "../../assets/Flags/Newzealand Flag.svg";
-import UAE from "../../assets/Flags/UAE.jpg";
-import Georgia from "../../assets/Flags/Georgia.png";
-import Finland from "../../assets/Flags/Finland.png";
-import Cyprus from "../../assets/Flags/Cyprus.png";
-import Switzerland from "../../assets/Flags/Switzerland.png";
-import France from "../../assets/Flags/France.png";
-import WestIndies from "../../assets/Flags/West-Indies.jpg";
 import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
 import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
-import { FaGlobeAmericas } from "react-icons/fa";
-import {
-  IoShieldCheckmarkSharp,
-  IoCheckmarkDoneCircleSharp,
-} from "react-icons/io5";
-import { FaClock, FaUserFriends, FaHeart, FaChevronDown } from "react-icons/fa";
+import {  IoShieldCheckmarkSharp, IoCheckmarkDoneCircleSharp,} from "react-icons/io5";
+import { FaClock, FaUserFriends, FaHeart } from "react-icons/fa";
 import { SiGooglesheets } from "react-icons/si";
 import { RiNewsFill } from "react-icons/ri";
 import { BiSolidMessageSquareError, BiSolidPhoneCall } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { FcAbout } from "react-icons/fc";
-
+import countryData from '../../../public/CountryJSON/countries.json'
 const Navbar2 = () => {
-  const [navButton, setNavButton] = useState(0);
-  const [navIndex, setNavIndex] = useState(0);
-  const iconStyle =
-    "flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
-  const flagClass =
-    "flex  mx-auto  w-full flex-col justify-between item-center text-center my-2 lg:mt-10";
-  const flag = "w-3/4 mx-auto rounded-lg ";
+  const [navButton, setNavButton] = useState(1);
+  const [navIndex, setNavIndex] = useState(1);
+  const iconStyle ="flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
+  const flagClass =" text-center my-2  ";
+  const flag = "w-2/4 mx-auto rounded-lg  -rotate-90";
 
   const enterNavButton = (index) => {
     setNavButton(index);
@@ -63,34 +43,11 @@ const Navbar2 = () => {
             </p>
           </button>
           <span
-            className={` ${
-              navButton == ind && "rotate-180 transition ease-in-out delay-450"
-            }`}
+            className={` ${navButton == ind && "rotate-180 transition ease-in-out delay-450"
+              }`}
           >
             <FaChevronUp />
           </span>
-        </div>
-      </div>
-    );
-  };
-
-  const handleNavButton = (index) => {
-    navButton == 0 ? setNavButton(index) : setNavButton(0);
-  };
-
-  const SmallNavButton = ({ ind }) => {
-    return (
-      <div className={` cursor-pointer `}>
-        <div onClick={() => handleNavButton(ind)}>
-          {navButton == ind ? (
-            <>
-              <FaChevronUp />
-            </>
-          ) : (
-            <>
-              <FaChevronDown />
-            </>
-          )}
         </div>
       </div>
     );
@@ -145,69 +102,13 @@ const Navbar2 = () => {
                     Study Destination
                   </div>
                   <div className="collapse-content">
-                    <ul className="grid grid-cols-2   justify-between items-start  max-w-7xl mx-auto my-8 gap-3">
-                      <Link className={flagClass} to={"/UK"}>
-                        <img className={flag} src={UK} />
-                        <li>Study in UK</li>
-                      </Link>
-                      <Link className={flagClass} to={"/USA"}>
-                        <img className={flag} src={USA} />
-                        {/* <li></li> */}
-                        <li>Study in USA</li>
-                      </Link>
-                      <Link className={flagClass} to={"/Australia"}>
-                        <img className={flag} src={Australia} />
-                        <li>Study in Australia</li>
-                      </Link>
-                      <Link className={flagClass} to="/Canada">
-                        <img className={flag} src={Canada} />
-                        <li>Study in Canada</li>
-                      </Link>
-                      <Link className={flagClass} to={"/Germany"}>
-                        <img className={flag} src={Germany} />
-                        <li>Study in Germany</li>
-                      </Link>
-                      <Link className={flagClass} to={"/New-Zealand"}>
-                        <img className={flag} src={NZ} />
-                        <li>Study in New Zealand</li>
-                      </Link>
-                      <Link className={flagClass} to={"/UAE"}>
-                        <img className={flag} src={UAE} />
-                        <li>Study in UAE</li>
-                      </Link>
-                      <Link className={flagClass} to="/Georgia">
-                        <img className={flag} src={Georgia} />
-                        {/* <li></li> */}
-                        <li>Study in Georgia</li>
-                      </Link>
-                      <Link className={flagClass} to={"/Finland"}>
-                        <img className={flag} src={Finland} />
-                        <li>Study in Finland</li>
-                      </Link>
-                      <Link className={flagClass} to="/Cyprus">
-                        <img className={flag} src={Cyprus} />
-                        <li>Study in Cyprus</li>
-                      </Link>
-                      <Link className={flagClass} to={"/Switzerland"}>
-                        <img className={flag} src={Switzerland} />
-                        <li>Study in Switzerland</li>
-                      </Link>
-                      <Link className={flagClass} to="/France">
-                        <img className={flag} src={France} />
-                        <li>Study in France</li>
-                      </Link>
-                      <Link className={flagClass} to={"/West-Indies"}>
-                        <img className={flag} src={WestIndies} />
-                        <li>Study in West-Indies</li>
-                      </Link>
-                      <Link className={flagClass} to={"/comingSoon"}>
-                        <div className="">
-                          <div className="mx-auto">
-                            <FaGlobeAmericas size={55} className="mx-auto" />
-                          </div>
-                          <li>Rest of the World</li>
-                        </div>
-                      </Link>
+                    <ul className="grid grid-cols-2 justify-between items-start max-w-7xl mx-auto my-8 gap-3">
+                      {countryData.map((country) => (
+                        <Link key={country.name} className=' my-2 text-center flex flex-col justify-between' to={country.to}>
+                          <img className={flag} src={country.img} alt={country.name} />
+                          <li>{country.label}</li>
+                        </Link>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -583,9 +484,8 @@ const Navbar2 = () => {
             </Link>
           </div>
           <div
-            className={`${
-              width >= 1244 ? "text-base" : "text-sm"
-            } flex items-center justify-end gap-1`}
+            className={`${width >= 1244 ? "text-base" : "text-sm"
+              } flex items-center justify-end gap-1`}
           >
             <Link
               className={`  bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl`}
@@ -607,78 +507,21 @@ const Navbar2 = () => {
       <div className=" bg-white absolute w-full z-40 shadow-lg px-10 ">
         {navIndex == 1 && (
           <div className="md:px-10">
-            <ul className="lg:grid hidden lg:grid-cols-7 justify-between items-start  max-w-7xl mx-auto my-8 gap-3">
-              <Link className={flagClass} to={"/UK"}>
-                <img className={flag} src={UK} />
-                <li>Study in UK</li>
-              </Link>
-              <Link className={flagClass} to={"/USA"}>
-                <img className={flag} src={USA} />
-                {/* <li></li> */}
-                <li>Study in USA</li>
-              </Link>
-              <Link className={flagClass} to={"/Australia"}>
-                <img className={flag} src={Australia} />
-                <li>Study in Australia</li>
-              </Link>
-              <Link className={flagClass} to="/Canada">
-                <img className={flag} src={Canada} />
-                <li>Study in Canada</li>
-              </Link>
-              <Link className={flagClass} to={"/Germany"}>
-                <img className={flag} src={Germany} />
-                <li>Study in Germany</li>
-              </Link>
-              <Link className={flagClass} to={"/New-Zealand"}>
-                <img className={flag} src={NZ} />
-                <li>Study in New Zealand</li>
-              </Link>
-              <Link className={flagClass} to={"/UAE"}>
-                <img className={flag} src={UAE} />
-                <li>Study in UAE</li>
-              </Link>
-              <Link className={flagClass} to="/Georgia">
-                <img className={flag} src={Georgia} />
-                {/* <li></li> */}
-                <li>Study in Georgia</li>
-              </Link>
-              <Link className={flagClass} to={"/Finland"}>
-                <img className={flag} src={Finland} />
-                <li>Study in Finland</li>
-              </Link>
-              <Link className={flagClass} to="/Cyprus">
-                <img className={flag} src={Cyprus} />
-                <li>Study in Cyprus</li>
-              </Link>
-              <Link className={flagClass} to={"/Switzerland"}>
-                <img className={flag} src={Switzerland} />
-                <li>Study in Switzerland</li>
-              </Link>
-              <Link className={flagClass} to="/France">
-                <img className={flag} src={France} />
-                <li>Study in France</li>
-              </Link>
-              <Link className={flagClass} to={"/West-Indies"}>
-                <img className={flag} src={WestIndies} />
-                <li>Study in West-Indies</li>
-              </Link>
-              <Link className={flagClass} to={"/comingSoon"}>
-                <div className="">
-                  <div className="mx-auto">
-                    <FaGlobeAmericas size={80} className="mx-auto" />
-                  </div>
-                  <li>Rest of the World</li>
-                </div>
-              </Link>
+            <ul className="lg:grid hidden lg:grid-cols-7 justify-between items-center max-w-7xl mx-auto my-8 gap-3">
+              {countryData.map((country) => (
+                <Link key={country.name} className={flagClass} to={country.to}>
+                  <img className={` ${flag}`} src={country.img} alt={country.name} />
+                  <li className="">{country.label}</li>
+                </Link>
+              ))}
             </ul>
           </div>
         )}
         {navIndex == 2 && (
           <>
             <div
-              className={`${
-                width <= 1450 ? "grid-cols-4" : "grid-cols-5"
-              }   mx-10 gap-5 hidden  lg:grid md:mx-auto   md:max-w-[1800px]`}
+              className={`${width <= 1450 ? "grid-cols-4" : "grid-cols-5"
+                }   mx-10 gap-5 hidden  lg:grid md:mx-auto   md:max-w-[1800px]`}
             >
               <div className="col-span-1 md:my-10 my-5">
                 <h2 className="my-5 text-lg font-medium border-b-2 w-fit border-[#f85424]">
