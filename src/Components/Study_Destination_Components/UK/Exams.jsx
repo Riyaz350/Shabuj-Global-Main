@@ -5,7 +5,7 @@ const Exams = () => {
   const [cardNo, setCardNo] = useState(0);
   const isSmallScreen = () => window.innerWidth <= 768;
   return (
-    <div className="m-5 md:m-0 lg:m-0 text-[#3B82F6] bg-[#F1F8FF]">
+    <div className="m-5 md:m-0 lg:m-0 text-[#3B82F6] bg-[#F1F8FF] px-5">
       <h1 className="pt-24 text-center font-semibold text-6xl text-black">
         Exams Required to Study in Germany
       </h1>

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Faq_SVG_WestIndies from './SVG/Faq_SVG_WestIndies';
 
 

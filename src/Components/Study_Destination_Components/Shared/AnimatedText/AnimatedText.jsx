@@ -44,7 +44,7 @@ const AnimatedText = ({ country }) => {
         </span>
       </div>
       <div className="md:hidden text-3xl md:text-4xl lg:text-5xl font-bold py-14 mx-auto text-center px-10">
-        <span className="text-black  leading-[65px] pr-2">
+        <span className="text-black  leading-relaxed md:leading-[65px] pr-2 ">
           Popular programs to study in {country}
           <br></br>
         </span>

@@ -18,7 +18,7 @@ const RequirementCard = ({ country }) => {
   }, []);
 
   return (
-    <div className="m-5 md:m-0 lg:m-0">
+    <div className="m-5 md:m-0 lg:m-0 px-4">
       <h1 className="pt-24 text-center font-semibold text-3xl md:text-4xl lg:text-6xl">
         Requirements for Studying in the {country}
       </h1>

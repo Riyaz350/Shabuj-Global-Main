@@ -23,8 +23,8 @@ const Programs = () => {
   ];
   return (
     <div className="max-w-[1350px] mx-auto">
-      <div className="flex w-full text-[#181A1B] items-center lg:flex-row flex-col">
-        <div className="w-[65%] mt-20">
+      <div className="flex w-full text-[#181A1B] items-center lg:flex-row flex-col gap-5">
+        <div className="w-[55%] mt-20">
           <h1 className="text-5xl font-bold text-center">
             Programs and their duration in The UK
           </h1>
@@ -60,9 +60,9 @@ const Programs = () => {
             </table>
           </div>
         </div>
-        <div className="w-[35%]">
+        <div className="w-[45%]">
           <img
-            className="w-[80%] mt-28"
+            className="w-full mt-28"
             src="https://i.ibb.co/k6yJDnY/time-flies-rafiki-1.png"
             alt=""
           />

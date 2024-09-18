@@ -16,7 +16,7 @@ const Study_Australia = () => {
           natural parks, enjoy beaches, or experience cultural festivals.
           Whether you're an adventurer, a foodie, or a culture
         </p>
-        <div className="w-80 h-[216px] mr-24 absolute right-0 bottom-0">
+        <div className="w-80 h-[216px] sm:mr-24 mr-5 absolute right-0 bottom-0">
           <img src={australia_gif} alt="Car Animation" />
         </div>
       </div>

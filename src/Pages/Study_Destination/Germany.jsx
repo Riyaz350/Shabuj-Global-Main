@@ -9,17 +9,25 @@ import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import UniversityCards_Ger from "../../Components/Study_Destination_Components/Germany/Germany_UniversityCards/UniversityCards_Ger";
 import { useEffect } from "react";
-import QuickFacts from "../../Components/Study_Destination_Components/UK/QuickFacts";
- 
+import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
+import Canada_Banner from "../../Components/Study_Destination_Components/Shared_Destination_Component/Canada_Banner/Canada_Banner";
+import Georgia_Study from "../../Components/Study_Destination_Components/Shared_Destination_Component/Georgia_Study/Georgia_Study";
+
 const Germany = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+
+  const description = `Germany, officially known as the Federal Republic of Germany, is a vibrant country situated in the heart of Europe. Renowned for its rich cultural heritage, it boasts centuries-old traditions, grand castles, and historical landmarks. Germany has excelled in various fields such as engineering, automotive industry, and sports. As one of the largest economies in Europe, it plays a crucial role in the EU. With a diverse landscape ranging from the bustling cities like Berlin and Munich to the serene beauty of the Black Forest and`;
+
   return (
-    <div>
-      <Germany_Banner />
+    <div className="font-poppins overflow-hidden">
+      {/* <Germany_Banner /> */}
+      <Canada_Banner country="Germany" />
+      <Georgia_Study country={"Germany"} description={description} bgColor={'bg-[#1A1A1A]'}/>
+
       <Germany_StudyInGermany />
-      <QuickFacts country="Germany"/>
+      <QuickFacts country="Germany" />
       <Tabs country={"Germany"} />
       <AnimatedText country={"Germany"} />
       <UniversityCards_Ger />

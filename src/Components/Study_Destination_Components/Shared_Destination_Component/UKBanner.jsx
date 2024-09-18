@@ -13,9 +13,9 @@ const UKBanner = ({ country }) => {
       <div className="relative w-full mx-auto flex flex-col items-center justify-center">
         <div className="w-full">
           {bgHover == 1 ? (
-            <img className="w-full rounded-3xl" src={bgBlue} alt="" />
+            <img className="xl:h-[700px] rounded-3xl w-full" src={bgBlue} alt="" />
           ) : (
-            <img className="w-full rounded-3xl" src={bgWhite} alt="" />
+            <img className="xl:h-[700px] rounded-3xl w-full" src={bgWhite} alt="" />
           )}
         </div>
         <div className="absolute bottom-0 max-w-7xl mx-auto">

@@ -49,8 +49,8 @@ const Faq_UK = () => {
           <div className="w-full px-5 lg:w-1/2">
             <Faq_SVG_UK />
           </div>
-          <div className="w-full lg:w-1/2 bg-[#004AC8] h-[525px] rounded-[36px] ">
-            <div className="lg:max-w-xl">
+          <div className="w-full lg:w-1/2 bg-[#004AC8] h-auto rounded-[36px] ">
+            <div className="lg:max-w-xl mx-auto w-full">
               <div className="accordion-group px-5 py-8 text-white overflow-y-hidden" data-accordion="default-accordion">
                 {faq.map((item, index) => (
                   <div
