@@ -11,11 +11,11 @@ const Home_Connection = () => {
         }}
       >
         <img
-          className=" w-[350px] h-[350px] lg:block hidden absolute -top-[145px] -left-[80px]"
+          className=" w-[300px] h-[300px] lg:block hidden absolute -top-[145px] -left-[70px]"
           src="https://i.ibb.co/ZS43HFb/Leap-Icon.png"
           alt=""
         />
-        <div className="text-center text-white lg:pt-16 md:pt-16 pt-7">
+        <div className="flex flex-col h-full justify-center md:pt-16 py-7 text-center text-white">
           <p className="font-bold lg:text-5xl md:text-4xl text-3xl leading-[3rem]">
             Ready to take the leap?
           </p>
