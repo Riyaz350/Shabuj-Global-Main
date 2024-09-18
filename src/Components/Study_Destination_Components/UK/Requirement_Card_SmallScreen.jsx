@@ -23,7 +23,7 @@ const Requirement_Card_SmallScreen = () => {
       >
         <div className="text-white px-8 py-14">
           <h2 className="text-4xl font-semibold mb-2">Diploma</h2>
-          <p className={`mb-2 ${expandedCard === 1 ? "hidden" : "flex"}`}>
+          <p className={`  mb-2 ${expandedCard === 1 ? "hidden" : "flex"}`}>
             Students usually need to have completed their secondary education,
             such as SSC or O-levels, with satisfactory grades. The specific
             grade requirements may vary depending on the university and program.

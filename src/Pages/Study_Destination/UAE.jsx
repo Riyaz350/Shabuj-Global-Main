@@ -9,18 +9,21 @@ import UAE_GuidanceBanner from "../../Components/Study_Destination_Components/UA
 import UAE_QuickFacts from "../../Components/Study_Destination_Components/UAE/UAE_QuickFacts";
 import UAE_RequirementCard from "../../Components/Study_Destination_Components/UAE/UAE_RequirementCard/UAE_RequirementCard";
 import UAE_StudyUAE from "../../Components/Study_Destination_Components/UAE/UAE_StudyUAE/UAE_StudyUAE";
-import UAE_Tabs from "../../Components/Study_Destination_Components/UAE/UAE_Tabs/UAE_Tabs";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import UAE_UniversityCards from "../../Components/Study_Destination_Components/UAE/UniversityCards/UAE_UniversityCards";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Canada_Banner from "../../Components/Study_Destination_Components/Shared_Destination_Component/Canada_Banner/Canada_Banner";
 import Georgia_Study from "../../Components/Study_Destination_Components/Shared_Destination_Component/Georgia_Study/Georgia_Study";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
+import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
+import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 
 const UAE = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
-  const description = `   Immerse yourself in the vibrant culture and cosmopolitan atmosphere of
+  const description = `Immerse yourself in the vibrant culture and cosmopolitan atmosphere of
           the UAE while pursuing a world-class education. Study at top-tier
           universities with renowned faculty, honing your skills in a supportive
           and international environment. Gain valuable practical experience
@@ -37,12 +40,17 @@ const UAE = () => {
       {/* <UAE_StudyUAE></UAE_StudyUAE> */}
       <Georgia_Study country={"UAE"} description={description}></Georgia_Study>
       <QuickFacts country="UAE" />
-      <UAE_Tabs></UAE_Tabs>
+      {/* <UAE_Tabs></UAE_Tabs> */}
+      <Tabs country={"UAE"} />
       <AnimatedText country={"UAE"} />
       <UAE_UniversityCards></UAE_UniversityCards>
-      <UAE_RequirementCard country={"UAE"}></UAE_RequirementCard>
-      <UAE_Exams country={"UAE"}></UAE_Exams>
-      <UAE_GuidanceBanner></UAE_GuidanceBanner>
+      <RequirementCard country={"UAE"} />
+
+      {/* <UAE_RequirementCard ></UAE_RequirementCard> */}
+      {/* <UAE_Exams country={"UAE"}></UAE_Exams> */}
+      <Exams country={"UAE"} />
+      {/* <UAE_GuidanceBanner></UAE_GuidanceBanner> */}
+      <GuidanceBanner />
       <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired>
       <UAE_Faq></UAE_Faq>
       <UAE_Counselor></UAE_Counselor>

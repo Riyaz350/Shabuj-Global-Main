@@ -26,7 +26,7 @@ const Cost = () => {
               Cost of Studying
             </h1>
   
-            <div className="lg:ml-auto md:ml-auto ml-0 text-xl mt-10">
+            <div className="lg:ml-auto md:ml-auto ml-0 text-xl mt-10 overflow-scroll">
               <table className="bg-white border border-gray-300 w-full">
                 <thead>
                   <tr className="bg-[#3B82F6] text-white">

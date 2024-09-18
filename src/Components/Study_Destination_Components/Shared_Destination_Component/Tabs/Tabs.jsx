@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import "./Tabs.css";
 import Programs from "../TabComponents/Programs";
 import Cost from "../TabComponents/Cost";
 import Intakes from "../TabComponents/Intakes";
 import Deadline from "../TabComponents/Deadline";
-import "./Tabs.css";
+
 const Tabs = ({ country }) => {
   const [activeTab, setActiveTab] = useState("tab-program");
 

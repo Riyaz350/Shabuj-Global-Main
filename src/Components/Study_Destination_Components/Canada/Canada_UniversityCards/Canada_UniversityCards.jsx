@@ -28,7 +28,7 @@ const Canada_UniversityCards = () => {
       </h1>
       <div className="flex max-w-screen-xl mx-auto">
         <div
-          className={`flex flex-wrap lg:justify-normal md:justify-around gap-10 h-[700px] overflow-y-auto ${
+          className={`flex flex-wrap justify-center gap-8 h-[700px] overflow-y-auto ${
             selectedUniversity
               ? "lg:w-[66%] md:w-[33%] w-[33%] overflow-x-hidden overflow-y-auto h-[700px] uk-scrollbar"
               : "w-full"
@@ -57,7 +57,7 @@ const Canada_UniversityCards = () => {
             <div className="p-4 bg-[EFF6FF] rounded-lg">
               <img
                 src={selectedUniversity.logo}
-                className="mx-auto md:w-[50%] w-[30%]"
+                className="mx-auto md:w-[50%] w-[30%] mb-5"
                 alt=""
               />
               <h2 className="text-2xl font-bold mb-2">

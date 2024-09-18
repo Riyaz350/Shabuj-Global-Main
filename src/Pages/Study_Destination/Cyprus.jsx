@@ -7,12 +7,13 @@ import Cyprus_Tabs from "../../Components/Study_Destination_Components/Cyprus/Cy
 import Cyprus_UniversityCards from "../../Components/Study_Destination_Components/Cyprus/Cyprus_UniversityCards/Cyprus_UnversityCards";
 import Georgia_Study from "../../Components/Study_Destination_Components/Shared_Destination_Component/Georgia_Study/Georgia_Study";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
-
 import UAE_RequirementCard from "../../Components/Study_Destination_Components/UAE/UAE_RequirementCard/UAE_RequirementCard";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Canada_Banner from "../../Components/Study_Destination_Components/Shared_Destination_Component/Canada_Banner/Canada_Banner";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
+import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 
 const Cyprus = () => {
   useEffect(() => {
@@ -28,11 +29,13 @@ const Cyprus = () => {
         description={description}
       ></Georgia_Study>
       <QuickFacts country="Cyprus"></QuickFacts>
-      <Cyprus_Tabs></Cyprus_Tabs>
+      {/* <Cyprus_Tabs></Cyprus_Tabs> */}
+      <Tabs country={"Cyprus"} />
       <AnimatedText country={"Cyprus"} />
       {/* <Cyprus_AnimatedText></Cyprus_AnimatedText> */}
       <Cyprus_UniversityCards></Cyprus_UniversityCards>
-      <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard>
+      <RequirementCard country={"Cyprus"}/>
+      {/* <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard> */}
       <Exams country={"Cyprus"}></Exams>
       <GuidanceBanner></GuidanceBanner>
       <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired>

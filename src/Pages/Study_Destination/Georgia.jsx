@@ -6,12 +6,15 @@ import Georgia_Tabs from "../../Components/Study_Destination_Components/Georgia/
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import UAE_RequirementCard from "../../Components/Study_Destination_Components/UAE/UAE_RequirementCard/UAE_RequirementCard";
 import Georgia_DocumentsRequired from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_DocumentsRequired";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import Georgia_UniversityCards from "../../Components/Study_Destination_Components/Georgia/Georgia_UniversityCards/Georgia_UniversityCards";
 import { useEffect } from "react";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Canada_Banner from "../../Components/Study_Destination_Components/Shared_Destination_Component/Canada_Banner/Canada_Banner";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
+import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+
 
 const Georgia = () => {
   useEffect(() => {
@@ -27,13 +30,15 @@ const Georgia = () => {
         description={description}
       ></Georgia_Study>
       <QuickFacts country="Georgia"></QuickFacts>
-      <Georgia_Tabs></Georgia_Tabs>
+      {/* <Georgia_Tabs></Georgia_Tabs> */}
+      <Tabs country={"Georgia"} />
       {/* <Georgia_AnimatedText></Georgia_AnimatedText> */}
       <AnimatedText country={"Georgia"} />
       <Georgia_UniversityCards></Georgia_UniversityCards>
-      <UAE_RequirementCard country={"Georgia"}></UAE_RequirementCard>
+      <RequirementCard country={"Georgia"} />
+      {/* <UAE_RequirementCard country={"Georgia"}></UAE_RequirementCard> */}
       <Exams country={"Georgia"}></Exams>
-      <GuidanceBanner></GuidanceBanner>
+      <GuidanceBanner ></GuidanceBanner>
       <Georgia_DocumentsRequired></Georgia_DocumentsRequired>
       <Georgia_Faq></Georgia_Faq>
       <Georgia_Counselor></Georgia_Counselor>
