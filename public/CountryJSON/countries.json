@@ -1,0 +1,87 @@
+[
+    {
+      "name": "UK",
+      "img": "https://i.ibb.co/DGMDftr/UK.jpg",
+      "to": "/UK",
+      "label": "Study in UK"
+    },
+    {
+      "name": "USA",
+      "img": "https://i.ibb.co/HqNXF0R/USA.jpg",
+      "to": "/USA",
+      "label": "Study in USA"
+    },
+    {
+      "name": "Australia",
+      "img": "https://i.ibb.co/1qd19nV/AUSTRALIA.jpg",
+      "to": "/Australia",
+      "label": "Study in Australia"
+    },
+    {
+      "name": "Canada",
+      "img": "https://i.ibb.co/7gMqP6z/CANADA.jpg",
+      "to": "/Canada",
+      "label": "Study in Canada"
+    },
+    {
+      "name": "Germany",
+      "img": "https://i.ibb.co/NxYffJN/GERMANY.jpg",
+      "to": "/Germany",
+      "label": "Study in Germany"
+    },
+    {
+      "name": "New Zealand",
+      "img": "https://i.ibb.co/3F276Wh/NZ.jpg",
+      "to": "/New-Zealand",
+      "label": "Study in New Zealand"
+    },
+    {
+      "name": "UAE",
+      "img": "https://i.ibb.co/vhS3vSX/UAE.jpg",
+      "to": "/UAE",
+      "label": "Study in UAE"
+    },
+    {
+      "name": "Georgia",
+      "img": "https://i.ibb.co/BZXkW1X/Georgia.png",
+      "to": "/Georgia",
+      "label": "Study in Georgia"
+    },
+    {
+      "name": "Finland",
+      "img": "https://i.ibb.co/kJFRR6p/Finland.png",
+      "to": "/Finland",
+      "label": "Study in Finland"
+    },
+    {
+      "name": "Cyprus",
+      "img": "https://i.ibb.co.com/zZbntX5/Cyprus.png",
+      "to": "/Cyprus",
+      "label": "Study in Cyprus"
+    },
+    {
+      "name": "Switzerland",
+      "img": "https://i.ibb.co/zf9yQKF/Switzerland.png",
+      "to": "/Switzerland",
+      "label": "Study in Switzerland"
+    },
+    {
+      "name": "France",
+      "img": "https://i.ibb.co/wr2DVNH/France.png",
+      "to": "/France",
+      "label": "Study in France"
+    },
+    {
+      "name": "West Indies",
+      "img": "https://i.ibb.co/930GwsL/West-Indies.jpg",
+      "to": "/West-Indies",
+      "label": "Study in West Indies"
+    },
+    {
+      "name": "Rest of the world",
+      "img": "https://i.ibb.co.com/Yk9WXfv/12465-removebg-preview.png",
+      "to": "/comingSoon",
+      "label": "Rest of the world"
+    }
+  ]
+  
