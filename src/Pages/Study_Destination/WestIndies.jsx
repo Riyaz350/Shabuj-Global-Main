@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
-import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
 import DocumentsRequired_WestIndies from "../../Components/Study_Destination_Components/West-Indies/DocumentsRequired_WestIndies";
 import Faq_WestIndies from "../../Components/Study_Destination_Components/West-Indies/Faq_WestIndies";
 import West_Indies_Counselor from "../../Components/Study_Destination_Components/West-Indies/West_Indies_Counselor/West_Indies_Counselor";
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 
 const WestIndies = () => {
   useEffect(() => {

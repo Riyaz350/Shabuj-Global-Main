@@ -4,13 +4,13 @@ import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import DocumentsRequired from "../../Components/Study_Destination_Components/UK/DocumentsRequired";
 import Faq_UK from "../../Components/Study_Destination_Components/UK/Faq_UK";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
-import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 import Uk_Counselor from "../../Components/Study_Destination_Components/UK/Uk_Counselor/Uk_Counselor";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 
 const UK = () => {
   useEffect(() => {

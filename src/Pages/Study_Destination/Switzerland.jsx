@@ -1,15 +1,15 @@
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
-import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import DocumentsRequired_Swit from "../../Components/Study_Destination_Components/Switzerland/DocumentsRequired_Swit";
 import Faq_Swit from "../../Components/Study_Destination_Components/Switzerland/Faq_Swit";
 import Switz_Counselor from "../../Components/Study_Destination_Components/Switzerland/Switz_Counselor/Switz_Counselor";
 import { useEffect } from "react";
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 
 const Switzerland = () => {
   useEffect(() => {

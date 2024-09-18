@@ -1,5 +1,5 @@
 import Australia_Counselor from "../../Components/Study_Destination_Components/Australia/Australia_Counselor/Australia_Counselor";
-import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import Faq_Aus from "../../Components/Study_Destination_Components/Australia/Faq_Aus";
 import Study_Australia from "../../Components/Study_Destination_Components/Australia/Study_Australia";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";

@@ -8,10 +8,12 @@ import Finland_UniversityCards from "../../Components/Study_Destination_Componen
 import Georgia_Study from "../../Components/Study_Destination_Components/Shared_Destination_Component/Georgia_Study/Georgia_Study";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import UAE_RequirementCard from "../../Components/Study_Destination_Components/UAE/UAE_RequirementCard/UAE_RequirementCard";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Canada_Banner from "../../Components/Study_Destination_Components/Shared_Destination_Component/Canada_Banner/Canada_Banner";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
+import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
 
 const Finland = () => {
   useEffect(() => {
@@ -27,11 +29,13 @@ const Finland = () => {
         description={description}
       ></Georgia_Study>
       <QuickFacts country="Finland"></QuickFacts>
-      <Finland_Tabs></Finland_Tabs>
+      {/* <Finland_Tabs></Finland_Tabs> */}
+      <Tabs country={"Finland"} />
       <AnimatedText country={"Finland"} />
       {/* <Finland_AnimatedText></Finland_AnimatedText> */}
       <Finland_UniversityCards></Finland_UniversityCards>
-      <UAE_RequirementCard country={"Finland"}></UAE_RequirementCard>
+      {/* <UAE_RequirementCard country={"Finland"}></UAE_RequirementCard> */}
+      <RequirementCard country={"Finland"}/>
       <Exams country={"Finland"}></Exams>
       <GuidanceBanner></GuidanceBanner>
       <Finland_DocumentsRequired></Finland_DocumentsRequired>

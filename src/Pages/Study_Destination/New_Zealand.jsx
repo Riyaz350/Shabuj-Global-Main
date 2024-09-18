@@ -1,9 +1,8 @@
 import AnimatedText from "../../Components/Study_Destination_Components/Shared/AnimatedText/AnimatedText";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
-import GuidanceBanner from "../../Components/Study_Destination_Components/UK/GuidenceBanner";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
-import Tabs from "../../Components/Study_Destination_Components/UK/Tabs/Tabs";
+import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
 import DocumentsRequired_NZ from "../../Components/Study_Destination_Components/New Zealand/DocumentsRequired_NZ";
 import Faq_NZ from "../../Components/Study_Destination_Components/New Zealand/Faq_NZ";
@@ -12,6 +11,8 @@ import { useEffect } from "react";
 import UniversityCards from "../../Components/Study_Destination_Components/Shared/Universities/UniversityCards";
 import uniData from '../../../public/universities_json/newZealand.json'
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
+import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+
 const New_Zealand = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
