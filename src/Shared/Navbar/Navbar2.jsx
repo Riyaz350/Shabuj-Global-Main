@@ -13,8 +13,8 @@ import { FaMicrophoneLines, FaChevronUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import countryData from '../../../public/CountryJSON/countries.json'
 const Navbar2 = () => {
-  const [navButton, setNavButton] = useState(1);
-  const [navIndex, setNavIndex] = useState(1);
+  const [navButton, setNavButton] = useState(0);
+  const [navIndex, setNavIndex] = useState(0);
   const iconStyle = "flex bg-gray-200 lg:bg-white px-5 gap-2 lg:items-center hover:text-blue-500";
   const flagClass = " text-center my-2  ";
   const flag = "w-2/4 mx-auto rounded-lg  -rotate-90";
