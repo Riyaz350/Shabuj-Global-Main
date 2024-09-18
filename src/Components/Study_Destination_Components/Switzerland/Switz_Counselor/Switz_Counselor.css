@@ -2,15 +2,7 @@
     background: linear-gradient(93deg, rgb(253, 146, 146) 0%, rgba(248,108,108) 100%);
 }
 
-.switzCounselor_svg{
-    opacity: 0;
-    visibility: hidden;
-}
-.switzCounselor:hover .switzCounselor_svg{
-    opacity: 1;
-    visibility: visible; 
-    transition: all 0.24s ease;
-}
+
 
 @media screen and (max-width : 640px) {
     .switzCounselor svg {

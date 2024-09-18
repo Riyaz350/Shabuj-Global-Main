@@ -1,0 +1,18 @@
+
+
+.Counselor_svg{
+    opacity: 0;
+    visibility: hidden;
+}
+.Counselor:hover .Counselor_svg{
+    opacity: 1;
+    visibility: visible; 
+    transition: all 0.24s ease;
+}
+
+@media screen and (max-width : 640px) {
+    .Counselor svg {
+        width: 353px;
+        height: 353px;
+    }
+}
