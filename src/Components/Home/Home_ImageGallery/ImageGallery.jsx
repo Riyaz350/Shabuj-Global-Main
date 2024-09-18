@@ -32,10 +32,10 @@ function App() {
                     <button className="btn outline-none btn-xs btn-circle text-xs text-blue-600 absolute z-10 right-2 top-2">✕</button>
                   </form>
                   <div className='relative'>
-                    <img src={data.url} className='w-[380px] h-auto' alt="" />
+                    <img src={data.url} className='w-full h-auto' alt="" />
                     <div className='modal-bg pb-3'>
-                      <h2 className='poppins-medium text-[18px] pt-4 pl-4 text-white'>{data.title}</h2>
-                      <p className='poppins-regular text-[14px] pl-4 text-white'>{data.description}</p>
+                      <h2 className='poppins-medium text-[18px] pt-4 pl-4 '>{data.title}</h2>
+                      <p className='poppins-regular text-[14px] pl-4'>{data.description}</p>
                     </div>
 
                   </div>
@@ -58,7 +58,7 @@ function App() {
               <motion.div initial={{ }}   transition={{ duration: .2, delay: .1 }}
                 onClick={() => { document.getElementById(data.id).showModal() }}
                 className="w-[300px]  h-[350px] rounded-[20px] mr-2 cursor-pointer   bg-white bg-opacity-30   grayscale hover:filter-none relative   group   mt-[50px] ">
-                <div style={{ background: 'linear-gradient(93deg, rgba(37,180,186,1) 0%, rgba(222,243,135,1) 100%)' }} className="hidden absolute  bottom-0 special p-[10px]  rounded-b-[15px] group-hover:block">
+                <div style={{ background: 'linear-gradient(93deg, rgba(37,180,186,1) 0%, rgba(222,243,135,1) 100%)' }} className="hidden absolute  bottom-0 special p-[10px]  rounded-b-[15px] group-hover:block ">
                   <h1 className="text-white font-[500] text-[18px] leading-7">{data.title}</h1>
                   <h1 className="text-white font-[400] text-[14px] leading-[21px]">{data.description}</h1>
                 </div>
@@ -72,10 +72,10 @@ function App() {
                     <button className="btn outline-none btn-xs btn-circle text-xs text-blue-600 absolute z-10 right-2 top-2">✕</button>
                   </form>
                   <div className='relative'>
-                    <img src={data.url} className='w-[380px] h-auto' alt="" />
+                    <img src={data.url} className='w-full h-auto' alt="" />
                     <div className='modal-bg pb-3'>
-                      <h2 className='poppins-medium text-[18px] pt-4 pl-4 text-white'>{data.title}</h2>
-                      <p className='poppins-regular text-[14px] pl-4 text-white'>{data.description}</p>
+                      <h2 className='poppins-medium text-[18px] pt-4 pl-4 '>{data.title}</h2>
+                      <p className='poppins-regular text-[14px] pl-4 '>{data.description}</p>
                     </div>
 
                   </div>
