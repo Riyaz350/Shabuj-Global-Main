@@ -6,14 +6,14 @@
     opacity: 0;
     visibility: hidden;
 }
-.wICounselor:hover .wICounselor_svg{
+.Counselor:hover .Counselor_svg{
     opacity: 1;
     visibility: visible; 
     transition: all 0.24s ease;
 }
 
 @media screen and (max-width : 640px) {
-    .wICounselor svg {
+    .Counselor svg {
         width: 353px;
         height: 353px;
     }

@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Canada_AnimatedText from "../../Components/Study_Destination_Components/Canada/Canada_AnimatedText";
 import Canada_Banner from "../../Components/Study_Destination_Components/Canada/Canada_Banner/Canada_Banner";
 import Canada_Counselor from "../../Components/Study_Destination_Components/Canada/Canada_Counselor/Canada_Counselor";
 import Canada_DocumentsRequired from "../../Components/Study_Destination_Components/Canada/Canada_Documents/Canada_DocumentsRequired";
@@ -28,7 +27,6 @@ const Canada = () => {
       <QuickFacts country="Canada"></QuickFacts>
       <Canada_Tabs></Canada_Tabs>
       <AnimatedText country={"Canada"} />
-      {/* <Canada_AnimatedText></Canada_AnimatedText> */}
       <Canada_UniversityCards></Canada_UniversityCards>
       <GuidanceBanner></GuidanceBanner>
       <UAE_RequirementCard country={"Canada"}></UAE_RequirementCard>
