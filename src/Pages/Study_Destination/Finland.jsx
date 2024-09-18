@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Finland_AnimatedText from "../../Components/Study_Destination_Components/Finland/Finland_AnimatedText";
 import Finland_Banner from "../../Components/Study_Destination_Components/Finland/Finland_Banner/Finland_Banner";
 import Finland_Counselor from "../../Components/Study_Destination_Components/Finland/Finland_Counselor/Finland_Counselor";
 import Finland_DocumentsRequired from "../../Components/Study_Destination_Components/Finland/Finland_Document/Finland_DocumentsRequired";

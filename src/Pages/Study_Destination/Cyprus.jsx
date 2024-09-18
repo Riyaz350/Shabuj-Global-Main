@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Cyprus_AnimatedText from "../../Components/Study_Destination_Components/Cyprus/Cyprus_AnimatedText";
 import Cyprus_Banner from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Banner/Cyprus_Banner";
 import Cyprus_Counselor from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Counselor/Cyprus_Counselor";
 import Cyprus_DocumentsRequired from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_DocumentsRequired";
