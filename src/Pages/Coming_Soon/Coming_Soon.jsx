@@ -8,7 +8,7 @@ const Coming_Soon = () => {
       window.scrollTo(0, 0);
     }, );
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#EFF6FF] text-center">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#EFF6FF] text-center px-5">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
