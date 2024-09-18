@@ -39,14 +39,14 @@ const Home_Contact = () => {
             </div>
             <div className="flex">
               <input
-                type="text"
+                type="number"
                 placeholder="+880"
-                className="lg:w-[74px] w-[41px] lg:h-[40px] h-[45px] rounded inter-regular text-[12px] leading-[12px] lg:pl-4 pl-[5px]"
+                className="lg:w-[74px] w-[41px] lg:h-[40px] h-[45px] rounded inter-regular text-[12px] leading-[12px] lg:pl-4 pl-[5px] outline-none"
               />
               <input
-                type="text"
+                type="number"
                 placeholder="Mobile Number"
-                className="bg-white rounded flex-1 lg:h-[40px] h-[45px] lg:pl-[12px] pl-[5px] inter-regular text-[12px] leading-[12px] outline-none mx-auto mb-[10px] lg:ml-[26px] ml-[14px]"
+                className="bg-white rounded flex-1 lg:h-[40px] h-[45px] pl-[12px]  inter-regular text-[12px] leading-[12px] outline-none mx-auto mb-[10px] lg:ml-[26px] ml-[14px]"
               />
             </div>
             <div className="relative mb-[10px]">
