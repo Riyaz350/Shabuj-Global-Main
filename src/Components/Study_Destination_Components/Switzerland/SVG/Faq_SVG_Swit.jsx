@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-const Faq_SVG_UK = () => {
+const Faq_SVG_Swit = () => {
   const bigQuestion = {
     initial: { x: 0, y: 0, scale: 1 },
     animate: { x: 5, y: -5, scale: 1.1 },
@@ -779,4 +779,4 @@ const Faq_SVG_UK = () => {
   );
 };
 
-export default Faq_SVG_UK;
+export default Faq_SVG_Swit;

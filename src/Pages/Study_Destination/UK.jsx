@@ -16,6 +16,8 @@ import Doc2 from "../../Components/Study_Destination_Components/UK/SVG/Doc2";
 import Document_Last_SVG_UK from "../../Components/Study_Destination_Components/UK/SVG/Document_Last_SVG_UK";
 import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
 import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_UK from "../../Components/Study_Destination_Components/UK/SVG/Faq_SVG_UK";
 
 const UK = () => {
   useEffect(() => {
@@ -29,8 +31,12 @@ const UK = () => {
       <QuickFacts country={"UK"} />
       <Tabs country={"UK"} />
       <AnimatedText country={"UK"} />
-      <UniversityCards />
-      <Unversity_Cards country={'UK'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
+      {/* <UniversityCards /> */}
+      <Unversity_Cards
+        country={"UK"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <RequirementCard country={"UK"} />
       <Exams country={"UK"} />
       <GuidanceBanner />
@@ -41,7 +47,8 @@ const UK = () => {
         doc2={<Doc2 />}
         doc3={<Document_Last_SVG_UK />}
       />
-      <Faq_UK />
+      {/* <Faq_UK /> */}
+      <University_Faq bgColor={"bg-[#004AC8]"} FAQimg={<Faq_SVG_UK />} />
       <Uk_Counselor />
     </div>
   );

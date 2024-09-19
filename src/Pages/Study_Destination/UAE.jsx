@@ -23,6 +23,8 @@ import UAE_Doc2 from "../../Components/Study_Destination_Components/UAE/UAE_Docu
 import UAE_DocumentsSvg from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_DocumentsSvg";
 import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
 import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import UAE_FaqSVG from "../../Components/Study_Destination_Components/UAE/UAE_Faq/UAE_FaqSVG";
 
 const UAE = () => {
   useEffect(() => {
@@ -49,7 +51,11 @@ const UAE = () => {
       <Tabs country={"UAE"} />
       <AnimatedText country={"UAE"} />
       {/* <UAE_UniversityCards></UAE_UniversityCards> */}
-      <Unversity_Cards country={'UAE'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
+      <Unversity_Cards
+        country={"UAE"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <RequirementCard country={"UAE"} />
 
       {/* <UAE_RequirementCard ></UAE_RequirementCard> */}
@@ -64,7 +70,8 @@ const UAE = () => {
         doc2={<UAE_Doc2 />}
         doc3={<UAE_DocumentsSvg />}
       />
-      <UAE_Faq></UAE_Faq>
+      {/* <UAE_Faq></UAE_Faq> */}
+      <University_Faq bgColor={"bg-[#63099c]"} FAQimg={<UAE_FaqSVG />} />
       <UAE_Counselor></UAE_Counselor>
     </div>
   );

@@ -14,6 +14,8 @@ import University_Required_Docs from "../../Components/Study_Destination_Compone
 import Document_Last_SVG_WestIndies from "../../Components/Study_Destination_Components/West-Indies/SVG/Document_Last_SVG_WestIndies";
 import Doc2 from "../../Components/Study_Destination_Components/West-Indies/SVG/Doc2";
 import Doc1 from "../../Components/Study_Destination_Components/West-Indies/SVG/Doc1";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_WestIndies from "../../Components/Study_Destination_Components/West-Indies/SVG/Faq_SVG_WestIndies";
 
 const WestIndies = () => {
   useEffect(() => {
@@ -37,7 +39,11 @@ const WestIndies = () => {
         doc2={<Doc2 />}
         doc3={<Document_Last_SVG_WestIndies />}
       />
-      <Faq_WestIndies />
+      {/* <Faq_WestIndies /> */}
+      <University_Faq
+        bgColor={"bg-[#890001]"}
+        FAQimg={<Faq_SVG_WestIndies />}
+      />
       <West_Indies_Counselor />
     </div>
   );

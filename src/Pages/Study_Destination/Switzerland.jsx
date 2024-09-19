@@ -14,6 +14,8 @@ import University_Required_Docs from "../../Components/Study_Destination_Compone
 import Document_Last_SVG_Swit from "../../Components/Study_Destination_Components/Switzerland/SVG/Document_Last_SVG_Swit";
 import Doc2 from "../../Components/Study_Destination_Components/Switzerland/SVG/Doc2";
 import Doc1 from "../../Components/Study_Destination_Components/Switzerland/SVG/Doc1";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_Swit from "../../Components/Study_Destination_Components/Switzerland/SVG/Faq_SVG_Swit";
 
 const Switzerland = () => {
   useEffect(() => {
@@ -37,7 +39,8 @@ const Switzerland = () => {
         doc2={<Doc2 />}
         doc3={<Document_Last_SVG_Swit />}
       />
-      <Faq_Swit />
+      {/* <Faq_Swit /> */}
+      <University_Faq bgColor={"bg-[#f76c6c]"} FAQimg={<Faq_SVG_Swit />} />
       <Switz_Counselor />
     </div>
   );

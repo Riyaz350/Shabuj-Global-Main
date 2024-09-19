@@ -19,6 +19,8 @@ import Georgia_Doc1 from "../../Components/Study_Destination_Components/Georgia/
 import Georgia_Doc2 from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_Doc2";
 import Georgia_DocumentsSvg from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_DocumentsSvg";
 import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import Georgia_FaqSVG from "../../Components/Study_Destination_Components/Georgia/Georgia_Faq/Georgia_FaqSVG";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
 
 const Georgia = () => {
   useEffect(() => {
@@ -39,7 +41,11 @@ const Georgia = () => {
       {/* <Georgia_AnimatedText></Georgia_AnimatedText> */}
       <AnimatedText country={"Georgia"} />
       {/* <Georgia_UniversityCards></Georgia_UniversityCards> */}
-      <Unversity_Cards country={'Georgia'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
+      <Unversity_Cards
+        country={"Georgia"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <RequirementCard country={"Georgia"} />
       {/* <UAE_RequirementCard country={"Georgia"}></UAE_RequirementCard> */}
       <Exams country={"Georgia"}></Exams>
@@ -51,7 +57,8 @@ const Georgia = () => {
         doc2={<Georgia_Doc2 />}
         doc3={<Georgia_DocumentsSvg />}
       />
-      <Georgia_Faq></Georgia_Faq>
+      {/* <Georgia_Faq></Georgia_Faq> */}
+      <University_Faq bgColor={"bg-[#0873ba]"} FAQimg={<Georgia_FaqSVG />} />
       <Georgia_Counselor></Georgia_Counselor>
     </div>
   );

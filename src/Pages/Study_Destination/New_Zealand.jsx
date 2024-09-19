@@ -17,6 +17,8 @@ import Document_Last_SVG_NZ from "../../Components/Study_Destination_Components/
 import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
 import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
 import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_NZ from "../../Components/Study_Destination_Components/New Zealand/SVG/Faq_SVG_NZ";
 
 const New_Zealand = () => {
   useEffect(() => {
@@ -31,7 +33,11 @@ const New_Zealand = () => {
       <Tabs country="New Zealand" />
       <AnimatedText country={"New Zealand"} />
       {/* <UniversityCards prop={uniData}/> */}
-      <Unversity_Cards country={'New Zealand'} apiRoute={'newZealand'} routeLabel={'singleUniversityNZ'}/>
+      <Unversity_Cards
+        country={"New Zealand"}
+        apiRoute={"newZealand"}
+        routeLabel={"singleUniversityNZ"}
+      />
       <RequirementCard country={"New Zealand"} />
       <Exams country={"New Zealand"} />
       <GuidanceBanner />
@@ -42,7 +48,8 @@ const New_Zealand = () => {
         doc2={<Doc2 />}
         doc3={<Document_Last_SVG_NZ />}
       />
-      <Faq_NZ />
+      {/* <Faq_NZ /> */}
+      <University_Faq bgColor={"bg-[#a3a7ff]"} FAQimg={<Faq_SVG_NZ />} />
       <NZ_Counselor />
     </div>
   );

@@ -19,6 +19,8 @@ import Cyprus_Doc1 from "../../Components/Study_Destination_Components/Cyprus/Cy
 import Cyprus_Doc2 from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_Doc2";
 import Cyprus_DocumentsSvg from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_DocumentsSvg";
 import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Cyprus_FaqSVG from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Faq/Cyprus_FaqSVG";
 
 const Cyprus = () => {
   useEffect(() => {
@@ -39,7 +41,11 @@ const Cyprus = () => {
       <AnimatedText country={"Cyprus"} />
       {/* <Cyprus_AnimatedText></Cyprus_AnimatedText> */}
       {/* <Cyprus_UniversityCards></Cyprus_UniversityCards> */}
-      <Unversity_Cards country={'Cyprus'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
+      <Unversity_Cards
+        country={"Cyprus"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <RequirementCard country={"Cyprus"} />
       {/* <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard> */}
       <Exams country={"Cyprus"}></Exams>
@@ -51,7 +57,8 @@ const Cyprus = () => {
         doc2={<Cyprus_Doc2 />}
         doc3={<Cyprus_DocumentsSvg />}
       />
-      F<Cyprus_Faq></Cyprus_Faq>
+      {/* <Cyprus_Faq></Cyprus_Faq> */}
+      <University_Faq bgColor={"bg-[#692a00]"} FAQimg={<Cyprus_FaqSVG />} />
       <Cyprus_Counselor></Cyprus_Counselor>
     </div>
   );

@@ -18,6 +18,8 @@ import Canada_Doc1 from "../../Components/Study_Destination_Components/Canada/Ca
 import Canada_Doc2 from "../../Components/Study_Destination_Components/Canada/Canada_Documents/Canada_Doc2";
 import Canada_DocumentsSvg from "../../Components/Study_Destination_Components/Canada/Canada_Documents/Canada_DocumentsSvg";
 import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Canada_FaqSVG from "../../Components/Study_Destination_Components/Canada/Canada_Faq/Canada_FaqSVG";
 
 const Canada = () => {
   useEffect(() => {
@@ -36,7 +38,11 @@ const Canada = () => {
       <Tabs country={"Canada"} />
       <AnimatedText country={"Canada"} />
       {/* <Canada_UniversityCards></Canada_UniversityCards> */}
-      <Unversity_Cards country={'Canada'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
+      <Unversity_Cards
+        country={"Canada"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <GuidanceBanner></GuidanceBanner>
       {/* <UAE_RequirementCard country={"Canada"}></UAE_RequirementCard> */}
       <RequirementCard country={"Canada"} />
@@ -48,7 +54,8 @@ const Canada = () => {
         doc2={<Canada_Doc2 />}
         doc3={<Canada_DocumentsSvg />}
       />
-      <Canada_Faq></Canada_Faq>
+      {/* <Canada_Faq></Canada_Faq> */}
+      <University_Faq bgColor={"bg-[#06400a]"} FAQimg={<Canada_FaqSVG />} />
       <Canada_Counselor></Canada_Counselor>
     </div>
   );
