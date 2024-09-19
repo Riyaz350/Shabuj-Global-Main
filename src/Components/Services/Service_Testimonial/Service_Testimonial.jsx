@@ -50,7 +50,7 @@ const Service_Testimonial = () => {
                     className='mySwiper'
                 >
                     {items.map((item) => (
-                        <SwiperSlide key={item.id}>
+                        <SwiperSlide key={item.id} className='!m-0'>
                             <Service_SingleTestimonial item={item}></Service_SingleTestimonial>
                         </SwiperSlide>
                     ))}
