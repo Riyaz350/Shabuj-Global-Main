@@ -6,8 +6,8 @@ const DocumentsRequired_Swit = () => {
   return (
     <>
       <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
-        <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
-          Documents Required to Study in the Switzerland for International Students
+      <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-8 md:px-0 text-center">
+      Documents Required to Study in the Switzerland for International Students
         </h1>
         <div className="relative flex flex-col md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2 items-center justify-between">
           <div className="flex-1 px-10 lg:px-0 text-[18px] font-normal text-[#1F1F1F]  ">
@@ -34,18 +34,16 @@ const DocumentsRequired_Swit = () => {
             </ul>
           </div>
           <div className=" ">
-            <Doc1 />
           </div>
         </div>
       </div>
 
       {/* Second section  */}
       <div className="min-h-screen bg-white py-28 ">
-        <h1 className="text-2xl md:text-4xl  lg:text-[56px] lg:w-1/2 mx-auto font-bold text-center mb-16 text-[#081831]">
-          Statement of Purpose for Switzerland
+      <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-8 md:px-0 text-center">
+      Statement of Purpose for Switzerland
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
-          <Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
@@ -77,8 +75,8 @@ const DocumentsRequired_Swit = () => {
 
        {/* Documents Required Last Section */}
        <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
-        <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-5 md:px-0 text-center">
-        Documents Required to apply for the Switzerland Study Visa
+       <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-8 md:px-0 text-center">
+       Documents Required to apply for the Switzerland Study Visa
         </h1>
         <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
           <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
@@ -104,7 +102,6 @@ const DocumentsRequired_Swit = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Document_Last_SVG_Swit/>
           </div>
         </div>
       </div>

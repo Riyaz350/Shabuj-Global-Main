@@ -18,6 +18,13 @@ import QuickFacts from "../../Components/Study_Destination_Components/Shared_Des
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import Exams from "../../Components/Study_Destination_Components/Shared/Exams";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import UAE_Doc1 from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_Doc1";
+import UAE_Doc2 from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_Doc2";
+import UAE_DocumentsSvg from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_DocumentsSvg";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import UAE_FaqSVG from "../../Components/Study_Destination_Components/UAE/UAE_Faq/UAE_FaqSVG";
 
 const UAE = () => {
   useEffect(() => {
@@ -43,7 +50,12 @@ const UAE = () => {
       {/* <UAE_Tabs></UAE_Tabs> */}
       <Tabs country={"UAE"} />
       <AnimatedText country={"UAE"} />
-      <UAE_UniversityCards></UAE_UniversityCards>
+      {/* <UAE_UniversityCards></UAE_UniversityCards> */}
+      <Unversity_Cards
+        country={"UAE"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <RequirementCard country={"UAE"} />
 
       {/* <UAE_RequirementCard ></UAE_RequirementCard> */}
@@ -51,8 +63,15 @@ const UAE = () => {
       <Exams country={"UAE"} />
       {/* <UAE_GuidanceBanner></UAE_GuidanceBanner> */}
       <GuidanceBanner />
-      <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired>
-      <UAE_Faq></UAE_Faq>
+      {/* <UAE_DocumentsRequired country={"UAE"}></UAE_DocumentsRequired> */}
+      <University_Required_Docs
+        country={"UAE"}
+        doc1={<UAE_Doc1 />}
+        doc2={<UAE_Doc2 />}
+        doc3={<UAE_DocumentsSvg />}
+      />
+      {/* <UAE_Faq></UAE_Faq> */}
+      <University_Faq bgColor={"bg-[#63099c]"} FAQimg={<UAE_FaqSVG />} />
       <UAE_Counselor></UAE_Counselor>
     </div>
   );

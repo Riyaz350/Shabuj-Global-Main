@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <div className="w-full bg-transparent -mt-[60px] mb-[-1px]">
+        <div className="w-full bg-transparent -mt-[110px] md:-mt-[80px] xl:-mt-[128px] mb-[-1px]">
           <img src="./assets/footerShape.png" className="w-full" alt="" />
         </div>
         <div className="bg-[#081831] px-6 relative">
@@ -34,7 +34,11 @@ const Footer = () => {
                 About Shabuj Global Education
               </h2>
               <p className="mulish-regular lg:text-base text-sm">
-              Shabuj Global Education (also known as SG Education) is one of the BRITISH COUNCIL accredited education service providers in the UK. The company has been working since 2010 with great pride and service excellence. At Shabuj Global we provide services to local and international students for UK University admission.
+                Shabuj Global Education (also known as SG Education) is one of
+                the BRITISH COUNCIL accredited education service providers in
+                the UK. The company has been working since 2010 with great pride
+                and service excellence. At Shabuj Global we provide services to
+                local and international students for UK University admission.
               </p>
             </div>
             <div className="w-[177px]  mx-auto lg:mx-0 text-center lg:text-start">
@@ -130,7 +134,7 @@ const Footer = () => {
           <div className="footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white justify-center ">
             <div className="mx-auto">
               <div className="md:w-[577px] w-full mx-auto lg:h-[164px]  bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]">
-                <h2 className="lg:mulish-semibold mulish-bold lg:text-[28px] text-[18px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]">
+                <h2 className="px-4 lg:mulish-semibold mulish-bold lg:text-[28px] text-[18px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]">
                   UKVI Approved Test Centre for
                 </h2>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-5 md:gap-[41px]">
@@ -443,7 +447,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="relative">
-            <img src="./assets/vector7.png" alt="" className="absolute bottom-0 hidden left-0 lg:block mx-auto right-0"/>
+            <img
+              src="./assets/vector7.png"
+              alt=""
+              className="absolute bottom-0 hidden left-0 lg:block mx-auto right-0"
+            />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Home_Contact = () => {
   const Letter = text.split("");
 
   return (
-    <div className="bg-[#E7E7E7] pt-[98px] pb-[120px] overflow-hidden px-4">
+    <div className="bg-[#E7E7E7] pt-[98px] pb-[250px] overflow-hidden px-4 ">
       <div className="text-center">
         <h2 className="poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] lg:pb-[39px] pb-5">
           It’s Time to Start Your Journey With Us

@@ -10,6 +10,12 @@ import USA_Counselor from "../../Components/Study_Destination_Components/USA/USA
 import UKBanner from "../../Components/Study_Destination_Components/Shared_Destination_Component/UKBanner";
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
+import Document_Last_SVG_USA from "../../Components/Study_Destination_Components/USA/SVG/Document_Last_SVG_USA";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Doc1 from "../../Components/Study_Destination_Components/USA/SVG/Doc1";
+import Doc2 from "../../Components/Study_Destination_Components/USA/SVG/Doc2";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_USA from "../../Components/Study_Destination_Components/USA/SVG/Faq_SVG_USA";
 
 const USA = () => {
   useEffect(() => {
@@ -20,14 +26,21 @@ const USA = () => {
     <div className="font-poppins overflow-hidden">
       <UKBanner country={"USA"} />
       <StudyUK country={"USA"} description={description} />
-      <QuickFacts country='USA' />
+      <QuickFacts country="USA" />
       <Tabs country={"USA"} />
       <AnimatedText country={"USA"} />
       <RequirementCard country={"USA"} />
       <Exams country={"USA"} />
       <GuidanceBanner />
-      <DocumentsRequired_USA />
-      <Faq_USA />
+      {/* <DocumentsRequired_USA /> */}
+      <University_Required_Docs
+        country={"USA"}
+        doc1={<Doc1 />}
+        doc2={<Doc2 />}
+        doc3={<Document_Last_SVG_USA />}
+      />
+      {/* <Faq_USA /> */}
+      <University_Faq bgColor={"bg-[#a74d0f]"} FAQimg={<Faq_SVG_USA />} />
       <USA_Counselor />
     </div>
   );

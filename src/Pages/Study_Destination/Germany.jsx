@@ -12,6 +12,13 @@ import { useEffect } from "react";
 import QuickFacts from "../../Components/Study_Destination_Components/Shared_Destination_Component/QuickFacts";
 import Canada_Banner from "../../Components/Study_Destination_Components/Shared_Destination_Component/Canada_Banner/Canada_Banner";
 import Georgia_Study from "../../Components/Study_Destination_Components/Shared_Destination_Component/Georgia_Study/Georgia_Study";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Document_Last_SVG_Ger from "../../Components/Study_Destination_Components/Germany/SVG/Document_Last_SVG_Ger";
+import DocumentSVG2 from "../../Components/Study_Destination_Components/Germany/SVG/DocumentSVG2";
+import DocumentSVG from "../../Components/Study_Destination_Components/Germany/SVG/DocumentSVG";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_Ger from "../../Components/Study_Destination_Components/Germany/SVG/Faq_SVG_Ger";
 
 const Germany = () => {
   useEffect(() => {
@@ -24,17 +31,33 @@ const Germany = () => {
     <div className="font-poppins overflow-hidden">
       {/* <Germany_Banner /> */}
       <Canada_Banner country="Germany" />
-      <Georgia_Study country={"Germany"} description={description} bgColor={'bg-[#1A1A1A]'}/>
+      <Georgia_Study
+        country={"Germany"}
+        description={description}
+        bgColor={"bg-[#1A1A1A]"}
+      />
 
       {/* <Germany_StudyInGermany /> */}
       <QuickFacts country="Germany" />
       <Tabs country={"Germany"} />
       <AnimatedText country={"Germany"} />
-      <UniversityCards_Ger />
+      {/* <UniversityCards_Ger /> */}
+      <Unversity_Cards
+        country={"Germany"}
+        apiRoute={"germany"}
+        routeLabel={"singleUniversityGER"}
+      />
       <RequirementCard country={"Germany"} />
       <Exams country={"Germany"} />
-      <DocumentsRequired />
-      <Faq_Ger />
+      {/* <DocumentsRequired /> */}
+      <University_Required_Docs
+        country={"Germany"}
+        doc1={<DocumentSVG />}
+        doc2={<DocumentSVG2 />}
+        doc3={<Document_Last_SVG_Ger />}
+      />
+      {/* <Faq_Ger /> */}
+      <University_Faq bgColor={"bg-[#1A1A1A]"} FAQimg={<Faq_SVG_Ger />} />
       <Germany_Counselor />
     </div>
   );

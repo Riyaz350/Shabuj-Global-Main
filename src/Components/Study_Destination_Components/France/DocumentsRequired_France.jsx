@@ -35,7 +35,6 @@ const DocumentsRequired_Swit = () => {
             </ul>
           </div>
           <div className=" ">
-            <Doc1 />
           </div>
         </div>
       </div>
@@ -105,7 +104,6 @@ const DocumentsRequired_Swit = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Document_Last_SVG_France/>
           </div>
         </div>
       </div>

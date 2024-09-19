@@ -47,7 +47,6 @@ const Faq_USA = () => {
       <div className="mx-auto md:max-w-screen-xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-y-5 lg:flex-row lg:justify-between mx-auto">
           <div className="w-full px-5 lg:w-1/2">
-            <Faq_SVG_USA />
           </div>
           <div className="w-full lg:w-1/2 bg-[#a74d0f] h-[525px] rounded-[36px] ">
             <div className="lg:max-w-xl">

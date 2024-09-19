@@ -94,8 +94,8 @@ const Services_Components = () => {
     }
 
     return (
-        <div className='poppins'>
-            <div className=" lg:flex items-center  max-w-5xl mx-auto">
+        <div className='poppins px-5'>
+            <div className=" lg:flex items-center  max-w-5xl mx-auto ">
                 <img className='w-2/3 lg:w-1/2 mx-auto lg:mx-0' src={project} alt="" />
                 <div className='w-2/3 md:w-2/5 mb-10 mx-auto lg:mx-0 lg:ml-auto'>
                     <h1 className='text-center md:text-start text-4xl lg:text-5xl my-10'>Our Services</h1>

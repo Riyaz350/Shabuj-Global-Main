@@ -36,7 +36,6 @@ const UAE_DocumentsRequired = () => {
             </ul>
           </div>
           <div className=" ">
-            <Georgia_Doc1 />
           </div>
         </div>
       </div>
@@ -47,7 +46,6 @@ const UAE_DocumentsRequired = () => {
           Statement of Purpose for Georgia
         </h1>
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
-          <Georgia_Doc2/>
           <div className="flex-1 text-[18px] font-normal text-[#1F1F1F]">
             <p className="mb-3 px-10">
               The Statement of Purpose (SOP) plays a crucial role in the
@@ -106,7 +104,6 @@ const UAE_DocumentsRequired = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <Georgia_DocumentsSvg></Georgia_DocumentsSvg>
           </div>
         </div>
       </div>

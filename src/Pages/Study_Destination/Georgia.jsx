@@ -14,7 +14,13 @@ import Canada_Banner from "../../Components/Study_Destination_Components/Shared_
 import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
-
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Georgia_Doc1 from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_Doc1";
+import Georgia_Doc2 from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_Doc2";
+import Georgia_DocumentsSvg from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_DocumentsSvg";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import Georgia_FaqSVG from "../../Components/Study_Destination_Components/Georgia/Georgia_Faq/Georgia_FaqSVG";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
 
 const Georgia = () => {
   useEffect(() => {
@@ -24,7 +30,7 @@ const Georgia = () => {
   return (
     <div className="font-poppins overflow-hidden">
       {/* <Georgia_Banner></Georgia_Banner> */}
-      <Canada_Banner country={'Gerogia'}/>
+      <Canada_Banner country={"Gerogia"} />
       <Georgia_Study
         country={"Georgia"}
         description={description}
@@ -34,13 +40,25 @@ const Georgia = () => {
       <Tabs country={"Georgia"} />
       {/* <Georgia_AnimatedText></Georgia_AnimatedText> */}
       <AnimatedText country={"Georgia"} />
-      <Georgia_UniversityCards></Georgia_UniversityCards>
+      {/* <Georgia_UniversityCards></Georgia_UniversityCards> */}
+      <Unversity_Cards
+        country={"Georgia"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
       <RequirementCard country={"Georgia"} />
       {/* <UAE_RequirementCard country={"Georgia"}></UAE_RequirementCard> */}
       <Exams country={"Georgia"}></Exams>
-      <GuidanceBanner ></GuidanceBanner>
-      <Georgia_DocumentsRequired></Georgia_DocumentsRequired>
-      <Georgia_Faq></Georgia_Faq>
+      <GuidanceBanner></GuidanceBanner>
+      {/* <Georgia_DocumentsRequired></Georgia_DocumentsRequired> */}
+      <University_Required_Docs
+        country={"Georgia"}
+        doc1={<Georgia_Doc1 />}
+        doc2={<Georgia_Doc2 />}
+        doc3={<Georgia_DocumentsSvg />}
+      />
+      {/* <Georgia_Faq></Georgia_Faq> */}
+      <University_Faq bgColor={"bg-[#0873ba]"} FAQimg={<Georgia_FaqSVG />} />
       <Georgia_Counselor></Georgia_Counselor>
     </div>
   );

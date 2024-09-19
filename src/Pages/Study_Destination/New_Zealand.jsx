@@ -8,10 +8,17 @@ import DocumentsRequired_NZ from "../../Components/Study_Destination_Components/
 import Faq_NZ from "../../Components/Study_Destination_Components/New Zealand/Faq_NZ";
 import NZ_Counselor from "../../Components/Study_Destination_Components/New Zealand/NZ_Counselor/NZ_Counselor";
 import { useEffect } from "react";
-import UniversityCards from "../../Components/Study_Destination_Components/Shared/Universities/UniversityCards";
-import uniData from '../../../public/universities_json/newZealand.json'
+import uniData from "../../../public/universities_json/newZealand.json";
 import StudyUK from "../../Components/Study_Destination_Components/Shared_Destination_Component/StudyUK";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import Doc1 from "../../Components/Study_Destination_Components/New Zealand/SVG/Doc1";
+import Doc2 from "../../Components/Study_Destination_Components/New Zealand/SVG/Doc2";
+import Document_Last_SVG_NZ from "../../Components/Study_Destination_Components/New Zealand/SVG/Document_Last_SVG_NZ";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import UniversityCards from "../../Components/Study_Destination_Components/UK/UniversityCards";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Faq_SVG_NZ from "../../Components/Study_Destination_Components/New Zealand/SVG/Faq_SVG_NZ";
 
 const New_Zealand = () => {
   useEffect(() => {
@@ -22,15 +29,27 @@ const New_Zealand = () => {
     <div className="font-poppins overflow-hidden">
       <UKBanner country={"New Zealand"} />
       <StudyUK country={"New Zealand"} description={description} />
-      <QuickFacts country="New Zealand"/>
-      <Tabs country="New Zealand"/>
+      <QuickFacts country="New Zealand" />
+      <Tabs country="New Zealand" />
       <AnimatedText country={"New Zealand"} />
-      <UniversityCards prop={uniData}/>
+      {/* <UniversityCards prop={uniData}/> */}
+      <Unversity_Cards
+        country={"New Zealand"}
+        apiRoute={"newZealand"}
+        routeLabel={"singleUniversityNZ"}
+      />
       <RequirementCard country={"New Zealand"} />
       <Exams country={"New Zealand"} />
       <GuidanceBanner />
-      <DocumentsRequired_NZ />
-      <Faq_NZ />
+      {/* <DocumentsRequired_NZ /> */}
+      <University_Required_Docs
+        country={"New Zealand"}
+        doc1={<Doc1 />}
+        doc2={<Doc2 />}
+        doc3={<Document_Last_SVG_NZ />}
+      />
+      {/* <Faq_NZ /> */}
+      <University_Faq bgColor={"bg-[#a3a7ff]"} FAQimg={<Faq_SVG_NZ />} />
       <NZ_Counselor />
     </div>
   );

@@ -7,7 +7,9 @@ const Services_Page = () => {
     <div className="font-poppins">
       <Services_Components />
       <Service_Testimonial></Service_Testimonial>
+      <div className="pb-16 sm:-11">
       <Home_Connection />
+      </div>
     </div>
   );
 };

@@ -14,6 +14,13 @@ import Canada_Banner from "../../Components/Study_Destination_Components/Shared_
 import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Cyprus_Doc1 from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_Doc1";
+import Cyprus_Doc2 from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_Doc2";
+import Cyprus_DocumentsSvg from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Document/Cyprus_DocumentsSvg";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
+import Cyprus_FaqSVG from "../../Components/Study_Destination_Components/Cyprus/Cyprus_Faq/Cyprus_FaqSVG";
 
 const Cyprus = () => {
   useEffect(() => {
@@ -23,7 +30,7 @@ const Cyprus = () => {
   return (
     <div className="font-poppins overflow-hidden">
       {/* <Cyprus_Banner></Cyprus_Banner> */}
-      <Canada_Banner country={'Cyprus'} />
+      <Canada_Banner country={"Cyprus"} />
       <Georgia_Study
         country={"Cyprus"}
         description={description}
@@ -33,13 +40,25 @@ const Cyprus = () => {
       <Tabs country={"Cyprus"} />
       <AnimatedText country={"Cyprus"} />
       {/* <Cyprus_AnimatedText></Cyprus_AnimatedText> */}
-      <Cyprus_UniversityCards></Cyprus_UniversityCards>
-      <RequirementCard country={"Cyprus"}/>
+      {/* <Cyprus_UniversityCards></Cyprus_UniversityCards> */}
+      <Unversity_Cards
+        country={"Cyprus"}
+        apiRoute={"uk"}
+        routeLabel={"singleUniversityUK"}
+      />
+      <RequirementCard country={"Cyprus"} />
       {/* <UAE_RequirementCard country={"Cyprus"}></UAE_RequirementCard> */}
       <Exams country={"Cyprus"}></Exams>
       <GuidanceBanner></GuidanceBanner>
-      <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired>
-      <Cyprus_Faq></Cyprus_Faq>
+      {/* <Cyprus_DocumentsRequired></Cyprus_DocumentsRequired> */}
+      <University_Required_Docs
+        country={"Cyprus"}
+        doc1={<Cyprus_Doc1 />}
+        doc2={<Cyprus_Doc2 />}
+        doc3={<Cyprus_DocumentsSvg />}
+      />
+      {/* <Cyprus_Faq></Cyprus_Faq> */}
+      <University_Faq bgColor={"bg-[#692a00]"} FAQimg={<Cyprus_FaqSVG />} />
       <Cyprus_Counselor></Cyprus_Counselor>
     </div>
   );

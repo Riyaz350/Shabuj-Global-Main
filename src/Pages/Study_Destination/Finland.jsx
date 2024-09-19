@@ -14,6 +14,12 @@ import Canada_Banner from "../../Components/Study_Destination_Components/Shared_
 import Tabs from "../../Components/Study_Destination_Components/Shared_Destination_Component/Tabs/Tabs";
 import RequirementCard from "../../Components/Study_Destination_Components/Shared/RequirementCard";
 import GuidanceBanner from "../../Components/Study_Destination_Components/Shared/GuidenceBanner";
+import Finland_Doc1 from "../../Components/Study_Destination_Components/Finland/Finland_Document/Finland_Doc1";
+import Finland_Doc2 from "../../Components/Study_Destination_Components/Finland/Finland_Document/Finland_Doc2";
+import Finland_DocumentsSvg from "../../Components/Study_Destination_Components/Finland/Finland_Document/Finland_DocumentsSvg";
+import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Finland_FaqSVG from "../../Components/Study_Destination_Components/Finland/Finland_Faq/Finland_FaqSVG";
+import University_Faq from "../../Components/Study_Destination_Components/Shared/University_Faq";
 
 const Finland = () => {
   useEffect(() => {
@@ -23,7 +29,7 @@ const Finland = () => {
   return (
     <div className="font-poppins overflow-hidden">
       {/* <Finland_Banner></Finland_Banner> */}
-      <Canada_Banner country={'Finland'}/>
+      <Canada_Banner country={"Finland"} />
       <Georgia_Study
         country={"Finland"}
         description={description}
@@ -35,11 +41,18 @@ const Finland = () => {
       {/* <Finland_AnimatedText></Finland_AnimatedText> */}
       <Finland_UniversityCards></Finland_UniversityCards>
       {/* <UAE_RequirementCard country={"Finland"}></UAE_RequirementCard> */}
-      <RequirementCard country={"Finland"}/>
+      <RequirementCard country={"Finland"} />
       <Exams country={"Finland"}></Exams>
       <GuidanceBanner></GuidanceBanner>
-      <Finland_DocumentsRequired></Finland_DocumentsRequired>
-      <Finland_Faq></Finland_Faq>
+      {/* <Finland_DocumentsRequired></Finland_DocumentsRequired> */}
+      <University_Required_Docs
+        country={"Finland"}
+        doc1={<Finland_Doc1 />}
+        doc2={<Finland_Doc2 />}
+        doc3={<Finland_DocumentsSvg />}
+      />
+      {/* <Finland_Faq></Finland_Faq> */}
+      <University_Faq bgColor={"bg-[#e1b43d]"} FAQimg={<Finland_FaqSVG />} />
       <Finland_Counselor></Finland_Counselor>
     </div>
   );
