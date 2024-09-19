@@ -30,7 +30,7 @@ import Canada from "../Pages/Study_Destination/Canada";
 import New_Zealand from "../Pages/Study_Destination/New_Zealand";
 import USA from "../Pages/Study_Destination/USA";
 import Login_Page from "../Components/Login_Page/Login_Page";
-// import Single_University from "../Components/Study_Destination_Components/New Zealand/SingleUniversity/SingleUniversity";
+import Single_University from "../Components/Study_Destination_Components/New Zealand/SingleUniversity/SingleUniversity";
 
 export const router = createBrowserRouter([
   {
@@ -134,10 +134,10 @@ export const router = createBrowserRouter([
         path: "/singleUniversityAll/:id",
         element: <HomeSingleUniversity />,
       },
-      // {
-      //   path: "/singleUniversityNZ/:id",
-      //   element: <Single_University/>
-      // },
+      {
+        path: "/singleUniversityNZ/:id",
+        element: <Single_University/>
+      },
       {
         path: "/Switzerland",
         element: <Switzerland />,

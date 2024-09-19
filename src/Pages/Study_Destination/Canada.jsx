@@ -17,6 +17,7 @@ import University_Required_Docs from "../../Components/Study_Destination_Compone
 import Canada_Doc1 from "../../Components/Study_Destination_Components/Canada/Canada_Documents/Canada_Doc1";
 import Canada_Doc2 from "../../Components/Study_Destination_Components/Canada/Canada_Documents/Canada_Doc2";
 import Canada_DocumentsSvg from "../../Components/Study_Destination_Components/Canada/Canada_Documents/Canada_DocumentsSvg";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
 
 const Canada = () => {
   useEffect(() => {
@@ -34,7 +35,8 @@ const Canada = () => {
       {/* <Canada_Tabs></Canada_Tabs> */}
       <Tabs country={"Canada"} />
       <AnimatedText country={"Canada"} />
-      <Canada_UniversityCards></Canada_UniversityCards>
+      {/* <Canada_UniversityCards></Canada_UniversityCards> */}
+      <Unversity_Cards country={'Canada'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
       <GuidanceBanner></GuidanceBanner>
       {/* <UAE_RequirementCard country={"Canada"}></UAE_RequirementCard> */}
       <RequirementCard country={"Canada"} />

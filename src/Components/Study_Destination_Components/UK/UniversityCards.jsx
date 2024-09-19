@@ -17,6 +17,8 @@ const UniversityCards = () => {
   const handleCardClick = (university) => {
     setSelectedUniversity(university);
   };
+
+  console.log(universities)
   
   return (
     <div
@@ -24,7 +26,7 @@ const UniversityCards = () => {
       onMouseLeave={() => setSelectedUniversity(null)}
     >
       <h1 className="lg:text-[56px] text-[28px] font-bold py-28 text-center">
-        Top Universities in The UK
+        Top Universities in The New Zealand
       </h1>
       <div className="flex max-w-screen-xl mx-auto">
         <div
@@ -34,7 +36,7 @@ const UniversityCards = () => {
               : "w-full"
           }`}
         >
-          {universities.map((university, index) => (
+          {universities?.map((university, index) => (
             <div
               key={index}
               className="p-4 bg-white rounded-lg cursor-pointer"

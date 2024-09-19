@@ -22,6 +22,7 @@ import UAE_Doc1 from "../../Components/Study_Destination_Components/UAE/UAE_Docu
 import UAE_Doc2 from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_Doc2";
 import UAE_DocumentsSvg from "../../Components/Study_Destination_Components/UAE/UAE_Documents/UAE_DocumentsSvg";
 import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
 
 const UAE = () => {
   useEffect(() => {
@@ -47,7 +48,8 @@ const UAE = () => {
       {/* <UAE_Tabs></UAE_Tabs> */}
       <Tabs country={"UAE"} />
       <AnimatedText country={"UAE"} />
-      <UAE_UniversityCards></UAE_UniversityCards>
+      {/* <UAE_UniversityCards></UAE_UniversityCards> */}
+      <Unversity_Cards country={'UAE'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
       <RequirementCard country={"UAE"} />
 
       {/* <UAE_RequirementCard ></UAE_RequirementCard> */}

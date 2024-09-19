@@ -18,6 +18,7 @@ import University_Required_Docs from "../../Components/Study_Destination_Compone
 import Georgia_Doc1 from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_Doc1";
 import Georgia_Doc2 from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_Doc2";
 import Georgia_DocumentsSvg from "../../Components/Study_Destination_Components/Georgia/Georgia_Document/Georgia_DocumentsSvg";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
 
 const Georgia = () => {
   useEffect(() => {
@@ -37,7 +38,8 @@ const Georgia = () => {
       <Tabs country={"Georgia"} />
       {/* <Georgia_AnimatedText></Georgia_AnimatedText> */}
       <AnimatedText country={"Georgia"} />
-      <Georgia_UniversityCards></Georgia_UniversityCards>
+      {/* <Georgia_UniversityCards></Georgia_UniversityCards> */}
+      <Unversity_Cards country={'Georgia'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
       <RequirementCard country={"Georgia"} />
       {/* <UAE_RequirementCard country={"Georgia"}></UAE_RequirementCard> */}
       <Exams country={"Georgia"}></Exams>

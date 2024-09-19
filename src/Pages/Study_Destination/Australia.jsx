@@ -14,6 +14,7 @@ import University_Required_Docs from "../../Components/Study_Destination_Compone
 import DocumentSVG1 from "../../Components/Study_Destination_Components/Australia/SVG/DocumentSVG1";
 import DocumentSVG2 from "../../Components/Study_Destination_Components/Australia/SVG/DocumentSVG2";
 import Document_Last_SVG_Aus from "../../Components/Study_Destination_Components/Australia/SVG/Document_Last_SVG_Aus";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
 
 const Australia = () => {
   useEffect(() => {
@@ -26,7 +27,8 @@ const Australia = () => {
       <QuickFacts country="Australia" />
       <Tabs country={"Australia"} />
       <AnimatedText country={"Australia"} />
-      <UniversityCards_Australia />
+      {/* <UniversityCards_Australia /> */}
+      <Unversity_Cards country={'Australia'} apiRoute={'australia'} routeLabel={'singleUniversityAUS'}/>
       <RequirementCard country={"Australia"} />
       <Exams country={"Australia"} />
       {/* <DocumentsRequired /> */}

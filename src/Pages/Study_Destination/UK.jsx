@@ -15,6 +15,7 @@ import Doc1 from "../../Components/Study_Destination_Components/UK/SVG/Doc1";
 import Doc2 from "../../Components/Study_Destination_Components/UK/SVG/Doc2";
 import Document_Last_SVG_UK from "../../Components/Study_Destination_Components/UK/SVG/Document_Last_SVG_UK";
 import University_Required_Docs from "../../Components/Study_Destination_Components/Shared/University_Required_Docs";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
 
 const UK = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const UK = () => {
       <Tabs country={"UK"} />
       <AnimatedText country={"UK"} />
       <UniversityCards />
+      <Unversity_Cards country={'UK'} apiRoute={'uk'} routeLabel={'singleUniversityUK'}/>
       <RequirementCard country={"UK"} />
       <Exams country={"UK"} />
       <GuidanceBanner />

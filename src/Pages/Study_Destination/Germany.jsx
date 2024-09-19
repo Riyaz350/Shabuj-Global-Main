@@ -16,6 +16,7 @@ import University_Required_Docs from "../../Components/Study_Destination_Compone
 import Document_Last_SVG_Ger from "../../Components/Study_Destination_Components/Germany/SVG/Document_Last_SVG_Ger";
 import DocumentSVG2 from "../../Components/Study_Destination_Components/Germany/SVG/DocumentSVG2";
 import DocumentSVG from "../../Components/Study_Destination_Components/Germany/SVG/DocumentSVG";
+import Unversity_Cards from "../../Components/Study_Destination_Components/Shared/Unversity_Cards";
 
 const Germany = () => {
   useEffect(() => {
@@ -38,7 +39,8 @@ const Germany = () => {
       <QuickFacts country="Germany" />
       <Tabs country={"Germany"} />
       <AnimatedText country={"Germany"} />
-      <UniversityCards_Ger />
+      {/* <UniversityCards_Ger /> */}
+      <Unversity_Cards country={'Germany'} apiRoute={'germany'} routeLabel={'singleUniversityGER'}/>
       <RequirementCard country={"Germany"} />
       <Exams country={"Germany"} />
       {/* <DocumentsRequired /> */}
