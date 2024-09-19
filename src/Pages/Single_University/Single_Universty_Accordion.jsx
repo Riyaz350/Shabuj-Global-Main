@@ -56,14 +56,14 @@ const Single_Universty_Accordion = () => {
   };
 
   return (
-    <div className="w-full font-poppins h-screen rounded-lg px-5 py-10">
+    <div className="w-full font-poppins h-auto rounded-lg  py-10 pb-0">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="my-3">
           <button
             onClick={() => toggle(idx)}
             className="flex w-full rounded-full bg-[#EEEEEE] items-center justify-between font-medium outline-none"
           >
-            <span className="pl-5 py-3 text-lg md:text-2xl font-bold text-[#00399F]">
+            <span className="pl-5 py-3 text-lg md:text-2xl font-bold text-[#00399F] text-left">
               {PerAccordion.title}
             </span>
             <span

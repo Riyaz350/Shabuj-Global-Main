@@ -23,21 +23,21 @@ export default function Single_University_Form() {
   };
 
   return (
-    <div className="font-poppins ml-auto w-full md:p-0 p-5 mt-10">
+    <div className="font-poppins ml-auto w-full  mt-10">
       <div className="shadow-xl rounded-2xl">
         <div className="bg-[#3b82f6] text-center text-white p-5 rounded-t-2xl">
           <h2 className="md:text-2xl text-xl font-semibold">
             Want to Study at The University of Aberdeen?
           </h2>
         </div>
-        <form className="p-4 space-y-5">
+        <form className="p-6 space-y-5">
           <div>
             <Label text="Name" />
             <Input text="Your Name" type="text" />
           </div>
           <div>
             <Label text="Email" />
-            <div className="flex items-center justify-between border-[1px] hover:border-[#3b82f6] cursor-pointer w-full p-1 rounded-md">
+            <div className="flex items-center justify-between  border-[2px] hover:border-[#3b82f6] cursor-pointer w-full p-1 rounded-md">
               <input
                 className="focus:outline-none placeholder:text-xs placeholder:text-gray-300 w-full"
                 placeholder="Your Email"

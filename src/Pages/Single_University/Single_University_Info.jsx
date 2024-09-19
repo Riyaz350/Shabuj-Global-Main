@@ -1,6 +1,6 @@
 const Single_University_Info = () => {
   return (
-    <div className="md:p-0 p-5 mt-14">
+    <div className=" mt-14">
       <div className="ml-auto bg-[#F5F5F5] rounded-2xl">
         <p className="bg-[#2563EB] text-white text-center py-5 text-3xl font-bold rounded-t-2xl">
           Key Information
