@@ -1,7 +1,3 @@
-import flag from "../../../assets/contents.png";
-import icon from "../../../assets/Category-1-Plus.png";
-import blog1 from "../../../assets/Rectangle 191.png";
-import blog2 from "../../../assets/Rectangle 192.png";
 import { FaAngleDown } from "react-icons/fa6";
 
 const BlogSingle = () => {
@@ -223,7 +219,7 @@ const BlogSingle = () => {
                 <Label text="Phone Number" />
                 <div className="flex items-center gap-5 text-gray-300 text-xs">
                   <span className="flex p-2 border-[1px]">
-                    <img src={flag} alt="" />
+                    <img src='https://i.ibb.co.com/QjQfzT1/contents.png' alt="" />
                     <p className="pr-2">+880</p>
                   </span>
                   <Input text="1891123654" type="text" />
@@ -300,7 +296,7 @@ const BlogSingle = () => {
 
           <div className="my-10">
             <div className="flex items-center">
-              <img src={icon} alt="" />
+              <img src='https://i.ibb.co.com/0tWWKrV/Category-1-Plus.png' alt="" />
               <p className="font-semibold">Category</p>
             </div>
             <ul className="space-y-1 my-1">
@@ -323,15 +319,15 @@ const BlogSingle = () => {
           <div className="space-y-5 flex flex-col items-center lg:items-start">
             <h2 className="font-semibold text-md">Related Blogs</h2>
             <Card
-              img={blog1}
+              img='https://i.ibb.co.com/pfHGbFK/Rectangle-191.png'
               title={`Networking in University: A Shabuj Global ${`Student's`} Guide`}
             />
             <Card
-              img={blog2}
+              img='https://i.ibb.co.com/D15Vx5q/Rectangle-192.png'
               title={`University Networking: Guide for Global Students by Shabuj`}
             />
             <Card
-              img={blog1}
+              img='https://i.ibb.co.com/pfHGbFK/Rectangle-191.png'
               title={`Networking in University: A Shabuj Global Student's Guide`}
             />
           </div>

@@ -1,7 +1,4 @@
 import { useState } from "react";
-import png from "../../../assets/UK/UK-Hero-Hover-1.png";
-import bgWhite from "../../../assets/UK/UK-Hero-Hover-BG-1.png";
-import bgBlue from "../../../assets/UK/UK-Hero-Hover-BG-2.png";
 const UKBanner = ({ country }) => {
   const [bgHover, setBgHover] = useState(0);
   return (
@@ -13,13 +10,13 @@ const UKBanner = ({ country }) => {
       <div className="relative w-full mx-auto flex flex-col items-center justify-center">
         <div className="w-full">
           {bgHover == 1 ? (
-            <img className="xl:h-[700px] rounded-3xl w-full" src={bgBlue} alt="" />
+            <img className="xl:h-[700px] rounded-3xl w-full" src='https://i.ibb.co.com/xDWsG60/UK-Hero-Hover-BG-2.png' alt="" />
           ) : (
-            <img className="xl:h-[700px] rounded-3xl w-full" src={bgWhite} alt="" />
+            <img className="xl:h-[700px] rounded-3xl w-full" src='https://i.ibb.co.com/TcSds2P/UK-Hero-Hover-BG-1.png' alt="" />
           )}
         </div>
         <div className="absolute bottom-0 max-w-7xl mx-auto">
-          <img className="rounded-3xl " src={png} alt="" />
+          <img className="rounded-3xl " src='https://i.ibb.co.com/n1P7qZJ/UK-Hero-Hover-1.png' alt="" />
         </div>
         <div className="absolute z-10 top-[10%] flex flex-col items-center justify-center">
           <h1

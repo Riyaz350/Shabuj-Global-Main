@@ -1,4 +1,3 @@
-import australia_gif from "../../../assets/Australia/australia_car.gif";
 const Study_Australia = () => {
   return (
     <div className="bg-[#EFF6FF] rounded-[32px] py-16">
@@ -17,7 +16,7 @@ const Study_Australia = () => {
           Whether you're an adventurer, a foodie, or a culture
         </p>
         <div className="w-80 h-[216px] sm:mr-24 mr-5 absolute right-0 bottom-0">
-          <img src={australia_gif} alt="Car Animation" />
+          <img src='https://i.ibb.co.com/7VK4ntw/australia-car.gif' alt="Car Animation" />
         </div>
       </div>
     </div>

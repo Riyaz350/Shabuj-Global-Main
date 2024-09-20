@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { FaAngleDown } from "react-icons/fa";
-import flag from "../../assets/contents.png";
 
 export default function Single_University_Form() {
   const Label = ({ text }) => {
@@ -52,7 +51,7 @@ export default function Single_University_Form() {
             <Label text="Phone Number" />
             <div className="flex items-center gap-5 text-gray-300 text-xs">
               <span className="flex p-2 border-[1px] rounded-md">
-                <img src={flag} alt="" />
+                <img src='https://i.ibb.co.com/QjQfzT1/contents.png' alt="" />
                 <p className="pr-2">+880</p>
               </span>
               <Input text="1891123654" type="text" />

@@ -13,7 +13,7 @@ const HeroSection = () => {
           Study in the UK
         </h1>
         <p className="mt-4 text-xl font-medium text-[#1F1F1F] w-3/5 text-center group-hover:text-white">
-          Here’s a comprehensive guide for all students who want to study in the
+          Here’ss a comprehensive guide for all students who want to study in the
           UK.
         </p>
       </div>
