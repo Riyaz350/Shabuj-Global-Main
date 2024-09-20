@@ -40,18 +40,18 @@ const Events_Components = () => {
           <div className="-mt-28 lg:-mt-48 max-w-5xl mx-auto border-b-2 px-10 border-[#CACACA] pb-20">
             {width < 768 ? (
               <img
-                className="lg:mx-auto rounded-3xl mb-10 shadow-lg"
+                className="mx-auto rounded-3xl mb-10 shadow-lg"
                 src={small}
                 alt=""
               />
             ) : (
               <img
-                className="  lg:mx-auto rounded-3xl mb-10 shadow-lg"
+                className="mx-auto rounded-3xl mb-10 shadow-lg"
                 src={large}
                 alt=""
               />
             )}
-            <div className="max-w-3xl mx-auto flex gap-2">
+            <div className="max-w-3xl mx-auto flex gap-2 flex-wrap sm:flex-nowrap">
               <Link
                 to={"/comingSoon"}
                 onMouseEnter={() => setActive(1)}
@@ -91,7 +91,7 @@ const Events_Components = () => {
           <div className="lg:grid grid-cols-2 flex flex-col gap-5 justify-center my-10 ">
             {/* first event */}
             {/* event card */}
-            <div className="flex flex-col justify-between col-span-1 rounded-2xl text-start space-y-2 shadow-2xl p-5 pt-0">
+            <div className="p-5 flex flex-col justify-between col-span-1 rounded-2xl text-start space-y-2 shadow-2xl  ">
               <img src={Chattogram} alt="" />
               <h2 className="font-bold text-lg mt-5">
                 International Education Fair - Chattogram
@@ -106,7 +106,7 @@ const Events_Components = () => {
                   <HiOutlineLocationMarker />
                   The Peninsula Chittagong
                 </li>
-                <li className="flex items-center flex-col lg:flex-row justify-between ">
+                <li className="flex gap-5 lg:items-center flex-col lg:flex-row justify-between ">
                   <span className="flex">
                     <span className="flex items-center gap-2">
                       <FaRegCalendarDays />
@@ -126,16 +126,12 @@ const Events_Components = () => {
               </ul>
             </div>
             {/* other two */}
-            <div className="col-span-1 flex flex-col justify-between gap-10 lg:gap-0">
+            <div className="col-span-1 flex flex-col justify-between gap-5">
               {/* event card */}
-              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-2  ">
-                <img
-                  className="w-2/3 pt-5 lg:pt-0 lg:w-full "
-                  src={Sylhet}
-                  alt=""
-                />
-                <div className=" px-2 space-y-1">
-                  <h2 className="font-bold  mt-5">
+              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 gap-4 shadow-2xl p-3 ">
+                <img className="w-2/3   lg:w-full " src={Sylhet} alt="" />
+                <div className=" ">
+                  <h2 className="font-bold  ">
                     Multi-Destination Education <br /> Expo - Sylhet
                   </h2>
                   <p className="text-sm">
@@ -147,7 +143,7 @@ const Events_Components = () => {
                       <HiOutlineLocationMarker />
                       The Peninsula Chittagong
                     </li>
-                    <li className="flex items-center justify-between ">
+                    <li className="flex items-center justify-between lg:gap-2 gap-3  flex-wrap ">
                       <span>
                         <span className="flex gap-2">
                           <FaRegCalendarDays />
@@ -170,26 +166,22 @@ const Events_Components = () => {
               </div>
 
               {/* event card */}
-              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-2 ">
-                <img
-                  className="w-2/3 pt-5 lg:pt-0 lg:w-full  "
-                  src={Dhaka}
-                  alt=""
-                />
-                <div className="px-2 space-y-1">
-                  <h2 className="font-bold mt-5">
+              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 gap-4 shadow-2xl p-3 ">
+                <img className="w-2/3   lg:w-full " src={Dhaka} alt="" />
+                <div className=" ">
+                  <h2 className="font-bold  ">
                     Education Expo - UK, USA, Canada, Australia
                   </h2>
                   <p className="text-sm">
                     Attend our Multi-Destination Education Expo - Sylhet and
                     apply for September 2024 and January 2024 intakes.
                   </p>
-                  <ul className="text-[#F25025] space-y-1 text-xs">
-                    <li className="flex items-center gap-2">
+                  <ul className="text-[#F25025]  space-y-1 text-xs">
+                    <li className="flex items-center  gap-2">
                       <HiOutlineLocationMarker />
                       The Peninsula Chittagong
                     </li>
-                    <li className="flex items-center justify-between ">
+                    <li className="flex items-center justify-between lg:gap-2 gap-3  flex-wrap ">
                       <span>
                         <span className="flex gap-2">
                           <FaRegCalendarDays />

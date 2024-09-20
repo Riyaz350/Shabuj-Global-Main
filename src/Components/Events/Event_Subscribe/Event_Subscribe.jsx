@@ -1,14 +1,11 @@
 const Event_Subscribe = () => {
   return (
     <div className="bg-[#0017E4] md:bg-gradient-to-r from-[#3793FF] to-[#0017E4] min-h-16 py-5">
-      <div className="max-w-screen-lg mx-auto px-3 md:px-0 flex flex-col lg:flex-row justify-between items-center">
+      <div className="max-w-screen-lg mx-auto px-3  flex flex-col lg:flex-row justify-between items-center">
         <div className="py-5 text-white">
-          <p className="text-[28px] font-semibold">Get Latest Updates on</p>
-          <p className="text-[28px] font-semibold lg:text-left md:text-center text-center">
-            Overseas Education
-          </p>
+          <p className="text-[28px] font-semibold w-full sm:text-left text-center">Get Latest Updates on Overseas Education</p>
         </div>
-        <div className="flex flex-col gap-y-5 md:flex-row items-center gap-x-9">
+        <div className="flex gap-y-5 flex-wrap sm:flex-nowrap justify-center sm:justify-normal items-center gap-x-3">
           <div className="flex items-center">
             <input
               type="email"

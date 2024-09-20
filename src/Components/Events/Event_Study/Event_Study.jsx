@@ -6,7 +6,7 @@ const Event_Study = () => {
   const flagClass =" text-center my-2  ";
   const flag = "w-2/4 mx-auto rounded-lg  -rotate-90";
   return (
-    <div className="max-w-screen-xl mx-auto mt-10 mb-20 md:mt-20 md:mb-28 lg:mt-28 lg:mb-40">
+    <div className="max-w-screen-xl mx-auto mt-10 mb-20 md:mt-20 md:mb-28 lg:mt-28 lg:mb-40 pb-16">
       <h1 className="text-[24px] md:text-[56px] font-bold text-center mb-5">
         Study in Your Dream Country
       </h1>
