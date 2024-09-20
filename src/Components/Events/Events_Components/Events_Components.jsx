@@ -1,10 +1,4 @@
 import { useEffect, useState } from "react";
-import large from "../../../assets/Dhaka-Expo-11-may-2024--Rectangle 1.png";
-import small from "../../../assets/Dhaka-Event-1s 1.png";
-import bg from "../../../assets/Blue Background.png";
-import Chattogram from "../../../assets/CTG-Multi-Destination-Expo-18-May-Banner 2.png";
-import Sylhet from "../../../assets/Sylhet-Expo-12-February-2024 1.png";
-import Dhaka from "../../../assets/Dhaka-Event--ad-2 1.png";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FaRegCalendarDays } from "react-icons/fa6";
 import { GoDotFill } from "react-icons/go";
@@ -25,7 +19,7 @@ const Events_Components = () => {
         <div className="">
           <div
             style={{
-              background: `url(${bg})`,
+              background: `url(https://i.ibb.co.com/x59tdP0/Blue-Background.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
@@ -41,13 +35,13 @@ const Events_Components = () => {
             {width < 768 ? (
               <img
                 className="lg:mx-auto rounded-3xl mb-10 shadow-lg"
-                src={small}
+                src='https://i.ibb.co.com/7VL7y6Y/Dhaka-Event-1s-1.png'
                 alt=""
               />
             ) : (
               <img
                 className="  lg:mx-auto rounded-3xl mb-10 shadow-lg"
-                src={large}
+                src='https://i.ibb.co.com/3r9gvm3/Dhaka-Expo-11-may-2024-Rectangle-1.png'
                 alt=""
               />
             )}
@@ -92,7 +86,7 @@ const Events_Components = () => {
             {/* first event */}
             {/* event card */}
             <div className="flex flex-col justify-between col-span-1 rounded-2xl text-start space-y-2 shadow-2xl p-5 pt-0">
-              <img src={Chattogram} alt="" />
+              <img src='https://i.ibb.co.com/LxPtXpG/CTG-Multi-Destination-Expo-18-May-Banner-2.png' alt="" />
               <h2 className="font-bold text-lg mt-5">
                 International Education Fair - Chattogram
               </h2>
@@ -131,7 +125,7 @@ const Events_Components = () => {
               <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-2  ">
                 <img
                   className="w-2/3 pt-5 lg:pt-0 lg:w-full "
-                  src={Sylhet}
+                  src='https://i.ibb.co.com/Jty2B16/Sylhet-Expo-12-February-2024-1.png'
                   alt=""
                 />
                 <div className=" px-2 space-y-1">
@@ -173,7 +167,7 @@ const Events_Components = () => {
               <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-2 ">
                 <img
                   className="w-2/3 pt-5 lg:pt-0 lg:w-full  "
-                  src={Dhaka}
+                  src='https://i.ibb.co.com/PxKhyBW/Dhaka-Event-ad-2-1.png'
                   alt=""
                 />
                 <div className="px-2 space-y-1">

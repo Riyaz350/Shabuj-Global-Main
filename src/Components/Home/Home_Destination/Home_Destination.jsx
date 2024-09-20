@@ -1,5 +1,4 @@
 import { useState } from "react";
-import plane from "../../../assets/planepath.png";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import countries from '../../../../public/CountryJSON/countries.json'
@@ -26,7 +25,7 @@ const Home_Destination = () => {
         <div
           className={`absolute z-5 top-[-120px] hidden lg:flex ${width <= 1240 ? "right-[8%]" : "right-[27%]"} `}
         >
-          <img src={plane} alt="" className={`${
+          <img src='https://i.ibb.co.com/nDCNBSC/planepath.png' alt="" className={`${
             showAll ? "md:hidden" : " "
           } `}/>
         </div>

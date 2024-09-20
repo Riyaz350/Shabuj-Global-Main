@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import Highlight from "../../../assets/Highlight.png";
 const Home_Testimonial = () => {
   const [currentSlider, setCurrentSlider] = useState(0);
 
@@ -51,7 +50,7 @@ const Home_Testimonial = () => {
                     : " transition-all duration-300"
                 } h-full py-5 min-w-[50%]  relative duration-200 bg-white rounded-3xl lg:block md:block hidden`}
               >
-                <img className="absolute top-8 left-8" src={Highlight} alt="" />
+                <img className="absolute top-8 left-8" src='https://i.ibb.co.com/tQnYRyP/Highlight.png' alt="" />
                 <img
                   src={slide.img}
                   className="mx-auto mt-28 h-40 w-40 object-cover rounded-xl"
@@ -77,7 +76,7 @@ const Home_Testimonial = () => {
               >
                 <img
                   className="absolute top-5 left-8 w-10"
-                  src={Highlight}
+                  src='https://i.ibb.co.com/tQnYRyP/Highlight.png'
                   alt=""
                 />
                 <img

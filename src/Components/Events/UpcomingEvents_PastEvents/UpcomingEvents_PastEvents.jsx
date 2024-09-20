@@ -21,7 +21,7 @@ const UpcomingEvents_PastEvents = () => {
             <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
               <div>
                 <img
-                  src="./assets/pastevent1.png"
+                  src="https://i.ibb.co.com/sqtJYff/pastevent1.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -167,7 +167,7 @@ const UpcomingEvents_PastEvents = () => {
             <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
               <div>
                 <img
-                  src="./assets/pastevent2.png"
+                  src="https://i.ibb.co.com/DRyQPG6/pastevent2.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -313,7 +313,7 @@ const UpcomingEvents_PastEvents = () => {
             <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
               <div>
                 <img
-                  src="./assets/pastevent3.png"
+                  src="https://i.ibb.co.com/x5bLtjZ/pastevent3.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -461,7 +461,7 @@ const UpcomingEvents_PastEvents = () => {
             <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
               <div>
                 <img
-                  src="./assets/pastevent4.png"
+                  src="https://i.ibb.co.com/vYPg7ZT/pastevent4.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -607,7 +607,7 @@ const UpcomingEvents_PastEvents = () => {
             <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
               <div>
                 <img
-                  src="./assets/pastevent5.png"
+                  src="https://i.ibb.co.com/R0ry8gP/pastevent5.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -753,7 +753,7 @@ const UpcomingEvents_PastEvents = () => {
             <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
               <div>
                 <img
-                  src="./assets/pastevent6.png"
+                  src="https://i.ibb.co.com/DRyQPG6/pastevent2.png"
                   alt=""
                   className="rounded-lg"
                 />

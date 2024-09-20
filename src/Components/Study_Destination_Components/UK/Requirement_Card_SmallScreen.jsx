@@ -1,8 +1,4 @@
 import { useState } from "react";
-import imageOne from "../../../../public/cartoon/49a.png";
-import imageTwo from "../../../../public/cartoon/49b.png";
-import imageThree from "../../../../public/cartoon/49c.png";
-import imageFour from "../../../../public/cartoon/49d.png";
 import { motion } from "framer-motion";
 
 const Requirement_Card_SmallScreen = () => {
@@ -54,7 +50,7 @@ const Requirement_Card_SmallScreen = () => {
             }`}
           >
             <img
-              src={imageOne}
+              src='https://i.ibb.co.com/sWF93mL/49a.png'
               alt="Diploma"
               className="object-cover group-hover:scale-125"
             />
@@ -122,7 +118,7 @@ const Requirement_Card_SmallScreen = () => {
             }`}
           >
             <img
-              src={imageTwo}
+              src='https://i.ibb.co.com/k1XKjVj/49b.png'
               alt="Diploma"
               className="object-cover group-hover:scale-125"
             />
@@ -193,7 +189,7 @@ const Requirement_Card_SmallScreen = () => {
           }`}
         >
           <img
-            src={imageThree}
+            src='https://i.ibb.co.com/GRVqSrx/49c.png'
             alt="Diploma"
             className="object-cover group-hover:scale-125"
           />
@@ -263,7 +259,7 @@ const Requirement_Card_SmallScreen = () => {
           }`}
         >
           <img
-            src={imageFour}
+            src='https://i.ibb.co.com/XZDbmwg/49d.png'
             alt="Diploma"
             className="object-cover group-hover:scale-125"
           />
