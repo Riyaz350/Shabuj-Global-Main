@@ -54,11 +54,11 @@ const Blogs_Cards = () => {
           <h3 className="text-[28px] pb-5 md:pb-0 font-semibold">All Blogs</h3>
           <div className="flex items-center col-span-2 relative">
             <input
-              className="bg-[#FAFAFA] text-gray-700 w-[80%] py-[11px] px-2 border-[1px] border-gray-300 rounded-l-full"
+              className="bg-[#FAFAFA] outline-none text-gray-700 w-[80%] py-[11px] px-2 border-[1px] border-gray-300 rounded-l-full"
               type="text"
             />
             <button
-              className="px-10 py-3 bg-[#F25025] rounded-r-full text-white"
+              className="px-10 py-3  bg-[#F25025] rounded-r-full text-white"
               type="button"
             >
               Search
@@ -85,10 +85,10 @@ const Blogs_Cards = () => {
                 <img src={item.image} alt="" className="h-[220px] w-full" />
                 <div className="p-4 pb-4 flex flex-col justify-between flex-grow">
                   <div>
-                    <p className="inline-block w-fit px-2 py-[2px] text-[#FF8156] text-xs bg-[#FFF2EE] rounded">
+                    <p className="inline-block w-fit px-2 py-[2px] text-[#FF8156] text-xs bg-[#FFF2EE] rounded mb-2">
                       {item.category}
                     </p>
-                    <p className="text-black font-bold group-hover:text-white !mt-0 flex-grow">
+                    <p className="mb-2 text-black font-bold group-hover:text-white !mt-0 flex-grow">
                       {item.title}
                     </p>
                     <p className="group-hover:text-white !mt-0">
