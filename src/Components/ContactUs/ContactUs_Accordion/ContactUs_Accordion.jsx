@@ -12,7 +12,7 @@ const ContactUs_Accordion = () => {
 
   return (
     <div className="max-w-[1152px] mx-auto pt-[83px] pb-[73px]" ref={accordion}>
-      <div className="flex lg:flex-row flex-col lg:mx-4 md:mx-12 mx-8">
+      <div className="flex pb-16 md:flex-row flex-col lg:mx-4 md:mx-12 mx-8">
         <div className="lg:w-[25%] w-full pb-8">
           <div className="poppins-semibold text-2xl lg:text-[28px] pl-4">
             United Kingdom

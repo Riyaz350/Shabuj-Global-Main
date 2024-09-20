@@ -18,7 +18,7 @@ const ContactUs_Components = () => {
     return (
         <div className='relative'>
             <div className="flex flex-col lg:grid grid-cols-5 overflow-hidden bg-[#F5F5F5] rounded-b-2xl">
-                <div className="col-span-2 flex flex-col items-center justify-center  ">
+                <div className="lg:py-0 py-10 col-span-2 flex flex-col items-center justify-center  ">
                     <div>
                         <h1 className="text-7xl font-bold">We’d love <br /> to hear <br /> from you!</h1>
                         <p className="my-10">Interested in studying abroad with Shabuj <br /> Global Education?
@@ -46,12 +46,12 @@ const ContactUs_Components = () => {
                                 <p className={`bg-white flex items-center justify-between pl-2  ${inputClass}`}>Preferred Study Intake <span><FaChevronDown /></span></p>
                             </div>
 
-                            <div className='flex items-center gap-2 bg-transparent text-[8px] md:text-base'>
+                            <div className='flex items-start mt-3 gap-2 bg-transparent text-[8px] md:text-base'>
                                 <p onClick={() => { setTik(!tik) }}><MdDone className={tik ? 'text-white bg-[#3560ff]' : 'text-transparent bg-white'} /></p>
                                 <p className={`${width >= 1024 & width <= 1300 ? '  text-[10px]' : width > 1300 ? 'text-base' : 'text:sm md:text-base'} text-white`}>By clicking you agree to our <span className='text-[#0d7ddc]'> Privacy Policy</span> and <span className='text-[#0d7ddc]'>Terms & Conditions</span></p>
                             </div>
 
-                            <button className='bg-[#3b82f6] text-white font-bold p-1 lg:p-2 rounded-3xl text-[8px] md:text-base '>SUBMIT</button>
+                            <button className='bg-[#3b82f6] py-2 text-white font-bold p-1 lg:p-2 rounded-3xl text-[8px] md:text-base '>SUBMIT</button>
                         </ form>
                     </motion.div>
                     <motion.img initial={{ y: '200px' }} animate={{ y: '0px' }} transition={{ duration: 1 }} className={`${width <= 1500 ? 'w-full' : 'w-3/4'} z-0  mx-auto lg:mt-10`} src='https://i.ibb.co.com/GPjnBCB/Tablet.png' alt="" />
