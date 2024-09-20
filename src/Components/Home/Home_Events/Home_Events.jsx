@@ -54,41 +54,41 @@ const Home_Events = () => {
             <div>
                 <h2 className='poppins-bold lg:text-[64px] text-[28px] text-gradient text-center lg:pt-[123px] pt-[50px] lg:pb-[68px] pb-[41px]'>Upcoming Events</h2>
             </div>
-            <div className='events-bg max-w-[1254px] mx-auto relative pl-[50px] pr-[50px]'>
+            <div className='events-bg max-w-[1254px]  mx-auto relative pl-[50px] pr-[50px]'>
                 
-                    <div className='absolute left-[50%] -translate-x-1/2 slide-pos-center carousel-1 w-full'>
-                        <picture>
+                    <div className='absolute left-[50%] -translate-x-1/2 slide-pos-center carousel-1 w-full '>
+                        <picture >
                             <source media='(max-width : 640px)' srcSet='https://i.ibb.co.com/sqtJYff/pastevent1.png'></source>
                             <source media='(max-width : 768px)' srcSet='https://i.ibb.co.com/sqtJYff/pastevent1.png'></source>
-                            <img src="https://i.ibb.co.com/L0KDWhd/event1.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                            <img src="https://i.ibb.co.com/L0KDWhd/event1.png" alt=""   onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-right1 carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='https://i.ibb.co.com/DRyQPG6/pastevent2.png'></source>
                             <source media='(max-width : 768px)' srcSet='https://i.ibb.co.com/DRyQPG6/pastevent2.png'></source>
-                            <img src="https://i.ibb.co.com/42TkLvW/event2.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                            <img src="https://i.ibb.co.com/42TkLvW/event2.png" alt=""   onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-right2 carousel-1 w-full'>
                         <picture>
-                            <source media='(max-width : 640px)' srcSet='https://i.ibb.co.com/x5bLtjZ/pastevent3.png'></source>
+                            <source media='(max-width : 640px, maxhe)' srcSet='https://i.ibb.co.com/x5bLtjZ/pastevent3.png'></source>
                             <source media='(max-width : 768px)' srcSet='https://i.ibb.co.com/x5bLtjZ/pastevent3.png'></source>
-                            <img src="https://i.ibb.co.com/PZP696M/event3.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                            <img src="https://i.ibb.co.com/PZP696M/event3.png" alt=""   onClick={slideNext} />
                         </picture>
                     </div>
                     <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left1 carousel-1 w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='https://i.ibb.co.com/vYPg7ZT/pastevent4.png'></source>
                             <source media='(max-width : 768px)' srcSet='https://i.ibb.co.com/vYPg7ZT/pastevent4.png'></source>
-                            <img src="https://i.ibb.co.com/QNjd3xZ/event4.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                            <img src="https://i.ibb.co.com/QNjd3xZ/event4.png" alt=""   onClick={slideNext} />
                         </picture>
                     </div>
-                    <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left2 carousel-1 w-full'>
+                    <div className='absolute left-[50%] -translate-x-1/2 slide-pos-left2 carousel-1  w-full'>
                         <picture>
                             <source media='(max-width : 640px)' srcSet='https://i.ibb.co.com/R0ry8gP/pastevent5.png'></source>
                             <source media='(max-width : 768px)' srcSet='https://i.ibb.co.com/R0ry8gP/pastevent5.png'></source>
-                            <img src="https://i.ibb.co.com/KyDyrqr/event5.png" alt="" className='w-[945px] h-[525px]' onClick={slideNext} />
+                            <img src="https://i.ibb.co.com/KyDyrqr/event5.png" alt=""   onClick={slideNext} />
                         </picture>
                     </div>
                 
