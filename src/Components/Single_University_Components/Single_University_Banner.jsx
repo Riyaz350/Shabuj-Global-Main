@@ -1,4 +1,3 @@
-import university from '../../assets/University of Aberdeen.svg';
 
 const Single_University_Banner = ({university}) => {
 

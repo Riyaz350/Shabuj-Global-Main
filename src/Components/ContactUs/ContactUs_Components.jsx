@@ -1,5 +1,4 @@
 import { FaChevronDown } from 'react-icons/fa6';
-import Tablet from '../../assets/Tablet.png'
 import { MdDone } from "react-icons/md";
 import { useEffect, useState } from 'react';
 import { motion } from "framer-motion"
@@ -55,7 +54,7 @@ const ContactUs_Components = () => {
                             <button className='bg-[#3b82f6] text-white font-bold p-1 lg:p-2 rounded-3xl text-[8px] md:text-base '>SUBMIT</button>
                         </ form>
                     </motion.div>
-                    <motion.img initial={{ y: '200px' }} animate={{ y: '0px' }} transition={{ duration: 1 }} className={`${width <= 1500 ? 'w-full' : 'w-3/4'} z-0  mx-auto lg:mt-10`} src={Tablet} alt="" />
+                    <motion.img initial={{ y: '200px' }} animate={{ y: '0px' }} transition={{ duration: 1 }} className={`${width <= 1500 ? 'w-full' : 'w-3/4'} z-0  mx-auto lg:mt-10`} src='https://i.ibb.co.com/GPjnBCB/Tablet.png' alt="" />
                 </div>
             </div>
 

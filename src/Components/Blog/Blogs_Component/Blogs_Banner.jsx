@@ -1,5 +1,3 @@
-import banner from '../../../assets/Rectangle 190.png'
-import bg from '../../../assets/Rectangle 188.png'
 import { useEffect, useState } from 'react';
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom';
@@ -14,7 +12,7 @@ const Blogs_Banner = () => {
     return (
         <div className='relative overflow-hidden'>
             <div className='  lg:grid grid-cols-2 poppins '  >
-                <div className="max-w-5xl mx-auto flex items-center lg:rounded-br-[70px] w-full -z-30" style={{ background: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center', }}  >
+                <div className="max-w-5xl mx-auto flex items-center lg:rounded-br-[70px] w-full -z-30" style={{ background: `url(https://i.ibb.co.com/MNVFspN/Rectangle-188.png)`, backgroundSize: 'cover', backgroundPosition: 'center', }}  >
                     <div className='  z-30   -mr-20    rounded-3xl h-[700px]  mx-auto'>
                     </div>
                 </div>
@@ -33,7 +31,7 @@ const Blogs_Banner = () => {
                         </div>
                     </motion.div>
                     <motion.div initial={{x:'200px'}} animate={{x:0}} transition={{duration:.5}} className='lg:absolute hidden lg:flex   justify-end z-10 lg:px-5 -right-0'>
-                        <img className=' w-10/12 mx-auto lg:mx-0' src={banner} alt="" />
+                        <img className=' w-10/12 mx-auto lg:mx-0' src='https://i.ibb.co.com/sH5hvdY/Rectangle-190.png' alt="" />
                     </motion.div>
 
                 </div>

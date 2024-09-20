@@ -3,7 +3,7 @@ import './BlogSingle_Banner.css'
 const BlogSingle_Banner = () => {
     return (
         <div className="blog-single-bg">
-            <div className="max-w-[1152px] mx-auto relative lg:mb-[434px] md:mb-[200px] mb-[130px]">
+            <div className="max-w-[1152px] mx-auto relative lg:px-10 lg:mb-[434px] md:mb-[200px] mb-[130px]">
                 <h2 className="poppins-semibold lg:text-[40px] lg:w-[691px] text-[28px] leading-[56px] -tracking-[0.02] text-white lg:text-left text-center pt-[63px] pb-[32px]">Choosing the Right UK University and Course: Factors to Consider</h2>
                 <div className='flex items-center gap-[10px] pb-1 lg:justify-start justify-center'>
                     <p className='poppins-regular lg:text-[14px] text-[8px] text-white'>Study in The UK</p>

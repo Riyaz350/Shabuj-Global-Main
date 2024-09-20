@@ -1,541 +1,647 @@
 [
-    {
-        "id": 1,
-        "name": "UNIVERSITY OF ABERDEEN",
-        "info": "Founded in 1495, the University of Aberdeen blends tradition with innovation, offering diverse undergraduate and postgraduate programs. It emphasizes research-led teaching and fosters a supportive academic community in scenic Aberdeen, Scotland.",
-        "location": "Aberdeen, Scotland, UK",
-        "logo": "/universities/1.png"
-      },
-      {
-        "id": 2,
-        "name": "Anglia Ruskin University",
-        "info": "Anglia Ruskin University, located in East Anglia, UK, is a modern institution offering a wide range of undergraduate and postgraduate courses. Known for its strong focus on employability, it equips students with practical skills for the job market.",
-        "location": "East Anglia, England, UK",
-        "logo": "/universities/2.png"
-      },
-      {
-        "id": 3,
-        "name": "PRIFYSGOL BANGOR UNIVERSITY",
-        "info": "Bangor University, established in 1884, offers a variety of undergraduate and postgraduate programs. Renowned for research excellence, it provides a supportive learning environment and vibrant student life in Bangor, Wales.",
-        "location": "Bangor, Wales, UK",
-        "logo": "/universities/3.png"
-      },
-      {
-        "id": 4,
-        "name": "BATH SPA UNIVERSITY",
-        "info": "Bath Spa University is known for its creative and cultural programs, offering a range of undergraduate and postgraduate courses with a strong emphasis on arts, humanities, and education. It is located in the historic city of Bath, England.",
-        "location": "Bath, England, UK",
-        "logo": "/universities/4.png"
-      },
-      {
-        "id": 5,
-        "name": "University of Bedfordshire",
-        "info": "The University of Bedfordshire provides diverse undergraduate and postgraduate courses, focusing on employability and practical skills. It offers students hands-on learning opportunities in a supportive environment, located in Bedfordshire, UK.",
-        "location": "Bedfordshire, England, UK",
-        "logo": "/universities/5.png"
-      },
-      {
-        "id": 6,
-        "name": "UNIVERSITY OF BIRMINGHAM",
-        "info": "Founded in 1900, the University of Birmingham is a prestigious institution offering a wide range of undergraduate and postgraduate programs. Known for its research and academic excellence, it fosters a vibrant academic environment in Birmingham, UK.",
-        "location": "Birmingham, England, UK",
-        "logo": "/universities/6.png"
-      },
-      {
-        "id": 7,
-        "name": "BIRMINGHAM CITY University",
-        "info": "Birmingham City University offers a variety of undergraduate and postgraduate programs, emphasizing practical skills and employability. Known for its strong industry links, it provides a vibrant student community in Birmingham, UK.",
-        "location": "Birmingham, England, UK",
-        "logo": "/universities/7.png"
-      },
-      {
-        "id": 8,
-        "name": "UNIVERSITY COLLEGE BIRMINGHAM",
-        "info": "University College Birmingham specializes in vocational courses, offering a range of undergraduate and postgraduate programs. Known for its strong industry links and employability focus, it is located in Birmingham, UK.",
-        "location": "Birmingham, England, UK",
-        "logo": "/universities/8.png"
-      },
-      {
-        "id": 9,
-        "name": "University of Brighton",
-        "info": "The University of Brighton offers diverse undergraduate and postgraduate programs, emphasizing practical skills and employability. It is renowned for its strong industry links and vibrant student community, located in Brighton, UK.",
-        "location": "Brighton, England, UK",
-        "logo": "/universities/9.png"
-      },
-      {
-        "id": 10,
-        "name": "Cardiff Metropolitan University",
-        "info": "Cardiff Metropolitan University provides a diverse range of undergraduate and postgraduate programs, focusing on employability and practical skills. It offers a supportive learning environment in Cardiff, Wales.",
-        "location": "Cardiff, Wales, UK",
-        "logo": "/universities/10.png"
-      },
-      {
-        "id": 11,
-        "name": "Conventry University",
-        "info": "Coventry University emphasizes employability and practical skills, offering a wide range of undergraduate and postgraduate programs. Located in Coventry, UK, the university focuses on innovation and research excellence.",
-        "location": "Coventry, England, UK",
-        "logo": "/universities/11.png"
-      },
-      {
-        "id": 12,
-        "name": "University for the Creative Arts",
-        "info": "The University for the Creative Arts offers a variety of creative courses in arts, design, and media. It provides a supportive and inspiring environment for students across various campuses in the UK to develop their creative skills.",
-        "location": "Various locations, England, UK",
-        "logo": "/universities/12.png"
-      },
-      {
-        "id": 13,
-        "name": "DE MONTFORT UNIVERSITY",
-        "info": "De Montfort University offers a wide range of undergraduate and postgraduate programs, focusing on employability and practical skills. Located in Leicester, UK, it is known for its strong industry links and vibrant student community.",
-        "location": "Leicester, England, UK",
-        "logo": "/universities/13.png"
-      },
-      {
-        "id": 14,
-        "name": "University of Derby",
-        "info": "The University of Derby offers a broad range of undergraduate and postgraduate programs, emphasizing practical skills and employability. It provides a supportive learning environment in Derby, UK.",
-        "location": "Derby, England, UK",
-        "logo": "/universities/14.png"
-      },
-      {
-        "id": 15,
-        "name": "University of Dundee",
-        "info": "Established in 1881, the University of Dundee is renowned for research excellence and offers diverse undergraduate and postgraduate programs. It provides a supportive academic environment in Dundee, Scotland.",
-        "location": "Dundee, Scotland, UK",
-        "logo": "/universities/15.png"
-      },
-      {
-        "id": 16,
-        "name": "University of East Anglia",
-        "info": "The University of East Anglia offers a variety of undergraduate and postgraduate programs, emphasizing research and academic excellence. Located in Norwich, UK, it fosters a vibrant and supportive academic community.",
-        "location": "Norwich, England, UK",
-        "logo": "/universities/16.png"
-      },
-      {
-        "id": 17,
-        "name": "University of East London",
-        "info": "The University of East London offers a wide range of undergraduate and postgraduate programs with a focus on practical skills and employability. It provides a diverse and supportive learning environment in London, UK.",
-        "location": "London, England, UK",
-        "logo": "/universities/17.png"
-      },
-      {
-        "id": 18,
-        "name": "Abertay University",
-        "info": "Abertay University, located in Dundee, Scotland, offers a range of undergraduate and postgraduate programs with a focus on practical skills and employability. It is known for its strong emphasis on research and innovation.",
-        "location": "Dundee, Scotland, UK",
-        "logo": "/universities/18.png"
-      },
-      {
-        "id": 19,
-        "name": "University of Exeter",
-        "info": "The University of Exeter, established in 1955, is known for its research excellence and diverse range of undergraduate and postgraduate programs. It provides a supportive academic environment in Exeter, UK.",
-        "location": "Exeter, England, UK",
-        "logo": "/universities/19.png"
-      },
-      {
-        "id": 20,
-        "name": "UNIVERSITY OF EXETER",
-        "info": "The University of Exeter, established in 1955, is known for its research excellence and diverse range of undergraduate and postgraduate programs. It provides a supportive academic environment in Exeter, UK.",
-        "location": "Exeter, England, UK",
-        "logo": "/universities/19u.png"
-      },
-      {
-        "id": 21,
-        "name": "Glasgow Caledonian University",
-        "info": "Glasgow Caledonian University offers a range of programs focused on practical skills and employability. Located in Glasgow, Scotland, it provides a vibrant academic environment and is known for its strong community engagement.",
-        "location": "Glasgow, Scotland, UK",
-        "logo": "/universities/20.png"
-      },
-      {
-        "id": 22,
-        "name": "UNIVERSITY OF GLOUCESTERSHIRE",
-        "info": "The University of Gloucestershire, situated in the picturesque Gloucestershire, UK, offers diverse programs emphasizing employability and practical skills, fostering a supportive learning environment for students.",
-        "location": "Gloucestershire, England, UK",
-        "logo": "/universities/21.png"
-      },
-      {
-        "id": 23,
-        "name": "University of Hertfordshire",
-        "info": "Located in Hertfordshire, UK, the University of Hertfordshire offers a wide variety of programs focused on employability and innovation. It provides a dynamic and supportive academic environment for its students.",
-        "location": "Hertfordshire, England, UK",
-        "logo": "/universities/22.png"
-      },
-      {
-        "id": 24,
-        "name": "University of HUDDERSFIELD",
-        "info": "The University of Huddersfield, located in Huddersfield, UK, offers a diverse array of programs with a strong focus on practical skills and career readiness, fostering a supportive and innovative learning environment.",
-        "location": "Huddersfield, England, UK",
-        "logo": "/universities/23.png"
-      },
-      {
-        "id": 25,
-        "name": "Manchester Metropolitan University",
-        "info": "Manchester Metropolitan University provides a wide range of programs aimed at practical skills and employability. Located in Manchester, UK, it offers a vibrant academic community with strong industry connections.",
-        "location": "Manchester, England, UK",
-        "logo": "/universities/24.png"
-      },
-      {
-        "id": 26,
-        "name": "University of South Wales Prifysgol",
-        "info": "Located in South Wales, UK, the University of South Wales offers a variety of programs focusing on employability and practical skills, providing a supportive and dynamic learning environment for its students.",
-        "location": "South Wales, Wales, UK",
-        "logo": "/universities/25.png"
-      },
-      {
-        "id": 27,
-        "name": "CITY UNIVERSITY LONDON",
-        "info": "City University London offers a diverse range of programs emphasizing practical skills and employability. Situated in the heart of London, it provides students with a dynamic urban learning experience and strong industry links.",
-        "location": "London, England, UK",
-        "logo": "/universities/25U.png"
-      },
-      {
-        "id": 28,
-        "name": "Newcastle University",
-        "info": "Newcastle University, located in Newcastle, UK, offers a wide variety of programs with a focus on research and academic excellence, providing students with a vibrant and supportive educational environment.",
-        "location": "Newcastle, England, UK",
-        "logo": "/universities/26.png"
-      },
-      {
-        "id": 29,
-        "name": "Northumbria University NEWCASTLE",
-        "info": "Northumbria University in Newcastle, UK, offers a broad range of programs emphasizing practical skills and employability, fostering a supportive and innovative academic community for its students.",
-        "location": "Newcastle, England, UK",
-        "logo": "/universities/27.png"
-      },
-      {
-        "id": 30,
-        "name": "The University of Nottingham",
-        "info": "The University of Nottingham, known for its research excellence, offers diverse programs across various disciplines. Located in Nottingham, UK, it provides a dynamic and supportive learning environment.",
-        "location": "Nottingham, England, UK",
-        "logo": "/universities/28.png"
-      },
-      {
-        "id": 31,
-        "name": "NOTTINGHAM TRENT UNIVERSITY",
-        "info": "Nottingham Trent University, located in Nottingham, UK, offers a wide range of programs with a strong focus on practical skills and employability, fostering a vibrant and supportive academic community.",
-        "location": "Nottingham, England, UK",
-        "logo": "/universities/29.png"
-      },
-      {
-        "id": 32,
-        "name": "QUEEN'S UNIVERSITY BELFAST",
-        "info": "Queen's University Belfast, situated in Belfast, Northern Ireland, offers a variety of programs known for research excellence and academic rigor, providing a supportive and innovative learning environment.",
-        "location": "Belfast, Northern Ireland, UK",
-        "logo": "/universities/30.png"
-      },
-      {
-        "id": 33,
-        "name": "University of Reading",
-        "info": "The University of Reading, located in Reading, UK, offers diverse undergraduate and postgraduate programs with a strong emphasis on research and practical skills, fostering a supportive academic community.",
-        "location": "Reading, England, UK",
-        "logo": "/universities/31.png"
-      },
-      {
-        "id": 34,
-        "name": "University of Chester",
-        "info": "The University of Chester, located in Chester, UK, provides a variety of programs focused on employability and practical skills, offering a supportive and dynamic learning environment for its students.",
-        "location": "Chester, England, UK",
-        "logo": "/universities/32.png"
-      },
-      {
-        "id": 35,
-        "name": "UNIVERSITY OF CHICHESTER",
-        "info": "The University of Chichester, situated in Chichester, UK, offers a range of programs with a strong focus on employability and practical skills, providing a supportive and vibrant academic environment.",
-        "location": "Chichester, England, UK",
-        "logo": "/universities/33.png"
-      },
-      {
-        "id": 36,
-        "name": "St Mary's University",
-        "info": "St Mary's University, located in Twickenham, London, offers diverse programs with a focus on practical skills and employability, fostering a supportive and dynamic academic community for its students.",
-        "location": "Twickenham, London, England, UK",
-        "logo": "/universities/34.png"
-      },
-      {
-        "id": 37,
-        "name": "UNIVERSITY of STIRLING",
-        "info": "The University of Stirling, located in Stirling, Scotland, offers a wide range of programs emphasizing research, practical skills, and employability, providing a vibrant and supportive learning environment.",
-        "location": "Stirling, Scotland, UK",
-        "logo": "/universities/35.png"
-      },
-      {
-        "id": 38,
-        "name": "UNIVERSITY OF PORTSMOUTH",
-        "info": "The University of Portsmouth, located in Portsmouth, UK, offers a variety of programs focused on practical skills and employability, fostering a supportive and innovative academic community for its students.",
-        "location": "Portsmouth, England, UK",
-        "logo": "/universities/36.png"
-      },
-      {
-        "id": 39,
-        "name": "UNIVERSITY OF WOLVERHAMPTON",
-        "info": "The University of Wolverhampton, located in Wolverhampton, UK, offers diverse programs emphasizing employability and practical skills, providing a supportive and dynamic learning environment.",
-        "location": "Wolverhampton, England, UK",
-        "logo": "/universities/37.png"
-      },
-      {
-        "id": 40,
-        "name": "UNIVERSITY OF SURREY",
-        "info": "The University of Surrey, situated in Guildford, UK, offers a wide range of programs with a focus on research, employability, and practical skills, providing a vibrant and supportive academic environment.",
-        "location": "Guildford, England, UK",
-        "logo": "/universities/38.png"
-      },
-      {
-        "id": 41,
-        "name": "Ulster University",
-        "info": "Ulster University, located in Northern Ireland, offers a variety of programs with a strong emphasis on practical skills and employability, fostering a supportive and dynamic academic community for its students.",
-        "location": "Northern Ireland, UK",
-        "logo": "/universities/39.png"
-      },
-      {
-        "id": 42,
-        "name": "The University of Law",
-        "info": "The University of Law, with campuses across the UK, offers specialized programs in law and related fields, focusing on practical skills and employability, providing a supportive and professional learning environment.",
-        "location": "Multiple locations, UK",
-        "logo": "/universities/40.png"
-      },
-      {
-        "id": 43,
-        "name": "University of the West of England",
-        "info": "The University of the West of England, located in Bristol, UK, offers a wide range of programs focused on employability and practical skills, providing a supportive and innovative academic community.",
-        "location": "Bristol, England, UK",
-        "logo": "/universities/41.png"
-      },
-      {
-        "id": 44,
-        "name": "University of Worcester",
-        "info": "The University of Worcester, located in Worcester, UK, offers a variety of programs with a focus on practical skills and employability, fostering a supportive and dynamic learning environment for its students.",
-        "location": "Worcester, England, UK",
-        "logo": "/universities/42.png"
-      },
-      {
-        "id": 45,
-        "name": "Coventry University, London",
-        "info": "Coventry University, London campus, offers a range of programs with a strong focus on practical skills and employability, providing a dynamic and supportive learning environment in the heart of London.",
-        "location": "London, England, UK",
-        "logo": "/universities/48.png"
-      },
-      {
-        "id": 46,
-        "name": "Newcastle University, London",
-        "info": "Newcastle University, London campus, offers a variety of programs emphasizing practical skills and employability, providing a supportive and vibrant learning environment in a major global city.",
-        "location": "London, England, UK",
-        "logo": "/universities/49.png"
-      },
-      {
-        "id": 47,
-        "name": "Robert Gordon University",
-        "info": "Robert Gordon University, located in Aberdeen, Scotland, offers a wide range of programs with a strong focus on practical skills and employability, fostering a supportive and innovative academic community.",
-        "location": "Aberdeen, Scotland, UK",
-        "logo": "/universities/50.png"
-      },
-      {
-        "id": 48,
-        "name": "Canterbury Christ Church University",
-        "info": "Canterbury Christ Church University, situated in Canterbury, UK, offers a diverse range of programs with an emphasis on practical skills and employability, providing a supportive and vibrant academic environment.",
-        "location": "Canterbury, England, UK",
-        "logo": "/universities/51.png"
-      },
-      {
-        "id": 49,
-        "name": "Solent University, Southampton",
-        "info": "Solent University, located in Southampton, UK, offers a variety of programs focused on practical skills and employability, fostering a dynamic and supportive learning environment for its students.",
-        "location": "Southampton, England, UK",
-        "logo": "/universities/52.png"
-      },
-    {
-        "id": 50,
-        "name": "University of Mannheim",
-        "info": "The University of Mannheim is renowned for its programs in economics, business administration, and social sciences. It is known for its strong research orientation and international collaborations.",
-        "location": "Mannheim, Germany",
-        "logo": "/universities/G-1.png"
-      },
-      {
-        "id": 51,
-        "name": "University of Cologne",
-        "info": "The University of Cologne is one of the oldest and largest universities in Germany, offering a wide range of programs with a strong emphasis on research and academic excellence.",
-        "location": "Cologne, Germany",
-        "logo": "/universities/G-2.jpeg"
-      },
-      {
-        "id": 52,
-        "name": "University of Bayreuth",
-        "info": "The University of Bayreuth is known for its interdisciplinary research and strong programs in the natural sciences, law, and business, fostering innovation and academic excellence.",
-        "location": "Bayreuth, Germany",
-        "logo": "/universities/G-3.png"
-      },
-      {
-        "id": 53,
-        "name": "University of Freiburg",
-        "info": "The University of Freiburg is a leading research institution with a wide range of programs in humanities, social sciences, natural sciences, and engineering, promoting academic excellence.",
-        "location": "Freiburg, Germany",
-        "logo": "/universities/G-4.jpeg"
-      },
-      {
-        "id": 54,
-        "name": "University of Potsdam",
-        "info": "The University of Potsdam offers a diverse range of programs with a strong focus on interdisciplinary research and innovation, located in the historic city of Potsdam.",
-        "location": "Potsdam, Germany",
-        "logo": "/universities/G-5.png"
-      },
-      {
-        "id":55,
-        "name": "RWTH Aachen University",
-        "info": "RWTH Aachen University is one of Europe's leading institutions for engineering and technology, renowned for its cutting-edge research and strong industry partnerships.",
-        "location": "Aachen, Germany",
-        "logo": "/universities/G-6.jpeg"
-      },
-      {
-        "id": 56,
-        "name": "University of Erlangen-Nuremberg",
-        "info": "The University of Erlangen-Nuremberg offers a wide range of programs with a strong emphasis on research and innovation, fostering a dynamic and supportive academic environment.",
-        "location": "Erlangen-Nuremberg, Germany",
-        "logo": "/universities/G-7.png"
-      },
-      {
-        "id": 57,
-        "name": "University of Bonn",
-        "info": "The University of Bonn is a leading institution in Germany, known for its strong research programs in science, humanities, and social sciences, promoting academic excellence and innovation.",
-        "location": "Bonn, Germany",
-        "logo": "/universities/G-8.jpeg"
-      },
-      {
-        "id": 58,
-        "name": "Philipps-University Marburg",
-        "info": "Philipps-University Marburg, one of the oldest universities in Germany, offers a wide range of programs with a strong emphasis on research and academic excellence.",
-        "location": "Marburg, Germany",
-        "logo": "/universities/G-9.png"
-      },
-      {
-        "id": 59,
-        "name": "Ruhr-Universität Bochum",
-        "info": "Ruhr-Universität Bochum offers a diverse range of programs with a focus on interdisciplinary research and innovation, fostering a dynamic academic environment.",
-        "location": "Bochum, Germany",
-        "logo": "/universities/G-10.png"
-      },
-      {
-        "id": 60,
-        "name": "University of Münster",
-        "info": "The University of Münster is one of Germany's largest universities, offering a wide range of programs with a strong focus on research and academic excellence.",
-        "location": "Münster, Germany",
-        "logo": "/universities/G-11.png"
-      },
-      {
-        "id": 61,
-        "name": "Freie Universität Berlin",
-        "info": "Freie Universität Berlin is a leading research institution with a wide range of programs in humanities, social sciences, natural sciences, and medicine, promoting academic excellence.",
-        "location": "Berlin, Germany",
-        "logo": "/universities/G-12.png"
-      },
-      {
-        "id": 62,
-        "name": "Humboldt University of Berlin",
-        "info": "Humboldt University of Berlin, a prestigious institution, offers diverse programs with a strong emphasis on research and interdisciplinary collaboration, fostering academic excellence.",
-        "location": "Berlin, Germany",
-        "logo": "/universities/G-13.png"
-      },
-      {
-        "id": 63,
-        "name": "University of Hamburg",
-        "info": "The University of Hamburg is a major research institution offering a wide range of programs in humanities, social sciences, natural sciences, and medicine, promoting academic excellence.",
-        "location": "Hamburg, Germany",
-        "logo": "/universities/G-14.png"
-      },
-      {
-        "id": 64,
-        "name": "University of Wuppertal",
-        "info": "The University of Wuppertal offers a diverse range of programs with a focus on practical skills and employability, fostering a supportive and dynamic academic environment.",
-        "location": "Wuppertal, Germany",
-        "logo": "/universities/G-15.png"
-      },
-      {
-        "id": 65,
-        "name": "Hamburg University of Technology",
-        "info": "Hamburg University of Technology is known for its strong programs in engineering and technology, fostering innovation and providing a dynamic academic environment.",
-        "location": "Hamburg, Germany",
-        "logo": "/universities/G-16.png"
-      },
-      {
-        "id": 66,
-        "name": "University of Giessen",
-        "info": "The University of Giessen offers a wide range of programs with a strong focus on research and interdisciplinary collaboration, fostering a dynamic academic environment.",
-        "location": "Giessen, Germany",
-        "logo": "/universities/G-17.png"
-      },
-      {
-        "id": 67,
-        "name": "Eberhard Karls University of Tübingen",
-        "info": "Eberhard Karls University of Tübingen, one of Germany's oldest universities, offers diverse programs with a strong emphasis on research and academic excellence.",
-        "location": "Tübingen, Germany",
-        "logo": "/universities/G-18.png"
-      },
-      {
-        "id": 68,
-        "name": "Johannes Gutenberg University of Mainz",
-        "info": "Johannes Gutenberg University of Mainz offers a variety of programs with a strong focus on research and innovation, fostering a dynamic and supportive academic environment.",
-        "location": "Mainz, Germany",
-        "logo": "/universities/G-19.png"
-      },
-      {
-        "id": 69,
-        "name": "Leibniz University Hannover",
-        "info": "Leibniz University Hannover is known for its strong programs in engineering, natural sciences, and humanities, fostering innovation and academic excellence.",
-        "location": "Hannover, Germany",
-        "logo": "/universities/G-20.png"
-      },
-      {
-        "id": 70,
-        "name": "University of Rostock",
-        "info": "The University of Rostock offers a wide range of programs with a strong focus on research and interdisciplinary collaboration, fostering a supportive academic environment.",
-        "location": "Rostock, Germany",
-        "logo": "/universities/G-21.jpeg"
-      },
-      {
-        "id": 71,
-        "name": "University of Siegen",
-        "info": "The University of Siegen offers diverse programs with a focus on practical skills and employability, fostering a supportive and dynamic academic environment.",
-        "location": "Siegen, Germany",
-        "logo": "/universities/G-22.png"
-      },
-    {
-        "id": 72,
-        "name": "Monash University Clayton Campus",
-        "info": "Monash University Clayton Campus is a leading research institution offering a diverse range of programs. Known for its innovative teaching methods and strong industry connections, it provides a vibrant academic environment.",
-        "location": "Clayton, Victoria, Australia",
-        "logo": "/universities/A-1.png"
-    },
-    {
-        "id": 73,
-        "name": "The Australian National University",
-        "info": "The Australian National University is renowned for its strong research focus and comprehensive range of programs. It fosters academic excellence and innovation, attracting students from around the world.",
-        "location": "Canberra, Australian Capital Territory, Australia",
-        "logo": "/universities/A-2.png"
-    },
-    {
-        "id": 74,
-        "name": "The University of Adelaide",
-        "info": "The University of Adelaide is a prestigious institution known for its robust research output and wide variety of academic programs. It promotes a dynamic and supportive learning environment.",
-        "location": "Adelaide, South Australia, Australia",
-        "logo": "/universities/A-3.png"
-    },
-    {
-        "id": 75,
-        "name": "The University of Melbourne",
-        "info": "The University of Melbourne is a leading global university known for its high-quality teaching and research. It offers a diverse range of programs and fosters an inclusive and innovative academic community.",
-        "location": "Melbourne, Victoria, Australia",
-        "logo": "/universities/A-4.png"
-    },
-    {
-        "id": 76,
-        "name": "The University of Sydney",
-        "info": "The University of Sydney is one of Australia's most prestigious universities, offering a wide range of programs. It is renowned for its research excellence and vibrant campus life.",
-        "location": "Sydney, New South Wales, Australia",
-        "logo": "/universities/A-5.png"
-    },
-    {
-        "id": 77,
-        "name": "Monash University Clayton Campus",
-        "info": "Monash University Clayton Campus is a leading research institution offering a diverse range of programs. Known for its innovative teaching methods and strong industry connections, it provides a vibrant academic environment.",
-        "location": "Clayton, Victoria, Australia",
-        "logo": "/universities/A-6.png"
-    }
+  {
+    "id": 1,
+    "name": "UNIVERSITY OF ABERDEEN",
+    "info": "Founded in 1495, the University of Aberdeen blends tradition with innovation, offering diverse undergraduate and postgraduate programs. It emphasizes research-led teaching and fosters a supportive academic community in scenic Aberdeen, Scotland.",
+    "location": "Aberdeen, Scotland, UK",
+    "logo": "https://i.ibb.co/2SBtVv0/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Anglia Ruskin University",
+    "info": "Anglia Ruskin University, located in East Anglia, UK, is a modern institution offering a wide range of undergraduate and postgraduate courses. Known for its strong focus on employability, it equips students with practical skills for the job market.",
+    "location": "East Anglia, England, UK",
+    "logo": "https://i.ibb.co/c6D8qN6/2-10.png"
+  },
+  {
+    "id": 3,
+    "name": "PRIFYSGOL BANGOR UNIVERSITY",
+    "info": "Bangor University, established in 1884, offers a variety of undergraduate and postgraduate programs. Renowned for research excellence, it provides a supportive learning environment and vibrant student life in Bangor, Wales.",
+    "location": "Bangor, Wales, UK",
+    "logo": "https://i.ibb.co/N150632/3-51.png"
+  },
+  {
+    "id": 4,
+    "name": "BATH SPA UNIVERSITY",
+    "info": "Bath Spa University is known for its creative and cultural programs, offering a range of undergraduate and postgraduate courses with a strong emphasis on arts, humanities, and education. It is located in the historic city of Bath, England.",
+    "location": "Bath, England, UK",
+    "logo": "https://i.ibb.co/CMTd1Wj/4-1.png"
+  },
+  {
+    "id": 5,
+    "name": "University of Bedfordshire",
+    "info": "The University of Bedfordshire provides diverse undergraduate and postgraduate courses, focusing on employability and practical skills. It offers students hands-on learning opportunities in a supportive environment, located in Bedfordshire, UK.",
+    "location": "Bedfordshire, England, UK",
+    "logo": "https://i.ibb.co/jbqmPp7/5-1.png"
+  },
+  {
+    "id": 6,
+    "name": "UNIVERSITY OF BIRMINGHAM",
+    "info": "Founded in 1900, the University of Birmingham is a prestigious institution offering a wide range of undergraduate and postgraduate programs. Known for its research and academic excellence, it fosters a vibrant academic environment in Birmingham, UK.",
+    "location": "Birmingham, England, UK",
+    "logo": "https://i.ibb.co/2FP0L7T/6-1.png"
+  },
+  {
+    "id": 7,
+    "name": "BIRMINGHAM CITY University",
+    "info": "Birmingham City University offers a variety of undergraduate and postgraduate programs, emphasizing practical skills and employability. Known for its strong industry links, it provides a vibrant student community in Birmingham, UK.",
+    "location": "Birmingham, England, UK",
+    "logo": "https://i.ibb.co/9r6wmHm/7-1.png"
+  },
+  {
+    "id": 8,
+    "name": "UNIVERSITY COLLEGE BIRMINGHAM",
+    "info": "University College Birmingham specializes in vocational courses, offering a range of undergraduate and postgraduate programs. Known for its strong industry links and employability focus, it is located in Birmingham, UK.",
+    "location": "Birmingham, England, UK",
+    "logo": "https://i.ibb.co/fvsPVmT/8-1.png"
+  },
+  {
+    "id": 9,
+    "name": "University of Brighton",
+    "info": "The University of Brighton offers diverse undergraduate and postgraduate programs, emphasizing practical skills and employability. It is renowned for its strong industry links and vibrant student community, located in Brighton, UK.",
+    "location": "Brighton, England, UK",
+    "logo": "https://i.ibb.co/5R2hmMq/9-1.png"
+  },
+  {
+    "id": 10,
+    "name": "Cardiff Metropolitan University",
+    "info": "Cardiff Metropolitan University provides a diverse range of undergraduate and postgraduate programs, focusing on employability and practical skills. It offers a supportive learning environment in Cardiff, Wales.",
+    "location": "Cardiff, Wales, UK",
+    "logo": "https://i.ibb.co/zGw7qSw/10-1.png"
+  },
+  {
+    "id": 11,
+    "name": "Conventry University",
+    "info": "Coventry University emphasizes employability and practical skills, offering a wide range of undergraduate and postgraduate programs. Located in Coventry, UK, the university focuses on innovation and research excellence.",
+    "location": "Coventry, England, UK",
+    "logo": "https://i.ibb.co/LPPvpQL/11-1.png"
+  },
+  {
+    "id": 12,
+    "name": "University for the Creative Arts",
+    "info": "The University for the Creative Arts offers a variety of creative courses in arts, design, and media. It provides a supportive and inspiring environment for students across various campuses in the UK to develop their creative skills.",
+    "location": "Various locations, England, UK",
+    "logo": "https://i.ibb.co/0tZ35fB/12-1.png"
+  },
+  {
+    "id": 13,
+    "name": "DE MONTFORT UNIVERSITY",
+    "info": "De Montfort University offers a wide range of undergraduate and postgraduate programs, focusing on employability and practical skills. Located in Leicester, UK, it is known for its strong industry links and vibrant student community.",
+    "location": "Leicester, England, UK",
+    "logo": "https://i.ibb.co/mRPhmF5/13-1.png"
+  },
+  {
+    "id": 14,
+    "name": "University of Derby",
+    "info": "The University of Derby offers a broad range of undergraduate and postgraduate programs, emphasizing practical skills and employability. It provides a supportive learning environment in Derby, UK.",
+    "location": "Derby, England, UK",
+    "logo": "https://i.ibb.co/txgrStn/14.png"
+  },
+  {
+    "id": 15,
+    "name": "University of Dundee",
+    "info": "Established in 1881, the University of Dundee is renowned for research excellence and offers diverse undergraduate and postgraduate programs. It provides a supportive academic environment in Dundee, Scotland.",
+    "location": "Dundee, Scotland, UK",
+    "logo": "https://i.ibb.co/qRdJbjT/15-1.png"
+  },
+  {
+    "id": 16,
+    "name": "University of East Anglia",
+    "info": "The University of East Anglia offers a variety of undergraduate and postgraduate programs, emphasizing research and academic excellence. Located in Norwich, UK, it fosters a vibrant and supportive academic community.",
+    "location": "Norwich, England, UK",
+    "logo": "https://i.ibb.co/NjB1xXJ/16-2.png"
+  },
+  {
+    "id": 17,
+    "name": "University of East London",
+    "info": "The University of East London offers a wide range of undergraduate and postgraduate programs with a focus on practical skills and employability. It provides a diverse and supportive learning environment in London, UK.",
+    "location": "London, England, UK",
+    "logo": "https://i.ibb.co/rFD7mTn/17-1.png"
+  },
+  {
+    "id": 18,
+    "name": "Abertay University",
+    "info": "Abertay University, located in Dundee, Scotland, offers a range of undergraduate and postgraduate programs with a focus on practical skills and employability. It is known for its strong emphasis on research and innovation.",
+    "location": "Dundee, Scotland, UK",
+    "logo": "https://i.ibb.co/w0ScTqF/18-1.png"
+  },
+  {
+    "id": 19,
+    "name": "University of Exeter",
+    "info": "The University of Exeter, established in 1955, is known for its research excellence and diverse range of undergraduate and postgraduate programs. It provides a supportive academic environment in Exeter, UK.",
+    "location": "Exeter, England, UK",
+    "logo": "https://i.ibb.co/ckgRjx6/19-1.png"
+  },
+  {
+    "id": 20,
+    "name": "UNIVERSITY OF EXETER",
+    "info": "The University of Exeter, established in 1955, is known for its research excellence and diverse range of undergraduate and postgraduate programs. It provides a supportive academic environment in Exeter, UK.",
+    "location": "Exeter, England, UK",
+    "logo": "https://i.ibb.co/m4H7YFF/19u-1.png"
+  },
+  {
+    "id": 21,
+    "name": "Glasgow Caledonian University",
+    "info": "Glasgow Caledonian University offers a range of programs focused on practical skills and employability. Located in Glasgow, Scotland, it provides a vibrant academic environment and is known for its strong community engagement.",
+    "location": "Glasgow, Scotland, UK",
+    "logo": "https://i.ibb.co/8c4b9MM/20-1.png"
+  },
+  {
+    "id": 22,
+    "name": "UNIVERSITY OF GLOUCESTERSHIRE",
+    "info": "The University of Gloucestershire, situated in the picturesque Gloucestershire, UK, offers diverse programs emphasizing employability and practical skills, fostering a supportive learning environment for students.",
+    "location": "Gloucestershire, England, UK",
+    "logo": "https://i.ibb.co/M5ZvQNv/21-1.png"
+  },
+  {
+    "id": 23,
+    "name": "University of Hertfordshire",
+    "info": "Located in Hertfordshire, UK, the University of Hertfordshire offers a wide variety of programs focused on employability and innovation. It provides a dynamic and supportive academic environment for its students.",
+    "location": "Hertfordshire, England, UK",
+    "logo": "https://i.ibb.co/GQFnPW3/22-1.png"
+  },
+  {
+    "id": 24,
+    "name": "University of HUDDERSFIELD",
+    "info": "The University of Huddersfield, located in Huddersfield, UK, offers a diverse array of programs with a strong focus on practical skills and career readiness, fostering a supportive and innovative learning environment.",
+    "location": "Huddersfield, England, UK",
+    "logo": "https://i.ibb.co/6ZHMgr1/23-1.png"
+  },
+  {
+    "id": 25,
+    "name": "Manchester Metropolitan University",
+    "info": "Manchester Metropolitan University provides a wide range of programs aimed at practical skills and employability. Located in Manchester, UK, it offers a vibrant academic community with strong industry connections.",
+    "location": "Manchester, England, UK",
+    "logo": "https://i.ibb.co/CmwSv8K/24-1.png"
+  },
+  {
+    "id": 26,
+    "name": "University of South Wales Prifysgol",
+    "info": "Located in South Wales, UK, the University of South Wales offers a variety of programs focusing on employability and practical skills, providing a supportive and dynamic learning environment for its students.",
+    "location": "South Wales, Wales, UK",
+    "logo": "https://i.ibb.co/qjdS6tq/25-1.png"
+  },
+  {
+    "id": 27,
+    "name": "CITY UNIVERSITY LONDON",
+    "info": "City University London offers a diverse range of programs emphasizing practical skills and employability. Situated in the heart of London, it provides students with a dynamic urban learning experience and strong industry links.",
+    "location": "London, England, UK",
+    "logo": "https://i.ibb.co/3WrP1rQ/25U-1.png"
+  },
+  {
+    "id": 28,
+    "name": "Newcastle University",
+    "info": "Newcastle University, located in Newcastle, UK, offers a wide variety of programs with a focus on research and academic excellence, providing students with a vibrant and supportive educational environment.",
+    "location": "Newcastle, England, UK",
+    "logo": "https://i.ibb.co/YR4htvZ/26-1.png"
+  },
+  {
+    "id": 29,
+    "name": "Northumbria University NEWCASTLE",
+    "info": "Northumbria University in Newcastle, UK, offers a broad range of programs emphasizing practical skills and employability, fostering a supportive and innovative academic community for its students.",
+    "location": "Newcastle, England, UK",
+    "logo": "https://i.ibb.co/JvzNPHh/27-1.png"
+  },
+  {
+    "id": 30,
+    "name": "The University of Nottingham",
+    "info": "The University of Nottingham, known for its research excellence, offers diverse programs across various disciplines. Located in Nottingham, UK, it provides a dynamic and supportive learning environment.",
+    "location": "Nottingham, England, UK",
+    "logo": "https://i.ibb.co/SwsbYsn/28-1.png"
+  },
+  {
+    "id": 31,
+    "name": "NOTTINGHAM TRENT UNIVERSITY",
+    "info": "Nottingham Trent University, located in Nottingham, UK, offers a wide range of programs with a strong focus on practical skills and employability, fostering a vibrant and supportive academic community.",
+    "location": "Nottingham, England, UK",
+    "logo": "https://i.ibb.co/9wNhgty/29-1.png"
+  },
+  {
+    "id": 32,
+    "name": "QUEEN'S UNIVERSITY BELFAST",
+    "info": "Queen's University Belfast, situated in Belfast, Northern Ireland, offers a variety of programs known for research excellence and academic rigor, providing a supportive and innovative learning environment.",
+    "location": "Belfast, Northern Ireland, UK",
+    "logo": "https://i.ibb.co/mNnSxNr/30-1.png"
+  },
+  {
+    "id": 33,
+    "name": "University of Reading",
+    "info": "The University of Reading, located in Reading, UK, offers diverse undergraduate and postgraduate programs with a strong emphasis on research and practical skills, fostering a supportive academic community.",
+    "location": "Reading, England, UK",
+    "logo": "https://i.ibb.co/M8SYH5H/31-1.png"
+  },
+  {
+    "id": 34,
+    "name": "University of Chester",
+    "info": "The University of Chester, located in Chester, UK, provides a variety of programs focused on employability and practical skills, offering a supportive and dynamic learning environment for its students.",
+    "location": "Chester, England, UK",
+    "logo": "https://i.ibb.co/DVhQQbM/32-1.png"
+  },
+  {
+    "id": 35,
+    "name": "UNIVERSITY OF CHICHESTER",
+    "info": "The University of Chichester, situated in Chichester, UK, offers a range of programs with a strong focus on employability and practical skills, providing a supportive and vibrant academic environment.",
+    "location": "Chichester, England, UK",
+    "logo": "https://i.ibb.co/2yjD3N5/33-2.png"
+  },
+  {
+    "id": 36,
+    "name": "St Mary's University",
+    "info": "St Mary's University, located in Twickenham, London, offers diverse programs with a focus on practical skills and employability, fostering a supportive and dynamic academic community for its students.",
+    "location": "Twickenham, London, England, UK",
+    "logo": "https://i.ibb.co/M8qtMNW/34-1.png"
+  },
+  {
+    "id": 37,
+    "name": "UNIVERSITY of STIRLING",
+    "info": "The University of Stirling, located in Stirling, Scotland, offers a wide range of programs emphasizing research, practical skills, and employability, providing a vibrant and supportive learning environment.",
+    "location": "Stirling, Scotland, UK",
+    "logo": "https://i.ibb.co/xqckWtB/35-1.png"
+  },
+  {
+    "id": 38,
+    "name": "UNIVERSITY OF PORTSMOUTH",
+    "info": "The University of Portsmouth, located in Portsmouth, UK, offers a variety of programs focused on practical skills and employability, fostering a supportive and innovative academic community for its students.",
+    "location": "Portsmouth, England, UK",
+    "logo": "https://i.ibb.co/X4B5VcG/36-1.png"
+  },
+  {
+    "id": 39,
+    "name": "UNIVERSITY OF WOLVERHAMPTON",
+    "info": "The University of Wolverhampton, located in Wolverhampton, UK, offers diverse programs emphasizing employability and practical skills, providing a supportive and dynamic learning environment.",
+    "location": "Wolverhampton, England, UK",
+    "logo": "https://i.ibb.co/Stg7XkN/37-1.png"
+  },
+  {
+    "id": 40,
+    "name": "UNIVERSITY OF SURREY",
+    "info": "The University of Surrey, situated in Guildford, UK, offers a wide range of programs with a focus on research, employability, and practical skills, providing a vibrant and supportive academic environment.",
+    "location": "Guildford, England, UK",
+    "logo": "https://i.ibb.co/60VbqNr/38-1.png"
+  },
+  {
+    "id": 41,
+    "name": "Ulster University",
+    "info": "Ulster University, located in Northern Ireland, offers a variety of programs with a strong emphasis on practical skills and employability, fostering a supportive and dynamic academic community for its students.",
+    "location": "Northern Ireland, UK",
+    "logo": "https://i.ibb.co/4Vhf9zj/39-1.png"
+  },
+  {
+    "id": 42,
+    "name": "The University of Law",
+    "info": "The University of Law, with campuses across the UK, offers specialized programs in law and related fields, focusing on practical skills and employability, providing a supportive and professional learning environment.",
+    "location": "Multiple locations, UK",
+    "logo": "https://i.ibb.co/4MJp7vW/40-1.png"
+  },
+  {
+    "id": 43,
+    "name": "University of the West of England",
+    "info": "The University of the West of England, located in Bristol, UK, offers a wide range of programs focused on employability and practical skills, providing a supportive and innovative academic community.",
+    "location": "Bristol, England, UK",
+    "logo": "https://i.ibb.co/ZB6BDgw/41-1.png"
+  },
+  {
+    "id": 44,
+    "name": "University of Worcester",
+    "info": "The University of Worcester, located in Worcester, UK, offers a variety of programs with a focus on practical skills and employability, fostering a supportive and dynamic learning environment for its students.",
+    "location": "Worcester, England, UK",
+    "logo": "https://i.ibb.co/FDyvGPW/42-1.png"
+  },
+  {
+    "id": 45,
+    "name": "Coventry University, London",
+    "info": "Coventry University, London campus, offers a range of programs with a strong focus on practical skills and employability, providing a dynamic and supportive learning environment in the heart of London.",
+    "location": "London, England, UK",
+    "logo": "https://i.ibb.co/z6xGbf7/43-1.png"
+  },
+  {
+    "id": 46,
+    "name": "Newcastle University, London",
+    "info": "Newcastle University, London campus, offers a variety of programs emphasizing practical skills and employability, providing a supportive and vibrant learning environment in a major global city.",
+    "location": "London, England, UK",
+    "logo": "https://i.ibb.co/0YfhqKL/44.png"
+  },
+  {
+    "id": 47,
+    "name": "Robert Gordon University",
+    "info": "Robert Gordon University, located in Aberdeen, Scotland, offers a wide range of programs with a strong focus on practical skills and employability, fostering a supportive and innovative academic community.",
+    "location": "Aberdeen, Scotland, UK",
+    "logo": "https://i.ibb.co/Ch93zj7/45.png"
+  },
+  {
+    "id": 48,
+    "name": "Canterbury Christ Church University",
+    "info": "Canterbury Christ Church University, situated in Canterbury, UK, offers a diverse range of programs with an emphasis on practical skills and employability, providing a supportive and vibrant academic environment.",
+    "location": "Canterbury, England, UK",
+    "logo": "https://i.ibb.co/3MjrR3Q/46.png"
+  },
+  {
+    "id": 49,
+    "name": "Solent University, Southampton",
+    "info": "Solent University, located in Southampton, UK, offers a variety of programs focused on practical skills and employability, fostering a dynamic and supportive learning environment for its students.",
+    "location": "Southampton, England, UK",
+    "logo": "https://i.ibb.co/WzyV6s1/47.png"
+  },
+  {
+    "id": 50,
+    "name": "University of Roehampton",
+    "info": "The University of Roehampton, located in London, offers a diverse range of undergraduate and postgraduate programs. It emphasizes employability and a supportive academic environment.",
+    "location": "London, England, UK",
+    "logo": "https://i.ibb.co/VSPnTFN/G-2.jpg"
+  },
+  {
+    "id": 51,
+    "name": "University of Sydney",
+    "info": "The University of Sydney, founded in 1850, is Australia's first university and is renowned for its world-class research and education.",
+    "location": "Sydney, New South Wales, Australia",
+    "logo": "https://i.ibb.co.com/MD5CGZB/the-university-of-sydney-logo-vector.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Unknown University 1",
+    "info": "This university's name and details are not clearly identifiable from the provided logo.",
+    "location": "Unknown",
+    "logo": "https://i.ibb.co.com/XjxJGS0/1.png"
+  },
+  {
+    "id": 53,
+    "name": "Unknown University 2",
+    "info": "This university's name and details are not clearly identifiable from the provided logo.",
+    "location": "Unknown",
+    "logo": "https://i.ibb.co.com/PYsrff5/2.png"
+  },
+  {
+    "id": 54,
+    "name": "Unknown University 3",
+    "info": "This university's name and details are not clearly identifiable from the provided logo.",
+    "location": "Unknown",
+    "logo": "https://i.ibb.co.com/0jqxx0z/3.png"
+  },
+  {
+    "id": 55,
+    "name": "Unknown University 4",
+    "info": "This university's name and details are not clearly identifiable from the provided logo.",
+    "location": "Unknown",
+    "logo": "https://i.ibb.co.com/02WVmwp/4.png"
+  },
+  {
+    "id": 56,
+    "name": "Unknown University 5",
+    "info": "This university's name and details are not clearly identifiable from the provided logo.",
+    "location": "Unknown",
+    "logo": "https://i.ibb.co.com/ZSy5TCL/5.png"
+  },
+  {
+    "id": 57,
+    "name": "Bergische Universität Wuppertal",
+    "info": "Founded in 1972, Bergische Universität Wuppertal is a modern university with a focus on research and practical education, offering a wide range of programs in engineering, humanities, and social sciences.",
+    "location": "Wuppertal, Germany",
+    "logo": "https://i.ibb.co.com/WGwMC0C/G-7.png"
+  },
+  {
+    "id": 58,
+    "name": "Technische Universität Hamburg (TUHH)",
+    "info": "Technische Universität Hamburg (TUHH) is renowned for its focus on engineering and applied sciences, fostering innovation and entrepreneurship through its cutting-edge research and industry collaborations.",
+    "location": "Hamburg, Germany",
+    "logo": "https://i.ibb.co.com/r5cWFGw/G-8.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Justus Liebig University Giessen",
+    "info": "Established in 1607, Justus Liebig University Giessen is known for its strong emphasis on life sciences, agriculture, and veterinary medicine, with significant contributions to research and teaching in these fields.",
+    "location": "Giessen, Germany",
+    "logo": "https://i.ibb.co.com/RDwQ8H7/G-9.png"
+  },
+  {
+    "id": 60,
+    "name": "Eberhard Karls Universität Tübingen",
+    "info": "Eberhard Karls Universität Tübingen is a historic institution founded in 1477, recognized for its research excellence in medicine, natural sciences, and the humanities.",
+    "location": "Tübingen, Germany",
+    "logo": "https://i.ibb.co.com/WFQKgf4/G-10.png"
+  },
+  {
+    "id": 61,
+    "name": "Johannes Gutenberg University Mainz",
+    "info": "Johannes Gutenberg University Mainz, founded in 1477, offers a wide range of academic disciplines, excelling in natural sciences and the humanities. It is also known for its research in social sciences and media.",
+    "location": "Mainz, Germany",
+    "logo": "https://i.ibb.co.com/QM4Jg6m/G-11.png"
+  },
+  {
+    "id": 62,
+    "name": "Leibniz University Hannover",
+    "info": "Leibniz University Hannover is one of the leading technical universities in Germany, offering programs in engineering, natural sciences, and social sciences, with a strong focus on interdisciplinary research.",
+    "location": "Hannover, Germany",
+    "logo": "https://i.ibb.co.com/t8MsZkG/G-12.png"
+  },
+  {
+    "id": 63,
+    "name": "University of Rostock",
+    "info": "Founded in 1419, the University of Rostock is one of the oldest universities in Germany, known for its strong research programs in marine sciences, engineering, and medicine.",
+    "location": "Rostock, Germany",
+    "logo": "https://i.ibb.co.com/tcdvCvb/G-13.png"
+  },
+  {
+    "id": 64,
+    "name": "Universität Siegen",
+    "info": "Universität Siegen is a research university with a focus on interdisciplinary education, offering programs in engineering, humanities, and social sciences.",
+    "location": "Siegen, Germany",
+    "logo": "https://i.ibb.co.com/58nbgHP/G-14.png"
+  },
+  {
+    "id": 65,
+    "name": "Humboldt University of Berlin",
+    "info": "Humboldt University of Berlin, founded in 1810, is renowned for its contributions to research and education in humanities, social sciences, and natural sciences, with a strong focus on academic excellence.",
+    "location": "Berlin, Germany",
+    "logo": "https://i.ibb.co.com/YB049Hc/G-15.png"
+  },
+  {
+    "id": 67,
+    "name": "University of Hamburg",
+    "info": "Founded in 1919, the University of Hamburg is one of Germany’s largest universities, offering a wide range of disciplines and excelling in research, particularly in the fields of climate science and public health.",
+    "location": "Hamburg, Germany",
+    "logo": "https://i.ibb.co.com/bKv9M3B/G-16.png"
+  },
+  {
+    "id": 68,
+    "name": "University of Bonn",
+    "info": "Founded in 1818, the University of Bonn is a leading institution known for its research programs in mathematics, economics, and natural sciences.",
+    "location": "Bonn, Germany",
+    "logo": "https://i.ibb.co.com/rmpfLqk/G-17.png"
+  },
+  {
+    "id": 69,
+    "name": "Philipps-Universität Marburg",
+    "info": "Founded in 1527, Philipps-Universität Marburg is one of Germany’s oldest universities, renowned for its research and teaching in natural sciences and humanities.",
+    "location": "Marburg, Germany",
+    "logo": "https://i.ibb.co.com/mJ02B7Q/G-18.png"
+  },
+  {
+    "id": 70,
+    "name": "Ruhr University Bochum (RUB)",
+    "info": "RUB is one of Germany's largest research universities, excelling in engineering, natural sciences, and medicine.",
+    "location": "Bochum, Germany",
+    "logo": "https://i.ibb.co.com/P9b9B01/G-19.png"
+  },
+  {
+    "id": 71,
+    "name": "University of Mannheim",
+    "info": "Renowned for its business and economics programs, the University of Mannheim fosters close ties with the industry and international institutions.",
+    "location": "Mannheim, Germany",
+    "logo": "https://i.ibb.co.com/80gh6SK/G-20.png"
+  },
+  {
+    "id": 72,
+    "name": "University of Cologne",
+    "info": "Founded in 1388, the University of Cologne is one of Europe's oldest universities, known for its academic strength in law, economics, and the social sciences.",
+    "location": "Cologne, Germany",
+    "logo": "https://i.ibb.co.com/0m9bMxz/G-21.jpg"
+  },
+  {
+    "id": 73,
+    "name": "University of Bayreuth",
+    "info": "Founded in 1975, the University of Bayreuth is recognized for its interdisciplinary programs, particularly in law, economics, and African studies.",
+    "location": "Bayreuth, Germany",
+    "logo": "https://i.ibb.co.com/FstMbBk/G-22.png"
+  },
+  {
+    "id": 74,
+    "name": "Albert-Ludwigs-Universität Freiburg",
+    "info": "Albert-Ludwigs-Universität Freiburg, founded in 1457, is renowned for its research in natural sciences, engineering, and humanities.",
+    "location": "Freiburg, Germany",
+    "logo": "https://i.ibb.co.com/sgqSSbF/G-1.png"
+  },
+  {
+    "id": 75,
+    "name": "University of Potsdam",
+    "info": "The University of Potsdam is a modern institution with strong programs in the natural and social sciences, fostering international collaboration.",
+    "location": "Potsdam, Germany",
+    "logo": "https://i.ibb.co.com/VSPnTFN/G-2.jpg"
+  },
+  {
+    "id": 76,
+    "name": "RWTH Aachen University",
+    "info": "RWTH Aachen is one of Europe's leading universities in engineering and technology, driving innovation and industrial collaboration.",
+    "location": "Aachen, Germany",
+    "logo": "https://i.ibb.co.com/djKyFnP/G-3.png"
+  },
+  {
+    "id": 77,
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+    "info": "Founded in 1743, FAU is one of Germany’s largest research universities, excelling in engineering, business, and medicine.",
+    "location": "Erlangen, Germany",
+    "logo": "https://i.ibb.co.com/pX1J3TB/G-4.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Freie Universität Berlin",
+    "info": "Founded in 1948, Freie Universität Berlin is a leading research institution known for its strong programs in humanities and social sciences.",
+    "location": "Berlin, Germany",
+    "logo": "https://i.ibb.co.com/DpffHbb/G-5.png"
+  },
+  {
+    "id": 79,
+    "name": "Westfälische Wilhelms-Universität Münster",
+    "info": "Founded in 1780, the University of Münster is a prominent public research university, renowned for its wide range of academic disciplines and strong research output.",
+    "location": "Münster, Germany",
+    "logo": "https://i.ibb.co.com/5rCncS4/G-6.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Auckland Institute of Studies",
+    "info": "Auckland Institute of Studies (AIS) offers diploma, undergraduate, and postgraduate degrees in various fields including business, IT, and tourism.",
+    "location": "Auckland, New Zealand",
+    "logo": "https://i.ibb.co.com/4VRWh5Y/Auckland-Institute-Of-Studies.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Auckland University of Technology",
+    "info": "Auckland University of Technology (AUT) is a contemporary university offering various programs focused on innovation and industry connections.",
+    "location": "Auckland, New Zealand",
+    "logo": "https://i.ibb.co.com/CVVfgt8/Auckland-University-of-Technology.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Eastern Institute of Technology",
+    "info": "The Eastern Institute of Technology (EIT) offers applied degree programs in fields such as arts, business, and computing.",
+    "location": "Hawke’s Bay, New Zealand",
+    "logo": "https://i.ibb.co.com/QpzSgQp/Eastern-Institute-Of-Technology.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Lincoln University",
+    "info": "Lincoln University is New Zealand's specialist land-based university, focusing on agriculture, horticulture, viticulture, and environmental studies.",
+    "location": "Lincoln, New Zealand",
+    "logo": "https://i.ibb.co.com/FsS0zSQ/Lincoln-University.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Massey University",
+    "info": "Massey University is known for its research-led teaching, particularly in agriculture, aviation, business, and creative arts.",
+    "location": "Palmerston North, New Zealand",
+    "logo": "https://i.ibb.co.com/YTWnffR/Massey-University.jpg"
+  },
+  {
+    "id": 85,
+    "name": "New Zealand College of Business",
+    "info": "NZCB offers specialized courses in business, accounting, and management for international students in New Zealand.",
+    "location": "Christchurch, New Zealand",
+    "logo": "https://i.ibb.co.com/2yJ86bh/New-Zealand-College-of-Business.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Toi Ohomai Institute of Technology",
+    "info": "Toi Ohomai is a prominent tertiary institution, offering applied and vocational degrees across a wide range of industries.",
+    "location": "Rotorua, New Zealand",
+    "logo": "https://i.ibb.co.com/4pGcxjJ/Toi-Ohomai-Institute-of-Technology.jpg"
+  },
+  {
+    "id": 87,
+    "name": "UCOL Manawatū Campus",
+    "info": "UCOL Manawatū Campus is known for its hands-on, practical qualifications in industries such as healthcare, trades, and business.",
+    "location": "Palmerston North, New Zealand",
+    "logo": "https://i.ibb.co.com/vQdDCJF/UCOL-Manawat-Campus.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Unitec Institute of Technology",
+    "info": "Unitec offers programs focused on practical, hands-on learning in fields like trades, IT, engineering, and healthcare.",
+    "location": "Auckland, New Zealand",
+    "logo": "https://i.ibb.co.com/XVrYMPb/Unitec-Mt-Albert-Campus.png"
+  },
+  {
+    "id": 89,
+    "name": "University of Canterbury",
+    "info": "The University of Canterbury is one of New Zealand's top research universities, offering degrees across engineering, law, and the arts.",
+    "location": "Christchurch, New Zealand",
+    "logo": "https://i.ibb.co.com/9sFVFGw/University-of-Canterbury.jpg"
+  },
+  {
+    "id": 90,
+    "name": "University of Otago",
+    "info": "University of Otago is known for its strong research programs, especially in health sciences, law, and the humanities.",
+    "location": "Dunedin, New Zealand",
+    "logo": "https://i.ibb.co.com/6nJphJW/University-of-Otago.jpg"
+  },
+  {
+    "id": 91,
+    "name": "University of Waikato",
+    "info": "The University of Waikato offers degrees in arts, business, sciences, and has a focus on innovation and research.",
+    "location": "Hamilton, New Zealand",
+    "logo": "https://i.ibb.co.com/J2SC413/University-of-Waikato.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Victoria University of Wellington",
+    "info": "Victoria University of Wellington is renowned for its law, humanities, and environmental studies programs.",
+    "location": "Wellington, New Zealand",
+    "logo": "https://i.ibb.co.com/8PL68tR/Victoria-University-of-Wellington.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Ara Institute of Canterbury Ltd",
+    "info": "Ara is one of New Zealand’s largest tertiary institutions, offering applied learning in a range of vocational programs.",
+    "location": "Christchurch, New Zealand",
+    "logo": "https://i.ibb.co.com/68fTVsW/Ara-Institute-of-Canterbury-Ltd.jpg"
+  }
+  
 ]

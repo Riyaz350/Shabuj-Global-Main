@@ -1,8 +1,4 @@
 import project from '../../../assets/college-project-animate.svg'
-import counsel from '../../../assets/counseling-pana.svg'
-import passport from '../../../assets/Health passport-pana.svg'
-import airport from '../../../assets/Airport-amico.svg'
-import circle from '../../../assets/Circle.png'
 import '../../../App.css'
 const Services_Components = () => {
 
@@ -67,8 +63,8 @@ const Services_Components = () => {
                 {circle &&
                     <div>
                         {position == 'top-center' ?
-                            <img className='hidden lg:flex absolute -top-3 left-[135px]' src={circle} alt="" /> :
-                            <img className='hidden lg:flex absolute  -right-6 top-9' src={circle} alt="" />
+                            <img className='hidden lg:flex absolute -top-3 left-[135px]' src='https://i.ibb.co.com/wpVjbV7/Circle.png' alt="" /> :
+                            <img className='hidden lg:flex absolute  -right-6 top-9' src='https://i.ibb.co.com/wpVjbV7/Circle.png' alt="" />
                         }
                     </div>
                 }
@@ -111,9 +107,9 @@ const Services_Components = () => {
                     </div>
                     <div className='lg:grid grid-cols-3  -z-10 lg:-mt-56'>
                         <div className='col-span-2   items-end lg:flex hidden '>
-                            <img className='w-2/3   mx-auto mr-16' src={counsel} alt="" />
+                            <img className='w-2/3   mx-auto mr-16' src='https://i.ibb.co.com/sH56wSf/counseling-pana.jpg' alt="" />
                         </div>
-                        <Card circle={circle} position='top-center' index={1} />
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' position='top-center' index={1} />
                     </div>
 
                     {/* first bordered card */}
@@ -126,12 +122,12 @@ const Services_Components = () => {
                 {/* second 2 cards */}
                 <div className='relative'>
                     <div className='z-10 mb-10 lg:mb-0'>
-                        <Card circle={circle} index={2} />
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' index={2} />
                     </div>
                     <div className='lg:grid grid-cols-3  -z-10 lg:-mt-56'>
                         <div className='col-span-2   items-end lg:flex hidden '>
                         </div>
-                        <Card circle={circle} position='top-center'  index={3}/>
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' position='top-center'  index={3}/>
                     </div>
                     {/* second bordered card */}
                     <Connector1 />
@@ -141,15 +137,15 @@ const Services_Components = () => {
                 {/* third 2 cards */}
                 <div className='relative'>
                     <div className='z-10 mb-10 lg:mb-0'>
-                        <Card circle={circle} index={4}/>
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' index={4}/>
                     </div>
                     <div className='lg:grid grid-cols-3  -z-10 lg:-mt-56'>
                         <div className='col-span-2   items-end lg:flex hidden '>
                         </div>
                         <div className='col-span-2   items-end lg:flex hidden '>
-                            <img className='w-2/5   ml-auto  mb-5' src={passport} alt="" />
+                            <img className='w-2/5   ml-auto  mb-5' src='https://i.ibb.co.com/gWJkWhK/Health-passport-pana.jpg' alt="" />
                         </div>
-                        <Card circle={circle} position='top-center'  index={5}/>
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' position='top-center'  index={5}/>
                     </div>
                     <Connector1 />
                     <Connector2 />
@@ -158,15 +154,15 @@ const Services_Components = () => {
                 {/* fourth 2 cards */}
                 <div className='relative'>
                     <div className='z-10 mb-10 lg:mb-0'>
-                        <Card circle={circle} index={6}/>
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' index={6}/>
                     </div>
                     <div className='lg:grid grid-cols-3  z-20 lg:-mt-56'>
                         <div className='col-span-2   items-end lg:flex hidden '>
                         </div>
                         <div className='col-span-2   items-end lg:flex hidden '>
-                            <img className='w-6/12 z-20  ml-auto mr-20' src={airport} alt="" />
+                            <img className='w-6/12 z-20  ml-auto mr-20' src='https://i.ibb.co.com/MgCCdg9/Airport-amico.jpg' alt="" />
                         </div>
-                        <Card circle={circle} position='top-center' index={7}/>
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' position='top-center' index={7}/>
                     </div>
                     <Connector1 />
                     <Connector2 />
@@ -176,13 +172,13 @@ const Services_Components = () => {
                 {/* fifth card */}
                 <div className='relative'>
                     <div className='  mb-10 lg:mb-0'>
-                        <Card circle={circle} index={8}/>
+                        <Card circle='https://i.ibb.co.com/wpVjbV7/Circle.png' index={8}/>
                     </div>
                     <div className='lg:grid grid-cols-3    lg:-mt-56'>
                         <div className='col-span-2   items-end lg:flex hidden '>
                         </div>
                         <div className='col-span-2   items-end lg:flex hidden '>
-                            <img className='w-6/12 z-10  hidden ml-auto mr-20' src={airport} alt="" />
+                            <img className='w-6/12 z-10  hidden ml-auto mr-20' src='https://i.ibb.co.com/MgCCdg9/Airport-amico.jpg' alt="" />
                         </div>
                         <div className='invisible'>
                             <Card index={9}/>

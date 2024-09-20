@@ -1,8 +1,3 @@
-import bg from "../../assets/Background.jpg";
-import heroImg from "../../assets/college admission-amico.svg";
-import Lightning from "../../assets/Lightning Vector.svg";
-import vision from "../../assets/Vision Icon.svg";
-import mission from "../../assets/Mission Icon.svg";
 
 const AboutUs_components = () => {
   const Card = ({ number, text }) => {
@@ -27,7 +22,7 @@ const AboutUs_components = () => {
       <div
         className="px-5"
         style={{
-          background: `url(${bg})`,
+          background: `url(https://i.ibb.co.com/vDyyQYN/Background.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -37,7 +32,7 @@ const AboutUs_components = () => {
             An Excellent Solution <br />
             for Your Admission
           </h1>
-          <img className="w-1/2 mx-auto" src={heroImg} alt="" />
+          <img className="w-1/2 mx-auto" src='https://i.ibb.co.com/BP3WjmN/college-admission-amico-removebg-preview.png' alt="" />
         </div>
       </div>
 
@@ -74,7 +69,7 @@ const AboutUs_components = () => {
 
         <img
           className="w-5/12 ml-auto -z-10 absolute  -top-[150px]  hidden lg:flex right-0"
-          src={Lightning}
+          src='https://i.ibb.co.com/88BNpzM/Lightning-Vector-removebg-preview.png'
           alt=""
         />
 
@@ -96,8 +91,13 @@ const AboutUs_components = () => {
               </p>
             </div>
             <img
+<<<<<<< HEAD
               className="absolute -top-10 right-0 w-1/5  lg:w-1/4"
               src={mission}
+=======
+              className="absolute -top-10 right-0 w-1/3  lg:w-1/4"
+              src='https://i.ibb.co.com/7yGGGbS/Mission-Icon-removebg-preview.png'
+>>>>>>> 815a070c3e7fb782ea14174be6ba501f0863363f
               alt=""
             />
           </div>
@@ -118,8 +118,13 @@ const AboutUs_components = () => {
               </p>
             </div>
             <img
+<<<<<<< HEAD
               className="absolute -top-10 right-0  w-1/5   lg:w-1/4"
               src={vision}
+=======
+              className="absolute -top-10 right-0 w-1/3  lg:w-1/4"
+              src='https://i.ibb.co.com/LPCyVMw/Vision-Icon-removebg-preview.png'
+>>>>>>> 815a070c3e7fb782ea14174be6ba501f0863363f
               alt=""
             />
           </div>

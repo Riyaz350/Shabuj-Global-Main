@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import logo from "../../assets/Logo.png";
-import testPrep1 from "../../assets/Navbar/Test Prep/IELTS Logo.svg";
-import testPrep2 from "../../assets/Navbar/Test Prep/SELT Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
 import { IoShieldCheckmarkSharp, IoCheckmarkDoneCircleSharp, } from "react-icons/io5";
 import { FaClock, FaUserFriends, FaHeart } from "react-icons/fa";
@@ -324,10 +322,10 @@ const Navbar2 = () => {
                   <div className="collapse-content">
                     <div className="flex gap-5 flex-col justify-around py-10">
                       <Link className="w-3/4 lg:w-2/12" to="/comingSoon">
-                        <img src={testPrep1} alt="img1" />
+                        <img src='https://i.ibb.co.com/JCsX1Q0/IELTS-Logo.jpg' alt="img1" />
                       </Link>
                       <Link className="w-3/4 lg:w-2/12" to="/comingSoon">
-                        <img src={testPrep2} alt="img2" />
+                        <img src='https://i.ibb.co.com/hH49jpH/SELT-Logo.png' alt="img2" />
                       </Link>
                     </div>
                   </div>
@@ -649,10 +647,10 @@ const Navbar2 = () => {
         {navIndex == 3 && (
           <div className="lg:flex max-w-7xl  mx-auto hidden justify-around py-10">
             <Link to="comingSoon" className="w-5/12 lg:w-2/12">
-              <img src={testPrep1} alt="img1" />
+              <img src='https://i.ibb.co.com/hH49jpH/SELT-Logo.png' alt="img1" />
             </Link>
             <Link to="comingSoon" className="w-5/12 lg:w-2/12">
-              <img src={testPrep2} alt="img1" />
+              <img src='https://i.ibb.co.com/JCsX1Q0/IELTS-Logo.jpg' alt="img1" />
             </Link>
           </div>
         )}
