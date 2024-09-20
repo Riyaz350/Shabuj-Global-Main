@@ -68,10 +68,11 @@ const Navbar2 = () => {
         </Link>
 
         {/* Small device navbar buttons */}
-        
+
         <div className=" flex lg:hidden">
           <div className="drawer drawer-end  z-50">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+
             <div className="drawer-content">
               {/* Page content here */}
               <label htmlFor="my-drawer-4" className="drawer-button  w-fit">
@@ -80,6 +81,8 @@ const Navbar2 = () => {
                 </span>
               </label>
             </div>
+
+
             <div className="drawer-side ">
               <label
                 htmlFor="my-drawer-4"
@@ -87,21 +90,32 @@ const Navbar2 = () => {
                 className="drawer-overlay"
               ></label>
 
-              <ul className="z-50 menu bg-base-200 text-base-content min-h-full w-80 p-4">
+              <ul className="  z-50 menu bg-base-200 space-y-2 py-10 text-base-content min-h-full w-80 p-4">
+
                 <div>
-                  <Link to="/" className="pl-5 text-xl font-medium">
+                  <Link onClick={() => {
+                    document.getElementById('my-drawer-4').checked = false;
+                  }} to="/" className="pl-5 text-xl font-medium">
                     Home
                   </Link>
+
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
-                  <input type="radio" name="my-accordion-2" defaultChecked />
-                  <div className="collapse-title text-xl font-medium">
+
+
+                <div className="collapse collapse-arrow">
+                  <input
+                    type="checkbox"
+                    name="my-accordion-2"
+                  />
+                  <div className="collapse-title  text-xl font-medium   ">
                     Study Destination
                   </div>
-                  <div className="collapse-content">
+                  <div className="collapse-content text-sm ">
                     <ul className="grid grid-cols-2 justify-between items-start max-w-7xl mx-auto my-8 gap-3">
                       {countryData.map((country) => (
-                        <Link key={country.name} className=' my-2 text-center flex flex-col justify-between' to={country.to}>
+                        <Link onClick={() => {
+                          document.getElementById('my-drawer-4').checked = false;
+                        }} key={country.name} className=' my-2 text-center flex flex-col justify-between' to={country.to}>
                           <img className={flag} src={country.img} alt={country.name} />
                           <li>{country.label}</li>
                         </Link>
@@ -110,15 +124,22 @@ const Navbar2 = () => {
                   </div>
                 </div>
 
-                <div className="collapse collapse-arrow bg-base-200">
-                  <input type="radio" name="my-accordion-2" />
-                  <div className="collapse-title text-xl font-medium ">
+
+                <div className="collapse collapse-arrow">
+                  <input
+                    type="checkbox"
+                    name="my-accordion-2"
+
+                  />
+                  <div className="collapse-title  text-xl font-medium   ">
                     Services
                   </div>
-                  <div className="collapse-content ">
+                  <div className="collapse-content text-sm  ">
                     <div className="flex flex-col  w-full ">
                       <div className="col-span-2 mt-2 ">
-                        <Link to="/services">
+                        <Link onClick={() => {
+                          document.getElementById('my-drawer-4').checked = false;
+                        }} to="/services">
                           <h2 className="my-5 text-xl font-medium border-b-2 w-fit border-[#f85424]">
                             SERVICES
                           </h2>
@@ -130,24 +151,36 @@ const Navbar2 = () => {
                         <div className="flex flex-col md:flex-row  justify-center md:justify-start gap-10">
                           <ul className="flex-col flex gap-2 text-lg">
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
                               <li>Free Study Abroad Counselling</li>
                             </Link>
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
                               <li>Student Visa</li>
                             </Link>
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
                               <li>University Application Process</li>
                             </Link>
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
@@ -156,24 +189,36 @@ const Navbar2 = () => {
                           </ul>
                           <ul className="flex-col flex gap-2 text-lg">
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
                               <li>University Scholarship Guidance</li>
                             </Link>
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
                               <li>Study Abroad Destination Guide</li>
                             </Link>
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
                               <li>Personality Assessment Test</li>
                             </Link>
                             <Link
+                              onClick={() => {
+                                document.getElementById('my-drawer-4').checked = false;
+                              }}
                               className="hover:text-blue-600"
                               to={"/comingSoon"}
                             >
@@ -189,24 +234,36 @@ const Navbar2 = () => {
                         </h2>
                         <ul className="space-y-2 text-lg">
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Customized Solution</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Instant Support</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Commissions</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
@@ -221,24 +278,36 @@ const Navbar2 = () => {
                         </h2>
                         <ul className="space-y-2 text-lg">
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Customized Solution</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Instant Support</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Commissions</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
@@ -253,24 +322,36 @@ const Navbar2 = () => {
                         </h2>
                         <ul className="space-y-2 text-lg">
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Customized Solution</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Instant Support</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Commissions</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
@@ -285,24 +366,36 @@ const Navbar2 = () => {
                         </h2>
                         <ul className="space-y-2 text-lg">
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Customized Solution</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Instant Support</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
                             <li>Commissions</li>
                           </Link>
                           <Link
+                            onClick={() => {
+                              document.getElementById('my-drawer-4').checked = false;
+                            }}
                             className="hover:text-blue-600"
                             to={"/comingSoon"}
                           >
@@ -313,32 +406,49 @@ const Navbar2 = () => {
                     </div>
                   </div>
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
-                  <input type="radio" name="my-accordion-2" />
-                  <div className="collapse-title text-xl font-medium">
-                    Test Prep.
+
+                <div className="collapse collapse-arrow">
+                  <input
+                    type="checkbox"
+                    name="my-accordion-2"
+
+                  />
+                  <div className="collapse-title  text-xl font-medium   ">
+                    Test Prep
                   </div>
-                  <div className="collapse-content">
+                  <div className="collapse-content text-sm  ">
                     <div className="flex gap-5 flex-col justify-around py-10">
-                      <Link className="w-3/4 lg:w-2/12" to="/comingSoon">
+                      <Link onClick={() => {
+                        document.getElementById('my-drawer-4').checked = false;
+                      }} className="w-3/4 lg:w-2/12" to="/comingSoon">
                         <img src='https://i.ibb.co.com/JCsX1Q0/IELTS-Logo.jpg' alt="img1" />
                       </Link>
-                      <Link className="w-3/4 lg:w-2/12" to="/comingSoon">
+                      <Link onClick={() => {
+                        document.getElementById('my-drawer-4').checked = false;
+                      }} className="w-3/4 lg:w-2/12" to="/comingSoon">
                         <img src='https://i.ibb.co.com/hH49jpH/SELT-Logo.png' alt="img2" />
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
-                  <input type="radio" name="my-accordion-2" />
-                  <div className="collapse-title text-xl font-medium">
+
+
+                <div className="collapse collapse-arrow">
+                  <input
+                    type="checkbox"
+                    name="my-accordion-2"
+
+                  />
+                  <div className="collapse-title  text-xl font-medium   ">
                     About Us
                   </div>
-                  <div className="collapse-content">
+                  <div className="collapse-content text-sm  ">
                     <div className="     ">
                       <ul className=" text-lg  mt-2">
                         <Link
-                          c
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           className={`${iconStyle} flex gap-2 items-center  py-3 pt-6 `}
                           to="/about"
                         >
@@ -347,6 +457,9 @@ const Navbar2 = () => {
                         </Link>
 
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3 `}
                         >
@@ -355,6 +468,9 @@ const Navbar2 = () => {
                         </Link>
 
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -363,6 +479,9 @@ const Navbar2 = () => {
                         </Link>
 
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -370,6 +489,9 @@ const Navbar2 = () => {
                           <li> Our Timeline</li>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -377,6 +499,9 @@ const Navbar2 = () => {
                           <li> Our Leadership Team</li>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -384,6 +509,9 @@ const Navbar2 = () => {
                           <li> Partner With Us</li>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -391,6 +519,9 @@ const Navbar2 = () => {
                           <li> Award Recognitions</li>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -401,6 +532,9 @@ const Navbar2 = () => {
                           </span>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to="/blogs"
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -408,6 +542,9 @@ const Navbar2 = () => {
                           <li> Blog</li>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to="/contact"
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -415,6 +552,9 @@ const Navbar2 = () => {
                           <li> Contact Us</li>
                         </Link>
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3`}
                         >
@@ -423,6 +563,9 @@ const Navbar2 = () => {
                         </Link>
 
                         <Link
+                          onClick={() => {
+                            document.getElementById('my-drawer-4').checked = false;
+                          }}
                           to={"/comingSoon"}
                           className={`${iconStyle} flex gap-2 items-center  py-3 pb-5`}
                         >
@@ -434,13 +577,21 @@ const Navbar2 = () => {
                   </div>
                 </div>
 
+
+
                 <div className="flex flex-col gap-2 px-4">
-                  <Link to="/registration" className={`  text-xl font-medium`}>
+                  <Link
+                    onClick={() => {
+                      document.getElementById('my-drawer-4').checked = false;
+                    }} to="/registration" className={`  text-xl font-medium`}>
                     <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl w-full">
                       Registration
                     </button>
                   </Link>
-                  <Link to={"/login"} className={` text-xl font-medium`}>
+                  <Link
+                    onClick={() => {
+                      document.getElementById('my-drawer-4').checked = false;
+                    }} to={"/login"} className={` text-xl font-medium`}>
                     <button className="bg-[#BFDBFE] col-span-2  font-bold px-5 py-2 rounded-2xl w-full">
                       Log In
                     </button>
