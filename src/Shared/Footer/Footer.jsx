@@ -14,7 +14,7 @@ const Footer = () => {
     <div>
       <div>
         <div className="w-full bg-transparent -mt-[110px] md:-mt-[80px] xl:-mt-[128px] mb-[-1px]">
-          <img src="./assets/footerShape.png" className="w-full" alt="" />
+          <img src="https://i.ibb.co.com/ss4fdHz/footer-Shape.png" className="w-full" alt="" />
         </div>
         <div className="bg-[#081831] px-6 relative">
           <div className="footer-1 text-center max-w-[1154px] mx-auto">
@@ -23,7 +23,7 @@ const Footer = () => {
             </h2>
             <img
               className="mx-auto mb-[22px]"
-              src="./assets/logo2.png"
+              src="https://i.ibb.co.com/DRRN3ps/logo2.png"
               alt="logo"
             />
           </div>
@@ -139,12 +139,12 @@ const Footer = () => {
                 </h2>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-5 md:gap-[41px]">
                   <img
-                    src="./assets/footer1.png"
+                    src="https://i.ibb.co.com/x7CPRrb/footer1.png"
                     className="w-[125px] pb-8"
                     alt=""
                   />
                   <img
-                    src="./assets/footer2.png"
+                    src="https://i.ibb.co.com/6FZyqQ3/footer2.png"
                     className="w-[166px] pb-8"
                     alt=""
                   />
@@ -391,7 +391,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <img
-                  src="./assets/facebook.png"
+                  src="https://i.ibb.co.com/ZKrN7SD/facebook.png"
                   className="hover:bg-blue-500 p-1 rounded-md"
                   alt="facebook"
                 />
@@ -401,7 +401,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <img
-                  src="./assets/instagram.png"
+                  src="https://i.ibb.co.com/BZ0mxMF/instagram.png"
                   className="hover:bg-blue-500 p-1 rounded-md"
                   alt="instagram"
                 />
@@ -411,7 +411,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <img
-                  src="./assets/linkedin.png"
+                  src="https://i.ibb.co.com/FmtYMqv/linkedin.png"
                   className="hover:bg-blue-500 p-1 rounded-md"
                   alt="linkedin"
                 />
@@ -421,7 +421,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <img
-                  src="./assets/youtube.png"
+                  src="https://i.ibb.co.com/Yh1fpgZ/youtube.png"
                   className="hover:bg-blue-500 p-1 rounded-md"
                   alt="youtube"
                 />
@@ -448,7 +448,7 @@ const Footer = () => {
           </div>
           <div className="relative">
             <img
-              src="./assets/vector7.png"
+              src="https://i.ibb.co.com/PDLZwTB/vector7.png"
               alt=""
               className="absolute bottom-0 hidden left-0 lg:block mx-auto right-0"
             />

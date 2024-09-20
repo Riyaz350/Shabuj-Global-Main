@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import arrow from "../../../assets/blue-arrow.gif";
 
 const Responsive_Exams = () => {
   const [expandedCard, setExpandedCard] = useState(null);
@@ -41,7 +40,7 @@ const Responsive_Exams = () => {
           >
             <img
               className="w-20"
-              src={arrow}
+              src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif'
               alt="Arrow indicating more content"
             />
           </div>
@@ -78,7 +77,7 @@ const Responsive_Exams = () => {
           >
             <img
               className="w-20"
-              src={arrow}
+              src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif'
               alt="Arrow indicating more content"
             />
           </div>
@@ -113,7 +112,7 @@ const Responsive_Exams = () => {
           >
             <img
               className="w-20"
-              src={arrow}
+              src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif'
               alt="Arrow indicating more content"
             />
           </div>
@@ -150,7 +149,7 @@ const Responsive_Exams = () => {
           >
             <img
               className="w-20"
-              src={arrow}
+              src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif'
               alt="Arrow indicating more content"
             />
           </div>

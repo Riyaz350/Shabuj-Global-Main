@@ -216,7 +216,7 @@ const Exams = () => {
                   cardNo == 4 ? "hidden" : ""
                 }`}
               >
-                <img src={arrow} alt="" />
+                {/* <img src={arrow} alt="" /> */}
               </div>
           </div>
         </motion.div>

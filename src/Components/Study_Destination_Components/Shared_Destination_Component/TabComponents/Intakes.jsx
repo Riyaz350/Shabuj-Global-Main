@@ -52,7 +52,7 @@ const Intakes = ({ country }) => {
         <div className="lg:w-[45%] w-full lg:block hidden">
           <img
             className="w-[80%] mt-28 mx-auto"
-            src="./assets/Calendar1.svg"
+            src="https://i.ibb.co.com/2gTnyB9/Calendar1-removebg-preview.png"
             alt="Calendar illustration"
           />
         </div>

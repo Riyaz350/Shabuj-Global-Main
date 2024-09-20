@@ -49,7 +49,7 @@ const Intakes = () => {
           </div>
         </div>
         <div className="w-[35%]">
-          <img className="w-[80%] mt-28" src="./assets/Calendar1.svg" alt="" />
+          <img className="w-[80%] mt-28" src="https://i.ibb.co.com/2gTnyB9/Calendar1-removebg-preview.png" alt="" />
         </div>
       </div>
     </div>

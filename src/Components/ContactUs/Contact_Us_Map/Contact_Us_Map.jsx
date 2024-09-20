@@ -1,4 +1,3 @@
-import gifImage from "../../../assets/Flow 1@512p-50fps.gif";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { SlLocationPin } from "react-icons/sl";
 import { FiSmartphone } from "react-icons/fi";
@@ -2442,7 +2441,7 @@ const Contact_Us_Map = () => {
           ) : null}
 
           <img
-            src={gifImage}
+            src='https://i.ibb.co.com/9ctmQtW/Flow-1-512p-50fps.gif'
             alt="GIF Image"
             className="w-[22%] hidden lg:flex lg:absolute bottom-0 pl-10 lg:pl-0 left-14"
           />

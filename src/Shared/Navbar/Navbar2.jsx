@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "../../assets/Logo.png";
 import { BsGridFill, BsCameraVideoFill } from "react-icons/bs";
 import { IoShieldCheckmarkSharp, IoCheckmarkDoneCircleSharp, } from "react-icons/io5";
 import { FaClock, FaUserFriends, FaHeart } from "react-icons/fa";
@@ -63,7 +62,7 @@ const Navbar2 = () => {
         <Link to={"/"}>
           <img
             className="h-[30px] w-[200px] lg:mx-0 md:h-[40px] md:w-[250px] lg:h-[50px] lg:w-[350px]"
-            src={logo}
+            src='https://i.ibb.co.com/nBJ5Lsg/Logo.png'
             alt=""
           />
         </Link>

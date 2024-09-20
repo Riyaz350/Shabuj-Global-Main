@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import arrow from "../../../assets/blue-arrow.gif";
 const ExamsLargeScreen = () => {
   const [cardNo, setCardNo] = useState(0);
 
@@ -51,7 +50,7 @@ const ExamsLargeScreen = () => {
                   cardNo == 1 ? "hidden" : ""
                 }`}
               >
-                <img className="w-20" src={arrow} alt="" />
+                <img className="w-20" src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif' alt="" />
               </div>
             </div>
           </div>
@@ -100,7 +99,7 @@ const ExamsLargeScreen = () => {
                   cardNo == 2 ? "hidden" : ""
                 }`}
               >
-                <img className="w-20" src={arrow} alt="" />
+                <img className="w-20" src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif' alt="" />
               </div>
             </div>
           </div>
@@ -148,7 +147,7 @@ const ExamsLargeScreen = () => {
                 cardNo == 3 ? "hidden" : ""
               }`}
             >
-              <img className="w-20" src={arrow} alt="" />
+              <img className="w-20" src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif' alt="" />
             </div>
           </div>
         </motion.div>
@@ -194,7 +193,7 @@ const ExamsLargeScreen = () => {
                 cardNo == 4 ? "hidden" : ""
               }`}
             >
-              <img className="w-20" src={arrow} alt="" />
+              <img className="w-20" src='https://i.ibb.co.com/r6XjskD/blue-arrow.gif' alt="" />
             </div>
           </div>
         </motion.div>
