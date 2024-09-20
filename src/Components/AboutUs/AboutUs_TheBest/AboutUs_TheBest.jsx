@@ -8,7 +8,7 @@ const AboutUs_Thebest = () => {
                 <h2 className="poppins-semibold text-[40px] leading-[56px] -tracking-[0.02em] text-[#081831]">Why We Are The Best</h2>
                 <p className="poppins-regular text-[16px] text-[#000000] lg:w-[760px] mx-auto">Shabuj Global provides an excellent service to students with their admission to top quality universities and colleges in the UK. Shabuj Global helps students from all over the world. Home Students, EU students and International students have all benefitted from our help and advice.</p>
             </div>
-            <div className="flex gap-[104px] items-baseline lg:flex-row flex-col">
+            <div className="flex gap-[50px] px-4 items-baseline lg:flex-row flex-col mt-10">
                 <div className="mx-auto mt-12">
                     <div>
                         <svg width="100%" height="120" viewBox="0 0 237 120" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,22 +1,22 @@
 const Blog_BlogInbox = () => {
   return (
-    <div className="max-w-[1152px] mx-auto my-12 border-[#CACACA] border-y-[1px] pt-4 md:pt-[35px] lg:pt-[53px] pb-[17px] md:my-24">
-      <div className="flex lg:flex-row flex-col">
-        <p className="poppins-semibold text-[28px] leading-[39.2px] text-[#00399F] lg:pr-[27px] md:text-center text-center mb-8">
+    <div className="max-w-[1152px] mx-auto my-12 !mb-6 border-[#CACACA] border-y-[1px] pt-4 md:pt-[35px] lg:pt-[53px] md:pb-[30px] pb-[90px]  lg:pb-[60px] md:my-24 border-b-0">
+      <div className="flex lg:flex-row flex-col px-4 items-center gap-2">
+        <p className="poppins-semibold text-[28px] leading-[39.2px] text-[#00399F] lg:pr-[27px] text-center  md:text-left ">
           Receive Our Blog Posts Straight to Your Inbox
         </p>
-        <div className="relative lg:pr-20 md:mx-auto mx-auto mb-8 pr-12">
+        <div className="relative lg:pr-20 md:mx-auto mx-auto  pr-8">
           <input
             type="text"
             placeholder="Please Enter Your Email"
-            className="px-2 py-[7px] inter-regular text-[16px] leading-[24px] text-[#CACACA] rounded rounded-r-none border border-[#3B82F6]"
+            className="px-2 py-[7px] inter-regular text-[16px] leading-[24px] text-[#CACACA] rounded rounded-r-none border border-[#3B82F6] outline-none"
           />
           <span className="absolute bg-[#1D4EDB] py-[8px] px-[10px] text-white rounded-r">
             .com
           </span>
         </div>
         <div className="md:mx-auto mx-auto">
-          <button className="bg-[#004ACB] flex items-center text-white hover:text-[#5B8DDB] py-2 px-[37px] gap-[4px]">
+          <button className="bg-[#004ACB] flex items-center hover:bg-gray-200 duration-200 text-white hover:text-[#5B8DDB] py-2 px-[37px] gap-[4px]">
             <svg
               width="19"
               height="19"

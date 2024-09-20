@@ -13,12 +13,12 @@ const AboutUs_MeetOurFounder = () => {
                     <h2 className="poppins-semibold text-[28px] text-[#00399F] leading-[39.2px]">Meet Our Founder</h2>
                     <h3 className="poppins-semibold lg:text-[40px] text-[28px] text-[#081831] leading-[56px] -tracking-[0.02em] pb-[55px]">The visionary, inspiring global goals</h3>
                 </div>
-                <div className="flex shadow-about rounded-[32px] lg:flex-row flex-col">
+                <div className="flex shadow-about rounded-[32px] lg:flex-row flex-col items-center">
                     <div className="lg:w-[28%] w-full">
                         <img src="https://i.ibb.co.com/JyQBfH3/founder.png" className="p-[31px] mx-auto" alt="image" />
                     </div>
-                    <div className="lg:w-[72%] w-full lg:pr-[34px]">
-                        <div className='flex justify-between items-center pt-[32px]'>
+                    <div className="lg:w-[72%] w-full lg:pr-[34px] lg:py-3 p-6">
+                        <div className='flex justify-between items-center '>
                             <h2 className="poppins-semibold text-[28px] text-[#081831]">MD. Zahidul Alam</h2>
                             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_1_2055)">
@@ -32,7 +32,7 @@ const AboutUs_MeetOurFounder = () => {
                             </svg>
                         </div>
                         <h3 className="poppins-bold text-[20px] tracker-[0.01em] text-[#4B4B4B]">CEO</h3>
-                        <p className="poppins-regular text-[16px] text-[#000000] pt-7 text-justify">Fifteen years ago, an enlightened visionary conceived Shabuj Global Education to simplify the daunting process of studying abroad. His goal is to help students explore global opportunities and access quality education. Today, he proudly supports thousands of students who have realized their dreams.</p>
+                        <p className="poppins-regular text-[16px] text-[#000000] pt-7 text-justify ">Fifteen years ago, an enlightened visionary conceived Shabuj Global Education to simplify the daunting process of studying abroad. His goal is to help students explore global opportunities and access quality education. Today, he proudly supports thousands of students who have realized their dreams.</p>
                     </div>
                 </div>
             </div>

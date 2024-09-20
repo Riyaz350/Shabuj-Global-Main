@@ -27,20 +27,20 @@ const BlogSingle = () => {
 
   const Card = ({ img, title }) => {
     return (
-      <div className="space-y-2 w-64 shadow-2xl rounded-2xl">
-        <img src={img} alt="" />
-        <div className="p-3">
+      <div className="space-y-2  lg:w-full sm:w-[48%] w-full  shadow-2xl rounded-2xl  h-max !mt-0">
+        <img src={img} alt="" className="w-full" />
+        <div className="p-5">
           <div className="bg-[#fff2ee] w-fit p-2 text-xs text-[#ff8156] rounded-sm">
             Networking
           </div>
-          <h2 className="font-semibold w-11/12">{title}</h2>
+          <h2 className="font-semibold w-11/12 pt-3">{title}</h2>
         </div>
       </div>
     );
   };
   return (
-    <div className="poppins my-10">
-      <div className="max-w-5xl lg:grid grid-cols-5 gap-5 lg:mx-auto px-10">
+    <div className="poppins my-10 pt-16 sm:pt-40">
+      <div className="max-w-6xl lg:grid grid-cols-5 gap-10 lg:mx-auto px-5">
         {/* Blog content */}
         <div className="col-span-3 ">
           <div className="mb-5">
@@ -181,7 +181,7 @@ const BlogSingle = () => {
             <button className=" p-2 border-[1px]   hover:border-[#3b82f6] hover:text-[#3b82f6] ">
               Previous
             </button>
-            <button className="p-2 border-[2px] hover:border-[#3b82f6] hover:text-[#3b82f6]">
+            <button className="p-2 border-[1px] hover:border-[#3b82f6] hover:text-[#3b82f6]">
               Next
             </button>
           </div>
@@ -316,8 +316,8 @@ const BlogSingle = () => {
             </ul>
           </div>
 
-          <div className="space-y-5 flex flex-col items-center lg:items-start">
-            <h2 className="font-semibold text-md">Related Blogs</h2>
+            <h2 className="font-semibold text-md mb-3">Related Blogs</h2>
+          <div className="space-y-5 flex flex-wrap gap-5 justify-between w-full ">
             <Card
               img='https://i.ibb.co.com/pfHGbFK/Rectangle-191.png'
               title={`Networking in University: A Shabuj Global ${`Student's`} Guide`}

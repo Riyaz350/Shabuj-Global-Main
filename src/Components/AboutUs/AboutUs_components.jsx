@@ -1,8 +1,7 @@
-
 const AboutUs_components = () => {
   const Card = ({ number, text }) => {
     return (
-      <div className="w-2/3 md:w-1/3 mx-auto lg:w-full bg-white rounded-lg  shadow-2xl  flex flex-col gap-4 justify-center pb-14 p-10 text-start">
+      <div className="w-full md:w-2/3 mx-auto lg:w-full bg-white rounded-lg  shadow-2xl  flex flex-col gap-4 justify-center pb-14 p-10 text-start">
         <div
           style={{
             background: `linear-gradient(93deg, rgba(46,51,147,1) 0%, rgba(28,250,252,1) 100%)`,
@@ -20,7 +19,7 @@ const AboutUs_components = () => {
     <div className="bg-[#EFF6FF]">
       {/*  Hero section */}
       <div
-        className=""
+        className="px-5"
         style={{
           background: `url(https://i.ibb.co.com/vDyyQYN/Background.jpg)`,
           backgroundSize: "cover",
@@ -28,17 +27,21 @@ const AboutUs_components = () => {
         }}
       >
         <div className="lg:grid max-w-5xl mx-auto grid-cols-2  relative items-center justify-center space-y-10 lg:space-y-0 py-2  ">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold flex justify-center text-center lg:text-start">
+          <h1 className="pt-9 lg:pt-0 text-2xl md:text-4xl lg:text-5xl font-semibold flex justify-center text-center lg:text-start">
             An Excellent Solution <br />
             for Your Admission
           </h1>
-          <img className="w-1/2 mx-auto" src='https://i.ibb.co.com/BP3WjmN/college-admission-amico-removebg-preview.png' alt="" />
+          <img
+            className="w-1/2 mx-auto"
+            src="https://i.ibb.co.com/BP3WjmN/college-admission-amico-removebg-preview.png"
+            alt=""
+          />
         </div>
       </div>
 
       {/* intro */}
 
-      <div className="text-center z-0 space-y-20 py-28 max-w-5xl  min-h-screen mx-auto  relative">
+      <div className="text-center z-0 space-y-20 py-28 max-w-5xl  min-h-screen mx-auto  relative px-5">
         <div className="space-y-5">
           <h2 className="text-2xl z-10 md:text-4xl lg:text-5xl font-semibold">
             Hi, We are Shabuj Global Education
@@ -69,13 +72,13 @@ const AboutUs_components = () => {
 
         <img
           className="w-5/12 ml-auto -z-10 absolute  -top-[150px]  hidden lg:flex right-0"
-          src='https://i.ibb.co.com/88BNpzM/Lightning-Vector-removebg-preview.png'
+          src="https://i.ibb.co.com/88BNpzM/Lightning-Vector-removebg-preview.png"
           alt=""
         />
 
         {/* mission vision section */}
         <div className="mx-10  lg:grid grid-cols-2 gap-10 space-y-10 lg:space-y-0 items-center text-start max-w-5xl pt-10 lg:pt-20">
-          <div className="w-2/3 md:w-1/3 mx-auto lg:w-full relative">
+          <div className=" md:w-2/3 w-full mx-auto lg:w-full relative p-6">
             <div className=" bg-white p-5 rounded-3xl">
               <h2 className="text-[#00399F] font-semibold text-2xl">Our</h2>
               <h2 className="font-semibold text-3xl mb-2">Mission</h2>
@@ -91,12 +94,12 @@ const AboutUs_components = () => {
               </p>
             </div>
             <img
-              className="absolute -top-10 right-0 w-1/3  lg:w-1/4"
-              src='https://i.ibb.co.com/7yGGGbS/Mission-Icon-removebg-preview.png'
+              className="absolute -top-10 right-0 w-1/5  lg:w-1/4"
+              src="https://i.ibb.co.com/7yGGGbS/Mission-Icon-removebg-preview.png"
               alt=""
             />
           </div>
-          <div className="w-2/3 md:w-1/3 mx-auto lg:w-full relative">
+          <div className=" md:w-2/3 w-full mx-auto lg:w-full relative p-6">
             <div className="w-full bg-white p-5 rounded-3xl">
               <h2 className="text-[#00399F] font-semibold text-2xl">Our</h2>
               <h2 className="font-semibold text-3xl mb-2">Vision</h2>
@@ -113,8 +116,8 @@ const AboutUs_components = () => {
               </p>
             </div>
             <img
-              className="absolute -top-10 right-0 w-1/3  lg:w-1/4"
-              src='https://i.ibb.co.com/LPCyVMw/Vision-Icon-removebg-preview.png'
+              className="absolute -top-10 right-0 w-1/5  lg:w-1/4"
+              src="https://i.ibb.co.com/LPCyVMw/Vision-Icon-removebg-preview.png"
               alt=""
             />
           </div>

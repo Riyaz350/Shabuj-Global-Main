@@ -9,7 +9,9 @@ const AboutUs = () => {
       <AboutUs_components />
       <AboutUs_MeetOurFounder></AboutUs_MeetOurFounder>
       <AboutUs_Thebest></AboutUs_Thebest>
-      <Home_Connection />
+      <div className="pb-20"> 
+        <Home_Connection />
+      </div>
     </div>
   );
 };

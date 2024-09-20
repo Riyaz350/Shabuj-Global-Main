@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Blogs_Cards = () => {
   return (
     <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 my-5 bg-[#FFF] mt-32">
-      <div className="hidden md:block">
+      <div className="hidden md:block px-4">
         <div className="flex items-center gap-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Blogs_Cards = () => {
           </svg>
           <h5 className="text-[#1F1F1F] font-semibold">Categories</h5>
         </div>
-        <ul className="pt-3 text-sm space-y-2">
+        <ul className="pt-3 text-sm space-y-2 ">
           <li>Personal statements</li>
           <li>Interview preparation</li>
           <li>Common application mistakes</li>
@@ -49,16 +49,16 @@ const Blogs_Cards = () => {
           <li>TOEFL, IELTS, GRE, GMAT tips</li>
         </ul>
       </div>
-      <div className="col-span-3">
-        <div className="grid grid-cols-1 md:grid-cols-3 px-3 lg:px-0">
-          <h3 className="text-[28px] pb-5 font-semibold">All Blogs</h3>
+      <div className="col-span-3 px-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center">
+          <h3 className="text-[28px] pb-5 md:pb-0 font-semibold">All Blogs</h3>
           <div className="flex items-center col-span-2 relative">
             <input
-              className="bg-[#FAFAFA] text-gray-700 w-[80%] py-[11px] px-2 border-[1px] border-gray-300 rounded-l-full"
+              className="bg-[#FAFAFA] outline-none text-gray-700 w-[80%] py-[11px] px-2 border-[1px] border-gray-300 rounded-l-full"
               type="text"
             />
             <button
-              className="px-10 py-3 bg-[#F25025] rounded-r-full text-white"
+              className="px-10 py-3  bg-[#F25025] rounded-r-full text-white"
               type="button"
             >
               Search
@@ -78,23 +78,25 @@ const Blogs_Cards = () => {
             </svg>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-0 md:gap-x-7 gap-y-12 my-10 px-3 lg:px-0">
-          {data.map((item) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-10 ">
+        {data.map((item) => (
             <div key={item.id} className="group">
-              <div className="shadow-xl rounded-[16px] scale-right-bottom">
-                <img src={item.image} alt="" className="h-[220px] w-full " />
-                <div className="p-3 pb-4 space-y-2 group-hover:bg-[#081831] rounded-b-[16px]">
-                  <p className="inline-block px-2 py-[2px] text-[#FF8156] text-xs bg-[#FFF2EE] rounded">
-                    {item.category}
-                  </p>
-                  <p className="text-black font-bold group-hover:text-white">
-                    {item.title}
-                  </p>
-                  <p className="group-hover:text-white">
-                    {item.description.slice(0, 150)}...
-                  </p>
+              <div className="shadow-xl rounded-[16px] flex flex-col h-full group-hover:bg-[#081831] duration-300">
+                <img src={item.image} alt="" className="h-[220px] w-full" />
+                <div className="p-4 pb-4 flex flex-col justify-between flex-grow">
+                  <div>
+                    <p className="inline-block w-fit px-2 py-[2px] text-[#FF8156] text-xs bg-[#FFF2EE] rounded mb-2">
+                      {item.category}
+                    </p>
+                    <p className="mb-2 text-black font-bold group-hover:text-white !mt-0 flex-grow">
+                      {item.title}
+                    </p>
+                    <p className="group-hover:text-white !mt-0">
+                      {item.description.slice(0, 150)}...
+                    </p>
+                  </div>
                   <Link to={"/SingleBlogs"}>
-                    <button className="px-4 py-2 text-white rounded-full bg-[#FE632F] hover:bg-blue-500">
+                    <button className="px-4 py-2 text-white rounded-full bg-[#FE632F] hover:bg-blue-500 mt-4">
                       Continue Reading
                     </button>
                   </Link>
@@ -103,13 +105,13 @@ const Blogs_Cards = () => {
             </div>
           ))}
         </div>
-        <div className="hidden md:flex justify-center mt-5">
-          <ol className="flex items-center gap-5 font-semibold">
+        <div className="flex justify-center mt-5">
+          <ol className="flex items-center gap-5 font-semibold flex-wrap justify-center">
             <li className="opacity-50">
               <GoArrowLeft />
             </li>
             <li className="opacity-50">Previous</li>
-            <li className="bg-blue-500 px-3 py-1 text-white rounded-lg">1</li>
+            <li className="bg-blue-500 px-3 py-1 text-white rounded ">1</li>
             <li>2</li>
             <li>3</li>
             <li>...</li>

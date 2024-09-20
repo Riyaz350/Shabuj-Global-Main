@@ -34,18 +34,18 @@ const Events_Components = () => {
           <div className="-mt-28 lg:-mt-48 max-w-5xl mx-auto border-b-2 px-10 border-[#CACACA] pb-20">
             {width < 768 ? (
               <img
-                className="lg:mx-auto rounded-3xl mb-10 shadow-lg"
-                src='https://i.ibb.co.com/7VL7y6Y/Dhaka-Event-1s-1.png'
+                className="mx-auto rounded-3xl mb-10 shadow-lg"
+                src="https://i.ibb.co.com/7VL7y6Y/Dhaka-Event-1s-1.png"
                 alt=""
               />
             ) : (
               <img
-                className="  lg:mx-auto rounded-3xl mb-10 shadow-lg"
-                src='https://i.ibb.co.com/3r9gvm3/Dhaka-Expo-11-may-2024-Rectangle-1.png'
+                className="mx-auto rounded-3xl mb-10 shadow-lg"
+                src="https://i.ibb.co.com/3r9gvm3/Dhaka-Expo-11-may-2024-Rectangle-1.png"
                 alt=""
               />
             )}
-            <div className="max-w-3xl mx-auto flex gap-2">
+            <div className="max-w-3xl mx-auto flex gap-2 flex-wrap sm:flex-nowrap">
               <Link
                 to={"/comingSoon"}
                 onMouseEnter={() => setActive(1)}
@@ -85,8 +85,11 @@ const Events_Components = () => {
           <div className="lg:grid grid-cols-2 flex flex-col gap-5 justify-center my-10 ">
             {/* first event */}
             {/* event card */}
-            <div className="flex flex-col justify-between col-span-1 rounded-2xl text-start space-y-2 shadow-2xl p-5 pt-0">
-              <img src='https://i.ibb.co.com/LxPtXpG/CTG-Multi-Destination-Expo-18-May-Banner-2.png' alt="" />
+            <div className="flex flex-col justify-between col-span-1 rounded-2xl text-start gap-4 shadow-2xl p-5 pt-0">
+              <img
+                src="https://i.ibb.co.com/LxPtXpG/CTG-Multi-Destination-Expo-18-May-Banner-2.png"
+                alt=""
+              />
               <h2 className="font-bold text-lg mt-5">
                 International Education Fair - Chattogram
               </h2>
@@ -96,23 +99,23 @@ const Events_Components = () => {
                 intakes.
               </p>
               <ul className="text-[#F25025]">
-                <li className="flex items-center  gap-2">
+                <li className="flex items-center  gap-2 mb-1">
                   <HiOutlineLocationMarker />
                   The Peninsula Chittagong
                 </li>
-                <li className="flex items-center flex-col lg:flex-row justify-between ">
-                  <span className="flex">
-                    <span className="flex items-center gap-2">
+                <li className="flex gap-2 lg:items-center flex-col sm:flex-row justify-between flex-wrap">
+                  <span className="flex md:flex-nowrap flex-wrap gap-2">
+                    <span className="flex items-center gap-1">
                       <FaRegCalendarDays />
                       22nd July, 2024{" "}
                     </span>
-                    <span className="flex items-center gap-2">
+                    <span className="flex items-center gap-1">
                       <GoDotFill />
                       10:00 am - 05:00 pm
                     </span>
                   </span>
                   <Link to={"/SingleEvent"}>
-                    <span className="font-inter rounded-2xl text-white bg-[#2563EB] p-2 font-light text-xs px-2 cursor-pointer">
+                    <span className="px-4 font-inter rounded-2xl text-white bg-[#2563EB] p-2 font-light text-xs cursor-pointer">
                       Register Now
                     </span>
                   </Link>
@@ -120,17 +123,17 @@ const Events_Components = () => {
               </ul>
             </div>
             {/* other two */}
-            <div className="col-span-1 flex flex-col justify-between gap-10 lg:gap-0">
+            <div className="col-span-1 flex flex-col justify-between gap-5">
               {/* event card */}
-              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-2  ">
+              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-5 gap-3  ">
                 <img
-                  className="w-2/3 pt-5 lg:pt-0 lg:w-full "
-                  src='https://i.ibb.co.com/Jty2B16/Sylhet-Expo-12-February-2024-1.png'
+                  className="lg:w-full w-2/3 "
+                  src="https://i.ibb.co.com/Jty2B16/Sylhet-Expo-12-February-2024-1.png"
                   alt=""
                 />
-                <div className=" px-2 space-y-1">
-                  <h2 className="font-bold  mt-5">
-                    Multi-Destination Education <br /> Expo - Sylhet
+                <div className=" w-full !mt-0">
+                  <h2 className="font-bold  ">
+                    Multi-Destination Education Expo - Sylhet
                   </h2>
                   <p className="text-sm">
                     Attend our Multi-Destination Education Expo - Sylhet and
@@ -141,7 +144,7 @@ const Events_Components = () => {
                       <HiOutlineLocationMarker />
                       The Peninsula Chittagong
                     </li>
-                    <li className="flex items-center justify-between ">
+                    <li className="flex items-center justify-between lg:gap-2 gap-3  flex-wrap ">
                       <span>
                         <span className="flex gap-2">
                           <FaRegCalendarDays />
@@ -154,7 +157,7 @@ const Events_Components = () => {
                       </span>{" "}
                       <Link to={"/SingleEvent"}>
                         {" "}
-                        <span className="font-inter rounded-2xl text-white bg-[#2563EB] p-2 font-light text-xs px-2 cursor-pointer">
+                        <span className="font-inter rounded-2xl text-white bg-[#2563EB] p-2 font-light text-xs px-4 cursor-pointer">
                           Register Now
                         </span>
                       </Link>
@@ -164,26 +167,26 @@ const Events_Components = () => {
               </div>
 
               {/* event card */}
-              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-2 ">
+              <div className="flex flex-col lg:flex-row items-center justify-center rounded-2xl text-start space-y-2 shadow-2xl p-5 gap-3  ">
                 <img
-                  className="w-2/3 pt-5 lg:pt-0 lg:w-full  "
-                  src='https://i.ibb.co.com/PxKhyBW/Dhaka-Event-ad-2-1.png'
+                  className="w-2/3   lg:w-full "
+                  src="https://i.ibb.co.com/PxKhyBW/Dhaka-Event-ad-2-1.png"
                   alt=""
                 />
-                <div className="px-2 space-y-1">
-                  <h2 className="font-bold mt-5">
+                <div className=" w-full !mt-0">
+                  <h2 className="font-bold  ">
                     Education Expo - UK, USA, Canada, Australia
                   </h2>
-                  <p className="text-sm">
+                  <p className="text-smsm">
                     Attend our Multi-Destination Education Expo - Sylhet and
                     apply for September 2024 and January 2024 intakes.
                   </p>
-                  <ul className="text-[#F25025] space-y-1 text-xs">
-                    <li className="flex items-center gap-2">
+                  <ul className="text-[#F25025]  space-y-1 text-xs">
+                    <li className="flex items-center  gap-2">
                       <HiOutlineLocationMarker />
                       The Peninsula Chittagong
                     </li>
-                    <li className="flex items-center justify-between ">
+                    <li className="flex items-center justify-between lg:gap-2 gap-3  flex-wrap ">
                       <span>
                         <span className="flex gap-2">
                           <FaRegCalendarDays />
@@ -196,7 +199,7 @@ const Events_Components = () => {
                       </span>{" "}
                       <Link to={"/SingleEvent"}>
                         {" "}
-                        <span className="font-inter rounded-2xl text-white bg-[#2563EB] p-2 font-light text-xs px-2 cursor-pointer">
+                        <span className="font-inter rounded-2xl text-white bg-[#2563EB] p-2 font-light text-xs px-4 cursor-pointer">
                           Register Now
                         </span>
                       </Link>

@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Registration_Page = () => {
     return (
-      <div className="bg-gray-100 pt-10 pb-32">
+      <div className="bg-gray-100 pt-10 pb-52 px-4">
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg">
           <div className="p-5 sm:p-10">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-700 mb-5">
@@ -70,13 +72,15 @@ const Registration_Page = () => {
                 </label>
               </div>
   
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
                 <button className="bg-[#081831] text-white p-3 rounded w-full">
                   Sign Up
                 </button>
+                <Link to='/login' >
                 <button className="bg-gray-100 text-gray-700 p-3 rounded w-full">
                   Sign In
                 </button>
+                </Link>
               </div>
             </form>
           </div>
