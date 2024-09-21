@@ -92,7 +92,7 @@ const ChatBot = () => {
 
 
     return (
-        <div className='z-50 w-[350px] lg:w-[500px]  fixed bottom-0 right-0  '>
+        <div className={`${showChat? 'w-[350px] lg:w-[500px]': 'w-0'} z-50  bg-white fixed bottom-0 right-0`}>
             {token ?
 
                 <div className='overflow-hidden '>
@@ -103,7 +103,7 @@ const ChatBot = () => {
                         }} className='text-3xl text-white border-white border-2 rounded-2xl p-1 lg:p-2 bg-black'><IoChatboxOutline /></p>
 
                     </div>
-                    <motion.div initial={{ scale: 0, x: 400, y: 400 }} animate={showChat ? { scale: 1, x: 0, y: 0 } : { scale: 0, x: 400, y: 400 }} transition={{ duration: .2 }} className={` border-2 bg-white border-blue-500 rounded-2xl max-w-xl lg:ml-auto  m-2 lg:m-5 overflow-hidden`}>
+                    <motion.div initial={{ scale: 0, x: 400, y: 400 }} animate={showChat ? { scale: 1, x: 0, y: 0 } : { scale: 0, x: 400, y: 400 }} transition={{ duration: .2 }} className={` border-2 bg-white border-blue-500 rounded-2xl max-w-xl lg:ml-auto  m-2 lg:mb-5 lg:mr-5 overflow-hidden`}>
                         <div className='flex items-center justify-between   shadow-lg border-b-2 border-blue-500'>
                             <div className='flex items-center text-lg font-semibold  '>
                                 <img className='w-[25px] mx-2' src={logo} alt="" />
