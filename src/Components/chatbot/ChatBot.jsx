@@ -13,7 +13,6 @@ const ChatBot = () => {
     const chatContainerRef = useRef(null);
     const [token, setToken] = useState(null);
     const [chatData, refetch] = useChatData(token)
-    console.log(chatData)
     const axiosPublic = useAxiosPublic()
     const [showChat, setShowChat] = useState(false)
 
@@ -34,12 +33,10 @@ const ChatBot = () => {
                         .then(rest => {
                             setClientMessage('')
                             if (rest.status == 200) {
-                                console.log('patched client chat')
                                 refetch()
                                 axiosPublic.patch(`/chats/${token}`, { botResponse: res.data, user: "bot", queryText: res.data.queryText ? res.data.queryText : 0 })
                                     .then(res => {
                                         if (res.status == 200) {
-                                            console.log('posted bot chat')
                                             refetch()
                                         }
                                     })
@@ -64,7 +61,6 @@ const ChatBot = () => {
                         axiosPublic.post('/chat', { id: savedToken, messages: [{ clientResponse: clientMessage, user: "user" }] })
                             .then(clientRes => {
                                 if (clientRes.status == 200) {
-                                    console.log('created user')
                                     refetch()
                                 }
                             })
@@ -72,13 +68,8 @@ const ChatBot = () => {
                 })
 
         } else {
-            // If no token, generate a new one
             const newToken = generateToken();
-
-            // Save the new token in local storage
             localStorage.setItem('user-token', newToken);
-
-            // Set the token in the state
             setToken(newToken);
             axiosPublic.get(`/chats/${newToken}`)
                 .then(res => {
@@ -86,7 +77,6 @@ const ChatBot = () => {
                         axiosPublic.post('/chat', { id: token, messages: [{ clientResponse: clientMessage, user: "user" }] })
                             .then(clientRes => {
                                 if (clientRes.status == 200) {
-                                    console.log('created user')
                                     refetch()
                                 }
                             })
@@ -102,7 +92,7 @@ const ChatBot = () => {
 
 
     return (
-        <div className='z-50 '>
+        <div className='z-50 w-[350px] lg:w-[500px]  fixed bottom-0 right-0  '>
             {token ?
 
                 <div className='overflow-hidden '>
@@ -127,7 +117,10 @@ const ChatBot = () => {
                                 {chatData?.messages?.map((message, index) => (
                                     <div key={index}>
                                         {message?.clientResponse ?
-                                            <motion.div initial={{ scale: 0, x: 100, y: 100 }} animate={{ scale: 1, x: 0, y: 0 }} transition={{ duration: 0.5 }} className={`${message?.user == "user" ? 'mr-2 ml-auto bg-blue-500 text-white border-[1px] border-blue-500 w-fit' : 'mr-auto bg-white text-black border-[1px] border-black'}    w-1/2 rounded-lg p-2 `}>{message.clientResponse} </motion.div>
+                                            <motion.div initial={{ scale: 0, x: 100, y: 100 }} animate={{ scale: 1, x: 0, y: 0 }} transition={{ duration: 0.5 }}
+                                                className={`mr-2 ml-auto bg-blue-500 text-white border-[1px] border-blue-500 w-fit my-2 rounded-lg p-2 `}>
+                                                {message.clientResponse}
+                                            </motion.div>
                                             :
                                             message?.botResponse?.fulfillmentMessages && message?.botResponse?.action !== 'input.unknown' ?
                                                 <motion.div className='max-w-xs pl-1 lg:pl-2 flex items-start' initial={{ scale: 0, x: -300, y: 100 }} animate={{ scale: 1, x: 0, y: 0 }} transition={{ duration: 0.5, delay: .2 }}   >
@@ -143,7 +136,6 @@ const ChatBot = () => {
                                                                 {parseFloat(message?.queryText) >= 3.00 ?
                                                                     <div className={`flex flex-col  mr-auto bg-white text-black border-[1px] border-black     rounded-lg p-2 `}>
                                                                         {message?.botResponse?.fulfillmentMessages[1].payload.fields.cards.listValue.values.filter(uniVal => uniVal.structValue.fields.rank.stringValue == 'high').map((value, index) => (
-                                                                            // console.log(value.structValue.fields.link.stringValue)
                                                                             <Link target='blank' to={value?.structValue.fields.link?.stringValue} className='bg-blue-100 hover:bg-blue-500 hover:text-white p-2 rounded-xl' key={index}>{value.structValue.fields.header.stringValue}<span>  {value.structValue.fields.description ? (value.structValue.fields.description.stringValue) : ''}</span></Link>
                                                                         ))}
                                                                     </div>
@@ -176,7 +168,7 @@ const ChatBot = () => {
                         </div>
                         <form onSubmit={handleSubmit} className='flex  '>
                             <input
-                                className='border-2 w-full rounded-bl-2xl  h-10'
+                                className='border-t-2 border-blue-500 p-2  w-full rounded-bl-2xl  h-10 outline-none'
                                 value={clientMessage}
                                 onChange={(e) => setClientMessage(e.target.value)}
                                 type="text"

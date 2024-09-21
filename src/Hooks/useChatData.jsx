@@ -7,7 +7,6 @@ const useChatData = (token) => {
         queryKey:['chatData'],
         queryFn: async()=>{
                 const res = await axiosPublic.get(`/chat/${token}`)
-                console.log('fetched chat data')
                 return res.data
         },
         refetchInterval: 1000

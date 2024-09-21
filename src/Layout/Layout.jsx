@@ -10,7 +10,7 @@ const Layout = () => {
             <Navbar2/>   
             <Outlet/>
             <div className=''>
-                <div className='z-50 fixed bottom-0 right-0 w-full'>
+                <div className=''>
                     <ChatBot />
                 </div>
             </div>
