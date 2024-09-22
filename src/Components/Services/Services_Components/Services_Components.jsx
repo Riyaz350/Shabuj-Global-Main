@@ -1,5 +1,6 @@
 import project from '../../../assets/college-project-animate.svg'
 import '../../../App.css'
+import { Link } from 'react-router-dom';
 const Services_Components = () => {
 
     const servicesData = [
@@ -56,10 +57,10 @@ const Services_Components = () => {
     ]
     const Card = ({ circle, position,index }) => {
         return (
-            <div className='w-80 mx-auto lg:mx-0 relative bg-white   shadow-lg px-5 py-10 rounded-2xl'>
+            <div className='w-80 mx-auto lg:mx-0 relative bg-white  shadow-lg px-5 py-10 rounded-2xl'>
                 <h2 className='text-2xl w-1/3 font-semibold'>{servicesData[index].title}</h2>
-                <p className='text-sm mt-5 font-medium'>{servicesData[index].text}</p>
-                <button className='hover:border-blue-400 hover:text-blue-400 border-[2px] border-b-[1px] rounded-full px-4 py-2 text-sm mt-2'>Learn More</button>
+                <p className='text-sm my-5 font-medium'>{servicesData[index].text}</p>
+                <Link to='/comingSoon' className='hover:border-blue-400 hover:text-blue-400 border-[2px] border-b-[1px] rounded-full px-4 py-2 text-sm mt-5'>Learn More</Link>
                 {circle &&
                     <div>
                         {position == 'top-center' ?
