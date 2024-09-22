@@ -92,7 +92,7 @@ const ChatBot = () => {
 
 
     return (
-        <div className={`${showChat? 'w-[350px] lg:w-[500px]': 'w-0'} z-50  bg-white fixed bottom-0 right-0`}>
+        <div className={`${showChat? 'w-[350px] lg:w-[500px]': 'w-0'} z-50    fixed bottom-0 right-0`}>
             {token ?
 
                 <div className='overflow-hidden '>
