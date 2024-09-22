@@ -53,7 +53,7 @@ const Home_Contact = () => {
               <select
                 id="subcategory"
                 name="destination"
-                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
+                className="bg-white px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
               >
                 <option value defaultChecked>
                   Preferred Study Destination
@@ -84,7 +84,7 @@ const Home_Contact = () => {
               <select
                 id="subcategory"
                 name="year"
-                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
+                className="bg-white px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
               >
                 <option value defaultChecked>
                   Preferred Study Year
@@ -115,7 +115,7 @@ const Home_Contact = () => {
               <select
                 id="subcategory"
                 name="subject"
-                className="px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
+                className="bg-white px-3 py-2 w-full outline-none inter-regular text-[12px] text-[#4B4B4B] appearance-none cursor-pointer rounded"
               >
                 <option value defaultChecked>
                   Preferred Study Intake
@@ -158,7 +158,7 @@ const Home_Contact = () => {
             </div>
             <div className="pt-[55px]">
               <Link to={"/comingSoon"}>
-                <button className="lg:poppins-bold mulish-regular lg:text-[18px] text-[14px] lg:px-[81px] lg:py-[22px] px-[17px] py-2 bg-[#2563EB] hover:bg-[#3D7DED] text-white rounded-[32px]">
+                <button className="lg:poppins-bold mulish-regular lg:text-[18px] text-[14px] lg:px-[81px] lg:py-[10px] px-[17px] py-2 bg-[#2563EB] hover:bg-[#3D7DED] text-white rounded-[32px]">
                   Book Free Counselling
                 </button>
               </Link>

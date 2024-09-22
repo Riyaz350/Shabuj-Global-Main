@@ -78,7 +78,7 @@ export default function University_Required_Docs({
       </div>
       <div className="min-h-screen bg-[#EFF6FF] py-10 lg:py-28">
         <h1 className="poppins-semibold w-full md:w-4/6 md:mx-auto text-[28px] text-[#081831] lg:text-[56px]  lg:leading-[72.8px] lg:-tracking-[0.01em] pb-14 px-8 md:px-0 text-center">
-          Documents Required to apply for Germany Study Visa
+          Documents Required to apply for {country} Study Visa
         </h1>
         <div className="relative flex flex-col items-center md:max-w-screen-xl lg:px-10 mx-auto lg:grid grid-cols-2">
           <div className="flex-1 px-10 lg:px-0 text-[18px] poppins-medium md:poppins-semibold text-[#1F1F1F]">
@@ -89,7 +89,7 @@ export default function University_Required_Docs({
             <ul className="list-disc pl-6">
               <li>
                 Passport: A valid passport that covers the length of your
-                intended stay in Garman
+                intended stay in {country}
               </li>
               <li>
                 Statement of Purpose (SOP): A written statement that explains
@@ -108,7 +108,7 @@ export default function University_Required_Docs({
               <li>
                 Proof of financial support: Also known as proof of funds, this
                 document shows that you have enough money to cover your first
-                year of tuition and live in Canada
+                year of tuition and live in {country}
               </li>
             </ul>
           </div>

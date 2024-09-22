@@ -4,7 +4,7 @@ import CounsellorSVG from '../../Shared/CounsellorSvg/CounsellorSVG';
 
 const West_Indies_Counselor = (props) => {
     return (
-        <div className='wICounselor_bg  mt-[90px]'>
+        <div className='wICounselor_bg  mt-[90px] px-4 xl:pb-16 lg:pb-7 pb-4'>
             <div className='max-w-[1154px] mx-auto'>
                 <div className='flex justify-around lg:flex-row flex-col'>
                     <div className='lg:text-left text-center'>

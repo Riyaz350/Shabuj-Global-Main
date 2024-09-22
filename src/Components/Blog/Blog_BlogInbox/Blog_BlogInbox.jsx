@@ -1,6 +1,6 @@
 const Blog_BlogInbox = () => {
   return (
-    <div className="max-w-[1152px] mx-auto my-12 !mb-6 border-[#CACACA] border-y-[1px] pt-4 md:pt-[35px] lg:pt-[53px] md:pb-[30px] pb-[90px]  lg:pb-[60px] md:my-24 border-b-0">
+    <div className="max-w-[1152px] mx-auto my-12 !mb-6 border-[#CACACA] border-y-[1px] pt-4 md:pt-[35px] lg:pt-[53px] md:pb-[30px] !pb-[200px]  lg:pb-[60px] md:my-24 border-b-0">
       <div className="flex lg:flex-row flex-col px-4 items-center gap-2">
         <p className="poppins-semibold text-[28px] leading-[39.2px] text-[#00399F] lg:pr-[27px] text-center  md:text-left ">
           Receive Our Blog Posts Straight to Your Inbox
