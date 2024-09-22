@@ -566,7 +566,7 @@ const Navbar2 = () => {
                           onClick={() => {
                             document.getElementById('my-drawer-4').checked = false;
                           }}
-                          to={"/comingSoon"}
+                           to="/events"
                           className={`${iconStyle} flex gap-2 items-center  py-3 pb-5`}
                         >
                           <BsCameraVideoFill />

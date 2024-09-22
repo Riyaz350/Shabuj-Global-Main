@@ -29,11 +29,13 @@ const CountDown = ({ date }) => {
             <span className='grid grid-cols-2 w-fit'>
                 <span className=''>
                     <h2 className='font-semibold'>Days</h2>
-                    <p className={`rounded-l-lg ${counterStyle}`}>{daysRemaining}</p>
+                    {/* <p className={`rounded-l-lg ${counterStyle}`}>{daysRemaining}</p> */}
+                    <p className={`rounded-l-lg ${counterStyle}`}>5</p>
                 </span>
                 <span className=' '>
                     <h2 className='font-semibold '>Hours</h2>
-                    <p className={`rounded-r-lg ${counterStyle}`}>{hourRemaining}</p>
+                    {/* <p className={`rounded-r-lg ${counterStyle}`}>{hourRemaining}</p> */}
+                    <p className={`rounded-r-lg ${counterStyle}`}>4</p>
                 </span>
             </span>
             <h2 className='text-4xl gochi-hand text-[#1D4ED8]'>Days Remaining</h2>
