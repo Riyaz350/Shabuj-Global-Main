@@ -102,7 +102,7 @@ const ChatBot = () => {
 
   return (
     <div
-      className={`${showChat ? "w-[300px] lg:w-[450px]" : "w-0"} z-50    fixed bottom-0 right-0`}
+      className={`${showChat ? "sm:w-[450px] w-[330px]" : "w-0"} z-50    fixed bottom-0 right-0`}
     >
       {token ? (
         <div className="overflow-hidden ">
@@ -115,7 +115,7 @@ const ChatBot = () => {
                 "-webkit-transform": `scaleX(-1)`,
                 transform: `scaleX(-1)`,
               }}
-              className="text-3xl text-white  rounded-xl p-1 lg:p-2 bg-black"
+              className="text-3xl text-white border-2 border-white rounded-full  p-3 bg-black"
             >
               <IoChatboxOutline />
             </p>
@@ -128,14 +128,17 @@ const ChatBot = () => {
             transition={{ duration: 0.2 }}
             className={`bg-blue-100 shadow rounded-2xl max-w-xl lg:ml-auto  m-2 lg:mb-5 lg:mr-5 overflow-hidden`}
           >
-            <div className="flex items-center justify-between h-20 bg-blue-900 shadow-lg px-4 ">
-              <div className="flex text-white items-center text-lg font-semibold  ">
+            <div className="flex items-center justify-between  bg-blue-900 shadow-lg px-4 py-3">
+              <div className="flex  items-start  ">
                 <img
-                  className="w-[25px] mx-2 "
+                  className="w-[35px] mx-2 "
                   src="https://i.ibb.co.com/svmtx3c/image-removebg-preview.png"
                   alt=""
                 />
-                <p>Shabuj Global Education</p>
+                <div className="text-white sm:text-lg text-base font-semibold ">
+                  <p>Shabuj Global Education</p>
+                  <p className="font-normal text-sm">Chatbot</p>
+                </div>
               </div>
               <button
                 onClick={() => setShowChat(false)}
@@ -147,7 +150,7 @@ const ChatBot = () => {
 
             <div
               ref={chatContainerRef}
-              className="h-[450px] overflow-hidden  space-y-2 mb-2 overflow-y-scroll"
+              className="h-[400px] overflow-hidden  space-y-2 mb-2 overflow-y-scroll"
             >
               {chatData.messages ? (
                 <div>
