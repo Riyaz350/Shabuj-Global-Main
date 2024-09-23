@@ -13,8 +13,8 @@ const ContactUs_Components = () => {
         setWidth(window.innerWidth)
     }, [])
 
-    const inputClass = ` rounded-sm  md:rounded-md w-full  outline-none placeholder:text-xs  placeholder:text-[8px]   ${width >= 1024 & width <= 1300 ? 'placeholder:text-[10px]   px-2 text-[10px]' : width > 1300 ? 'text-base placeholder:text-base px-2 py-1' : 'text-[8px] md:text-base pl-[2px] md:p-2 '}`
-    const inputClass2 = `bg-gray-100 text-center flex items-center  px-1 md:p-2 text-gray-400 text-[8px] md:text-[12px] ${width >= 1024 & width <= 1300 ? 'placeholder:text-[10px]   px-2 text-[10px]' : width > 1300 ? 'text-base placeholder:text-base px-2 py-1' : 'text-[8px] md:text-base md:p-2 '}`
+    const inputClass = `  md:rounded-md w-full  outline-none placeholder:text-xs  placeholder:text-[8px]   ${width >= 1024 & width <= 1300 ? 'placeholder:text-[10px]   px-2 text-[10px]' : width > 1300 ? 'text-base placeholder:text-base px-2 py-1' : 'text-[8px] md:text-base pl-[2px] md:p-2 placeholder:text-[7px]'}`
+    const inputClass2 = `bg-gray-100 text-center flex items-center  px-1 md:p-2 text-gray-400 text-[8px] md:text-[12px] ${width >= 1024 & width <= 1300 ? 'placeholder:text-[10px]   px-2 text-[10px]' : width > 1300 ? 'text-base placeholder:text-base px-2 py-1' : 'text-[6px] md:text-base md:p-2 '}`
     return (
         <div className='relative'>
             <div className="flex flex-col lg:grid xl:grid-cols-5 grid-cols-8 overflow-hidden bg-[#F5F5F5] rounded-b-2xl">
@@ -31,7 +31,7 @@ const ContactUs_Components = () => {
                             <input className={inputClass} type="text" placeholder='Name' />
 
                             <div className='flex'>
-                                <input className={`${inputClass}  rounded-r-none`} type="text" placeholder='Email' />
+                                <input className={`  md:rounded-l-md w-full  outline-none placeholder:text-xs  placeholder:text-[8px]   ${width >= 1024 & width <= 1300 ? 'placeholder:text-[10px]   px-2 text-[10px]' : width > 1300 ? 'text-base placeholder:text-base px-2 py-1' : 'text-[8px] md:text-base pl-[2px] md:p-2 placeholder:text-[7px]'}`} type="text" placeholder='Email' />
                                 <p className={`${inputClass2}   text-[8px] `}>.com</p>
                             </div>
 
@@ -41,7 +41,14 @@ const ContactUs_Components = () => {
                             </div>
 
                             <div className='space-y-2'>
-                                <p className={`bg-white flex items-center justify-between pl-2  ${inputClass}`}>Preferred Study Destination <span><FaChevronDown /></span></p>
+                                <select className={`bg-white flex items-center justify-between pl-2  ${inputClass}`}>Preferred Study Destination <span><FaChevronDown /></span>
+                                    <option value defaultChecked>
+                                        Preferred Study Destination
+                                    </option>
+                                    <option value="UK">UK</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Australia">Australia</option>
+                                </select>
                                 <p className={`bg-white flex items-center justify-between pl-2  ${inputClass}`}>Preferred Study Year <span><FaChevronDown /></span></p>
                                 <p className={`bg-white flex items-center justify-between pl-2  ${inputClass}`}>Preferred Study Intake <span><FaChevronDown /></span></p>
                             </div>

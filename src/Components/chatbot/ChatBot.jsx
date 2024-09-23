@@ -196,11 +196,11 @@ const ChatBot = () => {
                                 className={`mb-2     mr-auto bg-white text-black    rounded-lg p-2 `}
                               >
                                 {
-                                  message?.botResponse?.fulfillmentMessages[0]
-                                    .text.text[0]
+                                  message?.botResponse?.fulfillmentMessages[0].text.text[0]
                                 }
                               </p>
-                              <div className=" ">
+                              { message?.botResponse?.fulfillmentMessages[1]?.payload &&
+                                <div className=" ">
                                 {parseFloat(message?.queryText) >= 3.0 ? (
                                   <div
                                     className={`flex flex-col  mr-auto bg-white text-black border-[1px] border-black     rounded-lg p-2 `}
@@ -273,6 +273,7 @@ const ChatBot = () => {
                                   </div>
                                 )}
                               </div>
+                              }
                             </div>
                           )}
                         </motion.div>
