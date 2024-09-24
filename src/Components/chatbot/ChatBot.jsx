@@ -9,6 +9,10 @@ import { IoChatboxOutline } from "react-icons/io5";
 import { v4 as uuidv4 } from "uuid";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { BsFillSendFill } from "react-icons/bs";
+import UniversityList from "./ResponseTypes/UniversityList";
+import ErrorResponse from "./ResponseTypes/ErrorResponse";
+import ClientResponse from "./ResponseTypes/ClientResponse";
+import BotTextResponse from "./ResponseTypes/BotTextResponse";
 const ChatBot = () => {
   // const [chat, setChat] = useState([])
   const [clientMessage, setClientMessage] = useState("");
@@ -17,12 +21,13 @@ const ChatBot = () => {
   const [chatData, refetch] = useChatData(token);
   const axiosPublic = useAxiosPublic();
   const [showChat, setShowChat] = useState(false);
-
+  const [loading, setLoading] = useState(false)
   const generateToken = () => {
     return uuidv4();
   };
 
   const handleSubmit = (e) => {
+    setLoading(true)
     e.preventDefault();
     if (clientMessage.trim()) {
       setClientMessage("");
@@ -38,6 +43,7 @@ const ChatBot = () => {
               setClientMessage("");
               if (rest.status == 200) {
                 refetch();
+                console.log('fetched client message')
                 axiosPublic
                   .patch(`/chats/${token}`, {
                     botResponse: res.data,
@@ -46,6 +52,7 @@ const ChatBot = () => {
                   })
                   .then((res) => {
                     if (res.status == 200) {
+                      setLoading(false)
                       refetch();
                     }
                   });
@@ -157,157 +164,27 @@ const ChatBot = () => {
                   {chatData?.messages?.map((message, index) => (
                     <div key={index}>
                       {message?.clientResponse ? (
-                        <motion.div
-                          initial={{ scale: 0, x: 100, y: 100 }}
-                          animate={{ scale: 1, x: 0, y: 0 }}
-                          transition={{ duration: 0.5 }}
-                          className={`mr-2 ml-auto bg-blue-900 text-white  w-fit my-2 rounded-lg p-2 `}
-                        >
-                          {message.clientResponse}
-                        </motion.div>
-                      ) : message?.botResponse?.fulfillmentMessages &&
-                        message?.botResponse?.action !== "input.unknown" ? (
-                        <motion.div
-                          className="max-w-xs pl-1 lg:pl-2 flex items-start"
-                          initial={{ scale: 0, x: -300, y: 100 }}
-                          animate={{ scale: 1, x: 0, y: 0 }}
-                          transition={{ duration: 0.5, delay: 0.2 }}
-                        >
-                          <img
-                            className="w-[35px] mr-1  rounded-full p-[2px]"
-                            src={logo}
-                            alt=""
-                          />
-                          {message?.botResponse?.fulfillmentMessages.length ==
-                          1 ? (
-                            <div>
-                              <p
-                                className={`${message?.user == "user" ? "ml-auto bg-blue-900 text-white w-fit" : "mr-auto   bg-white text-black "}     rounded-lg p-2 `}
-                              >
-                                {
-                                  message?.botResponse?.fulfillmentMessages[0]
-                                    .text.text[0]
-                                }
-                              </p>
-                            </div>
-                          ) : (
-                            <div>
-                              <p
-                                className={`mb-2     mr-auto bg-white text-black    rounded-lg p-2 `}
-                              >
-                                {
-                                  message?.botResponse?.fulfillmentMessages[0].text.text[0]
-                                }
-                              </p>
-                              { message?.botResponse?.fulfillmentMessages[1]?.payload &&
-                                <div className=" ">
-                                {parseFloat(message?.queryText) >= 3.0 ? (
-                                  <div
-                                    className={`flex flex-col  mr-auto bg-white text-black border-[1px] border-black     rounded-lg p-2 `}
-                                  >
-                                    {message?.botResponse?.fulfillmentMessages[1]?.payload.fields.cards.listValue.values
-                                      .filter(
-                                        (uniVal) =>
-                                          uniVal.structValue.fields.rank
-                                            .stringValue == "high"
-                                      )
-                                      .map((value, index) => (
-                                        <Link
-                                          target="blank"
-                                          to={
-                                            value?.structValue.fields.link
-                                              ?.stringValue
-                                          }
-                                          className="bg-blue-100 hover:bg-blue-800 hover:text-white p-2 rounded-xl"
-                                          key={index}
-                                        >
-                                          {
-                                            value.structValue.fields.header
-                                              .stringValue
-                                          }
-                                          <span>
-                                            {" "}
-                                            {value.structValue.fields
-                                              .description
-                                              ? value.structValue.fields
-                                                  .description.stringValue
-                                              : ""}
-                                          </span>
-                                        </Link>
-                                      ))}
-                                  </div>
-                                ) : (
-                                  <div
-                                    className={`flex flex-col gap-1 mr-auto bg-white text-black border-[1px] border-black   rounded-lg p-2 `}
-                                  >
-                                    {message?.botResponse.fulfillmentMessages[1].payload.fields.cards.listValue.values
-                                      .filter(
-                                        (uniVal) =>
-                                          uniVal.structValue.fields.rank
-                                            .stringValue == "low"
-                                      )
-                                      .map((value, index) => (
-                                        <Link
-                                          target="blank"
-                                          to={
-                                            value.structValue.fields.link
-                                              .stringValue
-                                          }
-                                          className="bg-blue-100 hover:bg-blue-800 hover:text-white p-2 rounded-xl"
-                                          key={index}
-                                        >
-                                          {
-                                            value.structValue.fields.header
-                                              .stringValue
-                                          }
-                                          <span>
-                                            {" "}
-                                            {value.structValue.fields
-                                              .description
-                                              ? value.structValue.fields
-                                                  .description.stringValue
-                                              : ""}
-                                          </span>
-                                        </Link>
-                                      ))}
-                                  </div>
-                                )}
-                              </div>
-                              }
-                            </div>
-                          )}
-                        </motion.div>
-                      ) : message?.botResponse?.action == "input.unknown" ? (
-                        <motion.div
-                          initial={{ scale: 0, x: -300, y: 100 }}
-                          animate={{ scale: 1, x: 0, y: 0 }}
-                          transition={{ duration: 0.5, delay: 0.2 }}
-                          className="max-w-xs ml-2 flex  items-start"
-                        >
-                          <img
-                            className="w-[35px] mr-1  rounded-full p-[2px]"
-                            src={logo}
-                            alt=""
-                          />
+                        <ClientResponse message={message} />
+                      ) :
+                        message?.botResponse?.fulfillmentMessages &&
+                          message?.botResponse?.action !== "input.unknown" ?
+                          <div>
+                            {
+                              message?.botResponse?.fulfillmentMessages.length == 1 ?
 
-                          <div className=" bg-white text-black rounded-lg p-2">
-                            <p className="pb-2">Sorry I am still training.</p>
-                            <p className="pb-2">
-                              If you want more information then please contact
-                              our counsellor via
-                              <a
-                                target="blank"
-                                className="p-2  font-medium text-blue-900 underline "
-                                href="https://www.facebook.com/ShabujGlobaleducationuk/"
-                              >
-                                Facebook
-                              </a>
-                            </p>
+                                <BotTextResponse message={message} />
+                                :
+                                <div>
+                                  <UniversityList message={message} />
+                                </div>
+                            }
                           </div>
-                        </motion.div>
-                      ) : (
-                        <div className="hidden">s</div>
-                      )}
+                          :
+                          message?.botResponse?.action == "input.unknown" ? (
+                            <ErrorResponse />
+                          ) : (
+                            <div className="hidden">s</div>
+                          )}
                     </div>
                   ))}
                 </div>
