@@ -1,14 +1,14 @@
-
+'use client'
 import './Home_Events.css'
 const Home_Events = () => {
 
 
     function slideNext() {
-        var $slide_pos_center = document.getElementsByClassName("slide-pos-center")[0];
-        var $slide_pos_left1 = document.getElementsByClassName("slide-pos-left1")[0];
-        var $slide_pos_left2 = document.getElementsByClassName("slide-pos-left2")[0];
-        var $slide_pos_right2 = document.getElementsByClassName("slide-pos-right2")[0];
-        var $slide_pos_right1 = document.getElementsByClassName("slide-pos-right1")[0];
+        const $slide_pos_center = document.getElementsByClassName("slide-pos-center")[0];
+        const $slide_pos_left1 = document.getElementsByClassName("slide-pos-left1")[0];
+        const $slide_pos_left2 = document.getElementsByClassName("slide-pos-left2")[0];
+        const $slide_pos_right2 = document.getElementsByClassName("slide-pos-right2")[0];
+        const $slide_pos_right1 = document.getElementsByClassName("slide-pos-right1")[0];
 
         $slide_pos_center.classList.remove('slide-pos-center');
         $slide_pos_center.classList.add('slide-pos-left1');
@@ -27,11 +27,11 @@ const Home_Events = () => {
     }
 
     function slidePrev() {
-        var $slide_pos_center = document.getElementsByClassName('slide-pos-center')[0];
-        var $slide_pos_left1 = document.getElementsByClassName('slide-pos-left1')[0];
-        var $slide_pos_left2 = document.getElementsByClassName('slide-pos-left2')[0];
-        var $slide_pos_right2 = document.getElementsByClassName('slide-pos-right2')[0];
-        var $slide_pos_right1 = document.getElementsByClassName('slide-pos-right1')[0];
+        const $slide_pos_center = document.getElementsByClassName('slide-pos-center')[0];
+        const $slide_pos_left1 = document.getElementsByClassName('slide-pos-left1')[0];
+        const $slide_pos_left2 = document.getElementsByClassName('slide-pos-left2')[0];
+        const $slide_pos_right2 = document.getElementsByClassName('slide-pos-right2')[0];
+        const $slide_pos_right1 = document.getElementsByClassName('slide-pos-right1')[0];
 
         $slide_pos_center.classList.remove('slide-pos-center');
         $slide_pos_center.classList.add('slide-pos-right1');
@@ -50,9 +50,9 @@ const Home_Events = () => {
     }
 
     return (
-        <div className='events-bg lg:h-[915px] h-[629px] lg:mb-[100px] mb-5 events-width overflow-hidden'>
+        <div className='events-bg lg:h-[915px] h-[529px] lg:mb-[100px] mb-5 events-width overflow-hidden'>
             <div>
-                <h2 className='poppins-bold lg:text-[64px] text-[28px] text-gradient text-center lg:pt-[123px] pt-[50px] lg:pb-[68px] pb-[41px]'>Upcoming Events</h2>
+                <h2 className='poppins-bold lg:text-[64px] text-[28px] text-gradient text-center lg:pt-[123px] pt-[50px] lg:pb-[68px] pb-[41px] text-white'>Upcoming Events</h2>
             </div>
             <div className='events-bg max-w-[1254px]  mx-auto relative pl-[50px] pr-[50px]'>
                 
@@ -107,19 +107,19 @@ const Home_Events = () => {
                     </button>
                 
                 
-                    <button className='absolute lg:hidden block z-10 top-[440px] left-52 md:left-[400px]' onClick={slideNext}>
+                    <button className='absolute lg:hidden block z-10 top-[340px] left-52 md:left-[400px]' onClick={slideNext}>
                         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" fill="white" />
-                            <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" stroke="white" stroke-width="0.913044" />
+                            <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" stroke="white" strokeWidth="0.913044" />
                             <path d="M13.3913 20.0488C12.866 20.0488 12.4402 20.4746 12.4402 20.9999C12.4402 21.5252 12.866 21.951 13.3913 21.951L26.7881 21.951L22.2297 26.5094C21.8582 26.8809 21.8582 27.4831 22.2297 27.8545C22.6011 28.2259 23.2033 28.2259 23.5747 27.8545L29.0842 22.3449C29.8271 21.6021 29.8271 20.3977 29.0842 19.6549L23.5747 14.1453C23.2033 13.7739 22.6011 13.7739 22.2297 14.1453C21.8582 14.5167 21.8582 15.1189 22.2297 15.4904L26.7881 20.0488L13.3913 20.0488Z" fill="#0D0D0D" />
                         </svg>
                     </button>
                 
                 
-                    <button className='absolute lg:hidden block top-[440px] left-40 md:left-[335px]' onClick={slidePrev}>
+                    <button className='absolute lg:hidden block top-[340px] left-40 md:left-[335px]' onClick={slidePrev}>
                         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" fill="white" />
-                            <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" stroke="white" stroke-width="0.913044" />
+                            <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" stroke="white" strokeWidth="0.913044" />
                             <path d="M28.6087 21.9512C29.134 21.9512 29.5598 21.5254 29.5598 21.0001C29.5598 20.4748 29.134 20.049 28.6087 20.049L15.2119 20.049L19.7703 15.4906C20.1418 15.1191 20.1418 14.5169 19.7703 14.1455C19.3989 13.7741 18.7967 13.7741 18.4253 14.1455L12.9158 19.6551C12.1729 20.3979 12.1729 21.6023 12.9158 22.3451L18.4253 27.8547C18.7967 28.2261 19.3989 28.2261 19.7703 27.8547C20.1418 27.4833 20.1418 26.8811 19.7703 26.5096L15.2119 21.9512L28.6087 21.9512Z" fill="#0D0D0D" />
                         </svg>
                     </button>
