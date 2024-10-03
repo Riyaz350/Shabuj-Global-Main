@@ -23,32 +23,26 @@ const UniversityList = ({ message }) => {
               <div
                 className={`flex flex-col  mr-auto bg-white text-black border-[1px] border-black     rounded-lg p-2 `}
               >
-                {message?.botResponse?.fulfillmentMessages[1]?.payload.fields.cards.listValue.values
-                  .filter(
+                {message?.botResponse?.fulfillmentMessages[1]?.payload.fields.cards.listValue.values.filter(
                     (uniVal) =>
-                      uniVal.structValue.fields.rank
-                        .stringValue == "high"
+                      uniVal.structValue.fields.rank.stringValue == "high"
                   )
                   .map((value, index) => (
                     <Link
                       target="blank"
                       to={
-                        value?.structValue.fields.link
-                          ?.stringValue
+                        value?.structValue.fields.link?.stringValue
                       }
                       className="bg-blue-100 hover:bg-blue-800 hover:text-white p-2 rounded-xl"
                       key={index}
                     >
                       {
-                        value.structValue.fields.header
-                          .stringValue
+                        value.structValue.fields.header.stringValue
                       }
                       <span>
                         {" "}
-                        {value.structValue.fields
-                          .description
-                          ? value.structValue.fields
-                            .description.stringValue
+                        {value.structValue.fields.description
+                          ? value.structValue.fields.description.stringValue
                           : ""}
                       </span>
                     </Link>

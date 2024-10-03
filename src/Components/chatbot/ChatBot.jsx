@@ -175,7 +175,16 @@ const ChatBot = () => {
                                 <BotTextResponse message={message} />
                                 :
                                 <div>
-                                  <UniversityList message={message} />
+                                  {message?.botResponse.fulfillmentMessages[1].payload &&
+                                    <div>
+                                      {
+                                        message?.botResponse.fulfillmentMessages[1].payload.fields.type.stringValue == 'university list' &&
+                                        <div>
+                                          <UniversityList message={message} />
+                                        </div>
+                                      }
+                                    </div>
+                                  }
                                 </div>
                             }
                           </div>
