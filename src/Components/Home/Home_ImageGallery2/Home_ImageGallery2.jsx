@@ -29,12 +29,12 @@ const Home_ImageGallery2 = () => {
             <div className='flex gallery-two overflow-hidden'>
                 <div className='flex gap-5 gallery-items pl-2.5 pr-2.5'>
                     {
-                        items.slice(31,60).map( (item) => <Home_SingleImage item={item} key={item.id}></Home_SingleImage>)
+                        items.slice(31,69).reverse.map( (item) => <Home_SingleImage item={item} key={item.id}></Home_SingleImage>)
                     }
                 </div>
                 <div className='flex gap-5 gallery-items pl-2.5 pr-2.5'>
                     {
-                        items.slice(31,60).map( (item) => <Home_SingleImage item={item} key={item.id}></Home_SingleImage>)
+                        items.slice(31,69).reverse.map( (item) => <Home_SingleImage item={item} key={item.id}></Home_SingleImage>)
                     }
                 </div>
             </div>
